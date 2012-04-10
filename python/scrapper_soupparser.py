@@ -3,28 +3,36 @@ import lxml.html
 import io
 import sys
 import re
+import nltk
 
 from django.utils.encoding import smart_str
 
-#from lxml.html.soupparser import fromstring
-
-
-#file = open("twelfthnight_page_84.html")
 file = open(sys.argv[1])
 html = file.read()
 file.close()
 
 tree = soupparser.parse(io.BytesIO(html))
 
+original = ""
+modern = ""
 for t in tree.xpath('//*[name()="div"]'):    
     if t.text is not None:
         if 'class' in t.attrib :
-            #print t.attrib
             if t.attrib['class'] == 'original-line' :
-                #print "tag: " + t.tag + ",  text: '" + t.text + "'"
                 oline = t.text.replace('\n', ' ')
-                print smart_str('[O]' + re.sub(r'\s+', ' ', oline))
+                oline = smart_str(re.sub(r'\s+', ' ', oline))
+                original += " " + oline
+
+                
             elif t.attrib['class'] == 'modern-line' :
-                #print "tag: " + t.tag + ",  text: '" + t.text + "'"
                 mline = t.text.replace('\n', ' ')
-                print smart_str('[M]' + re.sub(r'\s+', ' ', mline))
+                mline = smart_str(re.sub(r'\s+', ' ', mline))
+                modern += " " + mline
+                
+oSentences = nltk.sent_tokenize(original)
+for s in oSentences:
+    print '[O]' + s
+
+mSentences = nltk.sent_tokenize(modern)
+for s in mSentences:
+    print '[M]' + s
