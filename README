@@ -4,5 +4,5 @@ crawls the nfs.sparknotes.com website and downloads html
 python/scrapper_soupparser.py
 extracts original and modern english sentences from the HTML
 
-data/plays/align
-Contains data in suitible format for Bob Moore's bilingual sentence aligner
+scripts/extract_lines.sh
+runs scrapper_soupparser.py on all the HTML files and puts output into format suitable for sentence alignment (in data/plays/align)
