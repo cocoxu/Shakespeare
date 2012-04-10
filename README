@@ -1,0 +1,8 @@
+python/crawl_{plays|sonnets}.py
+crawls the nfs.sparknotes.com website and downloads html
+
+python/scrapper_soupparser.py
+extracts original and modern english sentences from the HTML
+
+data/plays/align
+Contains data in suitible format for Bob Moore's bilingual sentence aligner
