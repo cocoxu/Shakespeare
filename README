@@ -6,3 +6,14 @@ extracts original and modern english sentences from the HTML
 
 scripts/extract_lines.sh
 runs scrapper_soupparser.py on all the HTML files and puts output into format suitable for sentence alignment (in data/plays/align)
+
+data/plays/align
+Contains the aligned sentences at the level of HTML pages
+
+data/plays/align/merged
+All sentences merged together into plays.
+The bilingual sentence aligner doesn't really seem to work with very small files (e.g. the HTML pages).  Presumably
+it should be possible to do a better job with the smaller files, since they are more tightly aligned, but I don't
+think this is the type of data the sentence aligner was designed for.
+Anyway, it seems to work fine on the merged plays.  Out of 31,718 original lines the sentence aligner finds 21,079
+alignments.  It may be possible to improve on this...
