@@ -1,6 +1,3 @@
-
-wei-test
-
 python/crawl_{plays|sonnets}.py
 crawls the nfs.sparknotes.com website and downloads html
 
@@ -8,6 +5,7 @@ python/scrapper_soupparser.py
 extracts original and modern english sentences from the HTML
 
 scripts/extract_lines.sh
+*Wei: where is it?
 runs scrapper_soupparser.py on all the HTML files and puts output into format suitable for sentence alignment (in data/plays/align)
 
 data/plays/align
