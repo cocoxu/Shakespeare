@@ -1,3 +1,6 @@
+
+wei-test
+
 python/crawl_{plays|sonnets}.py
 crawls the nfs.sparknotes.com website and downloads html
 
