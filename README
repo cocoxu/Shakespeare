@@ -22,4 +22,19 @@ Also note: in the merged plays the pages are in random order.  I think this prob
 but might be worth fixing...
 
 data/align/plays/model_16plays
-Moses model trained on 16 plays (except Romeo)
+Moses model trained on 16 plays (except R&J), following the instructions on http://www.statmt.org/moses_steps.html
+  moses.ini
+  moses-bin.ini
+The two above use same parameters but provide different outputs (?)
+  ./tuning/ 
+I put R&J over there, planning to split into dev and test.
+
+data/test_small
+  Wei_facebook.txt
+A small set of Facebook posts collected by hand from my Facebook.
+  03_natural_tweets.pl
+  natural_tweets_10000.txt
+Made an attempt to find 'meaningful' Tweets by heuristic rules, e.g. propotion of words in dictionary etc. 
+
+
+
