@@ -1,0 +1,37 @@
+
+a stupid man 's report of what a clever man says can never be accurate , because he unconsciously translates what he hears into something.
+
+[COLING 2012] to publish with minimum effort
+
+==== Things to Avoid (?) ====
+- Amazon Mechanical Turk (I had experience on it. poor quality control, too time consuming.)
+- poem (sonnet)
+
+==== Random Thoughts ====
+- other than Shakespeare
+I tried to find some 'parallel' corpus for other writers or period in English, but failed. I guess I knew too little about English literature. 
+- other than English
+Also checked on Chinese literature, don't feel easy to collect enough data either; it is probably doable but needs a lot effort. 
+
+==== Modern -> Original ====
+Claims:
+- using smt techniques to mimic a particular writing style (may needs to demonstrate more than one writer)
+- how far you can go without a parallel corpus
+- impact of more parallel corpus (N->1 mapping)
+- impact of language models (more texts from same period)
+- adding factors to the phrase table to discourage lexical similarity in the paraphrases
+- automatic metrics correlate to human judgements
+
+Evaluations:
+- baseline: another SMT system that only has a Shakespearian language model and a thesaurus for its phrase table
+- hold out R&J (BLEU/PINC) as golden Shakespearian text
+- mimic style on Tweets/quotations/essay, compare (BLEU/PINC) with human judgement
+
+==== Original -> Modern ====
+Claims:
+- using smt techniques help people read ancient English texts
+
+Evaluations:
+- hold out R&J (BLEU, human)
+- other plays by playwrights of the same periods, such as Christopher Marlowe, Ben Jonson, and John Webster.
+

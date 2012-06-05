@@ -1,0 +1,8 @@
+hamlet-text.htm
+julius-caesar-text.htm
+macbeth-text.htm
+merchant-of-venice-text.htm
+midsummer-nights-dream-text.htm
+othello-text.htm
+romeo-and-juliet-text.htm
+tempest-text.htm

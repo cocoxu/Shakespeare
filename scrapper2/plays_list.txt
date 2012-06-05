@@ -1,0 +1,8 @@
+hamlet
+julius-caesar
+macbeth
+merchant-of-venice
+midsummer-nights-dream
+othello
+romeo-and-juliet
+tempest

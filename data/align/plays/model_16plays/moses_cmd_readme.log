@@ -1,0 +1,20 @@
+
+export DYLD_LIBRARY_PATH=/Users/wei/Work/AlanShakespere/Moses/tools/boost/lib64:$DYLD_LIBRARY_PATH
+
+wei-xus-macbook:sample-models weixu$ /Users/wei/Work/AlanShakespere/Moses/tools/moses/dist/bin/moses -f ./phrase-model/moses.ini < ./phrase-model/in > ./phrase-model/out
+
+
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/tokenizer.perl < train_plays.modern > train_plays_tokenized.modern
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/tokenizer.perl < train_plays.original > train_plays_tokenized.original
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/training/clean-corpus-n.perl train_plays_tokenized modern original train_plays_clean 1 50
+Input sentences: 19617  Output sentences:  19435
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/lowercase.perl < train_plays_clean.original > train_plays_lowercased.original
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/lowercase.perl < train_plays_clean.modern > train_plays_lowercased.modern
+
+/Users/wei/Work/AlanShakespere/Moses/tools/srilm/bin/macosx/ngram-count -order 3 -interpolate -kndiscount -unk -text train_plays_lowercased.original -lm train_plays_lowercased.original.lm
+
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/training/train-model.perl --scripts-root-dir /Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/ --root-dir /Users/wei/Work/AlanShakespere/Shakespere/data/align/plays/corpus --corpus train_plays_lowercased --alignment grow-diag-final-and --reordering msd-bidirectional-fe --lm 0:3:/Users/wei/Work/AlanShakespere/Shakespere/data/align/plays/corpus/train_plays_lowercased.original.lm --f modern --e original
+
+we enjoyed this peaceful and picturesque town . 
+we arrived somewhat late in the day , so didn ’ t make it to the monkey park or take a boat ride , but we enjoyed walking around the town and through the bamboo forest .
+we can see the horizon line far away in the sea , while enjoying the sunset .
