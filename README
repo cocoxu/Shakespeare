@@ -7,10 +7,18 @@ extracts original and modern english sentences from the HTML
 scripts/extract_lines.sh
 runs scrapper_soupparser.py on all the HTML files and puts output into format suitable for sentence alignment (in data/plays/align)
 
-data/plays/align
+scrapper2/
+scripts and data for scrapping parallel texts from www.enotes.com
+
+data/align/plays/ from nfs.sparknotes.com
+data/align/plays2/ from www.enotes.com 
+
+data/align/plays/notmerged
+data/align/plays2/notmerged
 Contains the aligned sentences at the level of HTML pages
 
-data/plays/align/merged
+data/align/plays/merged
+data/align/plays2/merged
 All sentences merged together into plays.
 The bilingual sentence aligner doesn't really seem to work with very small files (e.g. the HTML pages).  Presumably
 it should be possible to do a better job with the smaller files, since they are more tightly aligned, but I don't
