@@ -1,0 +1,4969 @@
+Project Gutenberg's Beggars Bush, by Francis Beaumont and John Fletcher
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+
+Title: Beggars Bush
+       From the Works of Francis Beaumont and John Fletcher (Vol. 2 of 10)
+
+Author: Francis Beaumont and John Fletcher
+
+Release Date: April 30, 2004 [EBook #12221]
+
+Language: English
+
+
+*** START OF THIS PROJECT GUTENBERG EBOOK BEGGARS BUSH ***
+
+
+
+
+Produced by Jonathan Ingram, Jonathan Ingram, Charles M. Bidwell and
+the Online Distributed Proofreading Team.
+
+
+
+
+
+
+BEGGARS BUSH,
+
+A COMEDY.
+
+
+
+Persons Represented in the Play.
+
+
+Wolfort, _an usurper of the Earldom of_ Flanders.
+
+Gerrard, _falsely called_ Clause, _King of the Beggars, Father in Law to_
+Florez.
+
+Hubert, _an honest Lord, a friend to_ Gerrard.
+
+Florez, _falsely called_ Goswin, _a rich Merchant of_ Bruges.
+
+Hempskirke, _a Captain under_ Wolford.
+
+Herman _a Courtier_,} _inhabitants of_
+_A_ Merchant,       } Flanders.
+
+Vandunke, _a drunken Merchant friend to_ Gerrard, _falsely called Father
+to_ Bertha.
+
+Vanlock, _and_ 4 Merchants, _of_ Bruges.
+
+
+Higgen,  }
+Prigg,   }_Three Knavish Beggars_.
+Snapp,   }
+
+Ferret,  }_Two Gentlemen disguised under those
+Ginkes,  } names of_ Gerrard's _party_.
+
+Clown.
+Boores.
+Servants.
+Guard.
+_A_ Sailor.
+
+
+_WOMEN_.
+
+
+Jaculin, _Daughter to_ Gerrard, _beloved of_ Hubert.
+
+Bertha _called_ Gertrude, _Daughter to the Duke of_ Brabant, _Mistress to_
+Florez.
+
+Margaret, _Wife to_ Vandunke.
+
+Mrs Frances, _a frow Daughter to_ Vanlock.
+
+
+
+
+_The Scene_ Flanders.
+
+
+
+
+_ACTUS PRIMUS. SCENA PRIMA_.
+
+
+_Enter a_ Merchant _and_ Herman.
+
+_Mer._  Is he then taken?
+
+_Her._ And brought back even now, Sir.
+
+_Mer_. He was not in disgrace?
+
+_Her_. No man more lov'd,
+Nor more deserv'd it, being the only man
+That durst be honest in this Court.
+
+_Mer_. Indeed
+We have heard abroad, Sir, that the State hath suffered
+A great change, since the Countesses death.
+
+_Her_. It hath, Sir.
+
+_Mer_. My five years absence hath kept me a stranger
+So much to all the occurents of my Country,
+As you shall bind me for some short relation
+To make me understand the present times.
+
+_Her_. I must begin then with a War was made
+And seven years with all cruelty continued
+Upon our _Flanders_ by the Duke of _Brabant_,
+The cause grew thus: during our Earls minority,
+_Wolfort_, (who now usurps) was employed thither
+To treat about a match between our Earl
+And the Daughter and Heir of _Brabant_: during which treaty
+The _Brabander_ pretends, this Daughter was
+Stoln from his Court, by practice of our State,
+Though we are all confirm'd, 'twas a sought quarrel
+To lay an unjust gripe upon this Earldom,
+It being here believ'd the Duke of _Brabant_
+Had no such loss. This War upon't proclaimed,
+Our Earl, being then a Child, although his Father
+Good _Gerrard_ liv'd, yet in respect he was
+Chosen by the Countesses favour, for her Husband,
+And but a Gentleman, and _Florez_ holding
+His right unto this Country from his Mother,
+The State thought fit in this defensive War,
+_Wolfort_ being then the only man of mark,
+To make him General.
+
+_Mer_. Which place we have heard
+He did discharge with ho[n]our.
+
+_Her_. I, so long,
+And with so blest successes, that the _Brabander_
+Was forc't (his treasures wasted, and the choice
+Of his best men of Armes tyr'd, or cut off)
+To leave the field, and sound a base retreat
+Back to his Country: but so broken both
+In mind and means, er'e to make head again,
+That hitherto he sits down by his loss,
+Not daring, or for honour, or revenge
+Again to tempt his fortune. But this Victory
+More broke our State, and made a deeper hurt
+In _Flanders_, than the greatest overthrow
+She ever receiv'd: For _Wolfort_, now beholding
+Himself, and actions, in the flattering glass
+Of self-deservings, and that cherish't by
+The strong assurance of his power, for then
+All Captains of the Army were his creatures,
+The common Souldier too at his devotion,
+Made so by full indulgence to their rapines
+And secret bounties, this strength too well known
+And what it could effect, soon put in practice,
+As further'd by the Child-hood of the Earl:
+And their improvidence, that might have pierc't
+The heart of his designs, gave him occasion
+To seize the whole, and in that plight you find it.
+
+_Mer_. Sir, I receive the knowledge of thus much,
+As a choice favour from you.
+
+_Her_. Only I must add,
+_Bruges_ holds out.
+
+_Mer_. Whither, Sir, I am going,
+For there last night I had a ship put in,
+And my Horse waits me.            [_Exit_.
+
+_Her_. I wish you a good journey.
+
+_Enter_ Wolfort, Hubert.
+
+_Wol_. What? _Hubert_ stealing from me? who disarm'd him?
+It was more than I commanded; take your sword,
+I am best guarded with it in your hand,
+I have seen you use it nobly.
+
+_Hub_. And will turn it
+On my own bosom, ere it shall be drawn
+Unworthily or rudely.
+
+_Wol_. Would you leave me
+Without a farewel, _Hubert_? flie a friend
+Unwearied in his study to advance you?
+What have I e're possess'd which was not yours?
+Or either did not court you to command it?
+Who ever yet arriv'd to any grace,
+Reward or trust from me, but his approaches
+Were by your fair reports of him prefer'd?
+And what is more I made my self your Servant,
+In making you the Master of those secrets
+Which not the rack of Conscience could draw from me,
+Nor I, when I askt mercy, trust my prayers with;
+Yet after these assurances of love,
+These tyes and bonds of friendship, to forsake me?
+Forsake me as an enemy? come you must
+Give me a reason.
+
+_Hub_. Sir, and so I will,
+If I may do't in private: and you hear it.
+
+_Wol_. All leave the room: you have your will, sit down
+And use the liberty of our first friendship.
+
+_Hub_. Friendship? when you prov'd Traitor first, that vanish'd,
+Nor do I owe you any thought, but hate,
+I know my flight hath forfeited my head;
+And so I may make you first understand
+What a strange monster you have made your self,
+I welcome it.
+
+_Wol_. To me this is strange language.
+
+_Hub_. To you? why what are you?
+
+_Wol_. Your Prince and Master,
+The Earl of _Flanders_.
+
+Hub. By a proper title!
+Rais'd to it by cunning, circumvention, force,
+Blood, and proscriptions.
+
+_Wol_. And in all this wisdom,
+Had I not reason? when by _Gerrards_ plots
+I should have first been call'd to a strict accompt
+How, and which way I had consum'd that mass
+Of money, as they term it, in the War,
+Who underhand had by his Ministers
+Detracted my great action, made my faith
+And loyalty suspected, in which failing
+He sought my life by practice.
+
+_Hub_. With what fore-head
+Do you speak this to me? who (as I know't)
+Must, and will say 'tis false.
+
+_Wol_. My Guard there.
+
+_Hub_. Sir, you bad me sit, and promis'd you would hear,
+Which I now say you shall; not a sound more,
+For I that am contemner of mine own,
+Am Master of your life; then here's a Sword
+Between you, and all aids, Sir, though you blind
+The credulous beast, the multitude, you pass not
+These gross untruths on me.
+
+_Wol_. How? gross untruths?
+
+_Hub_. I, and it is favourable language,
+They had been in a mean man lyes, and foul ones.
+
+_Wol_. You take strange Licence.
+
+_Hub_. Yes, were not those rumours
+Of being called unto your answer, spread
+By your own followers? and weak _Gerrard_ wrought
+(But by your cunning practice) to believe
+That you were dangerous; yet not to be
+Punish'd by any formal course of Law,
+But first to be made sure, and have your crimes
+Laid open after, which your quaint train taking
+You fled unto the Camp, and [there] crav'd humbly
+Protection for your innocent life, and that,
+Since you had scap'd the fury of the War,
+You might not fall by treason: and for proof,
+You did not for your own ends make this danger;
+Some that had been before by you suborn'd,
+Came forth and took their Oaths they had been hir'd
+By _Gerrard_ to your Murther. This once heard,
+And easily believ'd, th'inraged Souldier
+Seeing no further than the outward-man,
+Snatch'd hastily his Arms, ran to the Court,
+Kill'd all that made resistance, cut in pieces
+Such as were Servants, or thought friends to _Gerrard_,
+Vowing the like to him.
+
+_Wol_. Will you yet end?
+
+_Hub_. Which he foreseeing, with his Son, the Earl,
+Forsook the City; and by secret wayes
+As you give out, and we would gladly have it,
+Escap'd their fury: though 'tis more than fear'd
+They fell amongst the rest; Nor stand you there
+To let us only mourn the impious means
+By which you got it, but your cruelties since
+So far transcend your former bloody ills,
+As if compar'd, they only would appear
+Essays of mischief; do not stop your ears,
+More are behind yet.
+
+_Wol_. O repeat them not,
+'Tis Hell to hear them nam'd.
+
+_Hub_. You should have thought,
+That Hell would be your punishment when you did them,
+A Prince in nothing but your princely lusts,
+And boundless rapines.
+
+_Wol_. No more I beseech you.
+
+_Hub_. Who was the Lord of house or land, that stood
+Within the prospect of your covetous eye?
+
+_Wol_. You are in this to me a greater Tyrant,
+Than e're I was to any.
+
+_Hub_. I end thus
+The general grief: now to my private wrong;
+The loss of _Gerrards_ Daughter _Jaqueline_:
+The hop'd for partner of my lawful Bed,
+Your cruelty hath frighted from mine arms;
+And her I now was wandring to recover.
+Think you that I had reason now to leave you,
+When you are grown so justly odious,
+That ev'n my stay here with your grace and favour,
+Makes my life irksome? here, surely take it,
+And do me but this fruit of all your friendship,
+That I may dye by you, and not your Hang-man.
+
+_Wol_. Oh _Hubert_, these your words and reasons have
+As well drawn drops of blood from my griev'd heart,
+As these tears from mine eyes;
+Despise them not.
+By all that's sacred, I am serious, _Hubert_,
+You now have made me sensible, what furies,
+Whips, Hangmen, and Tormentors a bad man
+Do's ever bear about him: let the good
+That you this day have done, be ever number'd
+The first of your best actions;
+Can you think,
+Where _Goswin_ is or _Gerrard_, or your love,
+Or any else, or all that are proscrib'd?
+I will resign, what I usurp, or have
+Unjustly forc'd; the dayes I have to live
+Are too too few to make them satisfaction
+With any penitence: yet I vow to practise
+All of a man.
+
+_Hub_. O that your heart and tongue
+Did not now differ!
+
+_Wol_. By my griefs they do not.
+Take the good pains to search them out: 'tis worth it,
+You have made clean a Leper: trust me you have,
+And made me once more fit for the society,
+I hope of good men.
+
+_Hub_. Sir, do not abuse
+My aptness to believe.
+
+_Wol_. Suspect not you
+A faith that's built upon so true a sorrow,
+Make your own safetys: ask them all the ties
+Humanity can give, _Hemskirk_ too shall
+Along with you to this so wish'd discovery,
+And in my name profess all that you promise;
+And I will give you this help to't: I have
+Of late receiv'd certain intelligence,
+That some of them are in or about _Bruges_
+To be found out: which I did then interpret,
+The cause of that Towns standing out against me;
+But now am glad, it may direct your purpose
+Of giving them their safety, and me peace.
+
+_Hub_. Be constant to your goodness, and you have it.     [_Exeunt_.
+
+
+
+
+SCENA II.
+
+
+_Enter 3_. Merchants.
+
+_1 Mer_. 'Tis much that you deliver of this _Goswin_.
+
+_2 Mer_. But short of what I could, yet have the Country
+Confirm'd it true, and by a general oath,
+And not a man hazard his credit in it:
+He bears himself with such a confidence
+As if he were the Master of the Sea,
+And not a wind upon the Sailers compass,
+But from one part or other was his factor,
+To bring him in the best commodities,
+Merchant e're ventur'd for.
+
+1. 'Tis strange.
+
+2.  And yet
+This do's in him deserve the least of wonder,
+Compared with other his peculiar fashions,
+Which all admire: he's young, and rich, at least
+Thus far reputed so, that since he liv'd
+In _Bruges_, there was never brought to harbour
+So rich a Bottom, but his bill would pass
+Unquestion'd for her lading.
+
+3 _Mer._ Yet he still
+Continues a good man.
+
+2 _Mer._ So good, that but
+To doubt him, would be held an injury
+Or rather malice, with the best that traffique;
+But this is nothing, a great stock, and fortune,
+Crowning his judgement in his undertakings
+May keep him upright that way: But that wealth
+Should want the power to make him dote on it,
+Or youth teach him to wrong it, best commends
+His constant temper; for his outward habit
+'Tis suitable to his present course of life:
+His table furnish'd well, but not with dainties
+That please the appetite only for their rareness,
+Or their dear price: nor given to wine or women,
+Beyond his health, or warrant of a man,
+I mean a good one: and so loves his state
+He will not hazard it at play; nor lend
+Upon the assurance of a well-pen'd Letter,
+Although a challenge second the denial
+From such as make th' opinion of their valour
+Their means of feeding.
+
+1 _Mer._ These are wayes to thrive,
+And the means not curs'd.
+
+2 _Mer._ What follows, this
+Makes many venturers with him, in their wishes,
+For his prosperity: for when desert
+Or reason leads him to be liberal,
+His noble mind and ready hand contend
+Which can add most to his free courtesies,
+Or in their worth, or speed to make them so.
+Is there a Virgin of good fame wants dower?
+He is a Father to her; or a Souldier
+That in his Countreys service, from the war
+Hath brought home only scars, and want? his house
+Receives him, and relieves him, with that care
+As if what he possess'd had been laid up
+For such good uses, and he steward of it.
+But I should lose my self to speak him further
+And stale in my relation, the much good
+You may be witness of, if your remove
+From _Bruges_ be not speedy.
+
+1 _Mer._ This report
+I do assure you will not hasten it,
+Nor would I wish a better man to deal with
+For what I am to part with.
+
+3 _Mer._ Never doubt it,
+He is your man and ours, only I wish
+His too much forwardness to embrace all bargains
+Sink him not in the end.
+
+2 _Mer._ Have better hopes,
+For my part I am confident; here he comes.
+
+_Enter_ Goswin, _and the fourth_ Merchant.
+
+_Gos._ I take it at your own rates, your wine of _Cyprus_,
+But for your _Candy_ sugars, they have met
+With such foul weather, and are priz'd so high
+I cannot save in them.
+
+4 _Mer._ I am unwilling
+To seek another Chapman: make me offer
+Of something near price, that may assure me
+You can deal for them.
+
+_Gos._ I both can, and will,
+But not with too much loss; your bill of lading
+Speaks of two hundred chests, valued by you
+At thirty thousand gilders, I will have them
+At twenty eight; so, in the payment of
+Three thousand sterling, you fall only in
+Two hundred pound.
+
+4 _Mer_. You know, they are so cheap.--
+
+_Gos_. Why look you; I'le deal fa[ir]ly, there's in prison,
+And at your suit, a Pirat, but unable
+To make you satisfaction, and past hope
+To live a week, if you should prosecute
+What you can prove against him: set him free,
+And you shall have your mony to a Stiver,
+And present payment.
+
+4 _Mer_. This is above wonder,
+A Merchant of your rank, that have at Sea
+So many Bottoms in the danger of
+These water-Thieves, should be a means to save 'em,
+It more importing you for your own safety
+To be at charge to scour the Sea of them
+Than stay the sword of justice, that is ready
+To fall on one so conscious of his guilt
+That he dares not deny it.
+
+_Gos_. You mistake me,
+If you think I would cherish in this Captain
+The wrong he did to you, or any man;
+I was lately with him, (having first, from others
+True testimony been assured a man
+Of more desert never put from the shore)
+I read his letters of Mart from this State granted
+For the recovery of such losses, as
+He had receiv'd in _Spain_, 'twas that he aim'd at,
+Not at three tuns of wine, bisket, or beef,
+Which his necessity made him take from you.
+If he had pillag'd you near, or sunk your ship,
+Or thrown your men o'r-board, then he deserv'd
+The Laws extreamest rigour. But since want
+Of what he could not live without, compel'd him
+To that he did (which yet our State calls death)
+I pity his misfortune; and to work you
+To some compassion of them, I come up
+To your own price: save him, the goods are mine;
+If not, seek else-where, I'le not deal for them.
+
+_4 Mer_. Well Sir, for your love, I will once be led
+To change my purpose.
+
+_Gos_. For your profit rather.
+
+_4 Mer_. I'le presently make means for his discharge,
+Till when, I leave you.
+
+_2 Mer_. What do you think of this?
+
+_1 Mer_. As of a deed of noble pity: guided
+By a strong judgement.
+
+_2 Mer_. Save you Master _Goswin_.
+
+_Goswin_. Good day to all.
+
+_2 Mer_. We bring you the refusal
+Of more Commodities.
+
+_Gos_. Are you the owners
+Of the ship that last night put into the Harbour?
+
+_1 Mer_. Both of the ship, and lading.
+
+_Gos_. What's the fraught?
+
+_1 Mer_. _Indico, Cochineel_, choise _Chyna_ stuffs.
+
+_3 Mer_. And cloath of Gold brought from _Cambal_.
+
+_Gos_. Rich lading,
+For which I were your Chapman, but I am
+Already out of cash.
+
+_1 Mer_. I'le give you day
+For the moiety of all.
+
+_Gos_. How long?
+
+_3 Mer_. Six months.
+
+_Gos_. 'Tis a fair offer: which (if we agree
+About the prices) I, with thanks accept of,
+And will make present payment of the rest;
+Some two hours hence I'le come aboard.
+
+_1 Mer_. The Gunner shall speak you welcom.
+
+_Gos_. I'le not fail.
+
+_3 Mer_. Good morrow.              [_Ex_. Merch.
+
+_Gos_. Heaven grant my Ships a safe return, before
+The day of this great payment: as they are
+Expected three months sooner: and my credit
+Stands good with all the world.
+
+_Enter_ Gerrard.
+
+_Ger_. Bless my good Master,
+The prayers of your poor Beads-man ever shall
+Be sent up for you.
+
+_Gos_. God o' mercy _Clause_,
+There's something to put thee in mind hereafter
+To think of me.
+
+_Ger_. May he that gave it you
+Reward you for it, with encrease, good Master.
+
+_Gos_. I thrive the better for thy prayers.
+
+_Ger_. I hope so.
+This three years have I fed upon your bounties,
+And by the fire of your blest charity warm'd me,
+And yet, good Master, pardon me, that must,
+Though I have now receiv'd your alms, presume
+To make one sute more to you.
+
+_Gos_. What is't _Clause_?
+
+_Ger_. Yet do not think me impudent I beseech you,
+Since hitherto your charity hath prevented
+My begging your relief, 'tis not for mony
+Nor cloaths (good Master) but your good word for me.
+
+_Gos_. That thou shalt have, _Clause_, for I think thee honest.
+
+_Ger_. To morrow then (dear M'r.) take the trouble
+Of walking early unto _Beggars Bush_,
+And as you see me, among others (Brethren
+In my affliction) when you are demanded
+Which you like best among us, point out me,
+And then pass by, as if you knew me not.
+
+_Gos_. But what will that advantage thee?
+
+_Ger_. O much Sir,
+'Twill give me the preheminence of the rest,
+Make me a King among 'em, and protect me
+From all abuse, such as are stronger, might
+Offer my age; Sir, at your better leisure
+I will inform you further of the good
+It may do to me.
+
+_Gos_. 'Troth thou mak'st me wonder;
+Have you a King and common-wealth among you?
+
+_Ger_. We have, and there are States are govern'd worse.
+
+_Gos_. Ambition among Beggars?
+
+_Ger_. Many great ones
+Would part with half their states, to have the place,
+And credit to beg in the first file, Master:
+But shall I be so much bound to your furtherance
+In my Petition?
+
+_Gos._ That thou shalt not miss of,
+Nor any worldly care make me forget it,
+I will be early there.
+
+_Ger._ Heaven bless my Master.       [_Exeunt_.
+
+
+
+
+_ACTUS SECUNDUS. SCENA PRIMA._
+
+
+_Enter_ Higgen, Ferret, Prig, Clause, Jaculine,
+Snap, Ginks, _and other beggars_.
+
+_Hig._ Come Princes of the ragged regiment,
+You o' the blood, _Prig_ my most upright Lord,
+And these (what name or title, e're they bear)
+_Jarkman_, or _Patrico_, _Cranke_, or _Clapperdudgeon_,
+_Frater_, or _Abram-man_; I speak to all
+That stand in fair Election for the title
+Of King of _Beggars_, with the command adjoyning,
+_Higgen_, your Orator, in this Inter-regnum,
+That whilom was your Dommerer, doth beseech you
+All to stand fair, and put your selves in rank,
+That the first Comer, may at his first view
+Make a free choice, to say up the question.
+
+_Fer. Pr._ 'Tis done Lord _Higgen_.
+
+_Hig._ Thanks to Prince _Prig_, Prince _Ferret_.
+
+_Fer._ Well, pray my Masters all, _Ferret_ be chosen,
+Y'are like to have a mercifull mild Prince of me.
+
+_Prig._ A very tyrant, I, an arrant tyrant,
+If e're I come to reign; therefore look to't,
+Except you do provide me hum enough
+And Lour to bouze with: I must have my Capons
+And Turkeys brought me in, with my green Geese,
+And Ducklings i'th' season: fine fat chickens,
+Or if you chance where an eye of tame Phesants
+Or Partridges are kept, see they be mine,
+Or straight I seize on all your priviledge,
+Places, revenues, offices, as forfeit,
+Call in your crutches, wooden legs, false bellyes,
+Forc'd eyes and teeth, with your dead arms; not leave you
+A durty clout to beg with o' your heads,
+Or an old rag with Butter, Frankincense,
+Brimston and Rozen, birdlime, blood, and cream,
+To make you an old sore; not so much soap
+As you may fome with i'th' Falling-sickness;
+The very bag you bear, and the brown dish
+Shall be escheated. All your daintiest Dells too
+I will deflower, and take your dearest Doxyes
+From your warm sides; and then some one cold night
+I'le watch you what old barn you go to roost in,
+And there I'le smother you all i'th' musty hay.
+
+_Hig._ This is tyrant-like indeed: But what would _Ginks_
+Or _Clause_ be here, if either of them should raign?
+
+_Clau._ Best ask an Ass, if he were made a Camel,
+What he would be; or a dog, and he were a Lyon.
+
+_Ginks._ I care not what you are, Sirs, I shall be
+A Beggar still I am sure, I find my self there.
+
+_Enter_ Goswin.
+
+_Snap._ O here a Judge comes.
+
+_Hig._ Cry, a Judge, a Judge.
+
+_Gos._ What ail you Sirs? what means this outcry?
+
+_Hig._ Master,
+A sort of poor souls met: Gods fools, good Master,
+Have had some little variance amongst our selves
+Who should be honestest of us, and which lives
+Uprightest in his calling: Now, 'cause we thought
+We ne're should 'gree on't our selves, because
+Indeed 'tis hard to say: we all dissolv'd, to put it
+To him that should come next, and that's your Master-ship,
+Who, I hope, will 'termine it as your mind serves you,
+Right, and no otherwise we ask it: which?
+Which does your worship think is he? sweet Master
+Look over us all, and tell us; we are seven of us,
+Like to the seven wise Masters, or the Planets.
+
+_Gos._ I should judge this the man with the grave beard,
+And if he be not--
+
+_Clau._ Bless you, good Master, bless you.
+
+_Gos._ I would he were: there's something too amongst you
+To keep you all honest.            [_Exit._
+
+_Snap._ King of Heaven go with you.
+
+_Omn._ Now good reward him,
+May he never want it, to comfort still the poor, in a good hour.
+
+_Fer._ What is't? see: _Snap_ has got it.
+
+_Snap._ A good crown, marry.
+
+_Prig._ A crown of gold.
+
+_Fer._ For our new King: good luck.
+
+_Ginks._ To the common treasury with it; if't be gold,
+Thither it must.
+
+_Prig._ Spoke like a Patriot, _Ferret_--
+King _Clause_, I bid God save thee first, first, _Clause_,
+After this golden token of a crown;
+Where's oratour _Higgen_ with his gratuling speech now
+In all our names?
+
+_Fer._ Here he is pumping for it.
+
+_Gin._ H'has cough'd the second time, 'tis but once more
+And then it comes.
+
+_Fer._ So, out with all: expect now--
+
+_Hig._ That thou art chosen, venerable _Clause_,
+Our King and Soveraign; Monarch o'th'Maunders,
+Thus we throw up our Nab-cheats, first for joy,
+And then our filches; last, we clap our fambles,
+Three subject signs, we do it without envy:
+For who is he here did not wish thee chosen,
+Now thou art chosen? ask 'em: all will say so,
+Nay swear't: 'tis for the King, but let that pass.
+When last in conference at the bouzing ken
+This other day we sat about our dead Prince
+Of famous memory: (rest go with his rags:)
+And that I saw thee at the tables end,
+Rise mov'd, and gravely leaning on one Crutch,
+Lift the other like a Scepter at my head,
+I then presag'd thou shortly wouldst be King,
+And now thou art so: but what need presage
+To us, that might have read it in thy beard
+As well, as he that chose thee? by that beard
+Thou wert found out, and mark'd for Soveraignty.
+O happy beard! but happier Prince, whose beard
+Was so remark'd, as marked out our Prince,
+Not bating us a hair. Long may it grow,
+And thick, and fair, that who lives under it,
+May live as safe, as under _Beggars Bush_,
+Of which this is the thing, that but the type.
+
+_Om._ Excellent, excellent orator, forward good _Higgen_,
+Give him leave to spit: the fine, well-spoken _Higgen_.
+
+_Hig._ This is the beard, the bush, or bushy-beard,
+Under whose gold and silver raign 'twas said
+So many ages since, we all should smile
+On impositions, taxes, grievances,
+Knots in a State, and whips unto a Subject,
+Lye lurking in this beard, but all kemb'd out:
+If now, the Beard be such, what is the Prince
+That owes the Beard? a Father; no, a Grand-father;
+Nay the great Grand-father of you his people.
+He will not force away your hens, your bacon,
+When you have ventur'd hard for't, nor take from you
+The fattest of your puddings: under him
+Each man shall eat his own stolen eggs, and butter,
+In his own shade, or sun-shine, and enjoy
+His own dear Dell, Doxy, or Mort, at night
+In his own straw, with his own shirt, or sheet,
+That he hath filch'd that day, I, and possess
+What he can purchase, back, or belly-cheats
+To his own prop: he will have no purveyers
+For Pigs, and poultry.
+
+_Clau._ That we must have, my learned oratour,
+It is our will, and every man to keep
+In his own path and circuit.
+
+_Hig._ Do you hear?
+You must hereafter maund on your own pads he saies.
+
+_Clau._ And what they get there, is their own, besides
+To give good words.
+
+_Hig._ Do you mark? to cut been whids,
+That is the second Law.
+
+_Clau._ And keep a-foot
+The humble, and the common phrase of begging,
+Lest men discover us.
+
+_Hig._ Yes; and cry sometimes,
+To move compassion: Sir, there is a table,
+That doth command all these things, and enjoyns 'em,
+Be perfect in their crutches, their feign'd plaisters,
+And their torn pass-ports, with the ways to stammer,
+And to be dumb, and deaf, and blind, and lame,
+There, all the halting paces are set down,
+I'th' learned language.
+
+_Clau._ Thither I refer them,
+Those, you at leisure shall interpret to them.
+We love no heaps of laws, where few will serve.
+
+_Om._ O gracious Prince, 'save, 'save the good King _Clause_.
+
+_Hig._ A Song to crown him.
+
+_Fer._ Set a Centinel out first.
+
+_Snap._ The word?
+
+_Hig._ A Cove comes, and fumbumbis to it.--     _Strike._
+
+    _The SONG.
+
+Cast our Caps and cares away: this is Beggars Holy-day,
+At the Crowning of our King, thus we ever dance and sing.
+In the world look out and see: where's so happy a Prince as he?
+Where the Nation live so free, and so merry as do we?
+Be it peace, or be it war, here at liberty we are,
+And enjoy our ease and rest; To the field we are not prest;
+Nor are call'd into the Town, to be troubled with the Gown.
+Hang all Officers we cry, and the Magistrate too, by;
+When the Subsidie's encreast, we are not a penny Sest.
+Nor will any go to Law, with the Beggar for a straw.
+All which happiness he brags, he doth owe unto his rags._
+
+_Enter_ Snap, Hubert, _and_ Hemskirke.
+
+_Snap._ A Cove comes: Fumbumbis.
+
+_Prig._ To your postures; arm.
+
+_Hub._ Yonder's the Town: I see it.
+
+_Hemsk._ There's our danger
+Indeed afore us, if our shadows save not.
+
+_Hig._ Bless your good Worships.
+
+_Fer._ One small piece of mony.
+
+_Prig._ Amongst us all poor wretches.
+
+_Clau._ Blind, and lame.
+
+_Ginks._ For his sake that gives all.
+
+_Hig._ Pitifull Worships.
+
+_Snap._ One little doyt.
+
+_Enter_ Jaculin.
+
+_Jac._ King, by your leave, where are you?
+
+_Fer._ To buy a little bread.
+
+_Hig._ To feed so many
+Mouths, as will ever pray for you.
+
+_Prig._ Here be seven of us.
+
+_Hig._ Seven, good Master, O remember seven,
+Seven blessings.
+
+_Fer._ Remember, gentle Worship.
+
+_Hig._ 'Gainst seven deadly sins.
+
+_Prig._ And seven sleepers.
+
+_Hig._ If they be hard of heart, and will give nothing--
+Alas, we had not a charity this three dayes.
+
+_Hub._ There's amongst you all.
+
+_Fer._ Heaven reward you.
+
+_Prig._ Lord reward you.
+
+_Hig._ The Prince of pity bless thee.
+
+_Hub._ Do I see? or is't my fancy that would have it so?
+Ha? 'tis her face: come hither maid.
+
+_Jac._ What ha' you,
+Bells for my squirrel? I ha' giv'n bun meat,
+You do not love me, do you? catch me a butterfly,
+And I'le love you again; when? can you tell?
+Peace, we go a birding: I shall have a fine thing.  [_Exit._
+
+_Hub._ Her voyce too sayes the same; but for my head
+I would not that her manners were so chang'd.
+Hear me thou honest fellow; what's this maiden,
+That lives amongst you here?
+
+_Gin._ Ao, ao, ao, ao.
+
+_Hub._ How? nothing but signs?
+
+_Gin._ Ao, ao, ao, ao.
+
+_Hub._ This is strange,
+I would fain have it her, but not her thus.
+
+_Hig._ He is de-de-de-de-de-de-deaf, and du-du-dude-dumb Sir.
+
+_Hub._ Slid they did all speak plain ev'n now me thought.
+Do'st thou know this same maid?
+
+_Snap._ Why, why, why, why, which, gu, gu, gu, gu, Gods fool
+She was bo-bo-bo-bo-born at the barn yonder,
+By-be-be-be-be-Beggars Bush-bo-bo-Bush
+Her name is, My-my-my-my-my-match: so was her Mo-mo-mo-Mothers too-too.
+
+_Hub._ I understand no word he says; how long
+Has she been here?
+
+_Snap._ Lo-lo-long enough to be ni-ni-nigled, and she ha' go-go-go-good
+luck.
+
+_Hub._ I must be better inform'd, than by this way.
+Here was another face too, that I mark'd
+Of the old mans: but they are vanish'd all
+Most suddenly: I will come here again,
+O, that I were so happy, as to find it,
+What I yet hope: it is put on.
+
+_Hem._ What mean you Sir,
+To stay there with that stammerer?
+
+_Hub._ Farewell friend,--
+It will be worth return, to search: Come,
+Protect us our disguise now, pre'thee _Hemskirk_
+If we be taken, how do'st thou imagine
+This town will use us, that hath stood so long
+Out against _Wolfort_?
+
+_Hem._ Ev'n to hang us forth
+Upon their walls a sunning, to make Crows meat,
+If I were not assur'd o' the _Burgomaster_,
+And had a pretty excuse to see a niece there,
+I should scarce venture.
+
+_Hub._  Come 'tis now too late
+To look back at the ports: good luck, and enter. [_Exeunt._
+
+
+
+
+SCENA II.
+
+
+    _Enter_ Goswin.
+
+_Gos._ Still blow'st thou there? and from all other parts,
+Do all my agents sleep, that nothing comes?
+There's a conspiracy of windes, and servants,
+If not of Elements, to ha' me break;
+What should I think unless the Seas, and Sands
+Had swallow'd up my ships? or fire had spoil'd
+My ware-houses? or death devour'd my Factors?
+I must ha' had some returns.
+
+_Enter_ Merchants.
+
+_1 Mer._ 'Save you Sir.
+
+_Gos._ 'Save you.
+
+_1 Mer._ No news yet o' your Ships?
+
+_Gos._ Not any yet Sir.
+
+_1 Mer._ 'Tis strange.            [_Exit._
+
+_Gos._ 'Tis true Sir: what a voyce was here now?
+This was one passing bell, a thousand ravens
+Sung in that man now, to presage my ruins.
+
+_2 Mer._ _Goswin_, good day, these winds are very constant.
+
+_Gos._ They are so Sir; to hurt--
+
+_2 Mer._  Ha' you had no letters
+Lately from _England_, nor from _Denmark_?
+
+_Gos._ Neither.
+
+_2 Mer._ This wind brings them; nor no news over land,
+Through _Spain_, from the _Straights_?
+
+_Gos._ Not any.
+
+_2 Mer._ I am sorry Sir.           [_Exit._
+
+_Gos._ They talk me down: and as 'tis said of Vulturs
+They scent a field fought, and do smell the carkasses
+By many hundred miles: So do these, my wracks
+At greater distances. Why, thy will Heaven
+Come on, and be: yet if thou please, preserve me;
+But in my own adventure, here at home,
+Of my chast love, to keep me worthy of her,
+It shall be put in scale 'gainst all ill fortunes:
+I am not broken yet: nor should I fall,
+Me thinks with less than that, that ruins all.    [_Exit._
+
+
+
+
+SCENA III.
+
+
+_Enter_ Van-dunck, Hubert, Hemskirk, _and_ Margaret, Boors.
+
+_Van._ Captain, you are welcom; so is this your friend
+Most safely welcom, though our Town stand out
+Against your Master, you shall find good quarter:
+The troth is, we not love him: _Margaret_ some wine,
+Let's talk a little treason, if we can
+Talk treason, 'gainst the traitors; by your leave, Gentlemen,
+We, here in _Bruges_, think he do's usurp,
+And therefore I am bold with him.
+
+_Hub._  Sir, your boldness
+Happily becomes your mouth, but not our ears,
+While we are his servants; And as we come here,
+Not to ask questions, walk forth on your walls,
+Visit your courts of guard, view your munition,
+Ask of your corn-provisions, nor enquire
+Into the least, as spies upon your strengths,
+So let's entreat, we may receive from you
+Nothing in passage or discourse, but what
+We may with gladness, and our honesties here,
+And that shall seal our welcom.
+
+_Van._  Good: let's drink then,
+Fill out, I keep mine old pearl still Captain.
+
+_Marg._  I hang fast man.
+
+_Hen._  Old Jewels commend their keeper, Sir.
+
+_Van._  Here's to you with a heart, my Captains friend,
+With a good heart, and if this make us speak
+Bold words, anon, 'tis all under the Rose
+Forgotten: drown all memory, when we drink.
+
+_Hub._  'Tis freely spoken noble _Burgomaster_,
+I'le do you right.
+
+_Hem._  Nay Sir mine heer _Van-dunck_
+Is a true Statesman.
+
+_Van._  Fill my Captains cup there, O that your Master _Wolfort_
+Had been an honest man.
+
+_Hub._  Sir?
+
+_Van._  Under the Rose.
+
+_Hem._  Here's to you _Marget_.
+
+_Marg._ Welcome, welcome Captain.
+
+_Van._ Well said my pearl still.
+
+_Hem._ And how does my Niece?
+Almost a Woman, I think? This friend of mine,
+I drew along w[i]th me, through so much hazard,
+Only to see her: she was my errand.
+
+_Van._  I, a kind Uncle you are (fill him his glass)
+That in seven years, could not find leisure--
+
+_Hem._  No,
+It's not so much.
+
+_Van_. I'le bate you ne'r an hour on't,
+It was before the _Brabander_ 'gan his War,
+For moon-shine, i'the water there, his Daughter
+That never was lost: yet you could not find time
+To see a Kinswoman; but she is worth the seeing, Sir,
+Now you are come, you ask if she were a Woman?
+She is a Woman, Sir, fetch her forth _Marget_.    [_Exit_ Marg.
+And a fine Woman, and has Suitors.
+
+_Hem_. How?
+What Suitors are they?
+
+_Van_. Bachellors; young Burgers:
+And one, a Gallant, the young Prince of Merchants
+We call him here in _Bruges_.
+
+_Hem_. How? a Merchant?
+I thought, _Vandunke_, you had understood me better,
+And my Niece too, so trusted to you by me,
+Than t'admit of such in name of Suitors.
+
+_Van_. Such? he is such a such, as were she mine
+I'd give him thirty thousand crowns with her.
+
+_Hem_. But the same things, Sir, fit not you and me.     [_Ex_.
+
+_Van_. Why, give's some wine, then; this will fit us all:
+Here's to you still, my Captains friend: All out:
+And still, would _Wolfort_ were an honest man,
+Under the Rose, I speak it: but this Merchant
+Is a brave boy: he lives so, i'the Town here,
+We know not what to think on him: at some times
+We fear he will be Bankrupt; he do's stretch
+Tenter his credit so; embraces all,
+And to't, the winds have been contrary long.
+But then, if he should have all his returns,
+We think he would be a King, and are half sure on't.
+Your Master is a Traitor, for all this,
+Under the Rose: Here's to you; and usurps
+The Earldom from a better man.
+
+_Hub_. I marry, Sir,
+Where is that man?
+
+_Van_. Nay soft: and I could tell you
+'Tis ten to one I would not: here's my hand,
+I love not _Wolfort_: sit you still, with that:
+Here comes my Captain again, and his fine Niece,
+And there's my Merchant; view him well: fill wine here.
+
+_Enter_ Hemskirk, Gertrude, _and_ Goswin.
+
+_Hem_. You must not only know me for your Uncle
+Now, but obey me: you, go cast your self
+Away, upon a Dunghil here? a Merchant?
+A petty fellow? one that makes his Trade
+With Oaths and perjuries?
+
+_Gos_. What is that you say, Sir?
+If it be me you speak of, as your eye
+Seems to direct, I wish you would speak to me, Sir.
+
+_Hem_. Sir, I do say, she is no Merchandize,
+Will that suffice you?
+
+_Gos_. Merchandize good Sir?
+Though ye be Kinsman to her, take no leave thence
+To use me with contempt: I ever thought
+Your Niece above all price.
+
+_Hem_. And do so still, Sir,
+I assure you, her rates are more than you are worth.
+
+_Gos_. You do not know, what a Gentleman's worth, Sir,
+Nor can you value him.
+
+_H[u]b_. Well said Merchant.
+
+_Van_. Nay,
+Let him alone, and ply your matter.
+
+_Hem_. A Gentleman?
+What o'the Wool-pack? or the Sugar-chest?
+Or lists of Velvet? which is't pound, or yard,
+You vent your Gentry by?
+
+_Hub_. O _Hemskirk_, fye.
+
+_Van_. Come, do not mind 'em, drink, he is no _Wolfort_,
+Captain, I advise you.
+
+_Hem_. Alas, my pretty man,
+I think't be angry, by its look: Come hither,
+Turn this way, a little: if it were the blood
+Of _Charlemaine_, as't may (for ought I know)
+Be some good Botchers issue, here in _Bruges_.
+
+_Gos_. How?
+
+_Hem_. Nay: I'me not certain of that; of this I am,
+If it once buy, and sell, its Gentry is gone.
+
+_Gos_. Ha, ha.
+
+_Hem._ You are angry, though ye laugh.
+
+_Gos._ No, now 'tis pity
+Of your poor argument. Do not you, the Lords
+Of Land (if you be any) sell the grass,
+The Corn, the Straw, the Milk, the Cheese?
+
+_Van._ And Butter:
+Remember Butter; do not leave out Butter.
+
+_Gos._ The Beefs and Muttons that your grounds are stor'd with?
+Swine, with the very mast, beside the Woods?
+
+_Hem._ No, for those sordid uses we have Tenants,
+Or else our Bailiffs.
+
+_Gos._ Have not we, Sir, Chap-men,
+And Factors, then to answer these? your honour
+Fetch'd from the Heralds _ABC_, and said over
+With your Court faces, once an hour, shall never
+Make me mistake my self. Do not your Lawyers
+Sell all their practice, as your Priests their prayers?
+What is not bought, and sold? The company
+That you had last, what had you for't, i'faith?
+
+_Hem._ You now grow sawcy.
+
+_Gos._ Sure I have been bred
+Still, with my honest liberty, and must use it.
+
+_Hem._ Upon your equals then.
+
+_Gos._ Sir, he that will
+Provoke me first, doth make himself my equal.
+
+_Hem._ Do ye hear? no more.
+
+_Gos._ Yes, Sir, this little, I pray you,
+And't shall be aside, then after, as you please.
+You appear the Uncle, Sir, to her I love
+More than mine eyes; and I have heard your scorns
+With so much scoffing, and so much shame,
+As each strive which is greater: But, believe me,
+I suck'd not in this patience with my milk.
+Do not presume, because you see me young,
+Or cast despights on my profession
+For the civility and tameness of it.
+A good man bears a contumely worse
+Than he would do an injury. Proceed not
+To my offence: wrong is not still successful,
+Indeed it is not: I would approach your Kins-woman
+With all respect, done to your self and her.
+
+_Hem._ Away Companion: handling her? take that.        [_Strikes him._
+
+_Gos._ Nay, I do love no blows, Sir, there's exchange.
+
+_Hub._  Hold, Sir.  (_He gets_ Hemskirks _sword and cuts him on the head._
+
+_Mar._  O murther.
+
+_Ger._  Help my _Goswin_.
+
+_Mar._ Man.
+
+_Van._ Let 'em alone; my life for one.
+
+_Gos._ Nay come,
+If you have will.
+
+_Hub._ None to offend you, I, Sir.
+
+_Gos._ He that had, thank himself: not hand her? yes Sir,
+And clasp her, and embrace her; and (would she
+Now go with me) bear her through all her Race,
+Her Father, Brethren, and her Uncles, arm'd,
+And all their Nephews, though they stood a wood
+Of Pikes, and wall of Canon: kiss me _Gertrude_,
+Quake not, but kiss me.
+
+_Van._ Kiss him, Girl, I bid you;
+My Merchant Royal; fear no Uncles: hang 'em,
+Hang up all Uncles: Are not we in _Bruges_?
+Under the Rose here?
+
+_Gos._ In this circle, Love,
+Thou art as safe, as in a Tower of Brass;
+Let such as do wrong, fear.
+
+_Van._ I, that's good,
+Let _Wolfort_ look to that.
+
+_Gos._ Sir, here she stands,
+Your Niece, and my beloved. One of these titles
+She must apply to; if unto the last,
+Not all the anger can be sent unto her,
+In frown, or voyce, or other art, shall force her,
+Had _Hercules_ a hand in't: Come, my Joy,
+Say thou art mine, aloud Love, and profess it.
+
+_Van._ Doe: and I drink to it.
+
+_Gos._ Prethee say so, Love.
+
+_Ger._ 'Twould take away the honour from my blushes:
+Do not you play the tyrant, sweet: they speak it.
+
+_Hem._ I thank you niece.
+
+_Gos._ Sir, thank her for your life,
+And fetch your sword within.
+
+_Hem._ You insult too much
+With your good fortune, Sir.     [_Exeunt_ Gos. _and_ Ger.
+
+_Hub._ A brave clear Spirit;
+_Hemskirk_, you were to blame: a civil habit
+Oft covers a good man: and you may meet
+In person of a Merchant, with a soul
+As resolute, and free, and all wayes worthy,
+As else in any file of man-kind: pray you,
+What meant you so to slight him?
+
+_Hem._ 'Tis done now,
+Ask no more of it; I must suffer.     [_Exit_ Hemskirk.
+
+_Hub._ This
+Is still the punishment of rashness, sorrow.
+Well; I must to the woods, for nothing here
+Will be got out. There, I may chance to learn
+Somewhat to help my enquiries further.
+
+_Van._ Ha?
+A Looking-glass?
+
+_Hub._ How now, brave _Burgomaster_?
+
+_Van._ I love no _Wolforts_, and my name's _Vandunk_,
+
+_Hub._ _Van drunk_ it's rather: come, go sleep within.
+
+_Van._ Earl _Florez_ is right heir, and this same _Wolfort_
+Under the Rose I speak it--
+
+_Hub._ Very hardly.
+
+_Van-d._ Usurps: and a rank Traitor, as ever breath'd,
+And all that do uphold him. Let me goe,
+No man shall hold me, that upholds him;
+Do you uphold him?
+
+_Hub._ No.
+
+_Van._ Then hold me up.          [_Exeunt._
+
+_Enter_ Goswin, _and_ Hemskirk.
+
+_Hem._ Sir, I presume, you have a sword of your own,
+That can so handle anothers.
+
+_Gos._ Faith you may Sir.
+
+_Hem._ And ye have made me have so much better thoughts of you
+As I am bound to call you forth.
+
+_Gos._ For what Sir?
+
+_Hem._ To the repairing of mine honour, and hurt here.
+
+_Gos._ Express your way.
+
+_Hem._ By fight, and speedily.
+
+_Gos._ You have your will: Require you any more?
+
+_Hem._ That you be secret: and come single.
+
+_Gos._ I will.
+
+_Hem._ As you are the Gentleman you would be thought.
+
+_Gos._ Without the Conjuration: and I'le bring
+Only my sword, which I will fit to yours,
+I'le take his length within.
+
+_Hem._ Your place now Sir?
+
+_Gos._ By the Sand-hills.
+
+_Hem._ Sir, nearer to the woods,
+If you thought so, were fitter.
+
+_Gos._ There, then.
+
+_Hem._ Good.
+Your time?
+
+_Gos._ 'Twixt seven and eight.
+
+_Hem._ You'l give me Sir
+Cause to report you worthy of my Niece,
+If you come, like your promise.
+
+_Gos._ If I do not,
+Let no man think to call me unworthy first,
+I'le do't my self, and justly wish to want her.--     [_Exeunt._
+
+
+
+
+_ACTUS TERTIUS. SCENA PRIMA._
+
+
+_Enter three or four_ Boors.
+
+_1 B._ Come, _English_ beer Hostess, _English_ beer by th' belly.
+
+_2 B._ Stark beer boy, stout and strong beer: so, sit down Lads,
+And drink me upsey-Dutch:
+Frolick, and fear not.
+
+_Enter_ Higgen _like a Sow-gelder, singing._
+
+Hig. _Have ye any work for the Sow-gelder, hoa,
+My horn goes too high too low, too high too low.
+Have ye any Piggs, Calves, or Colts,
+Have ye any Lambs in your holts
+To cut for the Stone,
+Here comes a cunning one.
+Have ye any braches to spade,
+Or e're a fair maid
+That would be a Nun,
+Come kiss me, 'tis done.
+Hark how my merry horn doth blow,
+Too high too low, too high too low._
+
+_1 B._ O excellent! two-pence a piece boyes, two-pence a piece.
+Give the boys some drink there. Piper, wet your whistle,
+Canst tell me a way now, how to cut off my wifes Concupiscence?
+
+_Hig._ I'le sing ye a Song for't.
+
+      _The_ SONG.
+
+_Take her, and hug her,
+And turn her and tug her,
+And turn her again boy, again,
+Then if she mumble,
+Or if her tail tumble,
+Kiss her amain hoy, amain.
+Do thy endeavour,
+To take off her feaver,
+Then her disease no longer will raign.
+If nothing will serve her,
+Then thus to preserve her,
+Swinge her amain boy amain.
+Give her cold jelly
+To take up her belly,
+And once a day swinge her again,
+If she stand all these pains,
+Then knock out her brains,
+Her disease no longer will reign._
+
+_1 Bo._ More excellent, more excellent, sweet Sow-gelder.
+
+_2 Bo._ Three-pence a piece, three-pence a piece.
+
+_Hig._ Will you hear a Song how the Devil was gelded?
+
+_3 Bo._ I, I, let's hear the Devil roar, Sow-gelder.
+
+
+            SONG.
+
+             1.
+_He ran at me first in the shape of a Ram,
+And over and over the Sow-Gelder came;
+I rise and I halter'd him fast by the horn,
+I pluckt out his Stones as you'd pick out a Corn.
+Baa, quoth the Devil, and forth he slunk,
+And left us a Carcase of Mutton that stunk.
+
+             2.
+The next time I rode a good mile and a half,
+Where I heard he did live in disguise of a Calf,
+I bound and I gelt him, ere he did any evil;
+He was here at his best, but a sucking Devil.
+Maa, yet he cry'd, and forth he did steal,
+And this was sold after, for excellent Veal.
+
+             3.
+Some half a year after in the form of a Pig,
+I met with the Rogue, and he look'd very big;
+I catch'd at his leg, laid him down on a log,
+Ere a man could fart twice, I had made him a Hog.
+Owgh, quoth the Devil, and forth gave a Jerk,
+That a Jew was converted, and eat of the Perk._
+
+_1 Bo._ Groats apiece, Groats apiece, Groats apiece,
+There sweet Sow-Gelder.
+
+_Enter_ Prig _and_ Ferret.
+
+_Prig._ Will ye see any feats of activity,
+Some Sleight of hand, Legerdemain? hey pass,
+Presto, be gone there?
+
+_2 Bo._ Sit down Jugler.
+
+_Prig._ Sirrah, play you your art well; draw near Piper:
+Look you, my honest friends, you see my hands;
+Plain dealing is no Devil: lend me some Money,
+Twelve-pence a piece will serve.
+
+_1. 2. B._ There, there.
+
+_Prig._ I thank you,
+Thank ye heartily: when shall I pay ye?
+
+_All B._ Ha, ha, ha, by th' Mass this was a fine trick.
+
+_Prig._ A merry sleight toy: but now I'll show your Worships
+A trick indeed.
+
+_Hig._ Mark him well now my Masters.
+
+_Prig._ Here are three balls,
+These balls shall be three bullets,
+One, two, and three: _ascentibus, malentibus_.
+
+_Presto_, be gone: they are vanish'd: fair play, Gentlemen.
+Now these three, like three Bullets, from your three Noses
+Will I pluck presently: fear not, no harm Boys,
+
+_Titere, tu patule._
+
+_1 B._ Oh, oh, oh.
+
+_Prig._ _Recubans sub jermlne fagi._
+
+_2 B._ Ye pull too hard; ye pull too hard.
+
+_Prig._ Stand fair then:
+_Silvertramtrim-tram._
+
+_3 B._ Hold, hold, hold.
+
+_Prig._ Come aloft, bullets three, with a whim-wham.
+Have ye their Moneys?
+
+_Hig._ Yes, yes.
+
+_1 B._ Oh rare Jugler!
+
+_2 B._ Oh admirable Jugler!
+
+_Prig._ One trick more yet;
+Hey, come aloft; _sa, sa, flim, flum, taradumbis_?
+East, West, North, South, now fly like _Jack_ with a _bumbis_.
+Now all your money's gone; pray search your pockets.
+
+_1 B._ Humh.
+
+_2 B._ He.
+
+_3 B._ The Devil a penny's here!
+
+_Prig._ This was a rare trick.
+
+_1 B._ But 'twould be a far rarer to restore it.
+
+_Prig._ I'll do ye that too; look upon me earnestly,
+And move not any ways your eyes from this place,
+This Button here? pow, whir, whiss, shake your pockets.
+
+_1 B._ By th' Mass 'tis here again, boys.
+
+_Prig._ Rest ye merry;
+My first trick has paid me.
+
+_All B._ I, take it, take it,
+And take some drink too.
+
+_Prig._ Not a drop now I thank you;
+Away, we are discover'd else.     [_Exit._
+
+_Enter_ Gerrard _like a blind_ Aqua vitae man, _and a Boy, singing the
+Song._
+
+_Bring out your Cony-skins, fair maids to me,
+And hold 'em fair that I may see;
+Grey, black, and blue: for your smaller skins,
+I'll give ye looking-glasses, pins:
+And for your whole Coney, here's ready, ready Money.
+Come Gentle_ Jone, _do thou begin
+With thy black, black, black Coney-skin.
+And_ Mary _then, and_ Jane _will follow,
+With their silver hair'd skins, and their yellow.
+The white Cony-skin, I will not lay by,
+For though it be faint, 'tis fair to the eye;
+The grey, it is warm, but yet for my Money,
+Give me the bonny, bonny black Cony.
+Come away fair Maids, your skins will decay:
+Come, and take money, maids, put your ware away.
+Cony-skins, Cony-skins, have ye any Cony-skins,
+I have fine bracelets, and fine silver pins._
+
+_Ger._ Buy any Brand Wine, buy any Brand Wine?
+
+_Boy._ Have ye any Cony-skins?
+
+_2 [B.]_ My fine Canary-bird, there's a Cake for thy Worship.
+
+_1 B._ Come fill, fill, fill, fill suddenly: let's see Sir,
+What's this?
+
+_Ger._ A penny, Sir.
+
+_1 B._ Fill till't be six-pence,
+And there's my Pig.
+
+_Boy._ This is a Counter, Sir.
+
+_1 B._ A Counter! stay ye, what are these then?
+O execrable Jugler! O dama'd Jugler!
+Look in your hose, hoa, this comes of looking forward.
+
+_3 B._ Devil a Dunkirk! what a Rogue's this Jugler!
+This hey pass, repass, h'as repast us sweetly.
+
+_2 B._ Do ye call these tricks.
+
+_Enter_ Higgen.
+
+_Hig._ Have ye any Ends of Gold, or Silver?
+
+_2 B._ This Fellow comes to mock us; Gold or Silver? cry Copper.
+
+_1 B._ Yes, my good Friend,
+We have e'n an end of all we have.
+
+_Hig._ 'Tis well Sir,
+You have the less to care for: Gold and Silver.     [_Exit._
+
+_Enter_ Prigg.
+
+_Pr._ Have ye any old Cloaks to sell, have ye any old Cloaks to sell?
+[_Exit._
+
+_1 B._ Cloaks! Look about ye Boys: mine's gone!
+
+_2 B._ A ------ juggle 'em?
+------ O they're Prestoes: mine's gone too!
+
+_3 B._ Here's mine yet.
+
+_1 B._ Come, come let's drink then more Brand Wine.
+
+_Boy._ Here Sir.
+
+_1 B._ If e'r I catch your Sow-gelder, by this hand I'll strip him:
+Were ever Fools so ferkt? We have two Cloaks yet;
+And all our Caps; the Devil take the Flincher.
+
+_All B._ Yaw, yaw, yaw, yaw.
+
+_Enter_ Hemskirk.
+
+_Hem._ Good do'n my honest Fellows,
+You are merry here I see.
+
+_3 B._ 'Tis all we have left, Sir.
+
+_Hem._ What hast thou? Aqua vitae?
+
+_Boy._ Yes.
+
+_Hem._ Fill out then;
+And give these honest Fellows round.
+
+_All B._ We thank ye.
+
+_Hem._ May I speak a word in private to ye?
+
+_All B._ Yes Sir.
+
+_Hem._ I have a business for you, honest Friends,
+If you dare lend your help, shall get you crowns.
+
+_Ger._ Ha!
+Lead me a little nearer, Boy.
+
+_1 B._ What is't Sir?
+If it be any thing to purchase money,
+Which is our want, [command] us.
+
+_Boors._ All, all, all, Sir.
+
+_Hem._ You know the young spruce Merchant in _Bruges_?
+
+_2 B._ Who? Master _Goswin_?
+
+_Hem._ That he owes me money,
+And here in town there is no stirring of him.
+
+_Ger._ Say ye so?
+
+_Hem._ This day, upon a sure appointment,
+He meets me a mile hence, by the Chase side,
+Under the row of Oaks; do you know it?
+
+_All B._ Yes Sir.
+
+_Hem._ Give 'em more drink: there if you dare but venture
+When I shall give the word to seize upon him
+Here's twenty pound.
+
+_3 B._ Beware the Jugler.
+
+_Hem._ If he resist, down with him, have no mercy.
+
+_1 B._ I warrant you, we'll hamper him.
+
+_Hem._ To discharge you,
+I have a Warrant here about me.
+
+_3 B._ Here's our Warrant,
+This carries fire i'th' Tail.
+
+_Hem._ Away with me then,
+The time draws on,
+I must remove so insolent a Suitor,
+And if he be so rich, make him pay ransome
+Ere he see _Bruges_ Towers again. Thus wise men
+Repair the hurts they take by a disgrace,
+And piece the Lions skin with the Foxes case.
+
+_Ger._ I am glad I have heard this sport yet.
+
+_Hem._ There's for thy drink, come pay the house within Boys,
+And lose no time.
+
+_Ger._ Away with all our haste too.      [_Exeunt._
+
+
+
+
+SCENE II.
+
+
+_Enter_ Goswin.
+
+_Gos._ No wind blow fair yet? no return of moneys?
+Letters? nor any thing to hold my hopes up?
+Why then 'tis destin'd, that I fall, fall miserably!
+My credit I was built on, sinking with me.
+Thou boystrous North-wind, blowing my misfortunes,
+And frosting all my hopes to cakes of coldness;
+Yet stay thy fury; give the gentle South
+Yet leave to court those sails that bring me safety,
+And you auspicious fires, bright twins in heaven
+Daunce on the shrowds; he blows still stubbornly,
+And on his boystrous Rack rides my sad ruin;
+There is no help, there can be now no comfort,
+To morrow with the Sun-set, sets my credit.
+Oh misery! thou curse of man, thou plague,
+In the midst of all our strength thou strik'st us;
+My vertuous Love is lost too: all, what I have been,
+No more hereafter to be seen than shadow;
+To prison now? well, yet there's this hope left me;
+I may sink fairly under this days venture,
+And so to morrow's cross'd, and all those curses:
+Yet manly I'll invite my Fate, base fortune
+Shall never say, she has cut my throat in fear.
+This is the place his challenge call'd me to,
+And was a happy one at this time for me,
+For let me fall before my Foe i'th' field,
+And not at Bar, before my Creditors;
+H'as kept his word: now Sir, your swords tongue only
+Loud as you dare, all other language--
+
+_Enter_ Hemskirke.
+
+_Hem._ Well Sir,
+You shall not be long troubled: draw.
+
+_Gos._ 'Tis done Sir,
+And now have at ye.
+
+_Hem._ Now.
+
+_Enter_ Boors.
+
+_Gos._ Betray'd to Villains!
+Slaves ye shall buy me bravely,
+And thou base coward.
+
+_Enter_ Gerrard _and_ Beggars.
+
+_Ger._ Now upon 'em bravely,
+Conjure 'em soundly Boys.
+
+_Boors._ Hold, hold.
+
+_Ger._ Lay on still,
+Down with that Gentleman rogue, swinge him to sirrup.
+Retire Sir, and take Breath: follow, and take him,
+Take all, 'tis lawful prize.
+
+_Boors._ We yield.
+
+_Ger._ Down with 'em
+Into the Wood, and rifle 'em, tew 'em, swinge 'em,
+Knock me their brains into their Breeches.     [_Exeunt._
+
+_Boors._ Hold, hold.
+
+_Gos._ What these men are I know not, nor for what cause
+They shou'd thus thrust themselves into my danger,
+Can I imagine. But sure Heavens hand was in't!
+Nor why this coward Knave should deal so basely
+To eat me up with Slaves: but Heaven I thank thee,
+I hope thou hast reserv'd me to an end
+Fit for thy creature, and worthy of thine honour:
+Would all my other dangers here had suffered,
+With what a joyful heart should I go home then?
+Where now, Heaven knows, like him that waits his sentence,
+Or hears his passing Bell; but there's my hope still.
+
+_Enter_ Gerrard.
+
+_Ger._ Blessing upon you Master.
+
+_Gos._ Thank ye; leave me,
+For by my troth I have nothing now to give thee.
+
+_Ger._ Indeed I do not ask Sir, only it grieves me
+To see ye look so sad; now goodness keep ye
+From troubles in your mind.
+
+_Gos._ If I were troubled,
+What could thy comfort do? prithee _Clause_, leave me.
+
+_Ger._ Good Master be not angry; for what I say
+Is out of true love to ye.
+
+_Gos._ I know thou lov'st me.
+
+_Ger._ Good Mr. blame that love then, if I prove so sawcy
+To ask ye why ye are sad.
+
+_Gos._ Most true, I am so,
+And such a sadness I have got will sink me.
+
+_Ger._ Heaven shield it, Sir.
+
+_Gos._ Faith, thou must lose thy Master.
+
+_Ger._ I had rather lose my neck, Sir: would I knew--
+
+_Gos._ What would the knowledg do thee good so miserable,
+Thou canst not help thy self? when all my ways
+Nor all the friends I have--
+
+_Ger._ You do not know Sir,
+What I can do: cures sometimes, for mens cares
+Flow, where they least expect 'em.
+
+_Gos._ I know thou wouldst do,
+But farewell _Clause_, and pray for thy poor Master.
+
+_Ger._ I will not leave ye.
+
+_Gos._ How?
+
+_Ger._ I dare not leave ye, Sir, I must not leave ye,
+And till ye beat me dead, I will not leave ye.
+By what ye hold most precious, by Heavens goodness,
+As your fair youth may prosper, good Sir tell me:
+My mind believes yet something's in my power
+May ease you of this trouble.
+
+_Gos._ I will tell thee,
+For a hundred thousand crowns upon my credit,
+Taken up of Merchants to supply my traffiques,
+The winds and weather envying of my fortune,
+And no return to help me off, yet shewing
+To morrow, _Clause_, to morrow, which must come,
+In prison thou shalt find me poor and broken.
+
+_Ger._ I cannot blame your grief Sir.
+
+_Gos._ Now, what say'st thou?
+
+_Ger._ I say you should not shrink, for he that gave ye,
+Can give you more; his power can bring ye off Sir,
+When friends and all forsake ye, yet he sees you.
+
+_Gos._ There's all my hope.
+
+_Ger._ Hope still Sir, are you ty'd
+Within the compass of a day, good Master,
+To pay this mass of mony?
+
+_Gos._ Ev'n to morrow:
+But why do I stand mocking of my misery?
+Is't not enough the floods, and friends forget me?
+
+_Ger._ Will no less serve?
+
+_Gos._ What if it would?
+
+_Ger._ Your patience,
+I do not ask to mock ye: 'tis a great sum,
+A sum for mighty men to start and stick at;
+But not for honest: have ye no friends left ye,
+None that have felt your bounty? worth this duty?
+
+_Gos._ Duty? thou knowst it not.
+
+_Ger._ It is a duty,
+And as a duty, from those men have felt ye,
+Should be return'd again: I have gain'd by ye,
+A daily alms these seven years you have showr'd on me,
+Will half supply your want.
+
+_Gos._ Why do'st thou fool me?
+Can'st thou work miracles?
+
+_Ger._ To save my Master,
+I can work this.
+
+_Gos._ Thou wilt make me angry with thee.
+
+_Ger._ For doing good?
+
+_Gos._ What power hast thou?
+
+_Ger._ Enquire not:
+So I can do it, to preserve my Master;
+Nay if it be three parts.
+
+_Gos._ O that I had it,
+But good _Clause_, talk no more, I feel thy charity,
+As thou hast felt mine: but alas!
+
+_Ger._ Distrust not,
+'Tis that that quenches ye: pull up your Spirit,
+Your good, your honest, and your noble Spirit;
+For if the fortunes of ten thousand people
+Can save ye, rest assur'd; you have forgot Sir,
+The good ye did, which was the power you gave me;
+Ye shall now know the King of Beggars treasure:
+And let the winds blow as they list, the Seas roar,
+Yet, here to morrow, you shall find your harbour.
+Here fail me not, for if I live I'le fit ye.
+
+_Gos._ How fain I would believe thee!
+
+_Ger._ If I ly Master,
+Believe no man hereafter.
+
+_Gos._ I will try thee,
+But he knows, that knows all.
+
+_Ger._ Know me to morrow,
+And if I know not how to cure ye, kill me;
+So pass in peace, my best, my worthiest Master.     [_Exeunt._
+
+
+
+
+SCENA III.
+
+
+_Enter_ Hubert, _like a Huntsman._
+
+_Hub._ Thus have I stoln away disguiz'd from _Hemskirk_
+To try these people, for my heart yet tells me
+Some of these Beggars, are the men I look for:
+Appearing like my self, they have no reason
+(Though my intent is fair, my main end honest)
+But to avoid me narrowly, that face too,
+That womans face, how near it is! O may it
+But prove the same, and fortune how I'le bless thee!
+Thus, sure they cannot know me, or suspect me,
+If to my habit I but change my nature;
+As I must do; this is the wood they live in,
+A place fit for concealment: where, till fortune
+Crown me with that I seek, I'le live amongst 'em.  [_Exit._
+
+_Enter_ Higgen, Prigg, Ferret, Ginks, _and
+the rest of the_ Boors.
+
+_Hig._ Come bring 'em out, for here we sit in justice:
+Give to each one a cudgel, a good cudgel:
+And now attend your sentence. That you are rogues,
+And mischievous base rascalls, (there's the point now)
+I take it, is confess'd.
+
+_Prig._ Deny it if you dare knaves.
+
+_Boors._ We are Rogues Sir.
+
+_Hig._ To amplify the matter then, rogues as ye are,
+And lamb'd ye shall be e're we leave ye.
+
+_Boors._ Yes Sir.
+
+_Hig._ And to the open handling of our justice,
+Why did ye this upon the proper person
+Of our good Master? were you drunk when you did it?
+
+_Boors._ Yes indeed were we.
+
+_Prig._ You shall be beaten sober.
+
+_Hig._ Was it for want you undertook it?
+
+_Boors._ Yes Sir.
+
+_Hig._ You shall be swing'd abundantly.
+
+_Prig._ And yet for all that,
+You shall be poor rogues still.
+
+_Hig._ Has not the Gentleman,
+Pray mark this point Brother _Prig_, that noble Gentleman
+Reliev'd ye often, found ye means to live by,
+By imploying some at Sea, some here, some there;
+According to your callings?
+
+_Boors._ 'Tis most true Sir.
+
+_Hig._ Is not the man, an honest man?
+
+_Boors._ Yes truly.
+
+_Hig._ A liberal Gentleman? and as ye are true rascals
+Tell me but this, have ye not been drunk, and often,
+At his charge?
+
+_Boors._ Often, often.
+
+_Hig._ There's the point then,
+They have cast themselves, Brother _Prig_.
+
+_Prig._ A shrewd point, Brother.
+
+_Hig._ Brother, proceed you now; the cause is open,
+I am some what weary.
+
+_Prig._ Can you do these things?
+You most abhominable stinking Rascals,
+You turnip-eating Rogues.
+
+_Boors._ We are truly sorry.
+
+_Prig._ Knock at your hard hearts Rogues, and presently
+Give us a sign you feel compunction,
+Every man up with's cudgel, and on his neighbour
+Bestow such alms, 'till we shall say sufficient,
+For there your sentence lyes without partiality;
+Either of head, or hide Rogues, without sparing,
+Or we shall take the pains to beat you dead else:
+You shall know your doom.
+
+_Hig._ One, two, and three about it.
+
+_Prig._ That fellow in the blue, has true Compunction,
+[_Beat one another._
+He beats his fellows bravely, oh, well struck boyes.
+
+_Enter_ Gerrard.
+
+_Hig._ Up with that blue breech, now playes he the Devil.
+So get ye home, drink small beer, and be honest;
+Call in the Gentleman.
+
+_Ger._ Do, bring him presently,
+His cause I'le hear my self.
+
+_Enter_ Hemskirk.
+
+_Hig. Prig._ With all due reverence,
+We do resign Sir.
+
+_Ger._ Now huffing Sir, what's your name?
+
+_Hem._ What's that to you Sir?
+
+_Ger._ It shall be ere we part.
+
+_Hem._ My name is _Hemskirk_,
+I follow the Earl, which you shall feel.
+
+_Ger._ No threatning,
+For we shall cool you Sir; why did'st thou basely
+Attempt the murder of the Merchant _Goswin_?
+
+_Hem._ What power hast thou to ask me?
+
+_Ger._ I will know it,
+Or fley thee till thy pain discover it.
+
+_Hem._ He did me wrong, base wrong.
+
+_Ger._ That cannot save ye,
+Who sent ye hither? and what further villanies
+Have you in hand?
+
+_Hem._ Why would'st thou know? what profit,
+If I had any private way, could rise
+Out of my knowledge, to do thee commodity?
+Be sorry for what thou hast done, and make amends fool,
+I'le talk no further to thee, nor these Rascals.
+
+_Ger._ Tye him to that tree.
+
+_Hem._ I have told you whom I follow.
+
+_Ger._ The Devil you should do, by your villanies,
+Now he that has the best way, wring it from him.
+
+_Hig._ I undertake it: turn him to the Sun boyes;
+Give me a fine sharp rush, will ye confess yet?
+
+_Hem._ Ye have rob'd me already, now you'le murder me.
+
+_Hig._ Murder your nose a little: does your head purge Sir?
+To it again, 'twill do ye good.
+
+_Hem._ Oh,
+I cannot tell you any thing.
+
+_Ger._ Proceed then.
+
+_Hig._ There's maggots in your nose, I'le fetch 'em out Sir.
+
+_Hem._ O my head breaks.
+
+_Hig._ The best thing for the rheum Sir,
+That falls into your worships eyes.
+
+_Hem._  Hold, hold.
+
+_Ger._ Speak then.
+
+_Hem._ I know not what.
+
+_Hig._ It lyes in's brain yet,
+In lumps it lyes, I'le fetch it out the finest;
+What pretty faces the fool makes? heigh!
+
+_Hem._ Hold,
+Hold, and I'le tell ye all, look in my doublet;
+And there within the lining in a paper,
+You shall find all.
+
+_Ger._ Go fetch that paper hither,
+And let him loose for this time.
+
+_Enter_ Hubert.
+
+_Hub._ Good ev'n my honest friends.
+
+_Ger._ Good ev'n good fellow.
+
+_Hub._ May a poor huntsman, with a merry heart,
+A voice shall make the forest ring about him,
+Get leave to live amongst ye? true as steel, boyes?
+That knows all chases, and can watch all hours,
+And with my quarter staff, though the Devil bid stand,
+Deal such an alms, shall make him roar again?
+Prick ye the fearfull hare through cross waves, sheep-walks,
+And force the crafty Reynard climb the quicksetts;
+Rouse ye the lofty Stag, and with my bell-horn,
+Ring him a knel, that all the woods shall mourn him,
+'Till in his funeral tears, he fall before me?
+The _Polcat_, _Marterne_, and the rich skin'd _Lucerne_
+I know to chase, the Roe, the wind out-stripping
+_Isgrin_ himself, in all his bloody anger
+I can beat from the bay, and the wild Sounder
+Single, and with my arm'd staff, turn the Boar,
+Spight of his foamy tushes, and thus strike him;
+'Till he fall down my feast.
+
+_Ger._ A goodly fellow.
+
+_Hub._ What mak'st thee here, ha?     [_aside._
+
+_Ger._ We accept thy fellowship.
+
+_Hub._ _Hemskirk_, thou art not right I fear, I fear thee.     [_aside._
+
+_Enter_ Ferret, _with a Letter._
+
+_Fer._ Here is the paper: and as he said we found it.
+
+_Ger._ Give me it, I shall make a shift yet, old as I am,
+To find your knavery: you are sent here, Sirra,
+To discover certain Gentlemen, a spy-knave,
+And if ye find 'em, if not by perswasion
+To bring 'em back, by poyson to despatch 'em.
+
+_Hub._ By poyson, ha?
+
+_Ger._  Here is another, _Hubert_;
+What is that _Hubert_ Sir?
+
+_Hem._ You may perceive there.
+
+_Ger._ I may perceive a villany and a rank one,
+Was he joyn'd partner of thy knavery?
+
+_Hem._ No.
+He had an honest end, would I had had so,
+Which makes him scape such cut-throats.
+
+_Ger._ So it seems.
+For here thou art commanded, when that _Hubert_
+Has done his best and worthiest service, this way
+To cut his throat, for here he's set down dangerous.
+
+_Hub._ This is most impious.
+
+_Ger._ I am glad we have found ye,
+Is not this true?
+
+_Hem._ Yes; what are you the better?
+
+_Ger._ You shall perceive Sir, ere you get your freedom:
+Take him aside, and friend, we take thee to us,
+Into our company, thou dar'st be true unto us?
+
+_Hig._ I, and obedient too?
+
+_Hub._  As you had bred me.
+
+_Ger._ Then take our hand: thou art now a servant to us,
+Welcom him all.
+
+_Hig._ Stand off, stand off: I'le do it,
+We bid ye welcom three wayes; first for your person,
+Which is a promising person, next for your quality,
+Which is a decent, and a gentle quality,
+Last for the frequent means you have to feed us,
+You can steal 'tis to be presum'd.
+
+_Hub._ Yes, venison, and if you want--
+
+_Hig._ 'Tis well you understand right,
+And shall practise daily: you can drink too?
+
+_Hub._ Soundly.
+
+_Hig._ And ye dare know a woman from a weathercock?
+
+_Hub._ If I handle her.
+
+_Ger._ Now swear him.
+
+_Hig._ I crown thy _nab_, with a _gag of benbouse_,
+And _stall_ thee by the _Salmon_ into the _clows_,
+To _mand_ on the _pad_, and _strike_ all the _cheats_;
+To _Mill_ from the _Ruffmans_, _commision_ and _slates_,
+_Twang dell_'s, i' the _stiromell_, and let the _Quire Cuffin_:
+And _Herman Beck strine_, and _trine_ to the _Ruffin_.
+
+_Ger._ Now interpret this unto him.
+
+_Hig._ I pour on thy pate a pot of good ale,
+And by the Rogues [oth] a Rogue thee instal:
+To beg on the way, to rob all thou meets;
+To steal from the hedge, both the shirt and the sheets:
+And lye with thy wench in the straw till she twang,
+Let the Constable, Justice, and Devil go hang.
+
+_Hig._ You are welcom Brother.
+
+_All._ Welcom, welcom, welcom, but who shall have the keeping
+Of this fellow?
+
+_Hub._  Sir, if you dare but trust me;
+For if I have kept wild dogs and beasts for wonder,
+And made 'em tame too: give into my custody
+This roaring Rascal, I shall hamper him,
+With all his knacks and knaveries, and I fear me
+Discover yet a further villany in him;
+O he smells ranck o'th' Rascal.
+
+_Ger._ Take him to thee,
+But if he scape--
+
+_Hub._ Let me be ev'n hang'd for him,
+Come Sir, I'le tye ye to my leash.
+
+_Hem._ Away Rascal.
+
+_Hub._ Be not so stubborn: I shall swindge ye soundly,
+And ye play tricks with me.
+
+_Ger._ So, now come in,
+But ever have an eye Sir, to your Prisoner.
+
+_Hub._  He must blind both mine eyes, if he get from me.
+
+_Ger._ Go get some victuals, and some drink, some good drink;
+For this day we'll keep holy to good fortune,
+Come, and be frolick with us.
+
+_Hig._ You are a stranger, Brother, I pray lead,
+You must, you must, Brother.         [_Exeunt._
+
+
+
+
+SCENE IV.
+
+
+_Enter_ Goswin _and_ Gertrude.
+
+_Ger._ Indeed you're welcome: I have heard your scape,
+And therefore give her leave, that only loves you;
+(Truly and dearly loves you) give her joy leave
+To bid you welcome: what is't makes you sad man?
+Why do you look so wild? Is't I offend you?
+Beshrew my heart, not willingly.
+
+_Gos._ No, _Gertrude_.
+
+_Ger._ Is't the delay of that ye long have look'd for,
+A happy marriage? now I come to urge it.
+Now when you please to finish it?
+
+_Gos._ No news yet?
+
+_Ger._ Do you hear Sir?
+
+_Gos._ Yes.
+
+_Ger._ Do you love me?
+
+_Gos._ Have I liv'd
+In all the happiness Fortune could seat me,
+In all mens fair opinions?
+
+_Ger._ I have provided
+A Priest, that's ready for us.
+
+_Gos._ And can the Devil,
+In one ten days, that Devil Chance devour me?
+
+_Ger._ We'll fly to what place you please.
+
+_Gos._ No Star prosperous!
+All at a swoop?
+
+_Ger._ You do not love me _Goswin_?
+You will not look upon me?
+
+_Gos._ Can mens Prayers
+Shot up to Heaven, with such a zeal as mine are,
+Fall back like lazy mists, and never prosper?
+Jives I must wear, and cold must be my comfort;
+Darkness, and want of meat; alas she weeps too,
+Which is the top of all my sorrows, _Gertrude_.
+
+_Ger._ No, no, you will not know me; my poor beauty,
+Which has been worth your eyes.
+
+_Gos._ The time grows on still;
+And like a tumbling wave, I see my ruine
+Come rowling over me.
+
+_Ger._ Yet will ye know me?
+
+_Gos._ For a hundred thousand Crowns.
+
+_Ger._ Yet will ye love me?
+Tell me but how I have deserv'd your slighting?
+
+_Gos._ For a hundred thousand Crowns?
+
+_Ger._ Farewel Dissembler.
+
+_Gos._ Of which I have scarce ten: O how it starts me!
+
+_Ger._ And may the next you love, hearing my ruine.
+
+_Gos._ I had forgot my self, O my best _Gertrude_,
+Crown of my joys and comforts.
+
+_Ger._ Sweet what ails ye?
+I thought you had been vext with me.
+
+_Gos._ My mind, Wench,
+My mind o'rflow'd with sorrow, sunk my memory.
+
+_Ger._ Am I not worthy of the knowledge of it?
+And cannot I as well affect your sorrows,
+As your delights? you love no other Woman?
+
+_Gos._ No, I protest.
+
+_Ger._ You have no ships lost lately?
+
+_Gos._ None, that I know of.
+
+_Ger._ I hope you have spilt no blood, whose innocence
+May lay this on your conscience.
+
+_Gos._ Clear, by Heaven.
+
+_Ger._ Why should you be thus then?
+
+_Gos._ Good _Gertrude_ ask not,
+Ev'n by the love you bear me.
+
+_Ger._ I am obedient.
+
+_Gos._ Go in, my fair, I will not be long from ye,
+Nor long I fear me with thee. At my return
+Dispose me as you please.
+
+_Ger._ The good gods guide ye.
+[_Exit._
+
+_Gos._ Now for my self, which is the least I hope for,
+And when that fails, for mans worst fortune, pity.     [_Exit._
+
+
+
+
+_ACTUS QUARTUS. SCENA PRIMA._
+
+
+_Enter_ Goswin _and_ 4. Merchants.
+
+_Gos._ Why gentlemen, 'tis but a week more, I intreat you
+But 7. short days, I am not running from ye;
+Nor, if you give me patience, is it possible
+All my adventures fail; you have ships abroad
+Endure the beating both of Wind and Weather:
+I am sure 'twould vex your hearts, to be protested;
+Ye are all fair Merchants.
+
+_1 Mer._ Yes, and must have fair play:
+There is no living here else; one hour's failing
+Fails us of all our friends, of all our credits:
+For my part, I would stay, but my wants tell me,
+I must wrong others in't.
+
+_Gos._ No mercy in ye!
+
+_2 Mer._ 'Tis foolish to depend on others mercy:
+Keep your self right, and even cut your cloth, Sir,
+According to your calling, you have liv'd here,
+In Lord-like Prodigality, high, and open,
+And now ye find what 'tis: the liberal spending
+The Summer of your Youth, which you should glean in,
+And like the labouring Ant, make use and gain of,
+Has brought this bitter, stormy Winter on ye,
+And now you cry.
+
+_3 Mer._ Alas, before your Poverty,
+We were no men, of no mark, no endeavour;
+You stood alone, took up all trade, all business
+Running through your hands, scarce a Sail at Sea,
+But loaden with your Goods: we poor weak Pedlers;
+When by your leave, and much intreaty to it,
+We could have stowage for a little Cloath,
+Or a few Wines, put off, and thank your Worship.
+Lord, how the World's chang'd with ye? now I hope, Sir,
+We shall have Sea-room.
+
+_Gos._ Is my misery
+Become my scorn too! have ye no humanity?
+No part of men left? are all the Bounties in me
+To you, and to the Town, turn'd my reproaches?
+
+_4 Mer._ Well, get your moneys ready: 'tis but 2 hours;
+We shall protest ye else, and suddenly.
+
+_Gos._ But two days.
+
+_1 Mer._ Not an hour, ye know the hazard.     [_Exeunt._
+
+_Gos._ How soon my light's put out! hard hearted _Bruges_!
+Within thy Walls may never honest Merchant
+Venture his fortunes more: O my poor Wench too.
+
+_Enter_ Gerrard.
+
+_Ger._ Good fortune, Master.
+
+_Gos._ Thou mistak'st me, _Clause_,
+I am not worth thy Blessing.
+
+_Ger._ Still a sad man!
+
+_Enter_ Higgen _and_ Prigg, _like_ Porters.
+No belief gentle Master? come bring it in then,
+And now believe your Beadsman.
+
+_Gos._ Is this certain?
+Or dost thou work upon my troubled sense?
+
+_Ger._ 'Tis gold, Sir,
+Take it and try it.
+
+_Gos._ Certainly 'tis treasure;
+Can there be yet this Blessing?
+
+_Ger._ Cease your wonder,
+You shall not sink, for ne'r a sowst Flap-dragon,
+For ne'r a pickl'd Pilcher of 'em all, Sir,
+'Tis there, your full sum, a hundred thousand crowns:
+And good sweet Master, now be merry; pay 'em,
+Pay the poor pelting Knaves, that know no goodness:
+And chear your heart up handsomely.
+
+_Gos._ Good _Clause_,
+How cam'st thou by this mighty Sum? if naughtily,
+I must not take it of thee, 'twill undo me.
+
+_Ger._ Fear not, you have it by as honest means
+As though your father gave it: Sir, you know not
+To what a mass, the little we get daily,
+Mounts in seven years; we beg it for Heavens charity,
+And to the same good we are bound to render it.
+
+_Gos._ What great security?
+
+_Ger._ Away with that, Sir,
+Were not ye more than all the men in _Bruges_;
+And all the money in my thoughts--
+
+_Gos._ But good _Clause_,
+I may dye presently.
+
+_Ger._ Then this dies with ye:
+Pay when you can good Master, I'll no Parchments,
+Only this charity I shall entreat you;
+Leave me this Ring.
+
+_Gos._ Alas, it is too poor, _Clause_.
+
+_Ger._ 'Tis all I ask, and this withal, that when
+I shall deliver this back, you shall grant me
+Freely one poor petition.
+
+_Gos._ There, I confirm it,      [_Gives the Ring._
+And may my faith forsake me when I shun it.
+
+_Ger._ Away, your time draws on. Take up the money,
+And follow this young Gentleman.
+
+_Gos._ Farewell _Clause_,
+And may thy honest memory live for ever.
+
+_Ger._ Heaven bless you, and still keep you, farewel Master.    [_Exeunt._
+
+
+
+
+SCENE II.
+
+
+_Enter_ Hubert.
+
+_Hub._ I have lockt my Youth up close enough for gadding,
+In an old Tree, and set watch over him.
+
+_Enter_ Jaculin.
+
+Now for my Love, for sure this Wench must be she,
+She follows me; Come hither, pretty _Minche_.
+
+_Jac._ No, no, you'll kiss.
+
+_Hub._ So I will.
+
+_Jac._ Y'ded law?
+How will ye kiss me, pray you?
+
+_Hub._ Thus, soft as my loves lips.
+
+_Jac._ Oh!
+
+_Hub._ What's your Father's name?
+
+_Jac._ He's gone to Heaven.
+
+_Hub._ Is it not _Gerrard_, Sweet?
+
+_Jac._ I'll stay no longer;
+My Mother's an old Woman, and my Brother
+Was drown'd at Sea, with catching Cockles. O Love!
+O how my heart melts in me: how thou fir'st me!
+
+_Hub._ 'Tis certain she; pray let me see your hand, Sweet?
+
+_Jac._ No, no, you'l bite it.
+
+_Hub._ Sure I should know that Gymmal!
+
+_Jac._ 'Tis certain he: I had forgot my Ring too.
+O _Hubert_! _Hubert_!
+
+_Hub._ Ha! methought she nam'd me--
+Do you know me, Chick?
+
+_Jac._ No indeed, I never saw ye;
+But methinks you kiss finely.
+
+_Hub._ Kiss again then;
+By Heaven 'tis she.
+
+_Jac._ O what a joy he brings me!
+
+_Hub._ You are not _Minche_?
+
+_Jac._ Yes, pretty Gentleman,
+And I must be marry'd to morrow to a Capper.
+
+_Hub._ Must ye my Sweet, and does the Capper love ye?
+
+_Jac._ Yes, yes, he'I give me pie, and look in mine eyes thus.
+'Tis he: 'tis my dear Love: O blest Fortune.
+
+_Hub._ How fain she would conceal her self, yet shew it!
+Will you love me, and leave that man? I'll serve.
+
+_Jac._ O I shall lose my self!
+
+_Hub._ I'll wait upon you,
+And make you dainty Nose-gays.
+
+_Jac._ And where will you stick 'em?
+
+_Hub._ Here in [thy] bosom, Sweet, and make a crown of Lilies
+For your fair head.
+
+_Jac._ And will you love me deed-law?
+
+_Hub._ With all my Heart.
+
+_Jac._ Call me to morrow then,
+And we'll have brave chear, and go to Church together:
+Give you good ev'n Sir.
+
+_Hub._ But one word fair _Minche_.
+
+_Jac._ I must be gone a milking.
+
+_Hub._ Ye shall presently.
+Did you never hear of a young maid called _Jaculin_?
+
+_Jac._ I am discover'd; hark in your ear, I'll tell ye:
+You must not know me, kiss and be constant ever.
+
+_Hub._ Heaven curse me else 'tis she, and now I am certain
+They are all here: now for my other project--     [_Exeunt._
+
+
+
+
+SCENE III.
+
+
+_Enter_ Goswin, 4. Merchants, Higgen, _and_ Prigg.
+
+_1 Mer._ Nay, if 'twould do you courtesie.
+
+_Gos._ None at all, Sir:
+Take it, 'tis yours, there's your ten thousand for ye,
+Give in my Bills. Your sixteen.
+
+_3 Mer._ Pray be pleas'd Sir
+To make a further use.
+
+_Gos._ No.
+
+_3 Mer._ What I have, Sir,
+You may command; pray let me be your Servant.
+
+_Gos._ Put your Hats on: I care not for your courtesies,
+They are most untimely done, and no truth in 'em.
+
+_2 Mer._ I have a fraught of Pepper.
+
+_Gos._ Rot your Pepper,
+Shall I trust you again? there's your seven thousand.
+
+_4 Mer._ Or if you want fine Sugar, 'tis but sending.
+
+_Gos._ No, I can send to _Barbary_, those people
+That never yet knew faith, have nobler freedoms:
+These carry to _Vanlock_, and take my Bills in,
+To _Peter Zuten_ these: bring back my Jewels,
+Why are these pieces?
+
+_Enter_ Sayler.
+
+_Sayler._ Health to the noble Merchant,
+The _Susan_ is return'd.
+
+_Gos._ Well?
+
+_Say._ Well, and rich Sir,
+And now put in.
+
+_Gos._ Heaven thou hast heard my prayers.
+
+_Say._ The brave _Rebeccah_ too, bound from the Straits,
+With the next Tide is ready to put after.
+
+_Gos._ What news o'th' fly-boat?
+
+_Say._ If this Wind hold till midnight,
+She will be here, and wealthy, 'scap'd fairly.
+
+_Gos._ How, prithee, Sayler?
+
+_Say._ Thus Sir, she had fight
+Seven hours together, with six Turkish Gallies,
+And she fought bravely; but at length was boarded
+And overlaid with strength: when presently
+Comes boring up the wind Captain _Vannoke_,
+That valiant Gentleman, you redeem'd from prison;
+He knew the Boat, set in, and fought it bravely:
+Beat all the Gallies off, sunk three, redeem'd her,
+And as a service to ye sent her home Sir.
+
+_Gos._ An honest noble Captain, and a thankfull;
+There's for thy news: go drink the Merchants health, _Saylor_.
+
+_Say._ I thank your bounty, and I'le do it to a doyt, Sir.
+[_Exit_ Saylor.
+
+_1 Mer._ What miracles are pour'd upon this fellow!
+
+_Gos._ This here I hope, my friends, I shall scape prison,
+For all your cares to catch me.
+
+_2 Mer._ You may please Sir
+To think of your poor servants in displeasure,
+Whose all they have, goods, moneys, are at your service.
+
+_Gos._ I thank you,
+When I have need of you I shall forget you:
+You are paid I hope.
+
+_All._ We joy in your good fortunes.
+
+_Enter_ Van-dunck.
+
+_Van-d._ Come Sir, come take your ease, you must go home
+With me, yonder is one weeps and howls.
+
+_Gos._ Alas how does she?
+
+_Van-d._ She will be better soon I hope.
+
+_Gos._ Why soon Sir?
+
+_Van-d._ Why when you have her in your arms, this night
+My boy she is thy wife.
+
+_Gos._ With all my heart I take her.
+
+_Van-d._ We have prepar'd, all thy friends will be there,
+And all my Rooms shall smoak to see the revel;
+Thou hast been wrong'd, and no more shall my service
+Wait on the knave her Uncle, I have heard all,
+All his baits for my Boy, but thou shalt have her;
+Hast thou dispatch't thy business?
+
+_Gos._ Most.
+
+_Van-d._ By the mass Boy,
+Thou tumblest now in wealth, and I joy in it,
+Thou art the best Boy, that _Bruges_ ever nourish'd.
+Thou hast been sad, I'le cheer thee up with Sack,
+And when thou art lusty I'le fling thee to thy Mistris.
+She'I hug thee, sirrah.
+
+_Gos._ I long to see it,
+I had forgot you: there's for you my friends:
+You had but heavy burthens; commend my love
+To my best love, all the love I have
+To honest _Clause_, shortly I will thank him better.     [_Exit._
+
+_Hig._ By the mass a royal Merchant,
+Gold by the handfull, here will be sport soon, _Prig._
+
+_Prig._ It partly seems so, and here will I be in a trice.
+
+_Hig._ And I boy,
+Away apace, we are look'd for.
+
+_Prig._ Oh these bak'd meats,
+Me thinks I smell them hither.
+
+_Hig._ Thy mouth waters.     [_Exeunt._
+
+
+
+
+SCENA IV.
+
+
+_Enter_ Hubert, _and_ Hemskirk.
+
+_Hub._ I Must not.
+
+_Hem._ Why? 'tis in thy power to do it, and in mine
+To reward thee to thy wishes.
+
+_Hub._ I dare not, nor I will not.
+
+_Hem._ Gentle Huntsman,
+Though thou hast kept me hard: though in thy duty,
+Which is requir'd to do it, th' hast used me stubbornly;
+I can forgive thee freely.
+
+_Hub._ You the Earls servant?
+
+_Hem._ I swear I am near as his own thoughts to him;
+Able to doe thee--
+
+_Hub._ Come, come, leave your prating.
+
+_Hem._ If thou dar'st but try.
+
+_Hub._ I thank you heartily, you will be
+The first man that will hang me, a sweet recompence,
+I could do, but I do not say I will,
+To any honest fellow that would think on't,
+And be a benefactor.
+
+_Hem._ If it be not recompenc'd, and to thy own desires,
+If within these ten days I do not make thee--
+
+_Hub._ What, a false knave!
+
+_Hem._ Prethee, prethee conceive me [rightly], any thing
+Of profit or of place that may advance thee.
+
+_Hub._ Why what a Goosecap would'st thou make me,
+Do not I know that men in misery will promise
+Any thing, more than their lives can reach at?
+
+_Hem._ Believe me Huntsman,
+There shall not one short syllable
+That comes from me, pass
+Without its full performance.
+
+_Hub._ Say you so Sir?
+Have ye e're a good place for my quality?
+
+_Hem._ A thousand Chases, Forests, Parks: I'le make thee
+Chief ranger over all the games.
+
+_Hub._ When?
+
+_Hem._ Presently.
+
+_Hub._ This may provoke me: and yet to prove a knave too.
+
+_Hem._ 'Tis to prove honest: 'tis to do good service,
+Service for him thou art sworn to, for thy Prince,
+Then for thy self that good; what fool would live here,
+Poor, and in misery, subject to all dangers,
+Law, and lewd people can inflict, when bravely
+And to himself he may be law and credit?
+
+_Hub._ Shall I believe thee?
+
+_Hem._ As that thou holdst most holy.
+
+_Hub._ Ye may play tricks.
+
+_Hem._ Then let me never live more.
+
+_Hub._ Then you shall see Sir, I will do a service
+That shall deserve indeed.
+
+_Hem._ 'Tis well said, Huntsman,
+And thou shall be well thought of.
+
+_Hub._ I will do it: 'tis not your setting free, for that's meer nothing,
+But such a service, if the Earl be noble,
+He shall for ever love me.
+
+_Hem._ What is't Huntsman?
+
+_Hub._ Do you know any of these people live here?
+
+_Hem._ No.
+
+_Hub._ You are a fool then: here be those, to have 'em,
+I know the Earl so well, would make him caper.
+
+_Hem._ Any of the old Lords that rebel'd?
+
+_Hub._ Peace, all,
+I know 'em every one, and can betray 'em.
+
+_Hem._ But wilt thou doe this service?
+
+[_Hub._] If you'l keep
+Your faith, and free word to me.
+
+_Hem._ Wilt thou swear me?
+
+_Hub._ No, no, I will believe ye: more than that too,
+Here's the right heir.
+
+_Hem._ O honest, honest huntsman!
+
+_Hub._ Now, how to get these Gallants, there's the matter,
+You will be constant, 'tis no work for me else.
+
+_Hem._ Will the Sun shine again?
+
+_Hub._ The way to get 'em.
+
+_Hem._ Propound it, and it shall be done.
+
+_Hub._ No sleight;
+(For they are Devilish crafty, it concerns 'em,)
+Nor reconcilement, (for they dare not trust neither)
+Must doe this trick.
+
+_Hem._ By force?
+
+_Hub._ I, that must doe it.
+And with the person of the Earl himself,
+Authority (and mighty) must come on 'em:
+Or else in vain: and thus I would have ye do it.
+To morrow-night be here: a hundred men will bear 'em,
+(So he be there, for he's both wise and valiant,
+And with his terrour will strike dead their forces)
+The hour be twelve a Clock, now for a guide
+To draw ye without danger on these persons,
+The woods being thick, and hard to hit, my self
+With some few with me, made unto our purpose,
+Beyond the wood, upon the plain, will wait ye
+By the great Oak.
+
+_Hem._ I know it: keep thy faith huntsman,
+And such a showr of wealth--
+
+_Hub._ I warrant ye:
+Miss nothing that I tell ye.
+
+_Hem._ No.
+
+_Hub._ Farewel;
+You have your liberty, now use it wisely;
+And keep your hour, goe closer about the wood there,
+For fear they spy you.
+
+_Hem._ Well.
+
+_Hub._ And bring no noise with ye.
+[_Exit._
+
+_Hem._ All shall be done to th' purpose: farewel hunts-man.
+
+_Enter_ Gerrard, Higgen, Prig, Ginks, Snap, Ferret.
+
+_Ger._ Now, what's the news in town?
+
+_Ginks._ No news, but joy Sir;
+Every man wooing of the noble Merchant,
+Who has his hearty commendations to ye.
+
+_Fer._ Yes this is news, this night he's to be married.
+
+_Ginks._ By th' mass that's true, he marrys _Vandunks_ Daughter,
+The dainty black-ey'd bell.
+
+_Hig._ I would my clapper
+Hung in his baldrick, a what a peal could I Ring?
+
+_Ger._ Married?
+
+_Ginks._ 'Tis very true Sir, O the pyes,
+The piping-hot mince-pyes!
+
+_Prig._ O the Plum-pottage!
+
+_Hig._ For one leg of a goose now would I venture a limb boys,
+I love a fat goose, as I love allegiance,
+And------upon the Boors, too well they know it,
+And therefore starve their poultry.
+
+_Ger._ To be married
+To _Vandunks_ Daughter?
+
+_Hig._ O this [pretious] Merchant:
+What sport he will have! but hark you brother _Prig_,
+Shall we do nothing in the foresaid wedding?
+There's mony to be got, and meat I take it,
+What think ye of a morise?
+
+_Prig._ No, by no means,
+That goes no further than the street, there leaves us,
+Now we must think of something that must draw us
+Into the bowels of it, into th' buttery,
+Into the Kitchin, into the Cellar, something
+That that old drunken Burgo-master loves,
+What think ye of a wassel?
+
+_Hig._ I think worthily.
+
+_Prig._ And very fit it should be, thou, and _Ferret_,
+And _Ginks_ to sing the Song: I for the structure,
+Which is the bowl.
+
+_Hig._ Which must be up-sey _English_,
+Strong, lusty _London_ beer; let's think more of it.
+
+_Ger._ He must not marry.
+
+_Enter_ Hubert.
+
+_Hub._ By your leave in private,
+One word Sir, with ye; _Gerrard_: do not start me,
+I know ye, and he knows ye, that best loves ye:
+_Hubert_ speaks to ye, and you must be _Gerrard_.
+The time invites you to it.
+
+_Ger._ Make no show then,
+I am glad to see you Sir; and I am _Gerrard_.
+How stand affairs?
+
+_Hub._ Fair, if ye dare now follow,
+_Hemskirk_ I have let goe, and these my causes,
+I'le tell ye privately, and how I have wrought him,
+And then to prove me honest to my friends,
+Look upon these directions, you have seen his.
+
+_Hig._ Then will I speak a speech, and a brave speech
+In praise of Merchants, where's the Ape?
+
+_Prig._ ------ Take him,
+A gowty Bear-ward stole him the other day.
+
+_Hig._ May his Bears worry him, that Ape had paid it,
+What dainty tricks! ------ O that bursen Bear-ward:
+In his French doublet, with his blister'd bullions,
+In a long stock ty'd up; O how daintily
+Would I have made him wait, and shift a trencher,
+Carry a cup of wine? ten thousand stinks
+Wait on thy mangy hide, thou lowzy Bear-ward.
+
+_Ger._ 'Tis passing well, I both believe and joy in't,
+And will be ready: keep you here the mean while,
+And keep in, I must a while forsake ye,
+Upon mine anger no man stir, this two hours.
+
+_Hig._ Not to the wedding Sir?
+
+_Ger._ Not any whither.
+
+_Hig._ The wedding must be seen sir; we want meat too.
+We are horrible out of meat.
+
+_Prig._ Shall it be spoken,
+Fat Capons shak't their tails at's in defiance?
+And turkey tombs such honorable monuments,
+Shall piggs, Sir, that the Parsons self would envy,
+And dainty Ducks--
+
+_Ger._ Not a word more, obey me.
+[_Exit_ Ger.
+
+_Hig._ Why then come dolefull death, this is flat tyranny,
+And by this hand--
+
+_Hub._ What?
+
+_Hig._ I'le goe sleep upon't.
+[_Exit_ Hig.
+
+_Prig._ Nay, and there be a wedding, and we wanting,
+Farewel our happy days: we do obey Sir.     [_Exeunt._
+
+
+
+
+SCENA V.
+
+
+_Enter two young_ Merchants.
+
+_1 Mer._ Well met Sir, you are for this lusty wedding.
+
+_2 Mer._ I am so, so are you I take it.
+
+_1 Mer._ Yes,
+And it much glads me, that to doe him service
+Who is the honour of our trade, and lustre,
+We meet thus happily.
+
+_2 Mer._ He's a noble fellow,
+And well becomes a bride of such a beauty.
+
+_1 Mer._ She is passing fair indeed, long may their loves
+Continue like their youths, in spring of sweetness,
+All the young Merchants will be here
+No doubt on't,
+For he that comes not to attend this wedding,
+The curse of a most blind one fall upon him,
+A loud wife, and a lazie: here's _Vanlock_.
+
+_Enter_ Vanlock _and_ Francis.
+
+_Vanl._ Well overtaken Gentlemen: save ye.
+
+_1 Mer._ The same to you sir; save ye fair Mistris _Francis_,
+I would this happy night might make you blush too.
+
+_Vanl._ She dreams apace.
+
+_Fran._ That's but a drowsie fortune.
+
+_3 Mer._ Nay take us with ye too; we come to that end,
+I am sure ye are for the wedding.
+
+_Vanl._ Hand and heart man:
+And what their feet can doe, I could have tript it
+Before this whorson gout.
+
+_Enter_ Clause.
+
+_Clau._ Bless ye Masters.
+
+_Vanl._ _Clause_? how now _Clause_? thou art come to see thy Master,
+(And a good master he is to all poor people)
+In all his joy, 'tis honestly done of thee.
+
+_Clau._ Long may he live sir, but my business now is
+If you would please to doe it, and to him too.
+
+_Enter_ Goswin.
+
+_Vanl._ He's here himself.
+
+_Gos._ Stand at the door my friends?
+I pray walk in: welcom fair Mistris _Francis_,
+See what the house affords, there's a young Lady
+Will bid you welcom.
+
+_Vanl._ We joy your happiness.
+[_Exeunt._
+
+_Gos._ I hope it will be so: _Clause_ nobly welcom,
+My honest, my best friend, I have been carefull
+To see thy monys--
+
+_Clau._ Sir, that brought not me,
+Do you know this Ring again?
+
+_Gos._ Thou hadst it of me.
+
+_Cla._ And do you well remember yet, the boun you gave me
+Upon the return of this?
+
+_Gos._ Yes, and I grant it,
+Be it what it will: ask what thou canst, I'le do it;
+Within my power.
+
+_Cla._ Ye are not married yet?
+
+_Gos._ No.
+
+_Cla._ Faith I shall ask you that that will disturb ye,
+But I must put ye to your promise.
+
+_Gos._ Do,
+And if I faint and flinch in't--
+
+_Cla._ Well said Master,
+And yet it grieves me too: and yet it must be.
+
+_Gos._ Prethee distrust me not.
+
+_Cla._ You must not marry,
+That's part of the power you gave me: which to make up,
+You must presently depart, and follow me.
+
+_Gos._ Not marry, _Clause_?
+
+_Cla._ Not if you keep your promise,
+And give me power to ask.
+
+_Gos._ Pre'thee think better,
+I will obey, by Heaven.
+
+_Cla._ I have thought the best, Sir
+
+_Gos._ Give me thy reason, do'st thou fear her honesty?
+
+_Cla._ Chaste as the ice, for any thing I know, Sir.
+
+_Gos._ Why should'st thou light on that then? to what purpose?
+
+_Cla._ I must not now discover.
+
+_Gos._ Must not marry?
+Shall I break now when my poor heart is pawn'd?
+When all the preparation?
+
+_Cla._ Now or never.
+
+_Gos._ Come, 'tis not that thou would'st: thou do'st but fright me.
+
+_Cla._ Upon my soul it is, Sir, and I bind ye.
+
+_Gos._ _Clause_, can'st thou be so cruel?
+
+_Cla._ You may break, Sir,
+But never more in my thoughts appear honest.
+
+_Gos._ Did'st ever see her?
+
+_Cla._ No.
+
+_Gos._ She is such a thing,
+O _Clause_, she is such a wonder, such a mirror,
+For beauty, and fair vertue, _Europe_ has not:
+Why hast thou made me happy, to undo me?
+But look upon her; then if thy heart relent not,
+I'le quit her presently: who waits there?
+
+_Ser._ [_within_] Sir.
+
+_Gos._ Bid my fair love come hither, and the Company.
+Prethee be good unto me; take a mans heart
+And look upon her truly: take a friends heart
+And feel what misery must follow this.
+
+_Cla._ Take you a noble heart and keep your promise;
+I forsook all I had, to make you happy.
+
+_Enter_ Gertrude, Vandunk, _and the rest_ Merchants.
+
+Can that thing call'd a Woman, stop your goodness?
+
+_Gos._ Look there she is, deal with me as thou wilt now,
+Did'st ever see a fairer?
+
+_Cla._ She is most goodly.
+
+_Gos._ Pray ye stand still.
+
+_Ger._ What ails my love?
+
+_Gos._ Didst thou ever,
+By the fair light of Heave[n], behold a sweeter?
+O that thou knew'st but love, or ever felt him,
+Look well, look narrowly upon her beauties.
+
+_1 Mer._ Sure h'as some strange design in hand, he starts so.
+
+_2 Mer._ This Beggar has a strong power over his pleasure.
+
+_Gos._ View all her body,
+
+_Cla._ 'Tis exact and excellent.
+
+_Gos._ Is she a thing then to be lost thus lightly?
+Her mind is ten times sweeter, ten times nobler,
+And but to hear her speak, a Paradise,
+And such a love she bears to me, a chaste love,
+A vertuous, fair, and fruitful love: 'tis now too
+I am ready to enjoy it; the Priest ready, _Clause_,
+To say the holy words shall make us happy,
+This is a cruelty beyond mans study,
+All these are ready, all our joyes are ready,
+And all the expectation of our friends,
+'Twill be her death to do it.
+
+_Cla._ Let her dye then.
+
+_Gos._ Thou canst not: 'tis impossible.
+
+_Cla._ It must be.
+
+_Gos._ 'Twill kill me too, 'twill murder me: by heaven _Clause_
+I'le give thee half I have; come thou shalt save me.
+
+_Cla._ Then you must go with me: I can stay no longer,
+If ye be true, and noble.
+
+_Gos._ Hard heart, I'le follow:
+Pray ye all go in again, and pray be merry,
+I have a weighty business, (give my Cloak there,)
+
+_Enter_ Servant (_with a Cloak._)
+
+Concerns my life, and state, (make no enquiry,)
+This present hour befaln me: with the soonest
+I shall be here again: nay pray go in, Sir,
+And take them with you, 'tis but a night lost, Gentlemen.
+
+_Van._ Come, come in, we will not lose our meat yet,
+Nor our good mirth, he cannot stay long from her,
+I am sure of that.
+
+_Gos._ I will not stay; believe, Sir.     [_Exit._
+
+_Gertrude_, a word with you.
+
+_Ger._ Why is this stop, Sir?
+
+_Gos._ I have no more time left me, but to kiss thee,
+And tell thee this, I am ever thine: farewel wench.     [_Exit._
+
+_Ger._ And is that all your Ceremony? Is this a wedding?
+Are all my hopes and prayers turn'd to nothing?
+Well, I will say no more, nor sigh, nor sorrow;
+Till to thy face I prove thee false. Ah me!     [_Exit._
+
+
+
+
+_ACTUS QUINTUS. SCENA PRIMA._
+
+
+_Enter_ Gertrude, _and a_ Boor.
+
+_Ger._ Lead, if thou thinkst we are right: why dost thou make
+These often stands? thou saidst thou knewst the way.
+
+_Bo._ Fear nothing, I do know it: would 'twere homeward.
+
+_Ger._ Wrought from me by a Beggar? at the time
+That most should tye him? 'tis some other Love
+That hath a more command on his affections,
+And he that fetcht him, a disguised Agent,
+Not what he personated; for his fashion
+Was more familiar with him, and more powerful
+Than one that ask'd an alms: I must find out
+One, if not both: kind darkness be my shrowd,
+And cover loves too curious search in me,
+For yet, suspicion, I would not name thee.
+
+_Bo._ Mistris, it grows somewhat pretty and dark.
+
+_Ger._ What then?
+
+_Bo._ Nay, nothing; do not think I am afraid,
+Although perhaps you are.
+
+_Ger._ I am not, forward.
+
+_Bo._ Sure but you are? give me your hand, fear nothing.
+There's one leg in the wood, do not pull me backward:
+What a sweat one on's are in, you or I?
+Pray God it do not prove the plague; yet sure
+It has infected me; for I sweat too,
+It runs out at my knees, feel, feel, I pray you.
+
+_Ger._ What ails the fellow?
+
+_Bo._ Hark, hark I beseech you,
+Do you hear nothing?
+
+_Ger._ No.
+
+_Bo._ List: a wild Hog,
+He grunts: now 'tis a Bear: this wood is full of 'em,
+And now, a Wolf, Mistress, a Wolf, a Wolf,
+It is the howling of a Wolf.
+
+_Ger._ The braying of an Ass, is it not?
+
+_Bo._ Oh, now one has me;
+Oh my left haunch, farewel.
+
+_Ger._ Look to your Shanks,
+Your Breech is safe enough, the Wolf's a Fern-brake.
+
+_Bo._ But see, see, see, there is a Serpent in it;
+It has eyes as broad as Platters; it spits fire;
+Now it creeps towards us, help me to say my Prayers:
+It hath swallowed me almost, my breath is stopt;
+I cannot speak: do I speak Mistress? tell me.
+
+_Ger._ Why, thou strange timerous Sot, canst thou perceive
+Any thing i'th' Bush but a poor Glo-worm?
+
+_Bo._ It may be 'tis but a Glo-worm now, but 'twill
+Grow to a Fire-drake presently.
+
+_Ger._ Come thou from it:
+I have a precious guide of you, and a courteous,
+That gives me leave to lead my self the way thus.
+
+_Bo._ It thunders, you hear that now?
+
+_Ger._ I hear one hollow.
+
+_Bo._ 'Tis thunder, thunder:
+See, a Flash of Lightning:
+Are you not blasted Mistress? pull your Mask off,
+It has plaid the Barber with me here: I have lost
+My Beard, my Beard, pray God you be not shaven,
+'Twill spoil your Marriage Mistress.
+
+_Ger._ What strange Wonders
+Fear fancies in a Coward!
+
+_Bo._ Now the Earth opens.
+
+_Ger._ Prithee hold thy peace.
+
+_Bo._ Will you on then?
+
+_Ger._ Both love and jealousie have made me bold,
+Where my Fate leads me, I must go.     [_Exit._
+
+_Bo._ God be with you then.
+
+_Enter_ Woolfort, Hemskirk, _and_ Attendants.
+
+_Hem._ It was the Fellow sure, he that should guide me,
+The Hunts-man that did hollow us.
+
+_Woolf._ Best make a stand,
+And listen to his next: Ha!
+
+_Hem._ Who goes there?
+
+_Bo._ Mistress, I am taken.
+
+_Hem._ Mistress? Look forth Souldiers.
+
+_Woolf._ What are you Sirrah?
+
+_Bo._ Truly all is left
+Of a poor Boor, by day-light, by night no body,
+You might have spar'd your Drum, and Guns, and Pikes too
+For I am none that will stand out Sir, I.
+You may take me in with a walking Stick,
+Even when you please, and hold me with a packthred.
+
+_Hem._ What woman was't you call'd to?
+
+_Bo._ Woman! none Sir.
+
+_Woolf._ None! did you not name Mistress?
+
+_Bo._ Yes, but she's
+No woman yet: she should have been this night,
+But that a Beggar stole away her Bridegroom,
+Whom we were going to make hue and cry after;
+I tell you true Sir, she should ha' been married to day;
+And was the Bride and all; but in came _Clause_,
+The old lame Beggar, and whips up Mr _Goswin_
+Under his arm; away with him as a Kite,
+Or an old Fox would swoop away a Gosling.
+
+_Hem._ 'Tis she, 'tis she, 'tis she: Niece?
+
+_Ger._ Ha!
+
+_Hem._ She Sir,
+This was a noble entrance to your fortune,
+That being on the point thus to be married,
+Upon her venture here, you should surprise her.
+
+_Woolf._ I begin, _Hemskirk,_ to believe my fate,
+Works to my ends.
+
+_Hem._ Yes Sir, and this adds trust
+Unto the fellow our guide, who assur'd me _Florez_
+Liv'd in some Merchants shape, as _Gerrard_ did
+I' the old Beggars, and that he would use
+Him for the train, to call the other forth;
+All which we find is done--That's he again--     [_Holla again._
+
+_Woolf._ Good, we sent out to meet him.
+
+_Hem._ Here's the Oak.
+
+_Ger._ I am miserably lost, thus faln
+Into my Uncles hands from all my hopes,
+Can I not think away my self and dye?
+
+_Enter_ Hubert, Higgen, Prig, Ferret, Snap, Ginks _like_ Boors.
+
+_Hub._ I like your habits well: they are safe, stand close.
+
+_Hig._ But what's the action we are for now? Ha!
+Robbing a Ripper of his Fish.
+
+_Prig._ Or taking
+A Poulterer Prisoner, without ransome, Bullyes?
+
+_Hig._ Or cutting off a Convoy of Butter?
+
+_Fer._ Or surprizing a Boors ken, for granting cheats!
+
+_Prig._ Or cackling Cheats?
+
+_Hig._ Or Mergery-praters, Rogers,
+And Tibs o'th' Buttery?
+
+_Prig._ O I could drive a Regiment
+Of Geese afore me, such a night as this,
+Ten Leagues with my Hat and Staff, and not a hiss
+Heard, nor a wing of my Troops disordered.
+
+_Hig._ Tell us,
+If it be milling of a lag of duds,
+The fetching of a back of cloaths or so;
+We are horribly out of linnen.
+
+_Hub._ No such matter.
+
+_Hig._ Let me alone with the Farmers dog,
+If you have a mind to the cheese-loft; 'tis but thus,
+And he is a silenc'd Mastiff, during pleasure.
+
+_Hub._ Would it would please you to be silent.
+
+_Hig._ Mum.
+
+_Woolf._ Who's there?
+
+_Hub._ A friend, the Hunts-man.
+
+_Hem._ O 'tis he.
+
+_Hub._ I have kept touch Sir, which is the Earl of these?
+Will he know a man now?
+
+_Hem._ This my Lord's the Friend,
+Hath undertook the service.
+
+_Hub._ If't be worth
+His Lordships thanks anon, when 'tis done
+Lording, I'll look for't, a rude Wood-man,
+I know how to pitch my toils, drive in my game:
+And I have don't, both _Florez_ and his Father
+Old _Gerrard_, with Lord _Arnold_ of _Benthuisen_,
+_Cozen_, and _Jaculin_, young _Florez_'s Sister:
+I have 'em all.
+
+_Woolf._ Thou speak'st too much, too happy,
+To carry faith with it.
+
+_Hub._ I can bring you
+Where you shall see, and find 'em.
+
+_Woolf._ We will double
+What ever _Hemskirk_ then hath promis'd thee.
+
+_Hub._ And I'll deserve it treble: what horse ha' you?
+
+_Woolf._ A hundred. That's well: ready to take
+Upon surprise of 'em.
+
+_Hem._ Yes.
+
+_Hub._ Divide then
+Your force into five Squadrons; for there are
+So many out-lets, ways through the wood
+That issue from the place where they are lodg'd:
+Five several ways, of all which Passages,
+We must possess our selves, to round 'em in;
+For by one starting hole they'll all escape else:
+I and 4. Boors here to me will be guides,
+The Squadron where you are, my self will lead:
+And that they may be more secure, I'll use
+My wonted whoops, and hollows, as I were
+A hunting for 'em; which will make them rest
+Careless of any noise, and be a direction
+To the other guides, how we approach 'em still.
+
+_Woolf._ 'Tis order'd well, and relisheth the Souldier;
+Make the division _Hemskirk_; you are my charge,
+Fair One, I'll look to you.
+
+_Boo._ Shall no body need
+To look to me? I'll look unto my self.
+
+_Hub._ 'Tis but this, remember.
+
+_Hig._ Say, 'tis done, Boy.     [_Exeunt._
+
+
+
+
+SCENA II.
+
+
+_Enter_ Gerrard _and_ Florez.
+
+_Ger._ By this time Sir I hope you want no reasons
+Why I broke off your marriage, for though I
+Should as a Subject study you my Prince
+In things indifferent, it will not therefore
+Discredit you, to acknowledge me your Father,
+By harkning to my necessary counsels.
+
+_Flo._ Acknowledge you my Father? Sir I do,
+And may impiety, conspiring with
+My other Sins, sink me, and suddenly
+When I forget to pay you a Sons duty
+In my obedience, and that help'd forth
+With all the cheerfulness.
+
+_Ger._ I pray you rise,
+And may those powers that see and love this in you,
+Reward you for it: Taught by your example
+Having receiv'd the rights due to a Father,
+I tender you th' allegeance of a Subject:
+Which as my Prince accept of.
+
+_Flo._ Kneel to me?
+May mountains first fall down beneath their valleys,
+And fire no more mount upwards, when I suffer
+An act in nature so preposterous;
+I must o'ercome in this, in all things else
+The victory be yours: could you here read me,
+You should perceive how all my faculties
+Triumph in my blest fate, to be found yours;
+I am your son, your son Sir, and am prouder
+To be so, to the Father, to such goodness
+(Which heaven be pleas'd, I may inherit from you)
+Than I shall ever of those specious titles
+That plead for my succession in the Earldom
+(Did I possess it now) left by my Mother.
+
+_Ger._ I do believe it: but--
+
+_Flo._ O my lov'd Father,
+Before I knew you were so, by instinct,
+Nature had taught me, to look on your wants,
+Not as a stranger's: and I know not how,
+What you call'd charity, I thought the payment
+Of some religious debt, nature stood bound for;
+And last of all, when your magnificent bounty
+In my low ebb of fortune, had brought in
+A flood of blessings, though my threatning wants
+And fear of their effects, still kept me stupid,
+I soon found out, it was no common pity
+That led you to it.
+
+_Ger._ Think of this hereafter
+When we with joy may call it to remembrance,
+There will be a time, more opportune, than now
+To end our story, with all circumstances,
+I add this only: when we fled from _Wolfort_
+I sent you into _England_, and there placed you
+With a brave _Flanders_ Merchant, call'd rich _Goswin_,
+A man supplyed by me unto that purpose,
+As bound by oath never to discover you,
+Who dying, left his name and wealth unto you
+As his reputed Son, and yet receiv'd so;
+But now, as _Florez_, and a Prince, remember
+The countreys, and the subjects general good
+Must challenge the first part in your affection:
+The fair maid, whom you chose to be your wife,
+Being so far beneath you, that your love
+Must grant she's not your equal.
+
+_Flo._ In descent
+Or borrowed glories from dead Ancestors,
+But for her beauty, chastity, and all vertues
+Ever remembred in the best of women,
+A Monarch might receive from her, not give,
+Though she were his Crowns purchase; in this only
+Be an indulgent Father: in all else,
+Use your authority.
+
+_Enter_ Hubert, Hemskirk, Wolfort,
+Bertha, _and_ Souldiers.
+
+_Hub._ Sir, here be two of 'em,
+The Father and the Son, the rest you shall have
+As fast as I can rouze them.
+
+_Ger._ Who's this? _Wolfort_?
+
+_Wol._ I Criple, your feigned crutches will not help you,
+Nor patch'd disguise that hath so long conceal'd you,
+It's now no halting: I must here find _Gerrard_,
+And in this Merchants habit, one call'd _Florez_
+Who would be an Earl.
+
+_Ger._ And is, wert thou a subject.
+
+_Flo._ Is this that Traitor _Wolfort_?
+
+_Wol._ Yes, but you
+Are they that are betrai'd: _Hemskirk_.
+
+_Ber._ My _Goswin_
+Turn'd Prince? O I am poorer by this greatness,
+Than all my former jealousies or misfortunes.
+
+_Florez._ _Gertrude_?
+
+_Wol._ Stay Sir, you were to day too near her,
+You must no more aim at those easie accesses,
+Less you can do't in air, without a head,
+Which shall be suddenly tri'd.
+
+_Ber._ O take my heart, first,
+And since I cannot hope now to enjoy him,
+Let me but fall a part of his glad ransom.
+
+_Wol._ You know not your own value, that entreat.
+
+_Ger._ So proud a fiend as _Wolfort_.
+
+_Wol._ For so lost
+A thing as _Florez_.
+
+_Flo._ And that would be so
+Rather than she should stoop again to thee;
+There is no death, but's sweeter than all life,
+When _Wolfort_ is to give it: O my _Gertrude_,
+It is not that, nor Princedom that I goe from,
+It is from thee, that loss includeth all.
+
+_Wol._ I, if my young Prince knew his loss, he would say so,
+Which that he yet may chew on, I will tell him
+This is no _Gertrude_, nor no _Hemskirks_ Niece,
+Nor _Vandunks_ Daughter: this is _Bertha_, _Bertha_,
+The heir of _Brabant_, she that caus'd the war,
+Whom I did steal, during my treaty there,
+In your minority, to raise my self;
+I then fore-seeing 'twould beget a quarel,
+That, a necessity of my employment,
+The same employment, make me master of strength,
+That strength, the Lord of _Flanders_, so of _Brabant_,
+By marrying her: which had not been to doe Sir,
+She come of years, but that the expectation
+First of her Fathers death, retarded it,
+And since the standing out of _Bruges_, where
+_Hemskirk_ had hid her, till she was near lost:
+But Sir, we have recover'd her: your Merchantship
+May break, for this was one of your best bottoms
+I think.
+
+_Ger._ Insolent Devil!
+
+_Enter_ Hubert, with Jaqueline, Ginks,
+_and_ Costin.
+
+_Wol._ Who are these, _Hemskirk_?
+
+_Hem._ More, more, Sir.
+
+_Flo._ How they triumph in their treachery!
+
+_Hem._ Lord _Arnold_ of _Benthusin_, this Lord _Costin_,
+This _Jaqueline_ the sister unto _Florez_.
+
+_Wol._ All found? why here's brave game, this was sport royall,
+And puts me in thought of a new kind of death for 'em.
+Hunts-man, your horn: first wind me _Florez_ fall,
+Next _Gerrards_, then his Daughter _Jaquelins_,
+Those rascals, they shall dye without their rights:
+Hang 'em _Hemskirk_ on these trees; I'le take
+The assay of these my self.
+
+_Hub._ Not here my Lord,
+Let 'em be broken up upon a scaffold,
+'Twill shew the better when their arbour's made.
+
+_Ger._ Wretch, art thou not content thou hast betrai'd us,
+But mock us too?
+
+_Ginks._ False _Hubert_, this is monstrous.
+
+_Wol._ _Hubert_?
+
+_Hem._ Who, this?
+
+_Ger._ Yes this is _Hubert_, _Wolfort_,
+I hope he has helpt himself to a tree.
+
+_Wol._ The first,
+The first of any, and most glad I have you Sir,
+I let you goe before, but for a train;
+Is't you have done this service?
+
+_Hub._ As your Hunts-man,
+But now as _Hubert_; save your selves, I will,
+The _Wolf's_ afoot, let slip; kill, kill, kill, kill.
+
+_Enter with a drum_ Van-dunk, Merchants,
+Higgen, Prig, Ferret, Snap.
+
+_Wol._ Betray'd?
+
+_Hub._ No, but well catch'd: and I the Huntsman.
+
+_Van-d._ How do you _Wolfort_? Rascal, good knave _Wolfort_,
+I speak it now without the Rose, and _Hemskirk_,
+Rogue _Hemskirk_, you that have no niece, this Lady
+Was stoln by you, and ta'ne by you, and now
+Resign'd by me, to the right owner here:
+Take her my Prince.
+
+_Flo._ Can this be possible,
+Welcom my love, my sweet, my worthy love.
+
+_Van-d._ I ha' giv'n you her twice: now keep her better, and thank
+Lord _Hubert_, that came to me in _Gerrards_ name,
+And got me out, with my brave Boyes, to march
+Like _Caesar_, when he bred his Commentaries,
+So I, to bread my Chronicle, came forth
+_Caesar Van-dunk_, & _veni, vidi, vici_,
+Give me my Bottle, and set down the drum;
+You had your tricks Sir, had you? we ha' tricks too,
+You stole the Lady?
+
+_Hig._ And we led your Squadrons,
+Where they ha' scratch'd their leggs a little, with brambles,
+If not their faces.
+
+_Prig._ Yes, and run their heads
+Against trees.
+
+_Hig._ 'Tis Captain _Prig_, Sir.
+
+_Prig._ And Coronel _Higgen_.
+
+_Hig._ We have fill'd a pit with your people, some with leggs,
+Some with arms broken, and a neck or two
+I think be loose.
+
+_Prig._ The rest too, that escap'd,
+Are not yet out o'the briars,
+
+_Hig._ And your horses, Sir,
+Are well set up in _Bruges_ all by this time:
+You look as you were not well Sir, and would be
+Shortly let blood; do you want a scarf?
+
+_Van-d._ A halter.
+
+_Ger._ 'Twas like your self, honest, and noble _Hubert_:
+Can'st thou behold these mirrors all together,
+Of thy long, false, and bloody usurpation?
+Thy tyrrannous proscription, and fresh treason:
+And not so see thy self, as to fall down
+And sinking, force a grave, with thine own guilt,
+As deep as hell, to cover thee and it?
+
+_Wol._ No, I can stand: and praise the toyles that took me
+And laughing in them dye, they were brave snares.
+
+_Flo._ 'Twere truer valour, if thou durst repent
+The wrongs th' hast done, and live.
+
+_Wol._ Who, I repent?
+And say I am sorry? yes, 'tis the fool's language
+And not for _Wolfort_.
+
+_Van-d._ _Wolfort_, thou art a Devil,
+And speakst his language, oh that I had my longing
+Under this row of trees now would I hang him.
+
+_Flo._ No let him live, until he can repent,
+But banish'd from our State, that is thy doom.
+
+_Van-d._ Then hang his worthy Captain here, this _Hemskirk_
+For profit of th' example.
+
+_Flo._ No let him
+Enjoy his shame too: with his conscious life,
+To shew how much our innocence contemns
+All practice from the guiltiest, to molest us.
+
+_Van-d._ A noble Prince.
+
+_Ger._ Sir, you must help to join
+A pair of hands, as they have done their hearts here,
+And to their loves with joy.
+
+_Flo._ As to mine own,
+My gracious Sister, worthiest Brother.
+
+_Van._ I'le go afore, and have the bon-fire made,
+My fire-works, & flap dragons, and good backrack,
+With a peck of little fishes, to drink down
+In healths to this day.
+
+_Hig._ 'Slight, here be changes,
+The Bells ha' not so many, nor a dance, _Prig_.
+
+_Prig._ Our Company's grown horrible thin by it,
+What think you _Ferret_?
+
+_Fer._ Marry I do think,
+That we might all be Lords now, if we could stand for't.
+
+_Hig._ Not I if they should offer it: I'le dislodge first,
+Remove the Bush to another climat.
+
+_Ger._ Sir, you must thank this worthy _Burgomaster_,
+Here be friends ask to be look'd on too,
+And thank'd, who though their trade, and course of life
+Be not so perfect, but it may be better'd,
+Have yet us'd me with courtesy, and been true
+Subjects unto me, while I was their King,
+A place I know not well how to resign,
+Nor unto whom: But this I will entreat
+Your grace, command them follow you to _Bruges_;
+Where I will take the care on me, to find
+Some manly, and more profitable course
+To fit them, as a part of the Republique.
+
+_Flo._ Do you hear Sirs? do so.
+
+_Hig._ Thanks to your good grace.
+
+_Prig._ To your good Lordship.
+
+_Fer._ May you both live long.
+
+_Ger._ Attend me at _Van-dunks_, the _Burgomasters_.
+
+[_Ex. all but Beggars._
+
+_Hig._ Yes, to beat hemp, and be whipt twice a week,
+Or turn the wheel, for Crab the Rope-maker:
+Or learn to go along with him, his course;
+That's a fine course now, i' the common-wealth, _Prig_,
+What say you to it?
+
+_Prig._ It is the backwardst course,
+I know i'the world.
+
+_Hig._ Then _Higgen_ will scarce thrive by it,
+You do conclude?
+
+_Prig._ 'Faith hardly, very hardly.
+
+_Hig._ Troth I am partly of your mind, Prince _Prig_;
+And therefore farewel _Flanders_, _Higgen_ will seek
+Some safer shelter, in some other Climat,
+With this his tatter'd Colony: Let me see
+_Snap_, _Ferret_, _Prig_, and _Higgen_, all are left
+O' the true blood: what? shall we into _England_?
+
+_Prig._ Agreed.
+
+_Hig._ Then bear up bravely with your _Brute_ my lads,
+_Higgen_ hath prig'd the prancers in his dayes,
+And sold good penny-worths; we will have a course,
+The Spirit of _Bottom_, is grown bottomless.
+
+_Prig._ I'le mand no more, nor cant.
+
+_Hig._ Yes, your sixpenny worth
+In private, Brother, sixpence is a sum
+I'le steal you any mans Dogg for.
+
+_Prig._ For sixpence more
+You'l tell the owner where he is.
+
+_Hig._ 'Tis right,
+_Higgen_ must practise, so must _Prig_ to eat;
+And write the Letter: and gi' the word. But now
+No more, as either of these.
+
+_Prig._ But as true Beggars,
+As e're we were.
+
+_Hig._ We stand here, for an Epilogue;
+Ladies, your bounties first; the rest will follow;
+For womens favours are a leading alms,
+If you be pleas'd look cheerly, throw your eyes
+Out at your masks.
+
+_Prig._ And let your beauties sparkle.
+
+_Hig._ So may you ne'er want dressings, Jewels, gowns
+Still i' the fashion.
+
+_Prig._ Nor the men you love,
+Wealth nor discourse to please you.
+
+_Hig._ May you Gentlemen,
+Never want good fresh suits nor liberty.
+
+_Prig._ May every Merchant here see safe his ventures.
+
+_Hig._ And every honest Citizen his debts in.
+
+_Prig._ The Lawyers again good Clyents.
+
+_Hig._ And the Clyents good Counsel.
+
+_Prig._ All the Gamesters here good fortune.
+
+_Hig._ The Drunkards too good wine.
+
+_Prig._ The eaters meat
+Fit for their tastes and palats.
+
+_Hig._ The good wives kind Husbands.
+
+_Prig._ The young maids choyce of Sutors.
+
+_Hig._ The Midwives merry hearts.
+
+_Prig._ And all good cheer.
+
+_Hig._ As you are kind unto us and our Bush,
+We are the Beggars and your daily Beadsmen,
+And have your mony, but the Alms we ask
+And live by, is your Grace, give that, and then
+We'l boldly say our word is, _Come again_.
+
+
+
+
+APPENDIX
+
+
+p. 194,
+l. 1.  A] God e'n then.
+l. 28. C _misprints_] secrely.
+l. 30. A and B] tipple in wine.
+
+p. 195,
+l. 3.  A _omits_] ye.
+l. 11. A _repeats_] Ile swinge you.
+l. 15. A] utter, will all.
+l. 35. A and B] any devotions.
+
+p. 196,
+l. 2.  B] with torch.
+l. 18. A _misprints_] _Short_ for _Wid_.
+
+p. 197,
+l. 2.  A] and a vertuous.
+l. 3.  A] hay him up.
+l. 13. B] a your.
+
+p. 198,
+l. 2.  A] take.
+l. 3.  A _omits_] a.
+l. 25. A] No armes, no armes.
+l. 27. A and B] hang 'tis.
+l. 33. A _omits_] a.
+
+p. 199,
+l. 5.  B] An here.
+l. 10. A] his Nleson.
+l. 37. A _omits_] have.
+
+p. 200,
+l. 3.  A] pound.
+l. 10. A _omits_] you.
+l. 20. B] such knell.
+ll 23 and 24. A] to raise.
+
+p. 201,
+l. 5.  A] regements.
+l. 30. A and B] yond.
+
+p. 202,
+l. 2.  B] sees yon.
+l. 3.  A and B] thy Torch.
+l. 13. A] hay, but.
+l. 26. A and B] shall a Lady.
+
+p. 203,
+l. 10. A] their recompences.
+l. 20. A and B _add_] Exeunt.
+
+p. 204,
+l. 2.  B _omits_] us.
+l. 4.  A and B] this 'tis to.
+l. 12. A _omits_] put.
+l. 28. A and B] too.
+
+p. 205,
+l. 10 A] they are. B] they 'are.
+
+p. 207,
+l. 21. A and B _add_] Finis.
+
+
+
+BEGGARS BUSH.
+
+(A) The First Folio, 1647.
+
+(B) The | Beggars | Bush. | Written by | Francis Beaumont, And John
+Fletcher, Gentlemen. | [wood-cut] London, | Printed for Humphrey Robinson,
+and Anne Mosely, | at the three Pigeons, and at the Princes Arms | in
+Saint Pauls Church-yard, 1661.
+
+Another issue of the above, dated 1661, has a fresh title-page and bears
+the following notice:--'You may speedily expect those other Playes, which
+| Kirkman, and his Hawkers have deceived the | buyers withall, selling
+them at treble the value, that | this and the rest will be sold for, which
+are the | onely Originall and corrected copies, as they | were first
+purchased by us at no mean | rate, and since printed by us.'
+
+B prints the Prologue and Epilogue to _The Captaine_ as though they
+belonged to _Beggars Bush_, apparently treating the last page of _The
+Captain_ in A as though it were the first page of _Beggars Bush_.
+
+(C) The Second Folio.
+
+p. 208. A _omits_], A Comedy ... The Scene Flanders.
+ll. 2-4. B] Dramatis Personae. _These are as follows_:
+
+Drammatis Personae.
+
+_Goswin_ a young Merchant of _Bruges_,
+      viz. _Florez_ the right Earl of _Flanders_
+_Woolfort_, Usurper of the Earldome,
+_Clause_ King of Beggars,
+      viz. _Gerrard_ Father to _Florez_,
+_Hubert_ disguised like a Huntsman, A Lord of Flaunders
+_Hemskirk_, A Favourite of the Usurper.
+Lord _Arnold_)
+Lord _Costin_) Two Lords of _Flaunders_ disguis'd like Beggars
+_Jaqueline_, Daughter to _Gerrard_.
+_Bertha_, Heir of Brabant.
+_Van-dunck_ Burgomaster of _Bruges_
+Merchants, Saylor, &c.
+_Higgen, Ferret, Prig, Snap_, and others, Beggars.
+Boors,
+Souldiers
+Young Merchants, and others, Guests at _Goswins_ Wedding.
+_Margaret_, Wife to _Vandunck_
+Attendants,
+Boy with a Song.
+                      The Scene BRUGES.
+p. 209,
+ll. 6 and 27. A and B] Countess.
+l. 34. C _misprints_] houour.
+
+p. 210,
+l. 9. B _omits_] that.
+l. 34. A] On mine.
+
+p. 211,
+l. 37. A and B] loyalty so suspected.
+
+p. 212,
+l. 15. A and B] answers.
+l. 22. C _misprints_] their.
+
+p. 214,
+l. 2. A and B for _Goswin read_] _Florez_ and so throughout the play.
+
+p. 215,
+l. 30. A _and some copies of_ B] Or the dear.
+
+p. 216,
+l. 10. A and B] him only.
+l. 25. A and B] Suck him.
+l. 35. A and B] near my price.
+
+p. 217,
+l. 6. C _misprints_] farily.
+
+p. 218,
+l. 18. A and B] Quitchineel.
+
+p. 219,
+l. 3. A and B] God a mercy.
+l. 15. A here and often later prints _Ger._ for _Clau._
+
+p. 221,
+l. 18. A and B _omit_] I.
+l. 27. A and B] his call.
+l. 30. A and B] To whom that.
+l. 36. B] this man.
+
+p. 222,
+l. 20. B] Thou that art.
+
+p. 223,
+l. 12. A and B] all hem'd out.
+l. 34. A and B] bene whids.
+
+p. 224,
+l. 3. A and B] their true pass-ports.
+l. 23. A and B] _Offices_.
+l. 24. A and B] _penny ceast_.
+l. 27. B _omits_] _and_.
+l. 28. A and B _omit_] comes.
+
+p. 225,
+l. 4. A and B] Ger.
+l. 25. A and B _omit_] _Exit_.
+l. 33. A _omits_] is.
+       B] 'Tis.
+
+p. 226,
+l. 4. A and B] she says.
+l. 9. A and B] O the.
+l. 24. A] skuys.
+       B] scuce.
+
+p. 227,
+ll. 7 and 18. A and B _omit_] Exit.
+l. 9. B] ruine.
+l. 26. A and B] against.
+l. 35. A and B] _Meg._ some wine.
+
+p. 228,
+l. 15. A and B] _Mage_, fill out.
+l. 32. A _by error prints this line twice_.
+l. 35. C _misprints_] with.
+
+p. 229,
+l. 17. B] to admit.
+
+p. 230,
+l. 6. A] makes this trade.
+l. 18. A and B] rate's at more.
+l. 21. C _misprints_] Hab.
+
+p. 231,
+l. 10. B] these.
+l. 13. A and B] your errour.
+l. 25. B _omits_] doth.
+
+p. 232,
+l. 3. A and B _omit_] _Strikes him_.
+ll. 5 and 6. A and B _omit_] _He gets ... the head_.
+l. 7. A and B here and later often print _Ber._ for _Ger._
+l. 39. B _omits_] you.
+
+p. 233,
+l. 4. A and B _omit_] _and_ Ger.
+
+p. 234,
+l. 18. A and B] Start beer.
+l. 33. A] to high, etc.
+
+p. 235,
+l. 3. B] _any branches_.
+l. 28. B] _To make up_.
+
+p. 236,
+ A and B _omit the whole of Song_.
+l. 21. B _omits_] There sweet Sow-Gelder.
+
+p. 238,
+l. 17. B] Come away fair Maids, put your ware away.
+l. 18. B _omits the entire line_.
+l. 24. B _omits the fourth_ fill.
+
+p. 239,
+l. 9. A and B] o' their Prestoes.
+l. 35. C] commands.
+
+p. 240,
+l. 4. B _omits_] a.
+
+p. 241,
+l. 7. A and B] is toss'd too.
+l. 18. B] Aa's.
+
+p. 242,
+l. 12. B] thy honour.
+
+p. 243,
+l. 7. A and B _omit_] Sir, I must not leave ye.
+l. 8. A and B] I must not.
+l. 25. A and B] That's all.
+
+p. 244,
+l. 1. B] men that have.
+l. 3. A and B _omit_] on.
+l. 25. A and B] as they please.
+
+p. 246,
+l. 32. A and B _omit_] _Beat one another_.
+
+p. 248,
+l. 23. A] Reimald.
+ll. 35 and 38. A and B _omit_] aside.
+
+p. 249,
+l. 1. A and B _omit_] with.
+l. 15. A] I have.
+l. 38. A and B, _in 2 lines_] Yes, venson, | Or if I want-- |
+
+p. 250,
+l. 1. A and B] shall learn.
+l. 4. A and B] Yes if I.
+l. 5. A and B arrange the rest of the Scene thus]
+
+_Ger_. Now sweare him.
+
+_Hig_. You are welcom Brother.
+
+_All_. Welcom, welcom, welcom, but who shall have the keeping
+Of this fellow?
+
+_Hub_. Thank ye friends,
+And I beseech ye, if you dare but trust me;
+For if I have kept wilde doggs and beastes for wonder,
+And made 'em tame too: give into my custody
+This roaring rascal I shall hamper him,
+With all his knacks and knaveryes, and I feare me
+Discover yet a further villany in him;
+O he smells ranck 'oth rascall.
+
+_Ger_. Take him to thee,
+But if he scape--
+
+_Hub_. Let me be ev'n hang'd for him,
+Roome Sir, I'le tye ye to my leash.
+
+_Hem_. Away Rascall.
+
+_Hub_. Be not so stubborne: I shall swindge ye soundly,
+And ye play tricks with me.
+
+_Ger_. Now sweare him.
+
+_Hig_. I crowne thy nab, with a gag of benbouse,
+And stall thee by the salmon into the clowes,
+To mand on the pad, and strike all the cheates;
+To mill from the Ruffmans, commision and slates,
+Twang dell's, i'the stiromell, and let the Quire Cuffin:
+And Herman Beck strine, and trine to the Ruffin.
+
+_Ger_. Now interpret this unto him.
+
+_Hig_. I poure on thy pate a pot of good ale,
+And by the Rogues oth a Rogue thee install:
+To beg on the way, to rob all thou meetes;
+To steale from the hedge, both the shirt and the sheets:
+And lye with thy wench in the straw till she twang,
+Let the Constable, Justice, and Divell go hang.
+
+_Ger_. So, now come in,
+But ever have an eye Sir, to your prisoner.
+
+_Hub_. He must blinde both mine eyes, if he get from me.
+
+_Ger_. Go, get some victualls, and some drink, some good drink
+For this day weele keep holly to good fortune,
+Come and be frollick with us.
+
+_Hig_. Ye are a stanger.               _Exeunt_.
+
+p. 250,
+l. 14. C] o' th'.
+
+p. 251,
+ll. 12 and 37 and often elsewhere. A and B] _Jertred_.
+
+p. 252,
+l. 16. A and B] what ayle ye.
+l. 35. A] Despise me.
+
+p. 253,
+l. 7. A and B] wind or.
+l. 11. A and B] no lying here.
+
+p. 254,
+l. 13. A] Porter.
+l. 34. B] we daily get.
+
+p. 255,
+l 13. A and B] confess it.
+      A and B _omit stage direction_.
+l. 18. A and B _omit_] for.
+
+p. 256,
+l. 28. A and B] Here in bosome, and.
+       C] my bosom.
+
+p. 257,
+l. 5. A and B] it would.
+
+p. 258,
+l. 15. A] This ye are I.
+       B] This year I.
+
+p. 260,
+l. 5. C _misprints_] righty.
+l. 35. A and B] your letting free.
+
+p. 261,
+l. 7. C _misprints_] Hem.
+
+p. 262,
+l. 17. A and B] baldrick, what a.
+l. 28. C] pertious.
+
+p. 263,
+l. 16. A and B] stands.
+l. 27. A and B] that whorson.
+l. 28. A] baster'd bullions.
+       B] bastar'd bullions.
+l. 30. A and B] and change a.
+l. 32. A and B] mangy soul.
+l. 35. A and B] keep this in.
+
+p. 264,
+l. 1. A and B] We be monstrous out.
+
+p. 265,
+l. 26. A _omits_] the.
+
+p. 267,
+l. 6. C _misprints_] Heaveu.
+l. 9. B _omits_] design.
+
+p. 268,
+l. 10. A and B] nor sorrow; Oh me.
+l. 11. A and B _omit_] Ah me.
+l. 33. A and B _omit_] me.
+
+p. 269,
+l. 11. A and B] left ham.
+l. 19. A and B _omit_] strange.
+
+p. 270,
+l. 26. B] whipt.
+l. 29. B _omits one_] 'tis she.
+l. 39. A and B] Merchants shop.
+
+p. 271,
+l. 6. A _and some copies of_ B _expand Ger.'s speech as follows_]
+
+_Ber_. O I am miserably lost, thus falne
+Into my uncles hands from all my hopes,
+Can I not thinke away my selfe and dye?
+O I am miserably lost; thus fallen
+Into my uncles hands, from all my hopes:
+No matter now, where thou be false or no,
+_Goswin_, whether thou love an other better;
+Or me alone; or where thou keep thy vow,
+And word, or that thou come, or stay: for I
+To thee from henceforth, must be ever absent,
+And thou to me: no more shall we come neere,
+To tell our selves, how bright each other [B others] eyes were,
+How soft our language, and how sweet our kisses,
+Whil'st we made one our food, th'other our feast,
+Not mix our soules by sight, or by a letter
+Hereafter, but as small relation have,
+As two new gon to in habiting a grave:
+Can I not thinke away my selfe and dye?
+
+l. 23. A and B] or a.
+l. 29. A and B] alone for any Farmers.
+l. 38. A and B] Will ye.
+
+p. 272,
+l. 17. A _and_ B _give from_ That's well _to Hub._ (_Char._).
+l. 27. B] to ye will.
+
+p. 273,
+l. 32. B] those speciall.
+
+p. 274,
+l. 12. A and B] your story.
+l. 33. A and B] Use my.
+
+p. 275,
+l. 37. A and B] For your.
+
+p. 276,
+l. 2. B] marrying her Sir.
+      B _omits at end of line_] Sir.
+
+p. 277,
+l. 19. A and B] to end my.
+l. 31. B _omits_] have.
+
+p. 279,
+l. 11. A and B] follow me.
+
+p. 280,
+l. 26. A and B] gain.
+l. 40. B _adds_] Finis.
+
+
+
+THE HUMOUROUS LIEUTENANT.
+
+(A) The First Folio.
+(B) The Second Folio.
+(C) The Manuscript dated Novemb. 27. 1625.
+This MS. is a beatiful specimen of Ralph Crane's caligraphy. It is bound
+in vellum, with gilt lines and gilt design on the cover. The following
+particulars are written on a leaf before the title-page:--
+
+'K Digby Margrit
+
+This manuscript beloged to the celebrated
+Sir Kenelm Digby. His grand-daughter
+(one of the daughters & co-heireses of his eldest
+son, John Digby) was married to Richard Mostyn Esq.
+of Penbedw in Denbighshire, & their daughter
+& coheiress to Richard Williams Esq. my Great Grandfather.
+Thro' this connection of my family with
+that of Digby, several of Sir Kenelm's books
+& Manuscripts have come into my possession.
+Wm W. E. Wynne.
+given by W.W.E Wynne Esq. to me
+W. Ormsby Gore
+April 8. 1837.
+
+The title-page is as follows:--
+'Demetrius
+and
+Enanthe,
+a pleasant Comedie
+Written by
+John Fletcher gent.'
+
+
+
+
+
+End of Project Gutenberg's Beggars Bush, by Francis Beaumont and John Fletcher
+
+*** END OF THIS PROJECT GUTENBERG EBOOK BEGGARS BUSH ***
+
+***** This file should be named 12221.txt or 12221.zip *****
+This and all associated files of various formats will be found in:
+        http://www.gutenberg.net/1/2/2/2/12221/
+
+Produced by Jonathan Ingram, Jonathan Ingram, Charles M. Bidwell and
+the Online Distributed Proofreading Team.
+
+
+Updated editions will replace the previous one--the old editions
+will be renamed.
+
+Creating the works from public domain print editions means that no
+one owns a United States copyright in these works, so the Foundation
+(and you!) can copy and distribute it in the United States without
+permission and without paying copyright royalties.  Special rules,
+set forth in the General Terms of Use part of this license, apply to
+copying and distributing Project Gutenberg-tm electronic works to
+protect the PROJECT GUTENBERG-tm concept and trademark.  Project
+Gutenberg is a registered trademark, and may not be used if you
+charge for the eBooks, unless you receive specific permission.  If you
+do not charge anything for copies of this eBook, complying with the
+rules is very easy.  You may use this eBook for nearly any purpose
+such as creation of derivative works, reports, performances and
+research.  They may be modified and printed and given away--you may do
+practically ANYTHING with public domain eBooks.  Redistribution is
+subject to the trademark license, especially commercial
+redistribution.
+
+
+
+*** START: FULL LICENSE ***
+
+THE FULL PROJECT GUTENBERG LICENSE
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg-tm mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase "Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
+Gutenberg-tm License (available with this file or online at
+http://gutenberg.net/license).
+
+
+Section 1.  General Terms of Use and Redistributing Project Gutenberg-tm
+electronic works
+
+1.A.  By reading or using any part of this Project Gutenberg-tm
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement.  If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or destroy
+all copies of Project Gutenberg-tm electronic works in your possession.
+If you paid a fee for obtaining a copy of or access to a Project
+Gutenberg-tm electronic work and you do not agree to be bound by the
+terms of this agreement, you may obtain a refund from the person or
+entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B.  "Project Gutenberg" is a registered trademark.  It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement.  There are a few
+things that you can do with most Project Gutenberg-tm electronic works
+even without complying with the full terms of this agreement.  See
+paragraph 1.C below.  There are a lot of things you can do with Project
+Gutenberg-tm electronic works if you follow the terms of this agreement
+and help preserve free future access to Project Gutenberg-tm electronic
+works.  See paragraph 1.E below.
+
+1.C.  The Project Gutenberg Literary Archive Foundation ("the Foundation"
+or PGLAF), owns a compilation copyright in the collection of Project
+Gutenberg-tm electronic works.  Nearly all the individual works in the
+collection are in the public domain in the United States.  If an
+individual work is in the public domain in the United States and you are
+located in the United States, we do not claim a right to prevent you from
+copying, distributing, performing, displaying or creating derivative
+works based on the work as long as all references to Project Gutenberg
+are removed.  Of course, we hope that you will support the Project
+Gutenberg-tm mission of promoting free access to electronic works by
+freely sharing Project Gutenberg-tm works in compliance with the terms of
+this agreement for keeping the Project Gutenberg-tm name associated with
+the work.  You can easily comply with the terms of this agreement by
+keeping this work in the same format with its attached full Project
+Gutenberg-tm License when you share it without charge with others.
+
+1.D.  The copyright laws of the place where you are located also govern
+what you can do with this work.  Copyright laws in most countries are in
+a constant state of change.  If you are outside the United States, check
+the laws of your country in addition to the terms of this agreement
+before downloading, copying, displaying, performing, distributing or
+creating derivative works based on this work or any other Project
+Gutenberg-tm work.  The Foundation makes no representations concerning
+the copyright status of any work in any country outside the United
+States.
+
+1.E.  Unless you have removed all references to Project Gutenberg:
+
+1.E.1.  The following sentence, with active links to, or other immediate
+access to, the full Project Gutenberg-tm License must appear prominently
+whenever any copy of a Project Gutenberg-tm work (any work on which the
+phrase "Project Gutenberg" appears, or with which the phrase "Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
+copied or distributed:
+
+This eBook is for the use of anyone anywhere at no cost and with
+almost no restrictions whatsoever.  You may copy it, give it away or
+re-use it under the terms of the Project Gutenberg License included
+with this eBook or online at www.gutenberg.net
+
+1.E.2.  If an individual Project Gutenberg-tm electronic work is derived
+from the public domain (does not contain a notice indicating that it is
+posted with permission of the copyright holder), the work can be copied
+and distributed to anyone in the United States without paying any fees
+or charges.  If you are redistributing or providing access to a work
+with the phrase "Project Gutenberg" associated with or appearing on the
+work, you must comply either with the requirements of paragraphs 1.E.1
+through 1.E.7 or obtain permission for the use of the work and the
+Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
+1.E.9.
+
+1.E.3.  If an individual Project Gutenberg-tm electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any additional
+terms imposed by the copyright holder.  Additional terms will be linked
+to the Project Gutenberg-tm License for all works posted with the
+permission of the copyright holder found at the beginning of this work.
+
+1.E.4.  Do not unlink or detach or remove the full Project Gutenberg-tm
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg-tm.
+
+1.E.5.  Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg-tm License.
+
+1.E.6.  You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including any
+word processing or hypertext form.  However, if you provide access to or
+distribute copies of a Project Gutenberg-tm work in a format other than
+"Plain Vanilla ASCII" or other format used in the official version
+posted on the official Project Gutenberg-tm web site (www.gutenberg.net),
+you must, at no additional cost, fee or expense to the user, provide a
+copy, a means of exporting a copy, or a means of obtaining a copy upon
+request, of the work in its original "Plain Vanilla ASCII" or other
+form.  Any alternate format must include the full Project Gutenberg-tm
+License as specified in paragraph 1.E.1.
+
+1.E.7.  Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg-tm works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8.  You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg-tm electronic works provided
+that
+
+- You pay a royalty fee of 20% of the gross profits you derive from
+     the use of Project Gutenberg-tm works calculated using the method
+     you already use to calculate your applicable taxes.  The fee is
+     owed to the owner of the Project Gutenberg-tm trademark, but he
+     has agreed to donate royalties under this paragraph to the
+     Project Gutenberg Literary Archive Foundation.  Royalty payments
+     must be paid within 60 days following each date on which you
+     prepare (or are legally required to prepare) your periodic tax
+     returns.  Royalty payments should be clearly marked as such and
+     sent to the Project Gutenberg Literary Archive Foundation at the
+     address specified in Section 4, "Information about donations to
+     the Project Gutenberg Literary Archive Foundation."
+
+- You provide a full refund of any money paid by a user who notifies
+     you in writing (or by e-mail) within 30 days of receipt that s/he
+     does not agree to the terms of the full Project Gutenberg-tm
+     License.  You must require such a user to return or
+     destroy all copies of the works possessed in a physical medium
+     and discontinue all use of and all access to other copies of
+     Project Gutenberg-tm works.
+
+- You provide, in accordance with paragraph 1.F.3, a full refund of any
+     money paid for a work or a replacement copy, if a defect in the
+     electronic work is discovered and reported to you within 90 days
+     of receipt of the work.
+
+- You comply with all other terms of this agreement for free
+     distribution of Project Gutenberg-tm works.
+
+1.E.9.  If you wish to charge a fee or distribute a Project Gutenberg-tm
+electronic work or group of works on different terms than are set
+forth in this agreement, you must obtain permission in writing from
+both the Project Gutenberg Literary Archive Foundation and Michael
+Hart, the owner of the Project Gutenberg-tm trademark.  Contact the
+Foundation as set forth in Section 3 below.
+
+1.F.
+
+1.F.1.  Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+public domain works in creating the Project Gutenberg-tm
+collection.  Despite these efforts, Project Gutenberg-tm electronic
+works, and the medium on which they may be stored, may contain
+"Defects," such as, but not limited to, incomplete, inaccurate or
+corrupt data, transcription errors, a copyright or other intellectual
+property infringement, a defective or damaged disk or other medium, a
+computer virus, or computer codes that damage or cannot be read by
+your equipment.
+
+1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the "Right
+of Replacement or Refund" described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg-tm trademark, and any other party distributing a Project
+Gutenberg-tm electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees.  YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH F3.  YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3.  LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from.  If you
+received the work on a physical medium, you must return the medium with
+your written explanation.  The person or entity that provided you with
+the defective work may elect to provide a replacement copy in lieu of a
+refund.  If you received the work electronically, the person or entity
+providing it to you may choose to give you a second opportunity to
+receive the work electronically in lieu of a refund.  If the second copy
+is also defective, you may demand a refund in writing without further
+opportunities to fix the problem.
+
+1.F.4.  Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you 'AS-IS' WITH NO OTHER
+WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+WARRANTIES OF MERCHANTIBILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5.  Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of damages.
+If any disclaimer or limitation set forth in this agreement violates the
+law of the state applicable to this agreement, the agreement shall be
+interpreted to make the maximum disclaimer or limitation permitted by
+the applicable state law.  The invalidity or unenforceability of any
+provision of this agreement shall not void the remaining provisions.
+
+1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg-tm electronic works in accordance
+with this agreement, and any volunteers associated with the production,
+promotion and distribution of Project Gutenberg-tm electronic works,
+harmless from all liability, costs and expenses, including legal fees,
+that arise directly or indirectly from any of the following which you do
+or cause to occur: (a) distribution of this or any Project Gutenberg-tm
+work, (b) alteration, modification, or additions or deletions to any
+Project Gutenberg-tm work, and (c) any Defect you cause.
+
+
+Section  2.  Information about the Mission of Project Gutenberg-tm
+
+Project Gutenberg-tm is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of computers
+including obsolete, old, middle-aged and new computers.  It exists
+because of the efforts of hundreds of volunteers and donations from
+people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need, is critical to reaching Project Gutenberg-tm's
+goals and ensuring that the Project Gutenberg-tm collection will
+remain freely available for generations to come.  In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg-tm and future generations.
+To learn more about the Project Gutenberg Literary Archive Foundation
+and how your efforts and donations can help, see Sections 3 and 4
+and the Foundation web page at http://www.pglaf.org.
+
+
+Section 3.  Information about the Project Gutenberg Literary Archive
+Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service.  The Foundation's EIN or federal tax identification
+number is 64-6221541.  Its 501(c)(3) letter is posted at
+http://pglaf.org/fundraising.  Contributions to the Project Gutenberg
+Literary Archive Foundation are tax deductible to the full extent
+permitted by U.S. federal laws and your state's laws.
+
+The Foundation's principal office is located at 4557 Melan Dr. S.
+Fairbanks, AK, 99712., but its volunteers and employees are scattered
+throughout numerous locations.  Its business office is located at
+809 North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email
+business@pglaf.org.  Email contact links and up to date contact
+information can be found at the Foundation's web site and official
+page at http://pglaf.org
+
+For additional contact information:
+     Dr. Gregory B. Newby
+     Chief Executive and Director
+     gbnewby@pglaf.org
+
+Section 4.  Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg-tm depends upon and cannot survive without wide
+spread public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine readable form accessible by the widest
+array of equipment including outdated equipment.  Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States.  Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements.  We do not solicit donations in locations
+where we have not received written confirmation of compliance.  To
+SEND DONATIONS or determine the status of compliance for any
+particular state visit http://pglaf.org
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States.  U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg Web pages for current donation
+methods and addresses.  Donations are accepted in a number of other
+ways including including checks, online payments and credit card
+donations.  To donate, please visit: http://pglaf.org/donate
+
+
+Section 5.  General Information About Project Gutenberg-tm electronic
+works.
+
+Professor Michael S. Hart is the originator of the Project Gutenberg-tm
+concept of a library of electronic works that could be freely shared
+with anyone.  For thirty years, he produced and distributed Project
+Gutenberg-tm eBooks with only a loose network of volunteer support.
+
+Project Gutenberg-tm eBooks are often created from several printed
+editions, all of which are confirmed as Public Domain in the U.S.
+unless a copyright notice is included.  Thus, we do not necessarily
+keep eBooks in compliance with any particular paper edition.
+
+Each eBook is in a subdirectory of the same number as the eBook's
+eBook number, often in several formats including plain vanilla ASCII,
+compressed (zipped), HTML and others.
+
+Corrected EDITIONS of our eBooks replace the old file and take over
+the old filename and etext number.  The replaced older file is renamed.
+VERSIONS based on separate sources are treated as new eBooks receiving
+new filenames and etext numbers.
+
+Most people start at our Web site which has the main PG search facility:
+
+     http://www.gutenberg.net
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+EBooks posted prior to November 2003, with eBook numbers BELOW #10000,
+are filed in directories based on their release date.  If you want to
+download any of these eBooks directly, rather than using the regular
+search system you may utilize the following addresses and just
+download by the etext year.
+
+     http://www.gutenberg.net/etext06
+
+    (Or /etext 05, 04, 03, 02, 01, 00, 99,
+     98, 97, 96, 95, 94, 93, 92, 92, 91 or 90)
+
+EBooks posted since November 2003, with etext numbers OVER #10000, are
+filed in a different way.  The year of a release date is no longer part
+of the directory path.  The path is based on the etext number (which is
+identical to the filename).  The path to the file is made up of single
+digits corresponding to all but the last digit in the filename.  For
+example an eBook of filename 10234 would be found at:
+
+     http://www.gutenberg.net/1/0/2/3/10234
+
+or filename 24689 would be found at:
+     http://www.gutenberg.net/2/4/6/8/24689
+
+An alternative method of locating eBooks:
+     http://www.gutenberg.net/GUTINDEX.ALL
+
+
