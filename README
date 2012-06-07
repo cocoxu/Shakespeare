@@ -49,3 +49,28 @@ scripts and html pages used:
   dictionary/*.htm 
   python/crawl_dictionary.py	
   python/scrap_dictionary.py
+
+mert/
+Contains held out dev data from Romeo & Juliet for discriminative training.
+mert/mert-work/moses.ini contains tuned weights for the 16 plays model
+
+eval/
+Files for evaluating BLEU.  Below are some results from the 16 plays model with/without MERT:
+
+First note that the 2nd translation (enotes.com) appears to be much closer to the original text than the first (sparknotes):
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < ascii.romeojuliet_modern.1
+BLEU = 16.93, 43.1/22.4/12.7/6.7 (BP=1.000, ratio=1.028, hyp_len=3394, ref_len=3303)
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < ascii.romeojuliet_modern.2
+BLEU = 45.91, 68.0/51.3/40.1/31.8 (BP=1.000, ratio=1.028, hyp_len=3397, ref_len=3303)
+
+In the both cases, the trannslated versions obtain better BLEU scores than the modern (although only slightly in the second case), and discriminative training improves BLEU modest amount:
+*Important: note that the phrase table and LM don't include the enotes.com versions.
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_no_mert.1 
+BLEU = 18.04, 44.4/23.4/13.6/7.5 (BP=1.000, ratio=1.022, hyp_len=3376, ref_len=3303)
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_mert.1 
+BLEU = 18.22, 44.1/23.4/13.9/7.7 (BP=1.000, ratio=1.028, hyp_len=3397, ref_len=3303)
+
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_no_mert.2 
+BLEU = 43.65, 68.3/49.7/37.4/28.6 (BP=1.000, ratio=1.023, hyp_len=3380, ref_len=3303)
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_mert.2 
+BLEU = 45.96, 68.3/51.5/40.1/31.7 (BP=1.000, ratio=1.033, hyp_len=3411, ref_len=3303)
