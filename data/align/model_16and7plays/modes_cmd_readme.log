@@ -1,0 +1,3 @@
+
+
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/training/train-model.perl --scripts-root-dir /Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/ --root-dir /Users/wei/Work/AlanShakespere/Shakespere/data/align/model_16and7plays/ --corpus train_plays1and2_lowercased --alignment grow-diag-final-and --reordering msd-bidirectional-fe --lm 0:3:/Users/wei/Work/AlanShakespere/Shakespere/data/align/plays/model_16plays/train_plays_lowercased.original.lm --f modern --e original
