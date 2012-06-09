@@ -1,0 +1,23 @@
+modern1/original1: http://nfs.sparknotes.com/
+modern2/original2: http://www.enotes.com/
+modern3: http://shakespeare.mit.edu/
+ 
+
+= Original Data (for LM) =
+
+- LM1: aligned 16 plays of modern1  
+/data/align/plays/model_16plays/train_plays_lowercased.original.lm
+
+- LM2: 16 plays of modern1
+
+- LM3: all Shakespeare plays
+
+
+= Parallel Data (for phrase table) =
+
+- PD1: 16 plays of modern1
+/data/align/plays/model_16plays/
+
+- PD2: 16 plays of modern1 + 7 plays of modern2
+/data/align/model_16and7plays/
+
