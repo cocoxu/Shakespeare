@@ -1,0 +1,2 @@
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/tokenizer.perl < 37plays.original > 37plays_tokenized.original
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/tokenizer/lowercase.perl < 37plays_tokenized.original > 37plays_tokenized_lowercased.original 
