@@ -1,0 +1,7 @@
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/training/train-model.perl --scripts-root-dir /Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/ --root-dir work --corpus ./corpus/train_plays1and2_lowercased --alignment grow-diag-final-and --reordering msd-bidirectional-fe --lm 0:3:/Users/wei/Work/AlanShakespere/Shakespere/models/LMs/37plays_tokenized_lowercased.original.lm --f modern --e original
+
+
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/training/train-model.perl --scripts-root-dir /Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/ --root-dir work --corpus ./corpus/train_plays_lowercased --alignment grow-diag-final-and --reordering msd-bidirectional-fe --lm 0:3:/Users/wei/Work/AlanShakespere/Shakespere/models/LMs/37plays_tokenized_lowercased.original.lm --f modern --e original
+
+
+echo "give yourself to the dark side . it is the only way you can save your friends . yes , your thoughts betray you . your feelings for them are strong . especially for -dots- [ pauses ] sister -exclam- so , you have a twin sister . your feelings have now betrayed her too . obi-wan was wise to hide her from me . now his failure is complete . if you will not turn to the dark side , then perhaps she will -exclam-" | /Users/wei/Work/AlanShakespere/Moses/tools/moses/dist/bin/moses -f moses.ini
