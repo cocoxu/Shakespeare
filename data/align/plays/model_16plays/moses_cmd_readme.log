@@ -1,6 +1,10 @@
 
 export DYLD_LIBRARY_PATH=/Users/wei/Work/AlanShakespere/Moses/tools/boost/lib64:$DYLD_LIBRARY_PATH
 
+
+http://www.statmt.org/moses_steps.html
+
+
 wei-xus-macbook:sample-models weixu$ /Users/wei/Work/AlanShakespere/Moses/tools/moses/dist/bin/moses -f ./phrase-model/moses.ini < ./phrase-model/in > ./phrase-model/out
 
 
@@ -18,3 +22,14 @@ Input sentences: 19617  Output sentences:  19435
 we enjoyed this peaceful and picturesque town . 
 we arrived somewhat late in the day , so didn ’ t make it to the monkey park or take a boat ride , but we enjoyed walking around the town and through the bamboo forest .
 we can see the horizon line far away in the sea , while enjoying the sunset .
+
+= Translate =
+
+echo "we arrived somewhat late in the day , so didn ’ t make it to the monkey park or take a boat ride , but we enjoyed walking around the town and through the bamboo forest ." | /Users/wei/Work/AlanShakespere/Moses/tools/moses/dist/bin/moses -f moses.ini
+
+= Bleu Score =
+
+/Users/wei/Work/AlanShakespere/Moses/tools/moses/scripts/generic/multi-bleu.perl
+
+http://www.statmt.org/moses/?n=Moses.SupportTools#ntoc5
+
