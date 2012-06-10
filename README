@@ -74,3 +74,16 @@ BLEU = 18.22, 44.1/23.4/13.9/7.7 (BP=1.000, ratio=1.028, hyp_len=3397, ref_len=3
 BLEU = 43.65, 68.3/49.7/37.4/28.6 (BP=1.000, ratio=1.023, hyp_len=3380, ref_len=3303)
 -bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_mert.2 
 BLEU = 45.96, 68.3/51.5/40.1/31.7 (BP=1.000, ratio=1.033, hyp_len=3411, ref_len=3303)
+
+
+
+
+./models/Lexicons/singleword1/
+A very simple (not sure about correctness) dictionary-based model, which can translate "No way excuse his disadvantages when we do bear" into "No way excuse his foils when we do bear". The phrase table P(o|m) based on a verbatim dictionary (1520 pairs) and the frequencies of the 'original' words in the 37 Shakespeare plays. E.g. 
+   - There are two entries of Shakespearean word 'abrook' in the dictionary 'abrook -> abide' and 'abrook' -> 'brook'. Extend it to 'modern -> original' phrase table, by considering the reverse direction (e.g. 'abide -> abrook' etc ), the identical word pair (e.g. 'abide -> abide' etc), and adding suffixes (e.g. 'abides -> abrooks', 'abideed -> abrooked', etc)
+   - Look into the language model built on 37 original plays (37plays_tokenized_lowercased.original.1gram) and derive P(o|m) based on unigram conditional probability. E.g. 
+    abide ||| abide ||| 0.940088299386192
+    abide ||| abrook ||| 0.0599117006138077
+    brook ||| brook ||| 0.95608871056976
+    brook ||| abrook ||| 0.0439112894302401
+
