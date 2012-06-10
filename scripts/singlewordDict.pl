@@ -22,8 +22,9 @@ foreach my $unigramline (@unigramlines) {
 	
 	$unigrams{$oword} = $prob;
 	
-	#print $oword."\t".$cprob."\n";
-
+	#if($oword eq 'brooks') {
+	#print $oword."\t".$prob."\n";
+	#}
 }
 
 
@@ -68,6 +69,7 @@ foreach my $indictline (@indictlines) {
 		
 		#print $modernword."\t".$originalword."\n";
 	}
+	
 }
 
 
