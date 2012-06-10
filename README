@@ -58,24 +58,40 @@ eval/
 Files for evaluating BLEU.  Below are some results from the 16 plays model with/without MERT:
 
 First note that the 2nd translation (enotes.com) appears to be much closer to the original text than the first (sparknotes):
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < ascii.romeojuliet_modern.1
-BLEU = 16.93, 43.1/22.4/12.7/6.7 (BP=1.000, ratio=1.028, hyp_len=3394, ref_len=3303)
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < ascii.romeojuliet_modern.2
-BLEU = 45.91, 68.0/51.3/40.1/31.8 (BP=1.000, ratio=1.028, hyp_len=3397, ref_len=3303)
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < ascii.romeojuliet_tokenized_lower_modern.1
+BLEU = 24.67, 56.5/30.2/18.8/11.5 (BP=1.000, ratio=1.047, hyp_len=4312, ref_len=4120)
+-bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < ascii.romeojuliet_tokenized_lower_modern.2
+BLEU = 52.30, 75.9/57.7/46.0/37.1 (BP=1.000, ratio=1.044, hyp_len=4300, ref_len=4120)
 
-In the both cases, the trannslated versions obtain better BLEU scores than the modern (although only slightly in the second case), and discriminative training improves BLEU modest amount:
-*Important: note that the phrase table and LM don't include the enotes.com versions.
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_no_mert.1 
-BLEU = 18.04, 44.4/23.4/13.6/7.5 (BP=1.000, ratio=1.022, hyp_len=3376, ref_len=3303)
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_mert.1 
-BLEU = 18.22, 44.1/23.4/13.9/7.7 (BP=1.000, ratio=1.028, hyp_len=3397, ref_len=3303)
-
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_no_mert.2 
-BLEU = 43.65, 68.3/49.7/37.4/28.6 (BP=1.000, ratio=1.023, hyp_len=3380, ref_len=3303)
--bash-4.1$ ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_original < output_mert.2 
-BLEU = 45.96, 68.3/51.5/40.1/31.7 (BP=1.000, ratio=1.033, hyp_len=3411, ref_len=3303)
-
-
+Current BLEU scores (looks like the larger LM has a big effect):
+16and7plays_16LM.1
+BLEU = 27.35, 59.8/33.3/21.0/13.4 (BP=1.000, ratio=1.041, hyp_len=4287, ref_len=4120)
+16and7plays_16LM_mert.1
+BLEU = 27.61, 59.9/33.8/21.4/13.5 (BP=1.000, ratio=1.039, hyp_len=4281, ref_len=4120)
+16and7plays_16LM.2
+BLEU = 52.68, 77.4/58.6/46.2/36.7 (BP=1.000, ratio=1.041, hyp_len=4289, ref_len=4120)
+16and7plays_16LM_mert.2
+BLEU = 53.27, 77.5/59.3/46.9/37.4 (BP=1.000, ratio=1.045, hyp_len=4306, ref_len=4120)
+16and7plays_37LM.1
+BLEU = 30.56, 61.1/36.1/24.2/16.3 (BP=1.000, ratio=1.044, hyp_len=4300, ref_len=4120)
+16and7plays_37LM_mert.1
+BLEU = 30.54, 60.7/36.0/24.3/16.4 (BP=1.000, ratio=1.048, hyp_len=4319, ref_len=4120)
+16and7plays_37LM.2
+BLEU = 57.80, 79.3/63.0/52.0/42.9 (BP=1.000, ratio=1.045, hyp_len=4305, ref_len=4120)
+16and7plays_37LM_mert.2
+BLEU = 57.32, 78.9/62.3/51.5/42.7 (BP=1.000, ratio=1.052, hyp_len=4335, ref_len=4120)
+16plays_37LM.1
+BLEU = 30.63, 61.1/36.1/24.2/16.5 (BP=1.000, ratio=1.032, hyp_len=4250, ref_len=4120)
+16plays_37LM_mert.1
+BLEU = 30.53, 60.8/35.9/24.2/16.4 (BP=1.000, ratio=1.030, hyp_len=4244, ref_len=4120)
+16plays_37LM.2
+BLEU = 55.54, 78.0/61.1/49.6/40.2 (BP=1.000, ratio=1.036, hyp_len=4267, ref_len=4120)
+16plays_37LM_mert.2
+BLEU = 56.02, 78.0/60.9/50.1/41.4 (BP=1.000, ratio=1.040, hyp_len=4285, ref_len=4120)
+singleword1.1
+BLEU = 24.39, 56.4/29.8/18.6/11.3 (BP=1.000, ratio=1.047, hyp_len=4312, ref_len=4120)
+singleword1.2
+BLEU = 51.51, 75.8/56.9/45.1/36.2 (BP=1.000, ratio=1.044, hyp_len=4300, ref_len=4120)
 
 
 ./models/Lexicons/singleword1/
