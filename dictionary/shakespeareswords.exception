@@ -1,199 +1,251 @@
-act	action (upon a person)
-aglet	(plural) tiny shining ornaments worn on a dress
+act	action
+act	action upon a person
+aglet	 tiny hining ornaments worn on a dress
 becking	calling. nodding
-become	come to (be)
-bed-swerver	adulterer/adulteress
-bedlam	madman/woman
-betide	happen (to)
-betide	come (to)
-blank	drain (colour)
-bone	(plural) man
-bone	(plural) pieces of bone
-book	(plural) good books
-bound	(plural) extent
-brain	(plural) witticisms
-brass	harden (like brass)
-braze	harden (like brass)
+become	come to 
+become	come to be
+bed-swerver	adulteress
+bed-swerver	adulterer
+bedlam	madman
+bedlam	woman
+betide	happen
+betide	happen to
+betide	come
+betide	come to
+blank	drain
+blank	drain colour
+bone	 man
+bone	 pieces of bone
+book	 good books
+bound	 extent
+brain	 witticisms
+brass	harden
+brass	harden like brass
+braze	harden
+braze	harden like brass
 but	if ... not
-buy out	pay ransom to / for
-cates	(plural) delicacies
+buy out	pay ransom to
+buy out	pay ransom for
+cates	 delicacies
 century	army company of 100 soldiers
-charmer	enchanter/enchantress
-circumstance	detail(s)
-circumstance	particular(s)
-come near	come in/into
-commend	(plural) greeting
-commendation	(plural) regards
-commodity	(plural) goods
-common	(people) common people
-company	(plural) companionship
-conserve	(plural) preserve
-conserve	(plural) confections
-continent	self-restraining. self-controlled
-corner-cap	cap with (three) corners
-crants	(singular) garland
-crystal	(plural) eyes
-day	(plural) time
-demerit	(plural) merits
-demesne	(plural) territories
+charmer	enchanter
+charmer	enchantress
+circumstance	detail
+circumstance	details
+circumstance	particular
+circumstance	particulars
+come near	come in
+come near	come into
+commend	 greeting
+commendation	 regards
+commodity	 goods
+common	common people
+company	 companionship
+conserve	 preserve
+conserve	 confections
+continent	self-restraining
+continent	self-controlled
+corner-cap	cap with corners
+corner-cap	cap with three corners
+crants	garland
+crystal	 eyes
+day	 time
+demerit	 merits
+demesne	 territories
 demi-wolf	dog/wolf cross-breed
-dimension	(plural) parts of the body
-dump	(plural) low spirits
-element	(plural) substances from which all material things are made
-element	(plural) elements of life
-element	(plural) forces of nature
-else	(used after the noun) in addition
-espouse	unite (in marriage)
-estate	bestow (up)on
-exception	(often plural) objection
-expressure	expression.
-fashion	(plural) horse disease affecting the nose and mouth
-fellow	husband/wife
-fere	wife / husband
-fives	(plural) horse disease affecting the parotid glands
-flap-dragons	snap-dragons: small burning objects floating on liquor
-fork	(plural) legs
-forthcoming	available as evidence / as a witness
+dimension	 parts of the body
+dump	 low spirits
+element	 substances from which all material things are made
+element	 elements of life
+element	 forces of nature
+else	in addition
+espouse	unite 
+estate	bestow on
+estate	bestow upon
+exception	objection
+expressure	expression
+fashion	 horse disease affecting the nose and mouth
+fellow	husband
+fellow	wife
+fere	husband
+fere	wife
+fives	 horse disease affecting the parotid glands
+flap-dragons	snap-dragons
+flap-dragons	small burning objects floating on liquor
+fork	 legs
+forthcoming	available as evidence
+forthcoming	available as a witness
 furniture	matériel
-general	(plural) general points
-gentle	(plural) ladies and gentlemen
-gentle	(plural) gentlemen
-grave	(plural) greave
-gyve	(plural) fetters
-gyve	(plural) handicaps
-habiliment	(usually plural) clothes
-abiliment	(usually plural) clothes
-hatch	(plural) movable deck planks
-heart	(plural) grand-hearted lads
-hither	to this place / time / end
-horn	(plural) outgrowths imagined to be on the head of a cuckold
-hour	(plural) fixed time
-how	how much?
-how	at what rate?
-indenture	(plural)  joint agreement
-investments	(plural) garments
-issue	child(ren)
-issue	consequence(s)
-late	a little while ago / before
-lead	(plural) lead-covered flat roofs
-league	c.3 miles
-lees	(plural) dregs
-lending	(plural) something lent
-lending	(plural) advance of money to soldiers
-letter	(plural) sophisticated learning
-letter	(plural) study
-liberty	(plural) rights
-light	(plural) eyes
-like	probable / probably
-lineament	(plural) parts of the body
-list	(usually plural) combat arena at a tournament
-loathly	hateful.
-lording	(plural) my lords
-manner	(plural) proper behaviour
-manner	(plural) morals
-manner	(plural) ways of life
-mark	(plural) insignia
-mark	8
-mark	9
-matter	affair(s)
-mean	(plural) manner
-mean	(plural) resources
-mean	(plural) capacity
-mean	(plural) obstacles
-medicine	drug used for purposes other than healing (especially the philosopher's elixir)
-methinks(t)	it seems /seemed to me
-methought(s)	it seems /seemed to me
-mistake	transgress (against)
-movable	(plural) personal possessions
-moveable	(plural) personal possessions
-muster	(plural) enlistment of soldiers
-muster	(plural) groups of soldiers
-noble	worth 6s. 8d
+general	 general points
+gentle	 ladies and gentlemen
+gentle	 gentlemen
+grave	 greave
+gyve	 fetters
+gyve	 handicaps
+habiliment	clothes
+abiliment	clothes
+hatch	 movable deck planks
+heart	 grand-hearted lads
+hither	to this place
+hither	to this time
+hither	to this end
+horn	 outgrowths imagined to be on the head of a cuckold
+hour	 fixed time
+how	how much
+how	at what rate
+indenture	  joint agreement
+investments	 garments
+issue	child
+issue	children
+issue	consequence
+issue	consequences
+late	a little while ago
+late	a little while before
+lead	 lead-covered flat roofs
+league	0.3 miles
+lees	 dregs
+lending	 something lent
+lending	 advance of money to soldiers
+letter	 sophisticated learning
+letter	 study
+liberty	 rights
+light	 eyes
+like	probable
+like	probably
+lineament	 parts of the body
+list	combat arena at a tournament
+loathly	hateful
+lording	 my lords
+manner	 proper behaviour
+manner	 morals
+manner	 ways of life
+mark	 insignia
+matter	affair
+matter	affairs
+mean	 manner
+mean	 resources
+mean	 capacity
+mean	 obstacles
+medicine	drugs
+methinks	it seems to me
+methinks	it seemed to me
+methinkst	it seems to me
+methinkst	it seemed to me
+methought	it seems to me
+methought	it seemed to me
+methoughts	it seems to me
+methoughts	it seemed to me
+mistake	transgress against
+mistake	transgress
+movable	 personal possessions
+moveable	 personal possessions
+muster	 enlistment of soldiers
+muster	 groups of soldiers
 nor ... nor	neither...nor
-nothing	in any / no way
-number	(plural) verses
-number	(plural) metre
+nothing	in any way
+nothing	in no way
+number	 verses
+number	 metre
 odd-even	between 12 and 1
-oeillade	] amorous glance
-office	(plural) kitchen
-office	(plural) servants' quarters
-officer	(plural) household
+oeillade	amorous glance
+office	 kitchen
+office	 servants' quarters
+officer	 household
 or ... or	either ... or
-ornament	(plural) robes
-outside	(plural) mere external thing
-over-boots	(plural) boot-deep
-overshoes	(plural) shoe-deep
-over-shoes	(plural) shoe-deep
-overtop	go beyond the (normal) level of
-particular	(plural) details
-period	or : come to an end
-philosophy	i.e. science
-piece	work (of art)
-pioned	displaying wild orchises ('pionies')
-point	(usually plural) tagged lace
-possibility	(plural) financial prospects
-pound	(plural) sum of money
-power	(plural) physical faculties
-power	(usually plural) gods
-premise	(plural) evidence
-press	come / go boldly
-prick down	mark (down)
-prick	mark (down)
-proceeding	(plural) conduct
-proceeding	(plural) line of descent
-property	(plural) stage requisites
-proportion	(plural) military material
-puffed	swollen (with vanity)
+ornament	 robes
+outside	 mere external thing
+over-boots	 boot-deep
+overshoes	 shoe-deep
+over-shoes	 shoe-deep
+overtop	go beyond the level of
+overtop	go beyond the normal level of
+particular	 details
+period	come to an end
+piece	work
+piece	work of art
+pioned	displaying wild orchises
+point	tagged lace
+possibility	 financial prospects
+pound	 sum of money
+power	 physical faculties
+power	gods
+premise	 evidence
+press	come boldly
+press	go boldly
+prick down	mark
+prick down	mark down
+prick	mark
+prick	mark down
+proceeding	 conduct
+proceeding	 line of descent
+property	 stage requisites
+proportion	 military material
+puffed	swollen with vanity
+puffed	swollen
 quoth a	did he say?
 quoth a	indeed!
 quotha	did he say?
 quotha	indeed!
-rank	(plural) troops
-reels	(plural) revels
-rein	(plural) loins
-rouse	full draught (of wine)
-ruin	(plural) remains
-second	(plural) reinforcements
-several	(plural) details
-several	(plural) individuals
-shade	(plural) the underworld
-shadowed	also : faintly drawn
-sherris-sack	white wine from Xeres (Spain)
-sherris	white wine from Xeres (Spain)
-skirt	(plural) outlying parts
-sphere	(plural) orbits
-spirit	(plural) sentiments
-spirit	(plural) vital power
-sport	take pleasure (in)
-stand on	give (oneself) over to
-statute-cap	woollen cap ordered (by an Act of 1571) to be worn on Sundays and holy days by all below a certain social rank
-stay	wait (for)
-stop	close (up)
-strewing	(plural) things to be scattered
-suburbs	(plural) parts of a city lying outside the walls
-sullen	(plural) sullenness
-supply	reinforcement(s)
-table	(plural) backgammon
-tent	(plural) encampment
-throe	(plural) labour pains
-time	(the) world
-time	(the) age
-tongue	(plural) foreign language
-unsex	here: remove all feminine qualities
-via	come / go on
-fia	come / go on
-viand	(usually plural) food
-vice	(usually capitalized) buffoon
-victual	(usually plural) provisions
-votarist	nun / monk
-weed	(plural) garments
-window	(plural) eyelids
-wish	(plural) good wishes
-withal	with this / it
-withal	by this / it
-word	(plural) speech
-word	(plural) angry exchanges
-word	(plural) empty rhetoric
-work	(plural) fortifications
-yellow	(plural) jaundice
-zenith	highest point (in fortunes)
+rank	 troops
+reels	 revels
+rein	 loins
+rouse	full draught
+rouse	full draught of wine
+ruin	 remains
+second	 reinforcements
+several	 details
+several	 individuals
+shade	 the underworld
+shadowed	faintly drawn
+sherris-sack	white wine from Xeres 
+sherris	white wine from Xeres
+skirt	 outlying parts
+sphere	 orbits
+spirit	 sentiments
+spirit	 vital power
+sport	take pleasure
+sport	take pleasure in
+stand on	give over to
+stand on	give oneself over to
+statute-cap	woollen cap ordered to be worn on Sundays and holy days by all below a certain social rank
+stay	wait
+stay	wait for
+stop	close
+stop	close up
+strewing	 things to be scattered
+suburbs	 parts of a city lying outside the walls
+sullen	 sullenness
+supply	reinforcement
+supply	reinforcements
+table	 backgammon
+tent	 encampment
+throe	 labour pains
+time	world
+time	the world
+time	age
+time	the age
+tongue	 foreign language
+unsex	remove all feminine qualities
+via	come on
+via	go on
+fia	come on
+fia	go on
+viand	food
+vice	buffoon
+victual	provisions
+votarist	monk
+votarist	nun
+weed	 garments
+window	 eyelids
+wish	 good wishes
+withal	with it
+withal	with this
+withal	by it
+withal	by this
+word	 speech
+word	 angry exchanges
+word	 empty rhetoric
+work	 fortifications
+yellow	 jaundice
+zenith	highest point
+zenith	highest point in fortunes
