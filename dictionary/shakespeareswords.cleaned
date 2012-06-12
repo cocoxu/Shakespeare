@@ -345,7 +345,6 @@ abide	suffer for
 abide	take the consequences of
 abide	undergo
 abide	wait for
-abiliment	(usually plural) clothes
 abiliment	attire
 abiliment	clothes
 abiliment	dress
@@ -732,7 +731,6 @@ across	not straight
 across	obliquely
 act	act out
 act	action
-act	action (upon a person)
 act	action upon a person
 act	activity
 act	be promiscuous
@@ -1224,8 +1222,8 @@ agitation	activity
 agitation	motion
 agitation	movement
 aglet	 tiny hining ornaments worn on a dress
-aglet	(plural) tiny shining ornaments worn on a dress
 aglet	spangles
+aglet	tiny shining ornaments worn on a dress
 aglet-baby	small ornamental figure forming the tag of a lace
 agnize	acknowledge
 agnize	confess
@@ -3443,7 +3441,8 @@ beck	curtsy
 beck	gesture of respect
 beck	nod
 becking	beckoning
-becking	calling. nodding
+becking	calling
+becking	nodding
 beckoning	meaningful sign
 beckoning	signal
 beckoning	significant gesture
@@ -3452,7 +3451,6 @@ become	be fitting
 become	bear
 become	befit
 become	come to 
-become	come to (be)
 become	come to be
 become	dignify
 become	give a pleasing appearance to
@@ -3478,7 +3476,6 @@ bed-rid	confined to bed through infirmity
 bed-right	conjugal rights
 bed-right	consummation
 bed-swerver	adulterer
-bed-swerver	adulterer/adulteress
 bed-swerver	adulteress
 bed-swerver	person unfaithful to the marriage-bed
 bedashed	bespattered
@@ -3498,7 +3495,6 @@ bedlam	lunatic
 bedlam	mad
 bedlam	mad beggar
 bedlam	madman
-bedlam	madman/woman
 bedlam	woman
 bedred	bed-ridden
 bedred	confined to bed through infirmity
@@ -3993,10 +3989,8 @@ bethump	pound
 bethump	thump soundly
 betide	befall
 betide	come
-betide	come (to)
 betide	come to
 betide	happen
-betide	happen (to)
 betide	happen to
 betide	take place
 betime	at an early hour
@@ -4247,7 +4241,6 @@ blameful	shameful
 blank	blanch
 blank	bull's-eye
 blank	drain
-blank	drain (colour)
 blank	drain colour
 blank	line of sight
 blank	make pale
@@ -4706,13 +4699,13 @@ bondslave	person in a condition of servitude
 bondslave	slave
 bone	 man
 bone	 pieces of bone
-bone	(plural) man
-bone	(plural) pieces of bone
 bone	bobbin made of bone
 bone	bodily frame
 bone	body
+bone	man
 bone	person
 bone	physique
+bone	pieces of bone
 bonnet	cap
 bonnet	hat
 bonnet	remove the bonnet
@@ -4724,13 +4717,13 @@ bonny	stalwart
 bonny	strapping
 bonny	strong
 book	 good books
-book	(plural) good books
 book	Bible
 book	book-learning
 book	charter
 book	deed
 book	erudition
 book	favour
+book	good books
 book	list
 book	prayer-book
 book	record
@@ -4891,7 +4884,6 @@ bouncing	beefy
 bouncing	hefty
 bouncing	strapping
 bound	 extent
-bound	(plural) extent
 bound	area
 bound	barrier
 bound	bounce
@@ -4903,6 +4895,7 @@ bound	define
 bound	determine
 bound	domain
 bound	enclose
+bound	extent
 bound	forced
 bound	indebted
 bound	indentured
@@ -5031,13 +5024,13 @@ braid	reproach
 braid	twisted
 braid	upbraid
 brain	 witticisms
-brain	(plural) witticisms
 brain	clever remarks
 brain	comprehend
 brain	dash the brains out of
 brain	grasp
 brain	murder
 brain	understand
+brain	witticisms
 brain-sick	addle-headed
 brain-sick	foolish
 brain-sickly	foolishly
@@ -5073,7 +5066,6 @@ brandish	make shine
 brass	brazenness
 brass	effrontery
 brass	harden
-brass	harden (like brass)
 brass	harden like brass
 brass	impudence
 brassy	hard as brass
@@ -5149,7 +5141,6 @@ brawn	sturdy limb
 brawn-buttock	fleshy buttock
 brawn-buttock	well-rounded bottom
 braze	harden
-braze	harden (like brass)
 braze	harden like brass
 brazen	everlasting
 brazen	impenetrable
@@ -5908,7 +5899,6 @@ buy out	get rid of
 buy out	make up for
 buy out	pay ransom for
 buy out	pay ransom to
-buy out	pay ransom to / for
 buy out	redeem
 buzz	move about
 buzz	report
@@ -6656,8 +6646,8 @@ caterpillar	exploiter
 caterpillar	parasite
 caterpillar	sponger
 cates	 delicacies
-cates	(plural) delicacies
 cates	choice foodstuffs
+cates	delicacies
 cates	food
 cates	provisions
 cates	victuals
@@ -7094,7 +7084,6 @@ charmed	bewitched
 charmed	enchanted
 charmed	placed under a spell
 charmer	enchanter
-charmer	enchanter/enchantress
 charmer	enchantress
 charmer	worker of charms
 charming	acting as charms
@@ -7488,12 +7477,10 @@ circumstance	ceremony
 circumstance	circumlocution
 circumstance	condition
 circumstance	detail
-circumstance	detail(s)
 circumstance	detailed explanation
 circumstance	details
 circumstance	pageantry
 circumstance	particular
-circumstance	particular(s)
 circumstance	particulars
 circumstance	situation
 circumstance	special argument
@@ -8222,7 +8209,6 @@ come in	submit
 come in	yield
 come near	begin to understand
 come near	come in
-come near	come in/into
 come near	come into
 come near	enter
 come near	start to appreciate
@@ -8361,7 +8347,6 @@ commence	admit to a university degree
 commence	give a good start to
 commence	make fit
 commend	 greeting
-commend	(plural) greeting
 commend	admire
 commend	bring
 commend	commendation
@@ -8372,6 +8357,7 @@ commend	declare
 commend	direct
 commend	entrust
 commend	extol
+commend	greeting
 commend	hand over
 commend	introduce
 commend	offer
@@ -8385,7 +8371,6 @@ commend	support
 commendable	deserving of approval
 commendable	praiseworthy
 commendation	 regards
-commendation	(plural) regards
 commendation	approval
 commendation	commending
 commendation	compliments
@@ -8394,6 +8379,7 @@ commendation	greetings
 commendation	introduction
 commendation	praise
 commendation	recommendation
+commendation	regards
 comment	carping remark
 comment	conjecture
 comment	consideration
@@ -8447,7 +8433,6 @@ commodious	accommodating
 commodious	compliant
 commodious	obliging
 commodity	 goods
-commodity	(plural) goods
 commodity	advantage
 commodity	asset
 commodity	benefit
@@ -8455,6 +8440,7 @@ commodity	consignment
 commodity	desire for gain
 commodity	expediency
 commodity	gain
+commodity	goods
 commodity	merchandise
 commodity	proceeds
 commodity	profit
@@ -8463,7 +8449,6 @@ commodity	self-interest
 commodity	stock
 commodity	supply
 commodity	wares
-common	(people) common people
 common	affecting everyone
 common	average
 common	below the rank of gentleman
@@ -8559,12 +8544,12 @@ companion	make a companion of
 companion	rascal
 companion	rogue
 company	 companionship
-company	(plural) companionship
 company	accompany
 company	associate
 company	band
 company	band of retainers
 company	companion
+company	companionship
 company	comrade
 company	comradeship
 company	fellowship
@@ -9330,10 +9315,10 @@ consequently	subsequently
 consequently	then
 conserve	 confections
 conserve	 preserve
-conserve	(plural) confections
-conserve	(plural) preserve
 conserve	candied fruits
+conserve	confections
 conserve	make into a confection
+conserve	preserve
 conserve	preserve in sugar
 conserve	store
 conserve	sweetmeats
@@ -9632,7 +9617,6 @@ continent	restrained
 continent	restrictive
 continent	self-controlled
 continent	self-restraining
-continent	self-restraining. self-controlled
 continent	summation
 continent	temperate
 continuance	carrying on
@@ -9951,7 +9935,6 @@ cormorant	insatiable
 cormorant	insatiable eater
 corner	corner of the earth
 corner	quarter
-corner-cap	cap with (three) corners
 corner-cap	cap with corners
 corner-cap	cap with three corners
 corner-cap	mortar-board
@@ -10478,7 +10461,6 @@ crank	zigzag
 crannied	cracked
 crannied	holed
 crannied	split
-crants	(singular) garland
 crants	chaplet
 crants	garland
 crants	wreath
@@ -10789,9 +10771,9 @@ cry up	announce in public
 cry up	proclaim
 cry up	show to be true
 crystal	 eyes
-crystal	(plural) eyes
 crystal	bright
 crystal	clear
+crystal	eyes
 crystal	gleaming
 crystal	glittering
 crystal	transparent
@@ -11292,7 +11274,6 @@ dawning	dawn
 dawning	daybreak
 dawning	early morning
 day	 time
-day	(plural) time
 day	anniversary
 day	appointed day
 day	brightness
@@ -11826,13 +11807,13 @@ demean	behave
 demean	comport
 demean	conduct
 demerit	 merits
-demerit	(plural) merits
 demerit	deserts
 demerit	deserving
+demerit	merits
 demesne	 territories
-demesne	(plural) territories
 demesne	dominions
 demesne	lands
+demesne	territories
 demi-Atlas	supporter of half the world
 demi-cannon	type of large gun
 demi-coronal	small coronet
@@ -12498,9 +12479,9 @@ dim	dull
 dim	lacking lustre
 dim	pale-coloured
 dimension	 parts of the body
-dimension	(plural) parts of the body
 dimension	bodily form
 dimension	organs
+dimension	parts of the body
 dimension	physical frame
 diminitive	diminutive
 diminutive	undersized person
@@ -14010,8 +13991,8 @@ dumb	wordless
 dumb-discoursive	silently persuasive
 dumb-discoursive	with compelling silent arguments
 dump	 low spirits
-dump	(plural) low spirits
 dump	feeling of melancholy
+dump	low spirits
 dump	melody
 dump	mournful song
 dump	plaintive melody
@@ -14354,13 +14335,12 @@ elegy	song of lamentation
 element	 elements of life
 element	 forces of nature
 element	 substances from which all material things are made
-element	(plural) elements of life
-element	(plural) forces of nature
-element	(plural) substances from which all material things are made
 element	air
 element	atmospheric powers
+element	elements of life
 element	embodiment
 element	essence
+element	forces of nature
 element	heart and soul
 element	heavens
 element	life-forces
@@ -14373,6 +14353,7 @@ element	sphere
 element	sphere of knowledge
 element	station
 element	substance
+element	substances from which all material things are made
 elf	mat
 elf	tangle
 elf	twist
@@ -14381,7 +14362,6 @@ elf-lock	matted locks
 elf-skin	mere nothing
 elf-skin	shrunken thing
 ell	measure of length
-else	(used after the noun) in addition
 else	elsewhere
 else	in addition
 else	in another direction
@@ -15218,7 +15198,6 @@ espial	spy
 espial	watcher
 espouse	contract
 espouse	unite 
-espouse	unite (in marriage)
 espy	catch sight of
 espy	discern
 espy	see
@@ -15234,7 +15213,6 @@ essence	very life
 essentially	deep down
 essentially	in fact
 essentially	really
-estate	bestow (up)on
 estate	bestow on
 estate	bestow upon
 estate	bestowal
@@ -15441,7 +15419,6 @@ except	unless
 except against	object to
 except against	repudiate
 except against	take exception to
-exception	(often plural) objection
 exception	disapproval
 exception	dislike
 exception	objection
@@ -15688,7 +15665,6 @@ express	well-designed
 express	well-formed
 expressure	attitude
 expressure	expression
-expressure	expression.
 expressure	image
 expressure	look
 expressure	picture
@@ -16383,7 +16359,6 @@ farrow	young
 farthingale	long skirt extended at the back by a framework of hoops
 fartuous	virtuous
 fashion	 horse disease affecting the nose and mouth
-fashion	(plural) horse disease affecting the nose and mouth
 fashion	appearance
 fashion	arrange
 fashion	change the fashion of
@@ -16396,6 +16371,7 @@ fashion	customary use
 fashion	execution
 fashion	fad
 fashion	form
+fashion	horse disease affecting the nose and mouth
 fashion	kind
 fashion	latest practice
 fashion	make
@@ -16737,7 +16713,6 @@ fellow	forester
 fellow	good-for-nothing
 fellow	hireling
 fellow	husband
-fellow	husband/wife
 fellow	keeper
 fellow	match
 fellow	practitioner
@@ -16788,7 +16763,6 @@ fere	husband
 fere	partner
 fere	spouse
 fere	wife
-fere	wife / husband
 fern-seed	seed from the fern
 ferret	blazing
 ferret	ferret-like
@@ -16868,7 +16842,6 @@ fever	cause to shiver
 fever	throw into a fever
 feverous	feverish
 feverous	restless
-fia	come / go on
 fia	come on
 fia	forward
 fia	go on
@@ -17228,7 +17201,7 @@ fitness	proper behaviour
 fitness	readiness
 fitness	state of readiness
 fives	 horse disease affecting the parotid glands
-fives	(plural) horse disease affecting the parotid glands
+fives	horse disease affecting the parotid glands
 fix	make firm
 fix	secure
 fixed	certain
@@ -17276,7 +17249,6 @@ flap-dragon	tiny sweetmeat
 flap-dragons	edible objects floating on burning liquor
 flap-dragons	small burning objects floating on liquor
 flap-dragons	snap-dragons
-flap-dragons	snap-dragons: small burning objects floating on liquor
 flap-dragons	to be seized and eaten
 flap-dragons	which have to be avoided while drinking
 flap-eared	with long hanging ears
@@ -17939,9 +17911,9 @@ forgo	give up
 forgo	lose
 forgo	part with
 fork	 legs
-fork	(plural) legs
 fork	barbed arrow-head
 fork	forked tongue
+fork	legs
 forked	barbed
 forked	cleft
 forked	having two legs
@@ -18032,7 +18004,6 @@ forth	out of
 forth	straight
 forthcoming	available as a witness
 forthcoming	available as evidence
-forthcoming	available as evidence / as a witness
 forthcoming	awaiting trial
 forthcoming	in custody
 forthcoming	producable in court
@@ -18857,12 +18828,12 @@ gender	kind
 gender	sort
 gender	type
 general	 general points
-general	(plural) general points
 general	all-embracing
 general	chief
 general	common
 general	communal
 general	comprehensive
+general	general points
 general	general public
 general	group features
 general	joint
@@ -18912,8 +18883,6 @@ gentility	nobility
 gentility	polite behaviour
 gentle	 gentlemen
 gentle	 ladies and gentlemen
-gentle	(plural) gentlemen
-gentle	(plural) ladies and gentlemen
 gentle	become violence-free
 gentle	calm
 gentle	courteous
@@ -18927,9 +18896,11 @@ gentle	free from violence
 gentle	freedom from harshness
 gentle	friendly
 gentle	gentlefolk
+gentle	gentlemen
 gentle	honourable
 gentle	kind
 gentle	kindly
+gentle	ladies and gentlemen
 gentle	made peaceful
 gentle	noble
 gentle	not rough or rapid
@@ -19753,13 +19724,13 @@ gratulate	salute
 gratulate	to be rejoiced at
 gratulate	welcome
 grave	 greave
-grave	(plural) greave
 grave	baneful
 grave	bury
 grave	deadly
 grave	destructive
 grave	dignified
 grave	entomb
+grave	greave
 grave	important
 grave	inter
 grave	leg-armour
@@ -20161,16 +20132,15 @@ guttered	gullied
 guttered	jagged
 gyve	 fetters
 gyve	 handicaps
-gyve	(plural) fetters
-gyve	(plural) handicaps
 gyve	defects
 gyve	ensnare
 gyve	fetter
+gyve	fetters
+gyve	handicaps
 gyve	shackle
 gyve	shackles
 ha'	have
 haberdasher	dealer in small articles relating to clothing
-habiliment	(usually plural) clothes
 habiliment	attire
 habiliment	clothes
 habiliment	dress
@@ -20549,11 +20519,11 @@ hasty	rash
 hasty-witted	quick-thinking
 hasty-witted	quick-witted
 hatch	 movable deck planks
-hatch	(plural) movable deck planks
 hatch	gate
 hatch	half-door
 hatch	hatching
 hatch	lower part of a door
+hatch	movable deck planks
 hatched	inlaid
 hatched	ornamented
 hatched	streaked
@@ -20726,12 +20696,12 @@ hearken for	look forward to
 hearsed	coffined
 hearsed	placed in a hearse
 heart	 grand-hearted lads
-heart	(plural) grand-hearted lads
 heart	beloved
 heart	courage
 heart	dear friend
 heart	essence
 heart	fine companions
+heart	grand-hearted lads
 heart	love
 heart	maximum
 heart	soul
@@ -21100,7 +21070,6 @@ hit	stroke
 hither	here
 hither	to this end
 hither	to this place
-hither	to this place / time / end
 hither	to this time
 hitherto	to this extent
 hitherto	to this point
@@ -21373,9 +21342,9 @@ hopeless	despairing
 hopeless	impossible to hope for
 hopeless	without hope
 horn	 outgrowths imagined to be on the head of a cuckold
-horn	(plural) outgrowths imagined to be on the head of a cuckold
 horn	drinking-horn
 horn	horned beast
+horn	outgrowths imagined to be on the head of a cuckold
 horn	type of wind instrument
 horn-beast	horned animal
 horn-book	leaf of paper
@@ -21456,9 +21425,9 @@ hotly	fiercely
 hotly	passionately
 hotly	urgently
 hour	 fixed time
-hour	(plural) fixed time
 hour	appointment
 hour	engagement
+hour	fixed time
 hour	meeting
 hour	moment
 hour	time
@@ -21513,9 +21482,7 @@ hovering	hesitating
 hovering	uncertain
 hovering	wavering
 how	at what rate
-how	at what rate?
 how	how much
-how	how much?
 how ... some'er	however
 how ... some'er	howsoever
 how ... some'er	in whatever way
@@ -22364,10 +22331,10 @@ indented	sinuous
 indented	undulating
 indented	zigzag
 indenture	  joint agreement
-indenture	(plural)  joint agreement
 indenture	agreement
 indenture	articles of agreement
 indenture	contract
+indenture	joint agreement
 index	preface
 index	prologue
 index	table of contents
@@ -23161,9 +23128,9 @@ invest	install in office
 invest	permeate
 invest	put pressure on
 investments	 garments
-investments	(plural) garments
 investments	clothes
 investments	clothing
+investments	garments
 inveterate	deep-rooted
 inveterate	long-standing
 invisible	hidden
@@ -23224,11 +23191,9 @@ irresolute	unresolved
 issue	action
 issue	born
 issue	child
-issue	child(ren)
 issue	children
 issue	come forth
 issue	consequence
-issue	consequence(s)
 issue	consequences
 issue	deed
 issue	descend
@@ -24131,7 +24096,6 @@ latch	receive
 latch	secure
 latch	take hold of
 late	a little while ago
-late	a little while ago / before
 late	a little while before
 late	former
 late	not long past
@@ -24289,11 +24253,11 @@ lazar-like	like leprosy
 lea	field
 lea	meadow
 lead	 lead-covered flat roofs
-lead	(plural) lead-covered flat roofs
 lead	cauldron
 lead	direct
 lead	dominate
 lead	govern
+lead	lead-covered flat roofs
 lead	leaden coffin lining
 lead	put lead weights on
 leaden	burdensome
@@ -24310,7 +24274,6 @@ league	alliance
 league	ally
 league	bind together
 league	bond of friendship
-league	c.3 miles
 league	compact
 league	confederate
 league	intertwine
@@ -24417,7 +24380,7 @@ leer	look
 leer	look sideways
 leer	smile disarmingly
 lees	 dregs
-lees	(plural) dregs
+lees	dregs
 lees	remains
 lees	remnants
 leet	local court of justice
@@ -24451,9 +24414,9 @@ lend	give
 lend	grant
 lending	 advance of money to soldiers
 lending	 something lent
-lending	(plural) advance of money to soldiers
-lending	(plural) something lent
+lending	advance of money to soldiers
 lending	borrowing
+lending	something lent
 length	delay
 length	distance
 length	duration left in life
@@ -24515,8 +24478,6 @@ lethe	life-blood
 lethe	oblivion
 letter	 sophisticated learning
 letter	 study
-letter	(plural) sophisticated learning
-letter	(plural) study
 letter	great scholarship
 letter	influence
 letter	introduction
@@ -24524,6 +24485,8 @@ letter	knowledge
 letter	learning
 letter	lettering
 letter	recommendation
+letter	sophisticated learning
+letter	study
 letter	written form
 lettered	educated
 lettered	learned
@@ -24634,7 +24597,6 @@ libertine	free spirit
 libertine	reprobate
 libertine	unconfined wanderer
 liberty	 rights
-liberty	(plural) rights
 liberty	consent
 liberty	deliverance
 liberty	district not subject to a sheriff's legal order
@@ -24646,6 +24608,7 @@ liberty	plays not written according to traditional rules of drama
 liberty	prerogatives
 liberty	privileges
 liberty	reckless freedom
+liberty	rights
 liberty	unrestrained act
 licence	authority to act
 licence	freedom of action
@@ -24706,7 +24669,6 @@ lifting up	arising
 lifting up	arrival
 lifting up	dawning
 light	 eyes
-light	(plural) eyes
 light	ability to see clearly
 light	alight
 light	cheap
@@ -24716,6 +24678,7 @@ light	dismount
 light	easy
 light	effortless
 light	enlightenment
+light	eyes
 light	facile
 light	fall
 light	foresight
@@ -24791,7 +24754,6 @@ like	make resemble
 like	nearly
 like	please
 like	probable
-like	probable / probably
 like	probably
 like	resemble
 like	same
@@ -24932,13 +24894,13 @@ lineal	hereditary
 lineal	in the direct line
 lineal	lineally descended
 lineament	 parts of the body
-lineament	(plural) parts of the body
 lineament	attribute
 lineament	characteristic
 lineament	distinctive quality
 lineament	feature
 lineament	form
 lineament	line
+lineament	parts of the body
 lineament	personal appearance
 lineament	shape
 lined	filled
@@ -24979,7 +24941,6 @@ lisp	put on a foreign accent
 lisp	speak with affectation
 lisp	talk in a loving voice
 lisp	talk in an affected way
-list	(usually plural) combat arena at a tournament
 list	band
 list	border material
 list	boundary
@@ -25071,7 +25032,6 @@ loaden	laden
 loaden	weighed down
 loathly	disgusting
 loathly	hateful
-loathly	hateful.
 loathly	loathsome
 loathly	with detestation
 loathly	with such loathing
@@ -25253,8 +25213,8 @@ lord	elevate
 lord	ennoble
 lord	make a lord
 lording	 my lords
-lording	(plural) my lords
 lording	gentlemen
+lording	my lords
 lording	young gentleman
 lording	young lord
 lordship	function of being a lord
@@ -25885,9 +25845,6 @@ manly	heroically
 manner	 morals
 manner	 proper behaviour
 manner	 ways of life
-manner	(plural) morals
-manner	(plural) proper behaviour
-manner	(plural) ways of life
 manner	act
 manner	character
 manner	custom
@@ -25895,13 +25852,16 @@ manner	deed
 manner	fashion
 manner	forms of politeness
 manner	good conduct
+manner	morals
 manner	nature
+manner	proper behaviour
 manner	quality
 manner	social conditions
 manner	stolen goods
 manner	thing stolen
 manner	usage
 manner	way of behaving
+manner	ways of life
 manner	work
 mannerly	courteous
 mannerly	courteously
@@ -25961,9 +25921,6 @@ margent	border
 margent	edge
 margent	margin
 mark	 insignia
-mark	(plural) insignia
-mark	8
-mark	9
 mark	aim
 mark	birthmark
 mark	blemish
@@ -25972,6 +25929,7 @@ mark	designate
 mark	destine
 mark	discolouration
 mark	goal
+mark	insignia
 mark	mark used as a signature by an illiterate person
 mark	notable sight
 mark	note
@@ -26147,7 +26105,6 @@ material	relevant
 matin	morning
 matron	married woman
 matter	affair
-matter	affair(s)
 matter	affairs
 matter	business
 matter	capacity
@@ -26217,14 +26174,11 @@ mean	 capacity
 mean	 manner
 mean	 obstacles
 mean	 resources
-mean	(plural) capacity
-mean	(plural) manner
-mean	(plural) obstacles
-mean	(plural) resources
 mean	agent
 mean	alto
 mean	average
 mean	capability
+mean	capacity
 mean	cause
 mean	have in mind for
 mean	humble
@@ -26240,6 +26194,7 @@ mean	less important
 mean	limit
 mean	lowly
 mean	make complaint
+mean	manner
 mean	mean to act
 mean	means
 mean	means of access
@@ -26254,11 +26209,13 @@ mean	mode
 mean	moderate
 mean	moderation
 mean	mourn
+mean	obstacles
 mean	of low rank
 mean	passage
 mean	poor
 mean	potential
 mean	purpose
+mean	resources
 mean	tenor
 mean	unimportant
 mean	unworthy
@@ -26369,7 +26326,6 @@ medicinable	medicinal
 medicinable	restorative
 medicine	cure
 medicine	doctor
-medicine	drug used for purposes other than healing (especially the philosopher's elixir)
 medicine	drugs
 medicine	effective remedy
 medicine	heal
@@ -26570,7 +26526,6 @@ meteor	luminous emanation
 metheglin	strong spiced Welsh mead
 methinks	it seemed to me
 methinks	it seems to me
-methinks(t)	it seems /seemed to me
 methinkst	it seemed to me
 methinkst	it seems to me
 method	exposition
@@ -26580,7 +26535,6 @@ method	table of contents
 method	thesis
 methought	it seemed to me
 methought	it seems to me
-methought(s)	it seems /seemed to me
 methoughts	it seemed to me
 methoughts	it seems to me
 metre	composition
@@ -26899,7 +26853,6 @@ mistake	perform the wrong action
 mistake	take to the wrong person
 mistake	take wrongly
 mistake	transgress
-mistake	transgress (against)
 mistake	transgress against
 mistake	wrongly deliver
 mistempered	deranged
@@ -27327,7 +27280,7 @@ mouth-friend	friend in word only
 mouth-friend	friend won by feeding
 mouth-honour	honour shown in words not deeds
 movable	 personal possessions
-movable	(plural) personal possessions
+movable	personal possessions
 movable	pieces of property
 movable	private effects
 move	affect
@@ -27356,7 +27309,7 @@ move	talk encouragingly to
 move	urge
 move	woo
 moveable	 personal possessions
-moveable	(plural) personal possessions
+moveable	personal possessions
 moveable	pieces of property
 moveable	private effects
 moved	agitated
@@ -27500,14 +27453,14 @@ mustachio	moustache
 mustachio	moustached
 muster	 enlistment of soldiers
 muster	 groups of soldiers
-muster	(plural) enlistment of soldiers
-muster	(plural) groups of soldiers
 muster	assemble
 muster	display
 muster	enlist
+muster	enlistment of soldiers
 muster	enroll
 muster	exhibit
 muster	gather together
+muster	groups of soldiers
 muster	illustrate
 muster	mobilizing of troops
 muster	ranks
@@ -28030,7 +27983,6 @@ noble	notable
 noble	of good breeding
 noble	precious
 noble	valuable
-noble	worth 6s. 8d
 nobleness	aristocratic rank
 nobleness	nobility
 noblesse	nobility
@@ -28161,7 +28113,6 @@ notedly	especially
 notedly	particularly
 nothing	emptiness
 nothing	extinction
-nothing	in any / no way
 nothing	in any way
 nothing	in no way
 nothing	insignificance
@@ -28230,10 +28181,10 @@ numb	immobile
 numb	paralysed
 number	 metre
 number	 verses
-number	(plural) metre
-number	(plural) verses
 number	lines
+number	metre
 number	put into verses
+number	verses
 number	versification
 numbered	counted
 numbered	enumerated
@@ -28460,7 +28411,6 @@ odoriferous	sweet-smelling
 odour	fragrance
 odour	perfume
 odour	scent
-oeillade	] amorous glance
 oeillade	amorous glance
 oeillade	look of love
 oeillade	ogle
@@ -28535,8 +28485,6 @@ offering	sacrificial rite
 offering	taking the offensive
 office	 kitchen
 office	 servants' quarters
-office	(plural) kitchen
-office	(plural) servants' quarters
 office	act as servants to
 office	apartment
 office	business
@@ -28546,6 +28494,7 @@ office	duty
 office	function
 office	intrigue
 office	kindness
+office	kitchen
 office	living area
 office	officialdom
 office	officiously withhold
@@ -28556,6 +28505,7 @@ office	position
 office	responsibility
 office	role
 office	room
+office	servants' quarters
 office	service
 office	service rooms
 office	serving-room
@@ -28569,11 +28519,11 @@ officed	playing a role
 officed	serviceable
 officed	working
 officer	 household
-officer	(plural) household
 officer	constable
 officer	executioner
 officer	gaoler
 officer	hangman
+officer	household
 officer	servants
 officer of arms	herald
 officer of arms	pursuivant
@@ -28917,10 +28867,10 @@ original	source
 orison	plea
 orison	prayer
 ornament	 robes
-ornament	(plural) robes
 ornament	attire
 ornament	distinction
 ornament	garments
+ornament	robes
 ornament	special quality
 ort	fraction
 ort	fragment
@@ -29077,9 +29027,9 @@ outrun	escape
 outsell	exceed in value
 outsell	surpass
 outside	 mere external thing
-outside	(plural) mere external thing
 outside	appearance
 outside	look
+outside	mere external thing
 outside	outside show
 outside	outward form
 outsleep	sleep beyond
@@ -29130,7 +29080,7 @@ over	observing
 over	overseeing
 over	spying
 over-boots	 boot-deep
-over-boots	(plural) boot-deep
+over-boots	boot-deep
 over-boots	following a reckless course
 over-crow	overpower
 over-crow	overwhelm
@@ -29180,9 +29130,9 @@ over-shine	outshine
 over-shine	shine upon
 over-shine	surpass
 over-shoes	 shoe-deep
-over-shoes	(plural) shoe-deep
 over-shoes	deep enough to cover the shoes
 over-shoes	following a reckless course
+over-shoes	shoe-deep
 over-sized	painted over
 over-sized	smeared
 over-swell	flood
@@ -29372,9 +29322,9 @@ overshine	outshine
 overshine	shine upon
 overshine	surpass
 overshoes	 shoe-deep
-overshoes	(plural) shoe-deep
 overshoes	deep enough to cover the shoes
 overshoes	following a reckless course
+overshoes	shoe-deep
 overshoot	go astray in aim
 overshoot	wide of the mark
 overskip	jump lightly over
@@ -29411,7 +29361,6 @@ overthrown	brought into disrepute
 overthrown	disgraced
 overthrown	ruined
 overtop	excel
-overtop	go beyond the (normal) level of
 overtop	go beyond the level of
 overtop	go beyond the normal level of
 overtop	surpass
@@ -29841,8 +29790,8 @@ participation	association
 participation	companionship
 participation	fellowship
 particular	 details
-particular	(plural) details
 particular	detailed
+particular	details
 particular	full account
 particular	individual issue
 particular	individual person
@@ -30475,7 +30424,6 @@ period	ending
 period	fitting conclusion
 period	full stop
 period	goal
-period	or : come to an end
 period	point of completion
 period	purpose
 period	put an end to
@@ -30634,7 +30582,6 @@ pheeze	fix
 pheeze	settle the hash of
 philosopher	one learned in natural philosophy
 philosopher	sage
-philosophy	i.e. science
 philosophy	natural philosophy
 phlegmatic	choleric
 phoenix	marvel
@@ -30747,7 +30694,6 @@ piece	type
 piece	wine cask
 piece	woman
 piece	work
-piece	work (of art)
 piece	work of art
 piece out	augment
 piece out	drag out
@@ -30869,7 +30815,6 @@ pinked	scalloped
 pinnace	small speedy boat with a single mast
 pioned	channelled
 pioned	displaying wild orchises
-pioned	displaying wild orchises ('pionies')
 pioned	furrowed
 pioned	trenched
 pioneer	digger
@@ -31235,7 +31180,6 @@ pocket up	swallow
 pocky	disease-infected
 pocky	poxy
 poesy	poetry
-point	(usually plural) tagged lace
 point	aim
 point	apex
 point	conclusion
@@ -31491,10 +31435,10 @@ posset	liquor
 posset	made of milk
 posset	restorative hot drink
 possibility	 financial prospects
-possibility	(plural) financial prospects
 possibility	ability
 possibility	capability
 possibility	competence
+possibility	financial prospects
 possitable	positively
 post	carry rapidly
 post	convey swiftly
@@ -31590,11 +31534,11 @@ pouch	wallet
 poulter	poulterer
 pouncet-box	small box with a perforated lid for holding snuff or perfume
 pound	 sum of money
-pound	(plural) sum of money
 pound	confine
 pound	load
 pound	pound-weight
 pound	shut up
+pound	sum of money
 pound	weight
 powder	gunpowder
 powder	pickle
@@ -31604,8 +31548,6 @@ powdered	seasoned
 powdered	well-spiced
 powdering-tub	sweating-tub for the treatment of venereal disease
 power	 physical faculties
-power	(plural) physical faculties
-power	(usually plural) gods
 power	ability
 power	armed force
 power	army
@@ -31625,6 +31567,7 @@ power	host
 power	influence
 power	might
 power	one power
+power	physical faculties
 power	single force
 power	strength
 power	sway
@@ -31834,9 +31777,9 @@ prejudicial	tending to invalidate a claim
 premeditation	forecast
 premeditation	outlook
 premise	 evidence
-premise	(plural) evidence
 premise	circumstances admitted in court
 premise	condition
+premise	evidence
 premise	pledge
 premise	stipulation
 premised	predestined
@@ -31983,7 +31926,6 @@ preserved	kept safe from evil
 preserved	protected
 press	burden
 press	clothes-press
-press	come / go boldly
 press	come boldly
 press	commission to raise men
 press	compel
@@ -32111,7 +32053,6 @@ prick	grieve
 prick	incite
 prick	indication
 prick	mark
-prick	mark (down)
 prick	mark down
 prick	marker
 prick	motivate
@@ -32134,7 +32075,6 @@ prick	torment
 prick	urge
 prick	vex
 prick down	mark
-prick down	mark (down)
 prick down	mark down
 prick down	put on a list
 prick down	record in writing
@@ -32314,13 +32254,13 @@ proceeder	student
 proceeder	worker
 proceeding	 conduct
 proceeding	 line of descent
-proceeding	(plural) conduct
-proceeding	(plural) line of descent
 proceeding	actions
 proceeding	advancement
 proceeding	behaviour
 proceeding	career
+proceeding	conduct
 proceeding	course of action
+proceeding	line of descent
 proceeding	measures
 proceeding	onward course
 proceeding	pedigree
@@ -32598,7 +32538,6 @@ properly	privately
 propertied	having the nature
 propertied	of a quality
 property	 stage requisites
-property	(plural) stage requisites
 property	accessories
 property	appropriate
 property	character
@@ -32612,6 +32551,7 @@ property	nature
 property	particular respect
 property	props
 property	quality
+property	stage requisites
 property	take possession of
 property	treat as an object
 prophet	foretelling
@@ -32623,7 +32563,6 @@ prophet	soothsayer
 propinquity	blood relationship
 propinquity	close kinship
 proportion	 military material
-proportion	(plural) military material
 proportion	amount
 proportion	appropriate measuring
 proportion	bodily shape
@@ -32638,6 +32577,7 @@ proportion	link
 proportion	magnitude
 proportion	marriage portion
 proportion	measure
+proportion	military material
 proportion	natural order
 proportion	part
 proportion	physical form
@@ -32860,7 +32800,6 @@ puffed	increased
 puffed	puffed up
 puffed	stuffed
 puffed	swollen
-puffed	swollen (with vanity)
 puffed	swollen with vanity
 puffing	puffed-out
 puffing	swelling
@@ -33723,7 +33662,6 @@ ranged	spacious
 ranger	forester
 ranger	gamekeeper
 rank	 troops
-rank	(plural) troops
 rank	abundant
 rank	accompany
 rank	army
@@ -33771,6 +33709,7 @@ rank	stout
 rank	strong
 rank	swollen
 rank	thickly
+rank	troops
 rank	violent
 rank	way of moving
 rank-scented	foul-smelling
@@ -34319,9 +34258,9 @@ reel	become unsteady
 reel	turn suddenly
 reel	waver
 reels	 revels
-reels	(plural) revels
 reels	merrymaking
 reels	revelry
+reels	revels
 refel	deny
 refel	refuse
 refel	reject
@@ -34443,10 +34382,10 @@ rehearse	utter
 reign	exercise influence
 reign	have power
 rein	 loins
-rein	(plural) loins
 rein	control
 rein	curb
 rein	kidneys
+rein	loins
 rein	restraint
 reinforce	obtain reinforcements
 reinforcement	fresh attack
@@ -35534,7 +35473,6 @@ rouse	brimful cup
 rouse	carousing
 rouse	draw out
 rouse	full draught
-rouse	full draught (of wine)
 rouse	full draught of wine
 rouse	lift up
 rouse	raise
@@ -35681,7 +35619,6 @@ rugged	hairy
 rugged	shaggy
 rugged	wrinkled with irritation
 ruin	 remains
-ruin	(plural) remains
 ruin	case of hardship
 ruin	destitute
 ruin	destruction
@@ -35689,6 +35626,7 @@ ruin	devastation
 ruin	fall
 ruin	giving way
 ruin	overthrow
+ruin	remains
 ruin	remnants
 ruin	residue
 ruin	ruination
@@ -36566,7 +36504,6 @@ seat	throne
 seated	firmly placed
 seated	fixed
 second	 reinforcements
-second	(plural) reinforcements
 second	act of assistance
 second	assist
 second	back-up
@@ -36576,6 +36513,7 @@ second	corroborate
 second	helper
 second	proxy
 second	reinforce
+second	reinforcements
 second	reserves
 second	support
 second	supporter
@@ -37100,13 +37038,13 @@ settled	still
 seven-night	week
 several	 details
 several	 individuals
-several	(plural) details
-several	(plural) individuals
+several	details
 several	different
 several	distinct
 several	enclosed
 several	individual
 several	individual points
+several	individuals
 several	particulars
 several	persons
 several	private
@@ -37126,7 +37064,6 @@ sewer	chief servant
 sewer	master of ceremonies
 sewer	supervisor
 shade	 the underworld
-shade	(plural) the underworld
 shade	Hades
 shade	conceal
 shade	cover up
@@ -37136,6 +37073,7 @@ shade	phantom
 shade	shadow
 shade	sheltered spot
 shade	spirit
+shade	the underworld
 shadow	conceal
 shadow	copy
 shadow	delusion
@@ -37166,7 +37104,6 @@ shadow	shelter
 shadow	spectre
 shadow	spirit
 shadow	unreal image
-shadowed	also : faintly drawn
 shadowed	darkened
 shadowed	faintly drawn
 shadowed	shaded
@@ -37347,10 +37284,8 @@ shent	reproached
 shent	shame
 sherris	sherry-wine
 sherris	white wine from Xeres
-sherris	white wine from Xeres (Spain)
 sherris-sack	sherry-wine
 sherris-sack	white wine from Xeres 
-sherris-sack	white wine from Xeres (Spain)
 shew	avoid
 shew	eschew
 shew	shirk
@@ -38015,9 +37950,9 @@ skirr	scour
 skirr	scurry
 skirr	search quickly through
 skirt	 outlying parts
-skirt	(plural) outlying parts
 skirt	borders
 skirt	one of four pieces of cloth forming the lower part of a long coat
+skirt	outlying parts
 skirt	outskirts
 skirted	wearing a long coat
 skittish	changeable
@@ -38991,11 +38926,11 @@ spend	use up
 spend	waste
 spend	wear out
 sphere	 orbits
-sphere	(plural) orbits
 sphere	celestial globe in which a heavenly body was thought to move
 sphere	earth
 sphere	globe
 sphere	orbit
+sphere	orbits
 sphere	place in the heavens
 sphere	sockets
 sphere	world
@@ -39027,8 +38962,6 @@ spinster	domestic woman
 spinster	one who stays at home spinning
 spirit	 sentiments
 spirit	 vital power
-spirit	(plural) sentiments
-spirit	(plural) vital power
 spirit	anger
 spirit	animating essence
 spirit	courage
@@ -39044,11 +38977,13 @@ spirit	life-supporting substance thought to be carried by the blood
 spirit	perception
 spirit	rage
 spirit	resolution
+spirit	sentiments
 spirit	temperament
 spirit	traits of character
 spirit	troublesome devil
 spirit	valour
 spirit	vigour
+spirit	vital power
 spiritualty	ecclesiastical estate
 spiritualty	spiritual body
 spirt up	germinate
@@ -39155,7 +39090,6 @@ sport	recreation
 sport	sexual recreation
 sport	subject of sport
 sport	take pleasure
-sport	take pleasure (in)
 sport	take pleasure in
 sportful	frolicsome
 sportful	not in earnest
@@ -39563,7 +39497,6 @@ stand off	stand back
 stand off	stand out
 stand on	call for
 stand on	demand
-stand on	give (oneself) over to
 stand on	give oneself over to
 stand on	give over to
 stand on	insist on
@@ -39794,7 +39727,6 @@ statute	decree
 statute	law
 statute	legal security
 statute	regulation
-statute-cap	woollen cap ordered (by an Act of 1571) to be worn on Sundays and holy days by all below a certain social rank
 statute-cap	woollen cap ordered to be worn on Sundays and holy days by all below a certain social rank
 staunch	firm
 staunch	steadfast
@@ -39841,7 +39773,6 @@ stay	stop
 stay	support
 stay	tarry
 stay	wait
-stay	wait (for)
 stay	wait for
 stay	withhold
 stay for	await
@@ -40141,7 +40072,6 @@ stooping	submissive
 stop	block
 stop	breaking off
 stop	close
-stop	close (up)
 stop	close up
 stop	cram
 stop	fasten
@@ -40416,7 +40346,7 @@ strew	broadcast
 strew	scatter
 strew	spread about
 strewing	 things to be scattered
-strewing	(plural) things to be scattered
+strewing	things to be scattered
 strewment	strewn flowers
 strict	absolute
 strict	cruel
@@ -40721,7 +40651,7 @@ subtly	deceitfully
 subtly	deceptively
 subtly	treacherously
 suburbs	 parts of a city lying outside the walls
-suburbs	(plural) parts of a city lying outside the walls
+suburbs	parts of a city lying outside the walls
 subversion	destruction
 subversion	overthrow
 subversion	ruin
@@ -40921,7 +40851,6 @@ suitor	entreater
 suitor	petitioner
 suitor	supplicant
 sullen	 sullenness
-sullen	(plural) sullenness
 sullen	dismal
 sullen	drab
 sullen	dull
@@ -40931,6 +40860,7 @@ sullen	melancholy
 sullen	mournful
 sullen	sombre
 sullen	sulks
+sullen	sullenness
 sullied	blemished
 sullied	polluted
 sullied	tarnished
@@ -41041,7 +40971,6 @@ supply	occupy
 supply	provide for
 supply	reinforce
 supply	reinforcement
-supply	reinforcement(s)
 supply	reinforcements
 supply	relief
 supply	satisfy
@@ -41458,8 +41387,8 @@ synod	council
 synod	gathering
 ta	thou
 table	 backgammon
-table	(plural) backgammon
 table	area between various lines on the palm
+table	backgammon
 table	confidante
 table	dinner party
 table	dinner table
@@ -42058,9 +41987,9 @@ tenour	substance
 tenour	summary
 tenour	synopsis
 tent	 encampment
-tent	(plural) encampment
 tent	cure
 tent	encamp
+tent	encampment
 tent	explore
 tent	fabric hung over and around a bed
 tent	insert
@@ -42349,9 +42278,9 @@ thriving	successful
 throbbing	grief-stricken
 throbbing	with heart strongly beating
 throe	 labour pains
-throe	(plural) labour pains
 throe	agonize
 throe	cost in pain
+throe	labour pains
 throe	pangs of childbirth
 throe	torture
 throe forth	give painful birth to
@@ -42504,8 +42433,6 @@ tilth	labour of cultivation
 tilth	tilled land
 timbered	constructed
 timbered	made of wood
-time	(the) age
-time	(the) world
 time	accompany regularly
 time	age
 time	allotted limit
@@ -42694,11 +42621,11 @@ tomboy	harlot
 tomboy	prostitute
 tongs	type of simple metal musical instrument
 tongue	 foreign language
-tongue	(plural) foreign language
 tongue	babble about
 tongue	berate
 tongue	censure
 tongue	expression
+tongue	foreign language
 tongue	language
 tongue	reproach
 tongue	speak
@@ -44563,7 +44490,6 @@ unsettled	unresolved
 unsevered	inseparable
 unsevered	intimate
 unsevered	united
-unsex	here: remove all feminine qualities
 unsex	remove all feminine qualities
 unsex	take away one's sex
 unshape	deform
@@ -45416,7 +45342,6 @@ vexed	stormy
 vexed	troubled
 vexed	turbulent
 vext	vexed
-via	come / go on
 via	come on
 via	forward
 via	go on
@@ -45428,11 +45353,9 @@ via	screw
 vial	flask
 vial	phial
 vial	small bottle
-viand	(usually plural) food
 viand	food
 viand	foodstuff
 viand	victuals
-vice	(usually capitalized) buffoon
 vice	buffoon
 vice	constrain
 vice	force
@@ -45452,7 +45375,6 @@ vicious	faulty
 vicious	immoral
 vicious	reprehensible
 vicious	shameful
-victual	(usually plural) provisions
 victual	food and drink
 victual	furnish
 victual	provide
@@ -45704,7 +45626,6 @@ votaress	votary
 votaress	woman under vow
 votarist	monk
 votarist	nun
-votarist	nun / monk
 votarist	religious
 votarist	vow-taker
 votary	devotee
@@ -46316,10 +46237,10 @@ wedge	cleave
 wedge	ingot
 wedge	split
 weed	 garments
-weed	(plural) garments
 weed	clothes
 weed	dress
 weed	garment
+weed	garments
 weed	piece of clothing
 weed	root out
 weed	weed out
@@ -46747,7 +46668,7 @@ winding-sheet	shroud
 windlass	circuit made to intercept game while hunting
 windlass	roundabout way
 window	 eyelids
-window	(plural) eyelids
+window	eyelids
 window	hole
 window	opening
 window	place on display
@@ -46826,10 +46747,10 @@ wisewoman	fortune-teller
 wisewoman	sorceress
 wisewoman	witch
 wish	 good wishes
-wish	(plural) good wishes
 wish	commend
 wish	desire
 wish	entreat
+wish	good wishes
 wish	hope
 wish	invite
 wish	recommend
@@ -46885,7 +46806,6 @@ with	like
 withal	as well
 withal	by it
 withal	by this
-withal	by this / it
 withal	in addition
 withal	moreover
 withal	nevertheless
@@ -46893,7 +46813,6 @@ withal	notwithstanding
 withal	with
 withal	with it
 withal	with this
-withal	with this / it
 withdraw	stand apart
 withdraw	turn aside
 wither out	cause to dwindle
@@ -47053,13 +46972,12 @@ woosel	blackbird
 word	 angry exchanges
 word	 empty rhetoric
 word	 speech
-word	(plural) angry exchanges
-word	(plural) empty rhetoric
-word	(plural) speech
 word	adage
 word	affirmation
 word	altercations
+word	angry exchanges
 word	declaration
+word	empty rhetoric
 word	give a reputation
 word	maxim
 word	motto
@@ -47077,7 +46995,6 @@ word	utterance
 word	vain talk
 word	word of God
 work	 fortifications
-work	(plural) fortifications
 work	action
 work	barricade
 work	deed
@@ -47085,6 +47002,7 @@ work	defences
 work	doing
 work	embroidery
 work	fort
+work	fortifications
 work	needlework
 work	ramparts
 work out	manage to maintain
@@ -47379,7 +47297,7 @@ yeasty	frothy
 yeasty	superficial
 yeasty	trivial
 yellow	 jaundice
-yellow	(plural) jaundice
+yellow	jaundice
 yellow	jealous
 yellow	jealousy abhor
 yellow	pasty-faced
@@ -47509,7 +47427,6 @@ zealous	earnest
 zealous	fervent
 zenith	a-bed
 zenith	highest point
-zenith	highest point (in fortunes)
 zenith	highest point in fortunes
 zenith	peak abed
 zenith	summit

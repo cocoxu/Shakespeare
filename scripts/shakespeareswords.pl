@@ -1,5 +1,6 @@
 
 my $rawdict = "../dictionary/shakespeareswords.raw";
+#my $rawdict = "../dictionary/shakespeareswords.exception";
 
 open(RAWDICT, $rawdict) || die "Can't open file $!.";
 my @rawdictlines = <RAWDICT>;
@@ -40,18 +41,21 @@ foreach my $rawdictline (@rawdictlines) {
 			$modernword =~ s/also://g;
 			$modernword =~ s/also: //g;
 			$modernword =~ s/so://g;
+			$modernword =~ s/\(plural\)//g;
 			$modernword =~ s/^\s+//g;
 			$modernword =~ s/\s+$//g;
 			
 			if($modernword =~ m/‘(.+)’.+‘(.+)’/) {
-				#print $originalword."\t".$1."\n";
-				#print $originalword."\t".$2."\n";
+				print $originalword."\t".$1."\n";
+				print $originalword."\t".$2."\n";
 			} elsif($modernword =~ m/‘(.+)’/) {
-				#print $originalword."\t".$1."\n";
+				print $originalword."\t".$1."\n";
 			} elsif($modernword !~ m/^[a-zA-Z '-]+$/) {
-				print $originalword."\t".$modernword."\n";
-			} else {
 				#print $originalword."\t".$modernword."\n";
+			} elsif($modernword !~ m/^[a-zA-Z '-]+$/) {
+				#print $originalword."\t".$modernword."\n";
+			} else {
+				print $originalword."\t".$modernword."\n";
 			}
 			
 			
