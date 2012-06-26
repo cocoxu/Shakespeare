@@ -1,0 +1,46 @@
+
+We gathered more parallel data from another website (www.enotes.com)
+which has modern translations of 8 plays (the previous source,
+www.sparknotes.com has 17).  This gives us multiple translations in
+the Shakespeare->modern direction.  Shakespeare wrote a total of 37
+plays. We held out Romeo & Juliet for dev and test and computed some
+BLEU scores below.  Also note that we're only evaluating in the
+modern-> Shakespeare direction currently, but arguably the other
+direction might be better motivated since many of the plays don't
+appear to have modern translations.
+
+First of all, note that the enotes.com translations are very close to
+the original text, whereas the sparknotes ones tend to contain more
+paraphrases.  Evaluating the basline of simply not translating the
+input at all gives the following BLEU scores:
+SparkNotes: 24.67
+Enotes: 52.30
+
+By training on 16 plays from sparknotes, and 7 plays from enotes, in
+addition to using 36 plays (besides R&J) for the language model, we
+get a decent improvement over this baseline:
+SparkNotes: 28.25
+Enotes: 54.44
+
+Only using 16 plays for the language model:
+SparkNotes: BLEU 28.24; PINC 35.10 (mert PINC 26.58)
+Enotes: BLEU 54.26; PINC 25.82 (mert PINC 18.54)
+
+And only using the 16 plays from Sparknotes for the translation model
+(but still using 36 for the LM):
+Sparknotes: 28.40
+Enotes: 52.94
+
+Also we implemented a simple version of the Dictionary baseline which
+uses the (word to word) dictionary as a phrase table combined with the
+36 plays LM. The word translation probabilities were simply calculated
+according to their frequencies in all Shakespearean plays (the
+baseline method MF used by Koehn&Knight's paper).  It does propose a
+few good paraphrases, but it doesn't beat the baseline of just piping
+in the original text:
+Basline1 - 2k dictionary
+Sparknotes: 23.67
+Enotes: 49.60
+Basline2 - 20k dictionary
+Sparknotes: 21.38
+Enotes: 41.26

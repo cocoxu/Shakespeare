@@ -1,0 +1,64 @@
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16and7plays_16LM.1 
+0.351040957212
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16and7plays_16LM.2 
+0.258171845443
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16and7plays_16LM_mert.1 
+0.265834439427
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16and7plays_16LM_mert.2 
+0.185449924324
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16and7plays_36LM.1 
+0.348051514196
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16and7plays_36LM.2 
+0.240804520046
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16and7plays_36LM_mert.1 
+0.27411679233
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16and7plays_36LM_mert.2 
+0.192631206164
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16plays_36LM.1 
+0.351361708067
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16plays_36LM.2 
+0.261479829463
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/16plays_36LM_mert.1 
+0.232287746594
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/16plays_36LM_mert.2 
+0.156894947509
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/singleword1.1
+0.04699174884
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/singleword1.2
+0.0491425169571
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/singleword2_1.1
+0.338291679587
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/singleword2_1.2
+0.287072602757
+
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.1 ../eval/singleword2_2.1
+0.363589265337
+
+python PINC_document.py ../eval/ascii.romeojuliet_tokenized_lower_modern.2 ../eval/singleword2_2.2
+0.312794456015
+
+
+
