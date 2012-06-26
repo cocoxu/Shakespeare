@@ -1,0 +1,21 @@
+
+Okay, figured the meaning of all the numbers
+
+--f modern --e original
+
+must tell you ||| must needs tell thee ||| 0.5 0.108717 0.25 0.000421937 2.718 ||| ||| 2 4
+must tell you ||| must tell thee ||| 0.333333 0.175424 0.25 0.0227846 2.718 ||| ||| 3 4
+
+source phrase ||| target phrase ||| phrase translation and lexical weighting probabilities ||| ||| counts 
+
+> Five different phrase translation scores are computed:
+>  a)  inverse phrase translation probability φ(f|e)
+>  b)  inverse lexical weighting lex(f|e)
+>  c)  direct phrase translation probability φ(e|f)
+>  d)  direct lexical weighting lex(e|f)
+>  e)  phrase penalty (always exp(1) = 2.718)
+>
+
+Ref:
+http://www.mail-archive.com/moses-support@mit.edu/msg04948.html
+http://www.statmt.org/moses/?n=FactoredTraining.ScorePhrases

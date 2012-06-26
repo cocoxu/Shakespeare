@@ -1,0 +1,21 @@
+train language model for Original pLM
+initialize word translation probabilities Pw uniformly
+iterate
+    set score(f|e) to 0 for all dictionary entries (f,e)
+    for all Modern sentences fs = (f1; ... ; fn)
+        for all possible Original sentence translations es
+        	compute sentence translation probability ps(es|fs)
+        	by pw(f1|e1)pw(f2|e2)...pw(fn|en)
+        	*pLM(e1)pLM(e2|e1)...pLM(en|en_1)
+		endfor
+		normalize ps(es|fs) so their sum is 1
+		for all sentence translations es
+			for all words ew in es
+				add ps(es|fs) to score(fw|ew)
+			endfor
+		endfor
+	endfor
+	for all translation pairs (fw; ew)
+		set pw(fwjew) to normalized score(fwjew)
+	endfor
+enditerate
