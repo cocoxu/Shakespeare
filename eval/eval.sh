@@ -26,6 +26,9 @@ cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src
 cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Lexicons/singleword2/alan_moses2.ini > singleword2_2.1 2> /dev/null
 cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Lexicons/singleword2/alan_moses2.ini > singleword2_2.2 2> /dev/null
 
+cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Lexicons/phrase2/alan_moses.ini > phrase2.1 2> /dev/null
+cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Lexicons/phrase2/alan_moses.ini > phrase2.2 2> /dev/null
+
 echo singleword1.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < singleword1.1
 echo singleword1.2
@@ -40,3 +43,8 @@ echo singleword2_1.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < singleword2_2.1
 echo singleword2_2.2
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < singleword2_2.2
+
+echo phrase2.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < phrase2.1
+echo phrase2.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < phrase2.2
