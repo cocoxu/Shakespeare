@@ -92,7 +92,7 @@ while sline and cline:
 
 
 
-pincscore = pincscore / sentcount
+pincscore = pincscore / sentcount * 100
 
-print pincscore
+print ("PINC = %.2f" %pincscore)
 
