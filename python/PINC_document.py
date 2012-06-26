@@ -1,6 +1,9 @@
 from __future__ import division
 from collections import *
 
+import io
+import sys
+
 def intersect (list1, list2) :
     cnt1 = Counter()
     cnt2 = Counter()
@@ -13,7 +16,8 @@ def intersect (list1, list2) :
 
 def pinc ( ssent, csent) :
     s1grams = ssent.split(" ")
-    c1grams = csent.split(" ")
+    c1grams = cline.split(" ")
+    
     s2grams = []
     c2grams = []
     s3grams = []
@@ -43,19 +47,52 @@ def pinc ( ssent, csent) :
             c4gram = c1grams[i] + " " + c1grams[i+1] + " " + c1grams[i+2] + " " + c1grams[i+3]
             c4grams.append(c4gram)
 
-    score = intersect(s1grams, c1grams) / len(c1grams)
-    score += intersect(s2grams, c2grams) / len(c2grams)
-    score += intersect(s3grams, c3grams) / len(c3grams)
-    score += intersect(s4grams, c4grams) / len(c4grams)
-    print 1 - score/4
+    if len(c1grams) > 0 :
+        score  = 1 - intersect(s1grams, c1grams) / len(c1grams)
+        #print "score1", score
+    if len(c2grams) > 0 :
+        score += 1 - intersect(s2grams, c2grams) / len(c2grams)
+        #print "score2", score
+    if len(c3grams) > 0 :
+        score += 1 - intersect(s3grams, c3grams) / len(c3grams)
+        #print "score3", score   
+    if len(c4grams) > 0 :
+        score += 1 - intersect(s4grams, c4grams) / len(c4grams)
+        #print "score4", score
+    return score/4
 
 
-    #print intersect(s1grams, c1grams)   
+sentcount = 0
+pincscore = 0.0
 
-#inssent = "i am finished ."
-#incsent = "i am done ."
-#pinc (inssent, incsent)
+sfile = open(sys.argv[1])
+cfile = open(sys.argv[2])
 
-inssent = "come , come away ."
-incsent = "come , come away ."
-pinc (inssent, incsent)
+sline = sfile.readline()
+cline = cfile.readline()
+
+while sline and cline:
+    sentcount += 1
+    
+    sline = sline.strip()
+    cline = cline.strip()
+    #print sline
+    #print cline
+           
+    sentscore = pinc (sline, cline)       
+    pincscore += sentscore
+
+
+    #print sentscore
+    #print len(sline)
+    #print len(cline)
+    #print "\n\n"
+    sline = sfile.readline()
+    cline = cfile.readline()
+
+
+
+pincscore = pincscore / sentcount
+
+print pincscore
+
