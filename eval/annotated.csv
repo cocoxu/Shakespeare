@@ -1,0 +1,511 @@
+ascii.romeojuliet_tokenized_lower_original	ascii.romeojuliet_tokenized_lower_modern.1	16plays_36LM.1	phrase2.1	semantic equiv	dissimilarity	style	overall	semantic equiv	dissimilarity	style	overall
+villain am i none .	i am no villain .	i am no villain .	i am no villain .	4	1	1	2	4	1	1	2
+give me , give me !	give it to me !	give it me !	give it to me !	3	3	2	2	4	1	1	2
+what , shall i groan and tell thee ?	you mean i should groan and tell you ?	you say i should groan , and tell you ?	you think i should groan and say you ?	4	3	3	3	2	3	3	2
+alack the day !	curse the day !	curse the day !	beshrew the day !	4	1	1	2	4	3	4	3
+he was not born to shame .	he was not born to be shameful .	he was not born to be shame .	he was not born to be guilty .	3	3	2	2	2	3	2	2
+if i may trust the flattering truth of sleep , my dreams presage some joyful news at hand .	if i can trust my dreams , then some joyful news is coming soon .	if i can trust my dreams , some joyful news is coming .	and i can take my dreams , then some light news is coming by and by .	4	2	2	2	1	4	2	2
+either thou or i , or both , must go with him .	either you , or i , or both of us have to go with him .	either thou , or i , or both of us have to go with him .	either you , or i , or both of us have to go with him .	4	2	4	3	4	1	1	2
+there lies the man , slain by young romeo , that slew thy kinsman , brave mercutio .	he killed your relative , brave mercutio , and then young romeo killed him .	he slew thy kinsman , brave mercutio , and then young romeo kill him .	he dead your brother , proud mercutio , and then young romeo dead him .	4	4	4	4	1	3	1	1
+how art thou out of breath when thou hast breath to say to me that thou art out of breath ?	how can you be out of breath when you have enough breath to tell me that you 're out of breath ?	how canst thou be out of breath , when you have enough breath to tell me that you 're out of breath ?	how can you be out of breath that you have enough to tell me that you 're out of breath breath ?	4	3	4	4	2	3	1	1
+o woeful , woeful , woeful day !	oh painful , painful , painful day !	o painful , o , o day !	o hard , hard , tedious day !	2	3	4	2	2	3	2	1
+come , vial .	alright , here 's the vial .	why , here 's the vial .	alright , here 's the vial .	4	2	4	3	4	1	1	2
+and what to ?	and what about that ?	and what of that ?	and what of that ?	4	4	4	4	4	4	4	4
+right glad i am he was not at this fray .	i 'm glad he wasn 't here for this fight .	i 'm glad he was 't for this quarrel .	i 'm glad he wasn 't here to this war .	4	3	4	4	2	2	2	2
+i would the fool were married to her grave !	i wish the fool were dead and married to her grave !	i would the fool were dead and married to her grave !	i will the fool were dead and married to her dead !	3	2	3	3	1	3	2	1
+no better .	but he 's not better than mine .	but he 's not better than mine .	but he 's not better than mine .	4	1	1	2	4	1	1	2
+help me into some house , benvolio , or i shall faint .	take me inside some house , benvolio , or i 'll pass out .	bring me in my house , benvolio , or i 'll have slept .	take me some benvolio , or i 'll sound , inward house .	3	4	4	3	1	3	2	1
+blind is his love and best befits the dark .	his love is blind , so it belongs in the dark .	his love is blind , that it by in the dark .	his love is blind , so it belongs in the dark .	2	3	2	2	4	1	1	2
+i am sped .	i 'm finished .	i 'm done .	i 'm out .	4	4	3	3	2	4	1	2
+ay , mine own fortune in my misery .	i can read my own fortune in my misery .	i can read mine own fortune in my woes .	i can read my master fortune of my misery .	4	4	4	4	1	3	2	1
+for doting , not for loving , pupil mine .	i scolded you for obsessing about her , not for loving her , my student .	i upbraid you for obsessing of her , not to love her , my student .	i chidden you to obsessing of her , not to her , my loving scholar .	2	3	4	3	2	3	3	2
+o love !	oh love !	o love !	o love !	4	4	4	4	4	4	4	4
+welcome from mantua .	welcome back from mantua .	most welcome home in mantua .	welcome back from mantua .	2	3	3	2	4	1	1	2
+i will bite thee by the ear for that jest .	i 'll bite you on the ear for that joke .	i 'll sting thee on the ear for that jest .	i 'll pinch you in the ear of that mirth .	4	4	4	4	2	4	3	3
+welcome , gentlemen !	welcome , gentlemen .	welcome , gentlemen .	welcome , gentlemen .	4	1	1	2	4	1	1	2
+stay the friar too .	hold the friar too .	hold the friar too .	give the friar too .	4	1	1	2	2	1	1	1
+the son and heir of old tiberio .	he is the son and heir of old tiberio .	he is the son and heir of old tiberio .	he is the son and heir of old tiberio .	4	1	1	2	4	1	1	2
+is he gone and hath nothing ?	did he get away clean ?	did he make away clean ?	did he break fair ?	4	2	3	3	2	4	2	2
+may not one speak ?	can 't i say something ?	can 't i speak ?	can 't i say something ?	4	2	4	3	4	1	1	2
+marry , sir , because silver hath a sweet sound .	well , sir , because silver has a sweet sound .	well , sir , for silver hath a sweet sound .	well , sir , for silver has a sweet breath .	4	4	4	4	2	2	2	2
+i will frown as i pass by , and let them take it as they list .	i 'll frown at them as they pass by , and they can react however they want .	i 'll frown upon them as they pass by , and they can react what they will .	i 'll frown on them as they pass by , and they can answer howbeit they want .	4	4	4	4	4	4	4	4
+romeo will answer it .	romeo will answer the challenge .	romeo will answer the challenge .	romeo will return the set .	4	1	1	2	1	3	2	2
+my dismal scene i needs must act alone .	in my desperate situation , i have to act alone .	in my desperate estate , i must be alone .	in my desperate case , i have to do all .	3	3	4	3	2	3		
+madam , i am here .	madam , i 'm here .	madam , i 'm here .	madam , i 'm here .	4	1	1	2	4	1	1	2
+now , afore god , i am so vexed that every part about me quivers .	now , i swear , i 'm so angry that i 'm shaking all over .	now , by my troth , i 'm so angry that i 'm shaking all o 'er .	now , i swear , i 'm out all that i 'm shake all over .	4	4	4	4	2	4	2	2
+as i did sleep under this yew tree here , i dreamt my master and another fought , and that my master slew him .	as i slept under this yew-tree here , i had a dream that my master and someone else were fighting and that my master killed him .	as i slept under this yew-tree here , i had a dream , that my master , and one else were blows and that my master .	as i slept under this yew-tree here , i had a dream that my master and some else were rage and that my master dead him .	3	1	1	1	3	1	1	1
+is the day so young ?	is it that early in the day ?	is it that betimes in the day ?	is it that forward of the day ?	4	2	4	3	2	3	2	2
+romeo can , though heaven cannot .	romeo is hateful , even though god isn 't .	romeo is hateful , however god is 't .	romeo is hateful , so god isn 't .	4	3	4	4	2	3	2	2
+what devil art thou that dost torment me thus ?	what kind of devil are you to torture me like this ?	what kind of devil art thou to torture me thus ?	what kind of devil are you to torture me this ?	4	4	4	4	2	3	2	2
+thus with a kiss i die .	so i die with a kiss .	so i die with a kiss .	so i yield the ghost of a kiss .	4	1	1	2	2	3	4	3
+take thou some new infection to thy eye , and the rank poison of the old will die .	but here come some people , right in the nick of time .	but here come some , in the nick of time .	but here come some good people , in the nick .	2	3	2	2	3	3	3	3
+i will carry no crotchets .	i 'll make you sing .	i 'll make you sing .	i 'll give you sing .	4	1	1	2	3	2	1	2
+i would i were thy bird .	i wish i was your bird .	i would i was your bird .	i will i was your bird .	3	2	3	3	3	2	3	3
+any man that can write may answer a letter .	any man who knows how to write can answer a letter .	no man that knows how to write may answer a letter .	any man who knows how to write can answer a letter .	2	2	2	2	4	1	1	2
+did ever dragon keep so fair a cave ?	did a dragon ever hide in such a beautiful cave ?	a dragon , did ever hide me in such a fair cave ?	did a dragon once fell in such a fair cave ?	3	3	3	3	2	3	2	2
+hast thou no letters to me from the friar ?	don 't you have a letter for me from the friar ?	do 't you have a letter for me from the friar ?	don 't you have a letter for me of the friar ?	4	1	1	2	3	2	1	2
+peter , stay at the gate .	peter , wait for me at the gate .	peter , stay for me at the gate .	peter , stay for me at the gate .	3	2	2	2	3	2	2	2
+go tell him of this .	go tell him about this .	go tell him of this .	go tell him of this .	4	2	3	3	4	2	3	3
+faith , i know not what to say .	what do you say , james well , i don 't know what to say .	what say you , james well , i do 't know what to say .	what do you say , james well , i know what to say don 't .	4	3	4	4	2	1	1	1
+i will go call the watch .	i 'll go call the watch .	i 'll go call the watch .	i 'll go give the watch .	4	1	1	2	2	2	1	1
+what , shall this speech be spoke for our excuse ?	what will we say is our excuse for being here ?	what shall we say is our pardon for being here ?	what will we say is our answer for being here ?								
+give me my sin again .	give me my sin back .	give me my sin .	give me my fault again .								
+what is her mother ?	who is her mother ?	who is her mother ?	who is her mother ?								
+i will confess to you that i love him .	i 'll confess to you that i love him .	i 'll confess to you that i love him .	i 'll confess to you that i love him .								
+young son , it argues a distempered head so soon to bid good morrow to thy bed .	young man , something 's wrong if you 're getting out of bed this early .	young man , that 's wrong , if you 're grow out of this bed betimes .	young man , something 's out that you 're getting of bed this forward .								
+some twenty of them fought in this black strife , and all those twenty could but kill one life .	there were twenty montagues fighting in this awful riot , and together those twenty could only kill one man .	there were twenty montagues blows in this heinous rise , and all those twenty could but kill one man .	there were twenty montagues question in this doubtful mutiny , and those twenty could but kill one man together .								
+in sadness , cousin , i do love a woman .	seriously , cousin , i love a woman .	truly , cousin , i love a woman .	near , cousin , i love a woman .								
+search , seek , and know how this foul murder comes .	investigate how this foul murder came about .	investigate how this foul murder came of .	tent how this foul murder came of .								
+a man , young lady !	what a man , young lady .	what a man , young lady .	what a man , young lady .								
+if love be blind , love cannot hit the mark .	if love is blind , it can 't hit the target .	if love is blind , it may 't strike the target .	and love is blind , it can 't take the mark .								
+perhaps you have learned it without book .	perhaps you 've learned from life and not from books .	haply you 've out of life , and not from books .	belike you 've deep of time and not of books .								
+tybalt , my cousin !	tybalt was my nephew !	tybalt was my cousin !	tybalt was my nephew !								
+where the devil should this romeo be ?	where the devil can romeo be ?	where the devil can romeo be ?	where the devil can romeo be ?								
+as i remember , this should be the house .	as i remember , this should be the house .	as i remember , this should be the house .	for i know , this should be the house .								
+you are too hot .	you 're getting too angry .	you 're grow too angry .	you 're getting too out .								
+shame come to romeo !	shame on romeo !	fie upon romeo !	shame of romeo !								
+tell me , good my friend , what torch is yond that vainly lends his light to grubs and eyeless skulls ?	tell me , my good friend , what is that light over there ?	tell me , my good friend , what is that light there ?	tell me , my good friend , what is that day yond ?								
+who calls so loud ?	who 's that calling so loud ?	who 's that cry so loud ?	who 's that way so deep ?								
+every one prepare to follow this fair corse unto her grave .	everyone prepare to take this beautiful corpse to her grave .	all prepare to take this fair corse to her grave .	everyone arm to have this fair corse to her dead .								
+o woe !	oh pain !	o plague !	o grief !								
+now is he for the numbers that petrarch flowed in .	now he 's ready for	now he 's ready for	now he 's bound to								
+is it e 'en so ?	is it really true ?	is it true ?	is it good true ?								
+the time is very short .	that 's very soon .	that 's very shortly .	that 's too by and by .								
+but to be frank , and give it thee again .	only to be generous and give it to you once more .	but to be free and give it you once more .	but to be free and give it to you once more .								
+where is my mother ?	where is my mother ?	where is my mother ?	where is my mother ?								
+monday !	monday !	monday !	monday !								
+to our house .	to our house .	to our house .	to our house .								
+what hast thou found ?	what have you found out ?	what hast thou found out ?	what have you found out ?								
+good even to my ghostly confessor .	that 's how flimsy and unreal pleasure is .	that 's how flimsy and unreal his pleasure .	that 's how thin and painted sweet is .								
+will you go to them ?	are you going to join them ?	wilt thou take them ?	you are going to go them ?								
+thou canst not speak of that thou dost not feel .	you can 't talk about something that you don 't feel .	you may 't talk of that you do 't .	you can 't voice something that you don 't pass .								
+can i go forward when my heart is here ?	can i go away while my heart stays here ?	shall i go to my heart stays here ?	can i go away time my heart sits here ?								
+look , sir , here comes the lady toward my cell .	look , sir , here comes the lady walking toward my cell .	look , sir , here comes the lady walk towards my cell .	look , sir , here comes the lady going toward my hold .								
+ay , madam , from the reach of these my hands .	yes , madam , he lies beyond my reach .	ay , madam , he lies beyond my gain .	yes , madam , he lies out of my mark .								
+what is the matter ?	what is the matter ?	what is the matter ?	what is the matter ?								
+a right fair mark , fair coz , is soonest hit .	a beautiful target is the one that gets hit the fastest .	a fair target is the one is hit the fastest .	a fair mark is the one that takes take the fastest .								
+no , not till thursday .	no , not until thursday .	no , not till thursday .	no , not till that thursday .								
+as much to him , else is his thanks too much .	i 'll give him equal thanks , so we 're even .	i 'll give him by his thanks , that we 're even .	i 'll make him like thanks , so we 're meet .								
+peace , you mumbling fool !	be quiet , you mumbling fool !	peace , you mumbling fool !	be quiet , you mumbling fool !								
+by a name i know not how to tell thee who i am .	tell me , how did you get in here ?	tell me , how came you hither ?	tell me , how did you perceive in here ?								
+tell me , daughter juliet , how stands your disposition to be married ?	tell me , my daughter juliet , what is your attitude about getting married ?	tell me , my daughter juliet , what is your disposition of married ?	tell me , my daughter juliet , what is your grace of getting married ?								
+thou wast never with me for anything when thou wast not there for the goose .	you were never with me for anything if you weren 't there for the goose .	you were never with me for nothing , if you were 't there for the goose .	you were never with me to aught that you weren 't there for the goose .								
+or shall we on without apology ?	or should we enter without apologizing ?	or shall we go without apologizing ?	or should we take but apologizing ?								
+romeo , away , be gone !	romeo , get out of here .	romeo , get thee gone .	romeo , take of here .								
+pitiful sight !	this is a pitiful sight !	this is a for mercy sight !	this is a pitiful eye !								
+what , wilt thou wash him from his grave with tears ?	are you trying to wash him out of his grave with tears ?	do you mean to wash him out of his grave with tears ?	are you trying to wash him out of his dead with tears ?								
+by my heel , i care not .	well , well , i don 't care .	well , well , i know 't .	well , well , i don 't hand .								
+could you not take some occasion without giving ?	can 't you find a reason without my giving you one ?	can 't you find a reason without my give you one ?	can 't you like a matter out my gift you one ?								
+tis he , that villain romeo .	that 's him , that villain romeo .	that 's him , that villain romeo .	that 's him , that villain romeo .								
+need you my help ?	do you need my help ?	do you need my help ?	do you turn my back ?								
+o me , o me !	oh my , oh my !	o my , o my !	o my , o my !								
+come , what says romeo ?	come on , what did romeo say ?	come , what did romeo ?	go to , what did romeo word ?								
+his son was but a ward two years ago .	his son was a minor only two years ago .	his son was a hope but two years ago .	his son was a light but two years since .								
+nurse !	nurse !	nurse !	dame !								
+take thou that .	take this .	take this .	take this .								
+what , lamb !	come on !	come , come !	go to !								
+what , ho !	hey !	what , ho !	hey !								
+but now , my lord , what say you to my suit ?	but what do you say to my request ?	but what say you to my request ?	but what do you say to my request ?								
+we talk here in the public haunt of men .	we 're talking here in a public place .	we 're talking here in a common place .	we 're tale here in a common sort .								
+in love ?	you 're in love ?	you 're in love ?	you 're in love ?								
+without his roe , like a dried herring .	he looks skinny , like a dried herring without its eggs , and he hasn 't got his girl .	he looks skinny , like a dried herring without his golden , and he hath 't had .	he thinks , with a dry herring its eggs , and he hasn 't got she 's but little .								
+o romeo , romeo !	oh , my !	o , my !	o , my !								
+you lie .	you lie .	thou liest .	you lie .								
+rest you merry !	have a nice day !	have a gentle day !	have a pretty day !								
+i neither know it nor can learn of him .	i don 't know , and he won 't tell me .	i do 't , and he shall know 't , tell me .	don i know 't , and he won 't tell me .								
+no , my good lord .	no , my good lord .	no , my good lord .	no , my good lord .								
+the fee simple ?	your life insurance ?	thy life insurance ?	your time insurance ?								
+what says romeo ?	what does romeo say ?	what says romeo ?	what does romeo word ?								
+saint francis be my speed !	saint francis , help me !	saint francis , help me !	saint francis , help me !								
+good romeo , hide thyself .	hide yourself , good romeo .	withdraw yourself , good romeo .	convey yourself , good romeo .								
+what counterfeit did i give you ?	what do you mean i faked you out ?	what do you mean life of you out ?	what do you think i faked you out ?								
+i am the youngest of that name , for fault of a worse .	i am the youngest man by that name , because there is no one younger , or worse .	i am the youngest man by that name , for there is no one younger , or worse .	i am the man of that name , for there is no one younger , or worse youngest .								
+father , what news ?	father , what 's the news ?	father , what 's the news ?	father , what 's the news ?								
+it is not yet near day .	it 's still a long time until daybreak .	it 's yet long till daybreak .	it 's yet a long time till that sun .								
+so will ye , i am sure , that you love me .	you will also confess , i 'm sure , that you love me .	you will also confess , i 'm sure , that you love me .	you will confess , i 'm sure , that you love me like .								
+why , bride !	hey , bride !	what , ho , bride !	hey , bride !								
+have you delivered to her our decree ?	have you told her our decision ?	have you told her our mind ?	have you told her our doom ?								
+a challenge , on my life .	i bet it 's a challenge .	i warrant it 's a challenge .	i lay it 's a brave .								
+well , peace be with you , sir .	well , may peace be with you .	well , peace be with you .	well , may peace be with you .								
+supper is done , and we shall come too late .	dinner is over , and we 're going to get there too late .	dinner is done , and we 're going to win too late .	dinner is over , and we 're going to take there too late .								
+thou shalt not stir one foot to seek a foe .	you 're not taking one step toward an enemy .	you 're not take one come to an enemy .	you 're not taking one foot toward an enemy .								
+what , art thou hurt ?	what , are you hurt ?	what , wilt thou do ?	what , are you suffer ?								
+see where she comes from shrift with merry look .	look , she 's come home from confession with a happy look on her face .	look , she 's come home from confession with a merry look on her face .	look , she 's come home of confession of a happy look on her face .								
+who bare my letter , then , to romeo ?	then who took my letter to romeo ?	then that took my letter to romeo ?	who then took my letter to romeo ?								
+her vestal livery is but sick and green , and none but fools do wear it .	virginity makes her look sick and green .	virginity makes her look pale and green .	virginity makes her like sick and ground .								
+tis late .	it 's late .	it 's late .	it 's late .								
+do you not see that i am out of breath ?	don 't you see that i 'm out of breath ?	do you see 't , i 'm out of breath ?	don 't you look as i 'm out of breath ?								
+do as i bid thee , go .	do as i tell you .	do as i tell you .	do as i tell you .								
+an thou make minstrels of us , look to hear nothing but discords .	if we look like musicians to you , you can expect to hear nothing but noise .	if we look like musicians , you may think to hear nothing but .	and we like music to you , you can look to hear nothing but cry .								
+is she not proud ?	isn 't she proud of such a match ?	is 't she proud of such a match ?	isn 't she high in such a fellow ?								
+o heavy day !	oh , what a sad day !	o , what a heavy day !	o , what a heavy day !								
+do not deny to him that you love me .	don 't deny to him that you love me .	do 't deny to him that you love me .	don 't face to him that you love me .								
+how canst thou try them so ?	how can you test them like that ?	how canst thou play them ?	how can you prove them with that ?								
+the boy gives warning something doth approach .	the boy is warning me that someone approaches .	the boy is such me that one approaches .	the boy is advice me that some approaches .								
+why , may one ask ?	why , may i ask ?	why , i pray thee ?	why , may i desire ?								
+but come what sorrow can , it cannot countervail the exchange of joy that one short minute gives me in her sight .	but whatever misfortunes occur , they can 't ruin the joy i feel with one look at her .	but what mishaps occur , they can 't corrupt the joy i feel with one look on her .	but look what faults fall , they can 't cast away the comfort i feel of one eye her .								
+god mark thee to his grace !	may god choose you to receive his grace .	god choose you to receive his grace .	may god sort you to take his grace .								
+do so , and bid my sweet prepare to chide .	do so , and tell my sweet to be ready to scold me .	do so , and tell my sweet , to be ready to chide at me .	do so , and tell my sweet to be bold to take up me .								
+no , coz , i rather weep .	no , cousin , i 'm crying .	no , cousin , i 'm tears .	no , cousin , i 'm crying .								
+she will indite him to some supper .	she will a pimp !	she will a bawd !	she will a bawd !								
+commend me to your daughter .	give my regards to your daughter .	commend me to your daughter .	make my desire to your daughter .								
+dost thou not bring me letters from the friar ?	do you bring me a letter from the friar ?	do you bring me a letter from the friar ?	do you bring me a letter from the friar ?								
+good morrow to you both .	good morning to you both .	good morrow to you both .	good morrow to you both .								
+hie you , make haste , for it grows very late .	hurry up , it 's getting late .	dispatch , it 's grow too late .	dispatch , it 's getting late .								
+henceforward do your messages yourself .	from now on , take care of your messages yourself .	from henceforth take care of your messages yourself .	henceforth , tender your messengers yourself .								
+wilt thou provoke me ?	are you going to provoke me ?	wilt thou provoke me ?	you are going to put on me ?								
+whither should they come ?	where are they supposed to come ?	where are they my to come ?	where are they supposed to come ?								
+ay , boy , ready .	yes , boy , i 'm ready .	ay , boy , i 'm ready .	yes , boy , i 'm light .								
+o heavens !	oh heavens !	o heavens !	o heavens !								
+will it not be ?	won 't he ?	will 't he ?	he won 't ?								
+full half an hour .	for a full half hour .	for a full half hour .	of a great half hour .								
+ready to go , but never to return .	she 's ready to go , but she 'll never return .	she 's ready to go , but she 'll ne 'er return .	she 's bound to go , but she 'll never return .								
+fear me not .	don 't worry about me .	do 't fear me .	don 't fear me .								
+how should they , when that wise men have no eyes ?	how should madmen hear , if wise men can 't even see ?	how should madmen hear , if wise men may do 't , see ?	how should madmen ear , and wise men can 't even see ?								
+out on her , hilding !	she disgusts me , the little hussy !	she disgusts me , the little wanton !	she abhors me , the little minion !								
+they call for dates and quinces in the pastry .	they 're calling for dates and quinces in the pastry kitchen .	they 're call for dates and quinces in the pastry kitchen .	they 're way to tides and quinces of the paste office .								
+o lamentable day !	oh , sad day !	o heavy day !	o , heavy day !								
+that i ask again , for nothing can be ill if she be well .	i ask that again because nothing can be wrong if she is well .	i pray you again for nothing can be wrong , if she is well .	i desire that again for nothing can be out that she is well .								
+out upon you !	the get out of here !	the hence !	the take of here !								
+so thrive my soul- a thousand times good night !	my soul depends on it- a thousand times good night .	my soul lies upon it- a thousand times good night .	my soul lies in it- a thousand times good night .								
+what can he say in this ?	i know all of this .	i know this .	i know all of this .								
+wash they his wounds with tears ?	are they washing out his wounds with their tears ?	are they batler out his wounds with their tears ?	are they washing out his wounds of their tears ?								
+up .	up .	up .	up .								
+by my count , i was your mother much upon these years that you are now a maid .	by my count , i was already your mother at just about your age , while you remain a virgin .	by my count , i was under your mother at but of your age , whilst you of a maid .	by my make , i was first your mother in good time of your , while you virgin .								
+what noise is this ?	what 's this noise ?	what 's this noise ?	what 's this noise ?								
+o flesh , flesh , how art thou fishified !	o flesh , flesh , you 've turned pale and weak like a fish .	o flesh , flesh , you 've turned pale and weak like a fish .	o , flesh , you 've turned fair and false with a fish flesh .								
+i do beseech you , sir , have patience .	please , sir , have patience .	i pray you , sir , have patience .	like , sir , have patience .								
+art thou a man ?	are you a man ?	are you a man ?	are you a man ?								
+an i were so apt to quarrel as thou art , any man should buy the fee simple of my life for an hour and a quarter .	if i were in the habit of fighting the way you are , my life insurance rates would be sky high .	if i were in the trick of all the way you are , my life insurance rates would be of high .	that i were in the course of rage the place you are , my life insurance sets would be heavens great .								
+i hear some noise .	i hear some noise .	i hear some .	i hear some cry .								
+quarrel , sir ?	start a fight ?	a quarrel ?	first a war ?								
+go thou to juliet , help to deck up her .	you should go to juliet and dress her up .	you must to juliet and show her up .	you should go to juliet and suit her up .								
+well , think of marriage now .	well , start thinking about marriage now .	well , begin the thought of marriage .	well , first wit of marriage now .								
+ay , pilgrim , lips that they must use in prayer .	yes , pilgrim-they have lips that they 're supposed to pray with .	ay , pilgrim-they have lips that they 're my to pray with .	yes , pilgrim-they have lips that they 're supposed to pray of .								
+o rude unthankfulness !	oh , rude and unthankful boy !	o , rude and unthankful boy !	o , rude and ingrate boy !								
+so shalt thou show me friendship .	that 's the way to show me friendship .	that 's the way to show me love .	that 's the way to put on me favour .								
+he is wise , and , on my life , hath stol 'n him home to bed .	i bet he slipped away and went home to bed .	he slipped away and went to bed .	i lay he slipped away and went home to bed .								
+who knocks so hard ?	why are you knocking so hard ?	why dost thou knocks so hard ?	why are you knocking so much ?								
+ay , forsooth .	yes , that 's true .	ay , that 's true .	yes , that 's true .								
+look thou but sweet , and i am proof against their enmity .	just look at me kindly , and i 'm invincible against their hatred .	but look on me , and i 'm invincible against their malice .	but eye me fair , and i 'm invincible of their malice .								
+i hear some noise within .	i hear a noise inside .	i hear a noise in .	i hear a cry entrails .								
+what , dost thou make us minstrels ?	hang out ? " who do you think we are , musicians in a band ?	hang out ? " who do you think we are , musicians in a band ?	hang out who do you think we are , music in a noise ? " ?								
+come hither , man .	come here , man .	come hither , man .	come hither , sir .								
+am i like such a fellow ?	am i really like one of those guys ?	am i like one of these lads ?	am i good with one of those guys ?								
+ay , ay , the cords .	yes , yes , this is the rope ladder .	ay , ay , this is the rope ladder .	yes , yes , this is the rope ladder .								
+i will be gone , sir , and not trouble you .	i 'll go , sir , and i won 't bother you .	i 'll go , sir , and i will 't trouble you .	i 'll go , sir , and i won 't molest you .								
+what further woe conspires against mine age ?	what further pain must i endure in my old age ?	what further harm must i endure in my age ?	what further grief must i stand in my age ?								
+whose house ?	whose house ?	whose house ?	whose house ?								
+nay , gentle romeo , we must have you dance .	no , noble romeo , you 've got to dance .	no , noble romeo , you 've must round .	no , noble romeo , you 've got to dance .								
+bliss be upon you !	god bless you !	god bless thee !	god bless you !								
+answer me like men .	answer me like men .	answer me like men .	answer me with men .								
+god in heaven bless her !	god in heaven bless her !	god in heaven bless her !	god of heaven bless her !								
+i wot well where he is .	i know where he is .	i know where he is .	i know where he is .								
+down with the montagues !	down with the montagues !	down with the montagues !	down with the montagues !								
+how long hath he been there ?	how long has he been there ?	how long hath he been there ?	how long he has been there ?								
+no matter .	no matter .	no matter .	no matter .								
+dost thou love me ?	do you love me ?	do you love me ?	do you love me ?								
+o deadly sin !	oh , deadly sin !	o , deadly sin !	o , fell fault !								
+the all-seeing sun ne 'er saw her match since first the world begun .	the sun itself has never seen anyone as beautiful since the world began .	the sun itself is never seen a man as fair as the world began .	the sun itself has never seen body to fair for the world can .								
+and yet i wish but for the thing i have .	but i 'm wishing for something i already have .	but , i 'm hasty-footed time for that i have .	but i 'm wishing of something i have already .								
+i know not .	i don 't know his name .	i do 't know his name .	don i know 't 's name .								
+farewell !	farewell !	farewell !	farewell !								
+answer to that .	answer that question .	answer that .	answer that question .								
+send thy man away .	send your man away .	send thy man away .	turn your he away .								
+some comfort , nurse .	give me some comfort , nurse .	give me some comfort , nurse .	give me some comfort , dame .								
+this is well .	this is good .	this is good .	this is good .								
+was ever book containing such vile matter so fairly bound ?	was there ever such an evil book with such a beautiful cover ?	was ever such an evil book with such a fair cover ?	was there ever such an ill book of such a fair case ?								
+wherefore storm you so ?	why are you acting so angry ?	why dost thou grating so angry ?	why are you so stir up ?								
+now god in heaven bless thee !	may god in heaven bless you .	god in heaven bless thee .	may god of heaven bless you .								
+that may be , sir , when i may be a wife .	that might be the case sir ,	that might be the case , sir ,	that might be the law , sir								
+madam !	madam !	madam !	madam !								
+it was .	it was .	it was .	it was .								
+go with me to the vault .	go with me to the tomb .	go with me to the monument .	go with me to the monument .								
+your mother .	your mother .	your mother .	your mother .								
+what say you ?	lose nothing ?	lose nothing ?	leave nothing ?								
+down with the capulets !	down with the capulets !	down with the capulets !	down with the capulets !								
+who is it ?	who is it ?	who is it ?	who is it ?								
+i pray , sir , can you read ?	excuse me , sir , do you know how to read ?	pray you , sir , do you know how to read ?	pardon me , sir , do you know how to read ?								
+amen !	amen !	amen !	amen !								
+my noble uncle , do you know the cause ?	my noble uncle , do you know why he acts this way ?	my noble uncle , do you know why he ages here ?	my noble uncle , do you know why he turns this place ?								
+farewell , my coz .	goodbye , cousin .	farewell , my cousin .	goodbye , cousin .								
+why , she is within .	why , she 's inside .	why , she 's in .	why , she 's entrails .								
+or , if his mind be writ , give me his letter .	or , if he wrote down his thoughts , give me his letter .	or , if he have set it down his thoughts , give me his letter .	or , if he wrote under his wit , give me his letter .								
+why the devil came you between us ?	why the hell did you come in between us ?	why the devil have you come between us ?	why the hell did you come in of us ?								
+thou dost not mark me .	you 're not paying attention to me .	you 're not attend me to me .	you 're not ear to me .								
+therefore he that cannot lick his fingers goes not with me .	so the cooks who can 't lick their fingers aren 't hired .	so the cooks who can 't lick their fingers are in 't .	all the cooks who can 't lick their points aren 't hired .								
+who now the price of his dear blood doth owe ?	who should now pay the price for mercutio 's life ?	who should now pay the price of mercutio 's life ?	who should still answer the price of mercutio 's life ?								
+where is my romeo ?	where is my romeo ?	where is my romeo ?	where is my romeo ?								
+hark you , sir .	now please listen , sir .	pray you , hear me , sir .	now like list , sir .								
+hast thou met with him ?	have you spoken to him ?	you have spoke to him ?	you have spoken to him ?								
+these are news indeed !	that 's really news !	that 's no news !	that 's good news !								
+a madness most discreet , a choking gall , and a preserving sweet .	it 's a sweet lozenge that you choke on .	it 's a sweet lozenge that you choke on .	it 's a sweet lozenge that you choke a .								
+where is she ?	where is she ?	where is she ?	where is she ?								
+my fan , peter .	give me my fan , peter .	give me my fan , peter .	give me my fan , peter .								
+i will go along .	i 'll come with you .	i 'll go with you .	i 'll go with you .								
+no , sir .	no , sir .	no , sir .	no , sir .								
+come , stir , stir , stir !	come on , wake up , wake up , wake up !	come , awake , awake , awake !	go to , raise , raise , raise !								
+she speaks , yet she says nothing .	she 's talking , but she 's not saying anything .	she 's tongue , but she 's not say nothing .	she 's tale , but she 's not word aught .								
+ah me !	oh my !	o my !	o my !								
+your plantain leaf is excellent for that .	for when you cut your shin .	for when you cut your shin .	of that you cut your shin .								
+will you tell me that ?	are you really going to tell me that ?	are you bound to tell me that ?	are you good going to tell me that ?								
+but what say you to thursday ?	what do you think about thursday ?	what think you on thursday ?	what do you think of thursday ?								
+this same should be the voice of friar john .	that sounds like the voice of friar john .	that resounds as the voice of friar john .	that sounds with the breath of friar john .								
+do as thou wilt , for i have done with thee .	do as you please , because i 'm done worrying about you .	do as i pray you , for i 'm done fearing you .	do as you please , as i 'm done worrying of you .								
+stay , tybalt , stay !	wait , tybalt , wait !	stay , tybalt , soft !	stay , tybalt , stand !								
+yet i should kill thee with much cherishing .	but i would kill you by petting you too much .	but i will kill thee by petting you .	but i would pay you for petting you too much .								
+let me stand here till thou remember it .	let me stand here until you remember your reason .	let me stand till you remember your reason .	let me rest here till that you know your reason .								
+i will be brief , for my short date of breath is not so long as is a tedious tale .	i will be brief because i 'm not going to live long enough to tell a boring story .	i will be brief , because i 'm not live to tell a tedious tale .	i will be short as i 'm not going to be long enough to say a boring tale .								
+let me dispute with thee of thy estate .	let me talk to you about your situation .	let me speak with you of your fortunes .	let me speak with you of your estate .								
+said he not so ?	isn 't that what he said ?	is 't that what he said ?	isn 't but what said he ?								
+take it in what sense thou wilt .	take my remark in whichever sense you like .	take my remark in whose sense you please .	take my word of whichever sense you with .								
+ay , by my troth , the case may be amended .	yes , well , things could get better .	ay , well , things could have better .	yes , well , things could amend .								
+hang him , jack !	forget about him , jack !	leave of him , jack sauce !	omit him , jack !								
+nurse ?	nurse ?	nurse ?	dame ?								
+good heart , at what ?	good man , why are you crying ?	good man , why dost thou weep ?	good sir , why are you crying ?								
+is your man secret ?	can your man keep a secret ?	can thy man keep counsel ?	can your he stay a secret ?								
+what ?	what ?	what ?	what ?								
+the prince will doom thee death if thou art taken .	the prince will give you the death penalty if you get caught .	the prince will give you the death forfeiture , if you have caught .	the prince will give you the end answer that you take caught .								
+the what ?	he knows what ?	he knows what ?	he knows what ?								
+i will say for you .	i 'll answer for you .	i 'll answer for you .	i 'll answer to you .								
+now do you know the reason of this haste .	now you know the reason for the rush .	now , you know the cause of the haste .	now you know the cause of the fly .								
+it is the lark that sings so out of tune , straining harsh discords and unpleasing sharps .	it 's the lark that sings so out of tune , making such harsh noise .	it 's the lark , that sings so out of tune , so hard .	it 's the lark that sings so false , making such sharp cry .								
+you are a saucy boy .	you 're an insolent little boy .	you 're a saucy little boy .	you 're an brave little boy .								
+i do remember well where i should be , and there i am .	i remember very well where i should be , and here i am .	i remember well , where i should be , and here i am .	i know where i should be , and here i am very well .								
+an eagle , madam , hath not so green , so quick , so fair an eye as paris hath .	madam , an eagle does not have eyes as green , as quick , and as fair as the eyes of paris .	madam , an eagle should not have eyes as green , as quick , and as fair as the eyes of paris .	madam , an eagle does not have eyes to ground , as free , and as fair as the eyes of paris .								
+unhappy fortune !	unhappy fortune !	unhappy fortune !	sick fortune !								
+not proud you have , but thankful that you have .	but i am thankful that you have found it .	but i am thankful that you have found it .	but i am thankful that you have found it .								
+what is it else ?	what else is love ?	what else is love ?	what else is like ?								
+lie thou there .	lie down right there .	lie down , and there .	lie down good there .								
+no .	no .	no .	no .								
+well , sir .	well then .	why , then .	well then .								
+how fares my juliet ?	how is my juliet ?	how fares my juliet ?	how is my juliet ?								
+thus then in brief : the valiant paris seeks you for his love .	well then , i 'll say this quickly : the valiant paris wants you as his bride .	why , then , i 'll say this quickly : the valiant paris desires you as his bride .	well then , i 'll say this ready : the great paris wants you to his bride .								
+a right good markman !	then you were right on target .	then you were well on target .	then you were as good argument .								
+monday , my lord .	monday , my lord .	monday , my lord .	monday , my lord .								
+spakest thou of juliet ?	were you talking about juliet ?	were you talk of juliet ?	were you talking of juliet ?								
+talk no more .	don 't say anything else .	do 't say nothing else .	don 't say aught else .								
+too familiar is my dear son with such sour company .	you know too much about suffering .	you know too much of distress .	you know too much of passion .								
+what , art thou drawn among these heartless hinds ?	what ?	what ?	what ?								
+where should she be ?	where else would she be ?	where else would she be ?	where else would she be ?								
+god ye good morrow , gentlemen .	good morning , gentlemen .	good morrow , gentlemen .	good morrow , gentle .								
+you shall find me apt enough to that , sir , an you will give me occasion .	you 'll find me ready enough to do that , sir , if you give me a reason .	you 'll find me so much to do so , sir , if you give me a cause .	you 'll find me light enough to do , sir , that you give me a cause that .								
+stand up .	stand up .	stand up .	stand up .								
+hold , then .	hold on , then .	hold on , then .	hold , then .								
+good night , good night !	good night , good night .	good night , good night .	good night , good night .								
+how is it with her ?	how is she ?	how is she ?	how is she ?								
+o simple !	that 's foolish .	that 's foolish .	that 's fool .								
+why , is not this better now than groaning for love ?	why , isn 't all this joking better than groaning about love ?	why , this is 't not jest better than groaning of love ?	why , isn 't all this pleasant better than groaning of love ?								
+hark ye , your romeo will be here at night .	listen , your romeo will be here tonight .	hark , your romeo will be here .	list , your romeo will be here tonight .								
+hath romeo slain himself ?	has romeo killed himself ?	hath romeo slew himself ?	has romeo dead himself ?								
+on thursday , sir ?	on thursday , sir ?	on thursday , sir ?	on thursday , sir ?								
+your part in her you could not keep from death , but heaven keeps his part in eternal life .	you could not prevent her from dying someday , but heaven will give her eternal life .	you could not prevent her from dying but ever , but heaven will give her eternal life .	you could not take up her of dead , but heaven will make her divine time someday .								
+make haste , lest mine be about your ears ere it be out .	hurry up , or i 'll smack you on the ears with my sword before you have yours drawn .	hie thee , or i 'll cuff you on the ears with my sword before you have thine drawn .	dispatch , or i 'll smack you in the ears of my sword before you have drawn yours .								
+what , are you busy , ho ?	what , are you busy ?	what , wilt thou do ?	what , are you busy ?								
+and so did i.	so did i.	so did i.	so did i.								
+and trust me , love , in my eye so do you .	and trust me , love , you look pale to me too .	and trust me , love , you look pale to me too .	and take me , love , you look pale to me too .								
+out , you baggage !	you worthless girl !	most shallow girl !	you rascal she !								
+give me thy hand .	give me your hand .	give me your hand .	give me your hand .								
+how now ?	what are you , girl ?	what art thou , girl ?	what are you , she ?								
+was that my father that went hence so fast ?	was that my father who left here in such a hurry ?	was that my father that left here in such haste ?	that was my father who left here in such a haste ?								
+how doth my lady ?	how is my wife ?	how does my wife ?	how is my wife ?								
+clubs , bills , and partisans !	use your clubs and spears !	use your cudgels and spears !	lay your beams and pikes !								
+o me !	oh my !	o my !	o my !								
+what is this ?	what is this ?	what is this ?	what is this ?								
+this shall determine that .	this fight will decide who dies .	this quarrel will first be that dies .	this war will set down who dies .								
+there lies that tybalt .	tybalt is lying over there .	tybalt is lying there .	tybalt is lying yond .								
+for i ne 'er saw true beauty till this night .	my eyes were liars , then , because i never saw true beauty before tonight .	mine eyes were liars and swearers , then , for i never saw true beauty ere night .	my eyes were liars , then , for i never saw very fair or tonight .								
+i have forgot why i did call thee back .	i have forgotten why i called you back .	i have forgot why i called you again .	i have forgotten why i called you again .								
+the citizens are up , and tybalt slain .	the citizens are around , and tybalt is dead .	the citizens are about , and tybalt is dead .	the citizens are abroad , and tybalt is dead .								
+nay , an there were two such , we should have none shortly , for one would kill the other .	if there were two men like you , pretty soon there 'd be none because the two of you would kill each other .	if there were two men like you , pretty : there 'd be none for the two of you would kill each other .	if there were two men with you , pretty there 'd be none for the two of you would kill each other by and by .								
+yea , noise ?	oh , noise ?	o , noise ?	o , cry ?								
+so shall you feel the loss , but not the friend which you weep for .	you will feel the loss , but the man you weep for will feel nothing .	you will be the loss , but the man you weep for will be nothing .	you will pass the loss , but the man you weep for will pass nothing .								
+wilt thou be gone ?	are you going ?	will you go ?	you are going ?								
+i was hurt under your arm .	he struck me from under your arm .	he struck me under your arm .	he struck me from under your arm .								
+madam , your mother craves a word with you .	madam , your mother wants to talk to you .	madam , your mother would speak with you .	madam , your mother wants to speak with you .								
+have not saints lips , and holy palmers too ?	don 't saints and pilgrims have lips too ?	do 't saints and pilgrims have lips too ?	don 't saints and palmers have lips too ?								
+the other did not so .	the other girl did not love me .	the other girl did not love me .	the other she did not love me .								
+i know not , sir .	i don 't know , sir .	i do 't , sir .	don i know 't , sir .								
+your houses !	curse your families !	beshrew your red !	beshrew your families !								
+o , teach me how i should forget to think !	teach me to forget to think !	teach me to forget to think !	teach me to forget to know !								
+why dost thou wring thy hands ?	why do you look so upset ?	why dost thou look so ?	why do you think so wild ?								
+madam , i am not well .	madam , i am not well .	madam , i am not well .	madam , i am not well .								
+it makes me mad .	it makes me mad .	it makes me mad .	it gives me mad .								
+even so lies she , blubbering and weeping , weeping and blubbering .	she 's lying on the ground just like him , blubbering and weeping , weeping and blubbering .	she 's lie on the earth , but like him , blubbering and weep , weeping and blubbering .	she 's lying in the ground but with him , and weeping , blubbering weeping and blubbering .								
+thou wouldst else have made thy tale large .	oh , you 're wrong .	o , you 're deceived .	o , you 're out .								
+o , be gone !	oh , go away !	o , away !	o , go away !								
+hie to your chamber .	go to your bedroom .	go to your chamber .	go to your chamber .								
+this is the truth , or let benvolio die .	benvolio is part of the montague family .	benvolio is part of the montague house .	benvolio is kind of the montague name .								
+perchance she cannot meet him .	maybe she can 't find him .	perchance she can 't find him .	perchance she can 't like him .								
+i have .	i do .	i do .	i do .								
+tell him so yourself , and see how he will take it at your hands .	tell him so yourself , and see how he takes the news .	tell him so yourself , and see how he takes the news .	tell him so yourself , and see how he takes the news .								
+have at thee , coward !	let 's go at it , coward !	let 's go at it , coward !	let 's go in it , coward !								
+yet let me weep for such a feeling loss .	let me keep weeping for such a great loss .	let me be weep for such a great loss .	let me stay weeping of such a great loss .								
+my naked weapon is out .	i have my naked sword out .	i have my naked sword out .	i have my naked sword out .								
+wife !	wife !	wife !	fellow !								
+and why , my lady wisdom ?	and why , wise lady ?	and why , good lady ?	and why , grave she ?								
+here comes the furious tybalt back again .	here comes the furious tybalt back again .	here comes the furious tybalt again .	here comes the wild tybalt back again .								
+ay , the heads of the maids , or their maidenheads .	you mean their cut off their heads , take their maidenheads-whatever .	you mean their cut off their heads , take their maidenheads-whatever .	you think their cut off their heads , have their maidenheads-whatever .								
+can you not stay awhile ?	can 't you wait for a moment ?	can 't you stay for a word or two ?	can 't you look for a charge ?								
+we are undone , lady , we are undone !	we 're ruined , lady , we 're ruined !	we 're undone , lady , you 're undone !	we 're undone , lady , we 're undone !								
+i beseech thee , youth , put not another sin upon my head by urging me to fury .	please , young man , don 't make me angry .	i pray you , young man , do 't be angry .	like , young man , don give 't me out .								
+i will kiss thy lips .	i will kiss your lips .	i will kiss thy lips .	i will kiss your lips .								
+for what purpose , love ?	why would you do that , my love ?	why should you do it , my love ?	why would you do that , my love ?								
+by the hour of nine .	by nine o 'clock .	by nine o 'clock .	for nine o 'clock .								
+you know not what you do .	gregory , remember how to slash .	gregory , remember how to slash .	gregory , know how to slash .								
+nurse , commend me to thy lady and mistress .	nurse , give my regards to to your lady .	nurse , commend me to your lady .	nurse , make my desire to to your lady .								
+younger than she are happy mothers made .	girls younger than she often marry and become happy mothers .	fie younger than she oft marry , and be happy mothers .	girls younger than she oft bride and be happy dames .								
+and joy comes well in such a needy time .	and it 's good to have joy in such a joyless time .	and that 's good to have joy in such a joyless .	it 's good to have comfort in such a joyless day and .								
+whence come you ?	where do you come from ?	where do you ?	where do you come from ?								
+is my father well ?	is my father well ?	is my father well ?	is my father well ?								
+i strike quickly , being moved .	i hit hard when i 'm angry .	i strike hard when i 'm angry .	i take much that i 'm out .								
+o , wilt thou leave me so unsatisfied ?	oh , are you going to leave me so unsatisfied ?	o , wilt thou leave me so unsatisfied ?	o , you are going to leave me so unsatisfied ?								
+a greater power than we can contradict hath thwarted our intents .	a greater power than we can fight has ruined our plan .	a greater power than we cannot fight , hath puddled our business .	a more power than we can speak has lost our purpose .								
+then have my lips the sin that they have took .	then do my lips now have the sin they took from yours ?	then do my lips now have the sin , they took from thine ?	then make my lips now have they took the fall of yours ?								
+then weep no more .	stop crying .	hold tears .	stand crying .								
+but new struck nine .	it 's only just now nine o 'clock .	it 's but even now nine o 'clock .	it 's all nine o 'clock now .								
+o cousin , cousin !	oh cousin , cousin !	o cousin , cousin !	o cousin , cousin !								
+what shall i swear by ?	what should i swear by ?	what should i swear by ?	what should i take in ?								
+well , we were born to die .	well , we were all born to die .	well , we were all born to die .	well , we were all born to die .								
+an if he hear thee , thou wilt anger him .	if he hears you , you 'll make him angry .	if he hears you , you 'll offend him .	and he hears you , you 'll make him out .								
+be patient , for the world is broad and wide .	you should be able to endure this because the world is broad and wide .	you should be able to endure this for the world is broad and wide .	you should be able to stand for this time is large and wide .								
+hast thou not a word of joy ?	don 't you have one word of joy ?	do 't you have one word of joy ?	don 't you have one word in joy ?								
+i beg for justice , which thou , prince , must give .	you , prince , are the man who can give me justice .	you , prince , the man that may give me justice .	you , prince , are the man who can make me justice .								
+hence , be gone , away !	so get out of here !	therefore hence !	so take of here !								
+peace , ho , for shame !	be quiet , for shame !	be quiet , for shame !	be quiet , for shame !								
+tybalt , that murderer , which way ran he ?	tybalt , that murderer , which way did he run ?	tybalt , that murderer , which way did he run ?	tybalt , that murderer , which way he did run ?								
+i will follow you .	i 'll follow after you .	i 'll follow .	i 'll continue you .								
+faith , we may put up our pipes and be gone .	well , we can put away our pipes and go home .	well , we may put up our pipes and go home .	well , we can shut up our pipes and go home .								
+put up thy sword , or manage it to part these men with me .	either put away your sword or use it to help me stop this fight .	either put up your sword or use it to help me no more of this quarrel .	either shut up your sword or lay it to help me leave this war .								
+what , not a word ?	what , you don 't say a word ?	what , you do 't speak a word ?	what , ye don 't say a word ?								
+then she is well , and nothing can be ill .	then she is well , and nothing is wrong .	then she is well , and nothing is wrong .	then she is fair , and nothing is out .								
+sweet , so would i.	my sweet , so do i.	my sweet , so do i.	my sweet , so do i.								
+by 'r lady , thirty years .	i swear , it must be thirty years .	i swear , it must be thirty years .	i swear , it must be thirty years .								
+marry , that , i think , be young petruchio .	well , that one , i think , is young petruchio .	well , that one , i think , is young , petruchio .	well , that one , i think , is young petruchio .								
+hie to high fortune !	wish me luck .	would me fortune .	will me hap .								
+what noise is here ?	what 's all the noise in here ?	what 's the noise in here ?	what 's all the noise of here ?								
+to answer that , i should confess to you .	if i answered that question , i 'd be making confession to you .	if i have that , i 'd be drives confession to you .	and i returned that sound , i 'd be making confession to you .								
+death lies on her like an untimely frost upon the sweetest flower of all the field .	she 's dead , like a beautiful flower , killed by an unseasonable frost .	she 's dead , like a fair flower , by an unseasonable frost .	she 's dead , with a fair flower , dead with an unseasonable frost .								
+scurvy knave !	that dirty rat !	that ungentle rat !	that brock !								
+this cannot anger him .	what i 'm saying can 't anger him .	what i 'm say can 't anger him .	what i 'm word can 't blood him .								
+you are a lover .	you 're a lover .	you 're a lover .	you 're a friend .								
+that dreamers often lie .	my dream told me that dreamers often lie .	my dream told me that dreamers oft lie .	my dream told me that dreamers often lodge .								
+but wherefore , villain , didst thou kill my cousin ?	but why , you villain , did you kill my cousin ?	but why , thou villain , did you kill my cousin ?	but why , you slave , did you kill my cousin ?								
+madam , good night .	madam , good night .	madam , good night .	madam , good night .								
+i will then give it you soundly .	then i 'll really give it to you .	then i 'll do give it to you .	then i 'll make it good to you .								
+give me those flowers .	give me those flowers .	give me those flowers .	give me those flowers .								
+romeo slew him ; he slew mercutio .	romeo killed tybalt .	romeo killed tybalt .	romeo dead tybalt .								
+leave me and do the thing i bid thee do .	leave me and do what i told you to do .	leave me , and do what i told you to do .	leave me and do what i told you to do .								
+give me thy torch , boy .	give me your torch , boy .	give me your torch , boy .	give me your torch , boy .								
+fear comes upon me .	i 'm suddenly afraid .	i 'm suddenly fear .	i 'm suddenly afeard .								
+here comes your father .	here comes your father .	here comes your father .	here comes your father .								
+a jealous hood , a jealous hood !	a jealous woman , a jealous woman !	a jealous woman , a jealous woman !	a jealous woman , a jealous woman !								
+for what , i pray thee ?	what ?	what ?	what ?								
+away with the joint-stools , remove the court-cupboard , look to the plate .	take away the stools , the sideboards , and the plates .	take away the stools , the sideboards , and the plates .	take away the stools , the sideboards , and the plates .								
+tis all one .	it 's all the same .	it 's all one .	it 's all the same .								
+i speak no treason .	i 've said nothing wrong .	i 've said nothing wrong .	i 've said nothing out .								
+the excuse that thou dost make in this delay is longer than the tale thou dost excuse .	the excuse you make to delay the news is longer than the news itself .	the excuse you make to delay the news is longer than the news itself .	the answer you make to stay the news is longer than the noise itself .								
+o mischief , thou art swift to enter in the thoughts of desperate men !	destructive thoughts come quickly to the minds of desperate men !	destructive thoughts come apace to the minds of desperate men !	fell thoughts make ready to the minds of desperate men !								
+soft !	wait .	stay .	stand .								
+do you bite your thumb at us , sir ?	are you biting your thumb at us ?	are you biting your thumb at us ?	are you sudden your thumb in 's ?								
+i will bring you thither .	i 'll bring you there .	i 'll bring you there .	i 'll bring you there .								
+what of that ?	so what ?	what of that ?	so what ?								
+well , in that hit you miss .	well , you 're not on target there .	well , you 're not on target there .	well , you 're not a mark there .								
+the date is out of such prolixity .	it 's out of fashion to give lengthy explanations like that .	it 's out of the fashion to give lengthy explanations so .	it 's out of fashion to make lingering reasons with that .								
+do you quarrel , sir ?	are you trying to start a fight ?	are you a quarrel ?	are you trying to meet a war ?								
+i am for you .	i 'll fight you .	i 'll fight with thee .	i 'll speak you .								
+tybalt , the reason that i have to love thee doth much excuse the appertaining rage to such a greeting .	tybalt , i have a reason to love you that lets me put aside the rage i should feel and excuse that insult .	tybalt , i have a cause to love you that lets me put away the rage , i should have and that abuse .	i have a cause to love you that lets me lay by the spirit i should pass and answer that wrong . tybalt ,								
+my husband is on earth , my faith in heaven .	my husband is alive on earth , my vows of marriage are in heaven .	my husband lives upon the earth , my vows of marriage is in heaven .	my husband is quick in earth , my vows of marriage are of heaven .								
+i am peppered , i warrant , for this world .	i 'm done for in this world , i believe .	i 'm lost in this world , i think .	i 'm done to in this world , i trust .								
+gentle mercutio , put thy rapier up .	noble mercutio , put your sword away .	noble mercutio , put up your sword .	great mercutio , put your sword away .								
+fie , fie !	shame on you !	fie !	shame on you !								
+i have more care to stay than will to go .	i want to stay more than i want to go .	i will stay , more than i will go .	i care for a go more than i care for to go .								
+commend me to thy lady , and bid her hasten all the house to bed , which heavy sorrow makes them apt unto .	give my regards to your lady , and tell her to hurry everybody in the house to bed .	commend me to your lady , and bid her come all in the house to bed .	make my desire to your lady , and bring her to haste everybody of the house to bed .								
+call , good mercutio .	call to him , mercutio .	call him , mercutio .	write to him , mercutio .								
+she is too fair , too wise , wisely too fair , to merit bliss by making me despair .	she 's too beautiful and too wise to deserve heaven 's blessing by making me despair .	she 's too fair and too good to serve heaven 's blessing by me herself .	she 's too fair and too wise to win heaven 's blessing in making me despair .								
+why , what is tybalt ?	why , what 's tybalt 's story ?	why , what 's tybalt 's tale ?	why , what 's tybalt 's argument ?								
+two of the fairest stars in all the heaven , having some business , do entreat her eyes to twinkle in their spheres till they return .	two of the brightest stars in the whole sky had to go away on business , and they 're asking her eyes to twinkle in their places until they return .	two of the best endued with some stars in all the heaven had to go away on business , and they 're bid her eyes to twinkle in their places till they return .	two of the brightest stars in the heavens had to go away in question , and they 're asking her eyes to twinkle of their offices till that they return . full								
+even or odd , of all days in the year , come lammas eve at night shall she be fourteen .	whether it 's even or odd , of all the days in the year , on the night of lammas eve , she 'll be fourteen .	whether it 's , or odd , of all the days in the year , in the night of lammas eve , she 'll be fourteen .	it 's even or odd , of all the days of the year of the night of lammas eve , she 'll be fourteen . , and								
+hast thou slain tybalt ?	have you killed tybalt ?	you have killed tybalt ?	have you dead tybalt ?								
+you say well .	you speak well .	you speak well .	you say well .								
+romeo shall thank thee , daughter , for us both .	romeo will thank you , my girl , for both of us .	romeo will thank you , my girl , for both of us .	romeo will thank you , my girl , to both of us .								
+an i might live to see thee married once , i have my wish .	if i live to see you get married someday , all my wishes will come true .	if i live to see you marry but ever , all my will shall come so .	as i live to see you take married someday , all my wishes will verify .								
+then say at once what thou dost know in this .	tell us what you know about this affair .	tell us what you know this affair .	tell us what you know of this business .								
+i would not for the world they saw thee here .	i 'd give anything to keep them from seeing you here .	i 'd give nothing to keep them from seeing you here .	i 'd give aught to keep them from seeing you here .								
+do you like this haste ?	do you think it 's a good idea to rush ?	do you think it 's a good plot to haste ?	do you think it 's a good conceit to fly ?								
+what will you give us ?	what will you give us ?	what will you give us ?	what will you make us ?								
+but thou art not quickly moved to strike .	angry enough to run away .	angry enough to run away .	hot enough to run away .								
+nay , i am the very pink of courtesy .	the right .	the right .	the good .								
+there is time enough .	there 's plenty of time .	there 's foison follow of time .	there 's old time .								
+you are to blame , my lord , to rate her so .	my lord , you 're wrong to berate her like that .	my lord , you 're wrong to berate her so .	my lord , you 're out a tongue her with that .								
+farewell .	farewell .	farewell .	farewell .								
+benvolio , who began this bloody fray ?	benvolio , who started this fight ?	benvolio , who began this quarrel ?	benvolio , who offered this war ?								
+sojourn in mantua .	take a little vacation in mantua .	take a little the vacation in of mantua .	have a little vacation in mantua .								
+what is your will ?	what do you want ?	what would you ?	what do you care for ?								
+dry sorrow drinks our blood .	sadness takes away our color .	alas , takes away our color .	weight takes away our color .								
+o most wicked fiend !	oh , that most wicked fiend !	o , that most wicked fiend !	o , that most heavy fiend !								
+my sword , i say !	i want my sword .	i would my sword .	i care for my sword .								
+what , rouse thee , man !	get up , man !	arise , man !	rise , sir !								
+come hither , nurse .	come over here , nurse .	come hither , nurse .	come over here , dame .								
+come , death , and welcome !	come , death , and welcome !	come , death , and welcome !	come , death , and welcome !								
+three words , dear romeo , and good night indeed .	three words , dear romeo , and then it 's good night for real .	three words , dear romeo , and then it 's good night earnest .	three words , dear romeo , and then it 's good night to good .								
+why , how now , juliet ?	what 's going on , juliet ?	what 's the matter , juliet ?	what 's going on , juliet ?								
+death , that hath ta 'en her hence to make me wail , ties up my tongue and will not let me speak .	death , which has taken her away to make me cry , now ties up my tongue and won 't let me speak .	death , which hath ta 'en her to make me weep , now ties up my tongue and will 't , let me speak .	death , which has taken away to make me cry , now knits up my tongue and let me speak 't won her .								
+why dost thou stay ?	why are you waiting ?	why dost thou stay ?	why are you waiting ?								
+what early tongue so sweet saluteth me ?	who greets me so early in the morning ?	who doth salute me so early in the morning ?	who greets me so betimes ?								
+never was seen so black a day as this .	there has never been so black a day as today .	there was never been so black a day as this .	there has been never so black a day to today .								
+ye say honestly .	i see .	i see .	i see .								
+then have at thee , boy !	alright , let 's fight , boy !	why , let 's fight , boy !	alright , let 's stand , boy !								
+romeo .	romeo .	romeo .	romeo .								
+what says he of our marriage ?	what does he say about our marriage ?	what does he say of our marriage ?	what does he say of our marriage ?								
+o life !	oh life !	o life !	o world !								
+what villain , madam ?	what villain , madam ?	what villain , madam ?	what villain , madam ?								
+commend me to thy lady .	give my compliments to your lady .	give my praises to your lady .	make my commendation to your lady .								
+i will omit no opportunity that may convey my greetings , love , to thee .	i won 't miss any chance to send my love to you .	i will 't miss any to send my love to you .	i won 't lack any chance to turn my love to you .								
+i do but keep the peace .	i 'm only trying to keep the peace .	i 'm but to keep the peace .	i 'm but trying to keep the peace .								
+can heaven be so envious ?	can god be so jealous and hateful ?	may be god so jealous and detested ?	can god be so jealous and hateful ?								
+tush , i will stir about , and all things shall be well , i warrant thee , wife .	and everything will be alright , i promise you , wife .	and all things shall be why , i warrant you , wife .	and everything will be , i warrant you , half alright .								
+yea , is the worst well ?	is the worst well ?	is the worst well ?	is the worst well ?								
+o , pardon me for bringing these ill news , since you did leave it for my office , sir .	oh , pardon me for bringing this bad news , but you told me it was my job , sir .	o , pardon me , to bring this bad news , but you told me , it was my office , sir .	o , pardon me of this ill news , but you told me it was my hand , sir bringing .								
+so ho !	i 've found it out .	i 've found it out .	i 've found it out .								
+what if this mixture do not work at all ?	what if this mixture doesn 't work at all ?	if this mingle is 't work at all ?	what 's that mixture doesn 't hand at all ?								
+i thought all for the best .	i thought it was the right thing to do .	i thought it was the right .	i thought it was the good thing to do .								
+is love a tender thing ?	is love really tender ?	is love indeed tender ?	is like good gentle ?								
+that is because the traitor murderer lives .	that 's because the murderer is alive .	that 's for the murderer lives .	that 's as the murderer is alive .								
+good night .	good night .	good night .	good night .								
+one fairer than my love ?	a woman more beautiful than the one i love ?	a woman more beautiful than the one i love ?	a woman more beautiful than the one i love ?								
+not i , believe me .	not me , believe me .	not i , believe me .	not me , take me .								
+hold him in safety till the prince come hither .	hold him in custody until the prince gets here .	hold him in guard , till the prince is here .	give him up till that the prince takes here .								
+i will not fail .	i won 't fail .	i will 't shame .	i won 't fall .								
+o brother montague , give me thy hand .	oh , brother montague , give me your hand .	o , brother montague , give me your hand .	o , brother montague , give me your hand .								
+we found him in the churchyard .	we found him in the churchyard .	we found him in the churchyard .	we found him in the churchyard .								
+i think he told me paris should have married juliet .	i think he told me paris was about to marry juliet .	i think he bade me paris was about to marry juliet .	i think he told me paris was about to marry juliet .								
+romeo !	romeo !	romeo !	romeo !								
+was i with you there for the goose ?	was i even close to you in the chase for the goose ?	was i , press to you in the chase for the goose ?	was i meet against you in the course of the goose ?								
+tis no time to play now .	it 's not the right time to play .	it 's not the true time to play .	it 's not the good day to play .								
+hence , and stand aloof .	go away and stay apart from me .	away , and stay asunder from me .	go away and go apart of me .								
+mistress !	mistress !	mistress !	love !								
+young romeo is it ?	is it young romeo ?	is it young romeo ?	is it young romeo ?								
+call her forth to me .	tell her to come to me .	bid her come to me .	bring her to come to me .								
+look , and thou shalt see .	look , and you 'll see .	look , and you 'll see .	look , and you 'll see .								
+gentlemen , can any of you tell me where i may find the young romeo ?	gentlemen , can any of you tell me where i can find young romeo ?	gentlemen , can any of you tell me where i can find young romeo ?	gentlemen , can you tell me where i can find out young in any romeo ?								
+i have it , and soundly too .	i 'm done for .	i 'm lost .	i 'm done to .								
+where are the vile beginners of this fray ?	where are the evil men who started this fight ?	where is the evil men that this quarrel ?	where are the ill men who offered this war ?								
+then i defy you , stars !	then i rebel against you , stars !	then i rebel against you , stars !	then i cry of you , stars !								
+thy drugs are quick .	his drugs work quickly .	his drugs work .	his medicine hand ready .								
+i do bite my thumb , sir .	i 'm biting my thumb .	i 'm biting my thumb .	i 'm sudden my thumb .								
+peter !	peter !	peter !	peter !								
+here comes my man .	here comes my man , the man i 'm looking for .	here comes my man , the man i 'm to seek .	here comes my man , the man i 'm looking of .								
+well , what was yours ?	well , what was your dream ?	well , what was thy dream ?	well , what was your dream ?								
+your lady mother is coming to your chamber .	your mother is coming to your bedroom .	your mother comes to your chamber .	your mother is coming to your chamber .								
+strike !	hit them !	strike them !	take them !								
+go thither , and with unattainted eye compare her face with some that i shall show , and i will make thee think thy swan a crow .	go there and compare her objectively to some other girls i 'll show you .	hence and compare her objectively to some other girls i 'll show you .	go and set her to some other girls i 'll show you there coldly .								
+faith , i can tell her age unto an hour .	yes , i know her age down to the hour .	ay , i know her age to the hour .	yes , i know her time down to the day .								
+you will not then ?	you won 't , then ?	you will 't , then ?	you won 't , then ?								
+o wife , look how our daughter bleeds !	oh wife , look at how our daughter bleeds !	o mistress , look how our daughter bleeds !	o fellow , like a how our daughter bloods !								
+romeo is coming .	romeo is coming .	romeo is coming .	romeo is coming .								
+tis now near night .	it 's already almost night .	it 's already almost night .	it 's first like night .								
+give me that mattock and the wrenching iron .	give me that pickax and the crowbar .	give me that pickax and the crowbar .	give me that pickax and the crow .								
+o lord , they fight !	oh lord , they 're fighting !	o lord , they 're fight !	o lord , they 're rage !								
+i serve as good a man as you .	my employer is as good as yours .	my employer is as good as yours .	my manager is as good as yours .								
+come , come away .	come , come away .	come , come away .	come , come away .								
