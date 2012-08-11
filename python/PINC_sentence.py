@@ -11,6 +11,9 @@ def intersect (list1, list2) :
     inter = cnt1 & cnt2
     return len(list(inter.elements()))
 
+def simple_bleu(translation, reference):
+    return 1 - pinc(translation, reference)
+
 def pinc ( ssent, csent) :
     s1grams = ssent.split(" ")
     c1grams = csent.split(" ")
@@ -44,10 +47,13 @@ def pinc ( ssent, csent) :
             c4grams.append(c4gram)
 
     score = intersect(s1grams, c1grams) / len(c1grams)
-    score += intersect(s2grams, c2grams) / len(c2grams)
-    score += intersect(s3grams, c3grams) / len(c3grams)
-    score += intersect(s4grams, c4grams) / len(c4grams)
-    print 1 - score/4
+    if len(c2grams) > 0:
+        score += intersect(s2grams, c2grams) / len(c2grams)
+    if len(c3grams) > 0:
+        score += intersect(s3grams, c3grams) / len(c3grams)
+    if len(c4grams) > 0:
+        score += intersect(s4grams, c4grams) / len(c4grams)
+    return 1 - score/4
 
 
     #print intersect(s1grams, c1grams)   
