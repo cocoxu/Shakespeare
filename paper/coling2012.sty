@@ -1,0 +1,212 @@
+% Additional Modifs for COLING-2012 by riteshms@gmail.com (updated July 10, 2012)
+% Modifs for COLING-2012 by Christian.Boitet@imag.fr
+% Modifs pour RECITAL et TALN 2012 par Gilles S\'erasset (Gilles.Serasset@imag.fr): adaptation du style pour lecture à l'écran et impression.
+% Modifs pour RECITAL et TALN 2011 par Alexandre Labadi\'e (alexandre.labadie@gmail.com)
+% Modifs pour RECITAL 2010 par Alexandre Patry (patryale@iro.umontreal.ca): remplacement des accents par leur commande latex
+% MOdifs pour TALN 2010 pr Michel Gagnon michel.gagnon@polymtl.ca
+% Modifs pour TALN 2009 par Laurent Audibert laurent.audibert@lipn.univ-paris13.fr
+% Modifs pour TALN 2008 par Marie-Laure Guenot, mlguenot@gmail.com 
+% Modifs pour TALN 2007 par Philippe Muller muller@irit.fr + (version finale) Dominique Longin longin@irit.fr
+% Modifs pour TALN 2006 par Pierre Zweigenbaum <pz@biomath.jussieu.fr>, 20050811
+% Modifs pour RECITAL 2005 par Nicolas Hernandez et Guillaume Pitel (LIMSI/CNRS), 17/09/2003. mail : nicolas.hernandez@gmail.com et Guillaume.Pitel@laposte.net
+% Modifs pour RECITAL 2004 par Tristan VanRullen (LPL/CNRS), 17/09/2003. mail : tristan.vanrullen@wanadoo.fr
+% Modifs pour RECITAL 2003 par Erwan Moreau, 06/12/02. mail : Erwan.Moreau@irin.univ-nantes.fr
+\def\fileversion{1}
+\def\filedate{04 July 2012} 
+\def\Copyright{Copyright (C) 1999 Jean Charlet, Pierre Zweigenbaum, SIM, AP--HP, France}
+\NeedsTeXFormat{LaTeX2e}[1994/01/01]
+\typeout{Package `jcoling2012' <\filedate>.}
+\typeout{\Copyright}
+\typeout{derived from the style of previous TALN conferences and from the COLING-992 conference (A5 format)} 
+\usepackage[papersize={148mm,210mm},margin=5mm]{geometry}
+\usepackage[kerning=true]{microtype}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[charter]{mathdesign}
+\usepackage{graphicx}
+
+%\usepackage[normalmargins]{savetrees}
+\sloppy
+\pagestyle{empty}
+
+%%% Fancy headers: apr\`es r\'eglage de \textwidth (r\`egle la largeur de l'en-t\^ete)
+\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\renewcommand{\headrulewidth}{0pt} % on ne d\'esire pas de ligne de s\'eparation pour l'ent\^ete
+%\renewcommand{\footrulewidth}{0pt} % on ne d\'esire pas de ligne de s\'eparation pour le bas de page 
+%
+%%% Je red\'efinis fancyhead pour que l'ent\^ete soit en smallcaps (MG 2010)
+%\def\@fancyhead#1#2#3#4#5{#1\hbox to\headwidth{\fancy@reset
+%  \@fancyvbox\headheight{\hbox
+%    {\rlap{\parbox[b]{\headwidth}{\raggedright#2}}\hfill
+%      \parbox[b]{\headwidth}{\centering{\sc #3}}\hfill
+%      \llap{\parbox[b]{\headwidth}{\raggedleft#4}}}\headrule}}#5}
+
+% in order for the table to span multiple pages
+\usepackage{longtable}
+
+% insert bibliographical references (cf apa.bst)
+\usepackage[english]{babel}
+% babel package: introduces the section title using the default decl. \refname; to override the default "References" title for bibl. refs.
+%use the following
+%\addto{\captionsenglish}{\renewcommand{\refname}{Bibliographical references (examples from the TALN template)}}
+
+
+%package: mdwtools
+%required file: tex\latex\mdwtools\mdwlist.sty
+%can be installed from: http://mirror.ibcp.fr/pub/CTAN/systems/win32/miktex/tm/packages/
+%\usepackage{mdwlist}
+
+% Usage conforming to other doc/docx templates
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{6pt}{*0}
+\titlespacing{\subsubsection}{0pt}{6pt}{*0}
+%\titlespacing{\section}{0pt}{*0}{*0}
+%\titlespacing{\subsection}{0pt}{*0}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+% requires epsf.tex file
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+% Packages used only for the example.
+%\usepackage{lipsum} % random pseudo-latin
+\usepackage{hyperref}
+
+\usepackage{paralist}
+\setlength{\parskip}{6pt plus 1pt minus 1pt}
+%\setlength{\parsep}{0pt}
+%\setlength{\headsep}{0pt}
+%\setlength{\topskip}{0pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\topsep}{0pt}
+%\setlength{\partopsep}{0pt}
+
+
+\def\maketitle{\talnmaketitle}
+
+\def\talnmaketitle{\par
+ \begingroup
+ \def\thefootnote{\fnsymbol{footnote}}
+ \def\@makefnmark{\hbox to 0pt{$^{\@thefnmark}$\hss}}
+ \newpage
+ \global\@topnum\z@ \@talnmaketitle 
+ \thispagestyle{empty}
+ \@thanks
+ \endgroup
+ \setcounter{footnote}{0}
+ \let\talnmaketitle\relax
+ \let\@talnmaketitle\relax
+ \gdef\@thanks{}
+ \gdef\@author{}\gdef\@title{}
+ \let\thanks\relax
+ }
+
+\def\@talnmaketitle{\newpage
+  \begin{center}
+    \parindent 0pt
+    \null
+    \vskip 0.3cm
+    {\Large\bf \@title \par}    % 17pt au lieu de 18pt
+    \vskip 0.6cm
+    {\large \@author \par}
+    \vskip 0.4cm
+  \end{center}}
+
+% En-t\^ete
+%\def\ps@firstpage{\let\@mkboth\@gobbletwo
+%\def\@oddhead{\hfil}
+%}
+
+%setting para indent to 0
+\setlength{\parindent}{0cm} 
+%\setlength{\parskip}{.5\baselineskip}
+
+%reduces extra space below figure captions
+\setlength{\belowcaptionskip}{-2ex}
+
+% Citations
+\RequirePackage{natbib}
+\renewcommand\cite{\citep}
+\newcommand\shortcite{\citet}
+
+\ProcessOptions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dominique Longin (longin@irit.fr)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Adding a period after keywords enumerations.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% G. S\'erasset, Ch. Boitet
+% Adapting the 1 or 2-abstract forms to COLING.
+%\def\Vhrulefill{\leavevmode\leaders\hrule height 0.0ex depth \dimexpr0.4pt-0.0ex\hfill\kern0pt}
+
+\def\keywordsEn#1{{\vskip .3em\hrule}
+{\noindent\large\textsc{Keywords}:~}#1.\unskip\noindent{\vskip .3em\hrule}}
+
+\def\keywordsOL#1#2{{\vskip .3em\hrule}
+{\noindent\large\textsc{Keywords}:~}#1.\par
+{\noindent\large\textsc{Keywords in L$_{2}$}:~}#2.\unskip\noindent{\vskip .3em\hrule}}
+
+% on ajoute un point \`a la fin de R\'esum\'e et Abstract
+% En 10pt, les titres sont trop gros.
+%\def\resume#1{{\noindent\large\textbf{R\'esum\'e.\hspace{10pt}}}#1}
+%\def\abstract#1{{\noindent\large\textbf{Abstract.\hspace{10pt}}}#1}
+%\def\resume#1#2{{\noindent\large\textsc{R\'esum\'e}~\Vhrulefill}\\#1{\vskip .3em\hrule}\par{\noindent\large\textsc{Mots-Clés\,:~}}#2}
+%\def\abstract#1#2#3{{\noindent\large\textsc{Abstract}~\Vhrulefill}\\\textbf{#1}\par#2{\vskip .3em\hrule}\par{\noindent\large\textsc{Keywords:~}}#3\unskip\noindent{\vskip .3em\hrule}}
+
+\def\abstractEn#1{{\noindent\large\textsc{Abstract}~~}\\#1\par}
+\def\abstractOL#1{{\noindent\large\textsc{Title and Abstract in another language, $L_{2}$ (optional, and on same page)}~~}#1}
+
+%\def\abstract#1#2{{\noindent\large\textsc{Abstract}~~\Vhrulefill}\\\textbf{#1}\par#2\unskip\noindent\hrule}
+%\def\resumeEn#1#2{{\noindent\large\textsc{R\'esum\'e}~~\Vhrulefill}\\\textbf{#1}\par#2\unskip\noindent\hrule}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dominique Longin (longin@irit.fr)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% on red\'efinit le pied de page \`a vide juste avant le begin{document}
+% de fa\c{c}on \`a annuler toute valeur donn\'ee par l'auteur
+\let\oldDocument\document
+\renewcommand{\document}{\cfoot{}\oldDocument}
+%
+% pour pouvoir inclure les adresses web et mail sans pb...
+\RequirePackage{url}
+%
+% un bug : la biblio fait apparaitre la chaine "R\'ef\'erences" dans l'en-t\^ete
+% en fin de fichier (en + de l'en-t\^ete d\'efini par les auteurs
+% => il faut emp\^echer \c{c}a en red\'efinissant l'environnement bibliographie
+\renewenvironment{thebibliography}[1]
+     {\section*{\refname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Alexandre Patry (patryale@iro.umontreal.ca
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Déplacement de ces commandes du fichier .tex vers le .sty
+\renewcommand\sectionmark[1]{}
+\renewcommand\subsectionmark[1]{}
+\renewcommand\refname{}
+\date{}
