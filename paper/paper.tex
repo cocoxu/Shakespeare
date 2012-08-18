@@ -3,7 +3,8 @@
 %% Optional instructions for authors within the tex file are provided as comments and start with 'for authors:...'
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
-\title{Translating to Shakespeare: A Case Study in Paraphrasing Writing Styles}
+%\title{Translating to Shakespeare: A Case Study in Paraphrasing Writing Styles}
+\title{You can be Shakespeare! \\ A Case Study in Paraphrase Targeting Writing Styles}
 %for authors: in case of more than four author names ref. to commented line below 
 %\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\$~~~Third~Author^{1, 2}~~~Fourth~Author^{1, 3}~~~ Fifth~Author^{2, 3}$\\
 \author{$Author1^{1, 2}~~~Author2^{1, 3}$\\
@@ -17,34 +18,65 @@
 \maketitle
 %% The first mandatory ABSTRACT (\abstractEn) section below is for the English language
 \abstractEn{  %ABSTRACT}{
-We present innitial investigation into the task of paraphrasing writing style.
-The plays of William Shakespeare and their \emph{modern} translations are treated
-as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
+We present innitial investigation into the task of paraphrasing while targeting a particular writing style.
+The plays of William Shakespeare and their \emph{modern translations} are used as a testbed for evaluating
+paraphrase systems targeting a specific style of writing.
 We demonstrate that existing evaluation metrics developed in the Machine Translation and Paraphrase communities are
-innappropriate when generating paraphrases targeting a specific writing style, and
-propose a new metric to measure how closely the generated paraphrases match the target
+insufficient when the goal is to generate paraphrases targeting a specific style, and
+propose a series of new metrics to measure how closely the generated paraphrases match the target
 style.  To the best of our knowledge no previous work has investigated the task of
 paraphrasing text with the goal of targeting a specific style of writing.
 }
 
 \keywordsEn{Paraphrase, Writing Style}
 
-% section 2
 \section{Introduction}
-% subsection 2.1
+%The plays of William Shakespeare and their \emph{modern} translations are treated
+%as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
+
+\begin{itemize}
+  \item Define what we mean by writing styles.
+  \item Define the paraphrasing task and describe previous work.
+  \item Motivate the need for paraphrasing targeting a specific writing style (e.g. students of literature in a specific style, or helping people to understand documents written in an esoteric style).
+   \begin{itemize}
+     \item Mention several domains where paraphrasing into/out of a specific writing style could be beneficial (e.g. technical manuals, legal documents, etc...)
+   \end{itemize}
+  \item Summarize the main contributions.
+\end{itemize}
 
 \section{Data}
+\begin{itemize}
+  \item Motivate the need for a benchmark dataset for evaluating the writing style paraphrase task
+  \item Present Shakespere / Modern translation data as a situation where we have parallel data available (useful for building models \& evaluating automatic evaluation metrics)
+\end{itemize}
 
 \section{Evaluation Metrics}
+\begin{itemize}
+  \item Describe the need for automatic evauation metrics.
+  \item Describe previously used evaluation metrics for paraphrase.
+  \item Highlight problems with previous metrics when targeting a specific writing style.
+  \item Propose new metrics.
+\end{itemize}
 
 \section{Experiments}
+\begin{itemize}
+  \item Experimental setup.
+  \item Present results from human evaluation comparing various systems.
+  \item Analyze correlation between evaluation metrics and human judgements.
+\end{itemize}
+
+\section{Related Work}
+\begin{itemize}
+  \item Kevin Knight's work on poetry generation
+  \item Any work on writing style (e.g. classification)?  Possibly cite work on author attribution...
+  \item work on paraphrase evaluation metrics (David Chen, CCB, etc...)
+\end{itemize}
 
 \section{Conclusions}
 
 \bibliographystyle{apa}
 
 \bibliography{colingbiblio}
-\nocite{TALN2007,LaigneletRioult09,LanglaisPatry07,au1972,cks1981,mb2012}
 
 %%================================================================
 \end{document}
