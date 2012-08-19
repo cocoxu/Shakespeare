@@ -34,6 +34,12 @@ cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src
 cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_mert.ini > video_corpus_baseline.1 2> /dev/null
 cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_mert.ini > video_corpus_baseline.2 2> /dev/null
 
+cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM.ini > video_corpus_baseline_modernLM.1 2> /dev/null
+cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM.ini > video_corpus_baseline_modernLM.2 2> /dev/null
+
+cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM_mert.ini > video_corpus_baseline_modernLM_mert.1 2> /dev/null
+cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM_mert.ini > video_corpus_baseline_modernLM_mert.2 2> /dev/null
+
 echo singleword1.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < singleword1.1
 echo singleword1.2
@@ -58,3 +64,13 @@ echo video_corpus_baseline.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline.1
 echo video_corpus_baseline.2
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline.2
+
+echo video_corpus_baseline_modernLM.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM.1
+echo video_corpus_baseline_modernLM.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM.2
+
+echo video_corpus_baseline_modernLM_mert.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM_mert.1
+echo video_corpus_baseline_modernLM_mert.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM_mert.2
