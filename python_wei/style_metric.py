@@ -93,7 +93,7 @@ class StyleMetric:
                 #sentence_vector[ngram] = sentence_vector.get(ngram, 0) + 1
         return self.maxEntModel.prob_classify(sentence_vector).prob('target')
         
-    def ScoreDiffMaxEnt(self, sentence1, sentence2)
+    #def ScoreDiffMaxEnt(self, sentence1, sentence2)
 
 
     def CosineSim(self, v1, v2):
