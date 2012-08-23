@@ -3,6 +3,7 @@
 %% Optional instructions for authors within the tex file are provided as comments and start with 'for authors:...'
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
+\usepackage{comment}
 %\title{Translating to Shakespeare: A Case Study in Paraphrasing Writing Styles}
 \title{You can be Shakespeare! \\ A Case Study in Paraphrase Targeting Writing Styles}
 %for authors: in case of more than four author names ref. to commented line below 
@@ -18,13 +19,18 @@
 \maketitle
 %% The first mandatory ABSTRACT (\abstractEn) section below is for the English language
 \abstractEn{  %ABSTRACT}{
-We present innitial investigation into the task of paraphrasing while targeting a particular writing style.
-The plays of William Shakespeare and their \emph{modern translations} are used as a testbed for evaluating
+We present initial investigation into the task of paraphrasing language while targeting a particular writing style.
+The plays of William Shakespeare and their modern translations are used as a testbed for evaluating
 paraphrase systems targeting a specific style of writing.
-We demonstrate that existing evaluation metrics developed in the Machine Translation and Paraphrase communities are
-insufficient when the goal is to generate paraphrases targeting a specific style, and
-propose a series of new metrics to measure how closely the generated paraphrases match the target
-style.  To the best of our knowledge no previous work has investigated the task of
+%We demonstrate that existing evaluation metrics developed in the Machine Translation and Paraphrase communities are
+%insufficient when the goal is to generate paraphrases targeting a specific style, and
+%propose a series of new metrics to measure how closely the generated paraphrases match the target
+%style.  
+We empirically show that even with a relatively small amount of parallel training data available, it is
+possible to learn paraphrase models which capture stylistic phenomenon, and these models outperform
+baselines based on dictionaries and out-of-domain parallel text.
+In addition we present an initial investigation into automatic evaluation metrics for paraphrasing writing style.
+To the best of our knowledge this is the first work to investigate the task of
 paraphrasing text with the goal of targeting a specific style of writing.
 }
 
@@ -34,6 +40,26 @@ paraphrasing text with the goal of targeting a specific style of writing.
 %The plays of William Shakespeare and their \emph{modern} translations are treated
 %as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
 
+Identical meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is 
+fundamental to many natural language understanding tasks\cite{}, so much previous work has investigated methods for automatic paraphrasing.  Two different
+utterances may be semantically equivelant, however they can also be styalistically quite different.  For example, the same information information about a new product
+is likely to be conveyed using very different lexical and grammatical patterns in advertising materials v.s. technical manuals, or in Shakespearean plays v.s. Hollywood movies.
+
+In this paper, we investigate the task of automatic paraphrasing when targeting a specific writing style, focusing specifically on the style of Early Modern English employed by William Shakespeare.
+We exploit modern translations of 17 plays written to help literature students to better understand Shakespeare.  These modern translations are used to generate a parallel corpus of Shakespere's style and modern English,
+which is then used to train phrase-based translation models which are capable of automatically paraphrasing ordinary sentences into Shakesperean English.  In addition we develop several
+baseline systems which don't make use of this source of parallel text and instead rely on dictionaries of expressions commonly found in shakesperean english, or parallel monolingual text
+gathered through Amazon's Mechanical Turk \cite{}.
+
+We evaluate these models both through human judgements and standard evaluation metrics from the Machine Translation and paraphrase literature, however no previous work has investigated the ability of automatic metrics
+to capture the notion of writing style.  We propose several new metrics for evaluating the task of paraphrasing while targeting a specific style, and measure correlation with human judgement showing
+promising results for this particular style.
+
+Systems which are capable of automatically paraphrasing literary writing styles could be directly benefical for educational applications, for example helping students to experiment with writing literature in the
+style of authors they are studying.  Additionally note that out of the 37 surviving plays written by William Shakespeare, only 17 currently have modern translations available; although we have not yet formally evaluated
+paraphrasing in the other direction, this work has the potential to additionally make the other 20 plays more accessable to students of Shakespeare.
+
+\begin{comment}
 \begin{itemize}
   \item Define what we mean by writing styles.
   \item Define the paraphrasing task and describe previous work.
@@ -43,16 +69,21 @@ paraphrasing text with the goal of targeting a specific style of writing.
    \end{itemize}
   \item Summarize the main contributions.
 \end{itemize}
+\end{comment}
 
 \section{Data}
+We propose to use Shakespeare's plays and their modern English translations as a testbed the task of paraphrasing targeting a specific writing style.  Having access to parallel text in the target
+style allows us to train statistical models for generating paraphrases, and also perform automatic evaluation using BLEU which requires access to a set of reference translations.  For this purpose
+we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}.
+
 \begin{itemize}
   \item Motivate the need for a benchmark dataset for evaluating the writing style paraphrase task
-  \item Present Shakespere / Modern translation data as a situation where we have parallel data available (useful for building models \& evaluating automatic evaluation metrics)
+  \item Present Shakespeare / Modern translation data as a situation where we have parallel data available (useful for building models \& evaluating automatic evaluation metrics)
 \end{itemize}
 
 \section{Evaluation Metrics}
 \begin{itemize}
-  \item Describe the need for automatic evauation metrics.
+  \item Describe the need for automatic evaluation metrics.
   \item Describe previously used evaluation metrics for paraphrase.
   \item Highlight problems with previous metrics when targeting a specific writing style.
   \item Propose new metrics.
@@ -62,7 +93,7 @@ paraphrasing text with the goal of targeting a specific style of writing.
 \begin{itemize}
   \item Experimental setup.
   \item Present results from human evaluation comparing various systems.
-  \item Analyze correlation between evaluation metrics and human judgements.
+  \item Analyze correlation between evaluation metrics and human judgments.
 \end{itemize}
 
 \section{Related Work}
