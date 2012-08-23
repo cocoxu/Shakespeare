@@ -41,23 +41,23 @@ paraphrasing text with the goal of targeting a specific style of writing.
 %as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
 
 Identical meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is 
-fundamental to many natural language understanding tasks\cite{}, so much previous work has investigated methods for automatic paraphrasing.  Two different
-utterances may be semantically equivelant, however they can also be styalistically quite different.  For example, the same information information about a new product
+fundamental to many natural language understanding tasks\cite{Giampiccolo07}, so much previous work has investigated methods for automatic paraphrasing\cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05}.  
+Although two utternaces may be semantically equivelant, they can still be stylistically quite different.  For example, the same information information about a new product
 is likely to be conveyed using very different lexical and grammatical patterns in advertising materials v.s. technical manuals, or in Shakespearean plays v.s. Hollywood movies.
 
 In this paper, we investigate the task of automatic paraphrasing when targeting a specific writing style, focusing specifically on the style of Early Modern English employed by William Shakespeare.
 We exploit modern translations of 17 plays written to help literature students to better understand Shakespeare.  These modern translations are used to generate a parallel corpus of Shakespere's style and modern English,
 which is then used to train phrase-based translation models which are capable of automatically paraphrasing ordinary sentences into Shakesperean English.  In addition we develop several
 baseline systems which don't make use of this source of parallel text and instead rely on dictionaries of expressions commonly found in shakesperean english, or parallel monolingual text
-gathered through Amazon's Mechanical Turk \cite{}.
+gathered through Amazon's Mechanical Turk \cite{chen11}.
 
-We evaluate these models both through human judgements and standard evaluation metrics from the Machine Translation and paraphrase literature, however no previous work has investigated the ability of automatic metrics
+We evaluate these models both through human judgements and standard evaluation metrics from the Machine Translation and paraphrase literature, however no previous work has investigated the ability of these automatic metrics
 to capture the notion of writing style.  We propose several new metrics for evaluating the task of paraphrasing while targeting a specific style, and measure correlation with human judgement showing
 promising results for this particular style.
 
 Systems which are capable of automatically paraphrasing literary writing styles could be directly benefical for educational applications, for example helping students to experiment with writing literature in the
 style of authors they are studying.  Additionally note that out of the 37 surviving plays written by William Shakespeare, only 17 currently have modern translations available; although we have not yet formally evaluated
-paraphrasing in the other direction, this work has the potential to additionally make the other 20 plays more accessable to students of Shakespeare.
+paraphrasing in the other direction, this work also has the potential to make the other 20 plays more accessable to students of Shakespeare.
 
 \begin{comment}
 \begin{itemize}
@@ -74,7 +74,33 @@ paraphrasing in the other direction, this work has the potential to additionally
 \section{Data}
 We propose to use Shakespeare's plays and their modern English translations as a testbed the task of paraphrasing targeting a specific writing style.  Having access to parallel text in the target
 style allows us to train statistical models for generating paraphrases, and also perform automatic evaluation using BLEU which requires access to a set of reference translations.  For this purpose
-we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}.
+we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us
+two reference translations for 8 out of the 17 plays.
+
+After tokenizing and lowercasing, the plays and their modern translations were aligned using Bob Moore's bilingual sentence \cite{Moore02} aligner producing about 21,079 alignments out of 31,718 sentences
+in the Sparknotes data, and 10,365 aligned sentence pairs out of 13,640 sentences in the enotes data.  In addition, we note that the modern translations from each source are qualitatively quite
+different.  The Sparknotes paraphrases tend to differ more significantly from the original texts, whereas the enotes data tends to stick closer to the original text, being much more conservative
+in it's use of paraphrase, although it does include many useful paraphrses which do tend to be qualitatively different from those used in the Sparknotes data. %TODO: need examples of differences between the corpora?
+To illustrate these differences empircally, we evaluated a very simple paraphrase system using the standard BLEU evaluation metric which has been shown to be a useful measure of semantic equivelance
+in Parapharse \cite{chen11}.
+These corpus statistics are summarized in table \ref{corpus_stats}.
+
+\begin{table}
+  \begin{center}
+    \begin{tabular}{|l|r|r|r|}
+      \hline
+      corpus & initial size & aligned size & No-Change BLEU\\
+      \hline
+      \hline
+      \url{http://nfs.sparknotes.com} & 31,718 & 21,079 & 23.67 \\
+      \hline
+      \url{http://enotes.com} & 13,640 & 10,365 & 49.60 \\
+      \hline
+    \end{tabular}
+  \end{center}
+  \caption{Parallel corpora generated form modern translations of Shakespeare's plays}
+  \label{corpus_stats}
+\end{table}
 
 \begin{itemize}
   \item Motivate the need for a benchmark dataset for evaluating the writing style paraphrase task
@@ -107,7 +133,7 @@ we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.spar
 
 \bibliographystyle{apa}
 
-\bibliography{colingbiblio}
+\bibliography{paper.bib}
 
 %%================================================================
 \end{document}
