@@ -138,8 +138,11 @@ dictionary entries are presented in table \ref{dictionary_example}.
 \end{table}
 
 \subsubsection{Out of Domain Monolingual Parallel Data}
+As a final baseline we consider a paraphrase system which is trained on out-of-domain data gathered by asking users of Amazon's Mechanical Turk Service 
+\cite{Snow08} to describe videos \cite{chen11}.  We combine a phrase table extracted from this out of doimain parallel text, with an in-domain
+language model consisting of Shakespeare's 37 plays.
 
-\subsection{Initial Comparison}
+\subsection{Comparison Using Automatic Evaluation Metrics}
 \begin{itemize}
   \item List the various systems we evaluate (e.g. varying LM size, etc...)
   \item Plot BLEU and PINC scores for the various systems
