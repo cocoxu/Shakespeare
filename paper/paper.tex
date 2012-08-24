@@ -72,25 +72,21 @@ paraphrasing in the other direction, we believe this work also has the potential
 \end{comment}
 
 \section{Data}
+We propose to use Shakespeare's plays as a testbed for the task of paraphrasing while targeting a specific writing style.  Because these plays are some of the
+highest regarded examples of English literature and are also very unique in style, many linguistic resources are available such as parallel corpora
+of modern translations and dictionaries of stylistically representative words and their modern equivelants.
+
 We compare 3 different stylisitic paraphrase systems targeting Shakesperean English.  One which leverages parallel corpora of modern translations, another which makes use
 of dictionaries of styalistically representative expressions, and another which leverages out-of-domain monolingual parallel data.
 
 \subsection{Modern Translations}
-We propose to use Shakespeare's plays and their modern English translations as a testbed for the task of paraphrasing while targeting a specific writing style.  Having access to parallel text in the target
-style allows us to train statistical models for generating paraphrases, and also perform automatic evaluation using BLEU which requires access to a set of reference translations.  For this purpose
-we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us
-two reference translations for 8 out of the 17 plays.
+Having access to parallel text in the target style allows us to train statistical models for generating paraphrases, and also perform automatic evaluation of semantic adequacy using BLEU, which requires access to a set of reference translations.  For this purpose we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us two reference translations for 8 out of the 17 plays.
 
-After tokenizing and lowercasing, the plays were aligned using Bob Moore's bilingual sentence \cite{Moore02} aligner, which produced about 21,079 alignments out of 31,718 sentences
-in the Sparknotes data, and 10,365 sentence pairs out of 13,640 sentences in the enotes data.  The modern translations from each source are qualitatively quite
+After tokenizing and lowercasing, the plays were aligned using Bob Moore's bilingual sentence \cite{Moore02} aligner, which produced about 21,079 alignments out of 31,718 sentences in the Sparknotes data, and 10,365 sentence pairs out of 13,640 sentences in the enotes data.  The modern translations from each source are qualitatively quite
 different.  The Sparknotes paraphrases tend to differ significantly from the original text, whereas the enotes translations are much more conservative, making fewer changes.
 To illustrate these differences empirically and provide an initial paraphrase baseline, we computed BLEU scores of the unchanged modern translations against Shakespeare's 
 original text; the Sparknotes paraphrases result in a BLEU score of 23.67, whereas the Enotes paraphrases prouce a much higher BLEU of 49.60 indicating their similarity to the original text.
 These corpus statistics are summarized in table \ref{corpus_stats}.
-
-\subsection{Dictionaries}
-
-\subsection{Out of Domain Monolingual Parallel Data}
 
 \begin{table}
   \begin{center}
@@ -109,12 +105,45 @@ These corpus statistics are summarized in table \ref{corpus_stats}.
   \label{corpus_stats}
 \end{table}
 
-\begin{comment}
+\subsection{Baselines}
+Phrase-based translation has been demonstrated to be an effective approach to generating paraphrses \cite{chen11,quirk04}, however this approach does require the existence of
+parallel corpora which may not be available for many writing styles.  For this reason we were motivated to investigate alternative approaches.
+
+\subsubsection{Dictionary Based Paraphrase}
+Several dictionaries of stylistically representative words of Shakesperean English and their modern equivelants are available on the web.  These dictionaries can be used 
+to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{knight}.
+
+We gathered a set of 2,386  dictionary entries which were scraped from \url{http:/www.william-shakespeare.info} and semi-automaticaly cleaned.  Example
+dictionary entries are presented in table \ref{dictionary_example}.
+
+{\bf TODO:} need to describe how parameters were learned and combined with LM
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|l||l|l|}
+    \hline
+    target & source & target & source \\
+    \hline
+    \hline
+    ABATE & shorten & ANIGHT & by night \\
+    \hline
+    CAUTEL & deceit & CHILDING & pregnant \\
+    \hline
+    FOIL & defeat & MORTAL & deadly \\
+    \hline
+  \end{tabular}
+  \end{center}
+  \caption{Exaple dictionary entries}
+  \label{dictionary_example}
+\end{table}
+
+\subsubsection{Out of Domain Monolingual Parallel Data}
+
+\subsection{Initial Comparison}
 \begin{itemize}
-  \item Motivate the need for a benchmark dataset for evaluating the writing style paraphrase task
-  \item Present Shakespeare / Modern translation data as a situation where we have parallel data available (useful for building models \& evaluating automatic evaluation metrics)
+  \item List the various systems we evaluate (e.g. varying LM size, etc...)
+  \item Plot BLEU and PINC scores for the various systems
 \end{itemize}
-\end{comment}
 
 \section{Evaluation Metrics}
 \begin{itemize}
