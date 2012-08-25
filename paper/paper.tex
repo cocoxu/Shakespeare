@@ -111,7 +111,7 @@ parallel corpora which may not be available for many writing styles.  For this r
 
 \subsubsection{Dictionary Based Paraphrase}
 Several dictionaries of stylistically representative words of Shakesperean English and their modern equivelants are available on the web.  These dictionaries can be used 
-to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{knight}.
+to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{Koehn00}.
 
 We gathered a set of 2,386  dictionary entries which were scraped from \url{http:/www.william-shakespeare.info} and semi-automaticaly cleaned.  Example
 dictionary entries are presented in table \ref{dictionary_example}.
@@ -140,9 +140,22 @@ dictionary entries are presented in table \ref{dictionary_example}.
 \subsubsection{Out of Domain Monolingual Parallel Data}
 As a final baseline we consider a paraphrase system which is trained on out-of-domain data gathered by asking users of Amazon's Mechanical Turk Service 
 \cite{Snow08} to describe videos \cite{chen11}.  We combine a phrase table extracted from this out of doimain parallel text, with an in-domain
-language model consisting of Shakespeare's 37 plays.
+language model consisting of Shakespeare's 37 plays.  Although this monolingual parallel data does not include text in the target writing style,
+the in-domain language model does bias the generated sentences towards Shakespeare's writing style.
 
 \subsection{Comparison Using Automatic Evaluation Metrics}
+Figure \ref{bleupinc} compares a variety of sytstems targeting Shakesperean English using previously the previosly proposed BLEU \cite{Papineni02} and PINC \cite{chen11} automatic evaluation metrics.
+
+\begin{figure}
+  \begin{center}
+    \begin{tabular}{cc}
+      \includegraphics[width=2.1in]{figures/bleupinc1.pdf} & \includegraphics[width=2.1in]{figures/bleupinc2.pdf} \\
+    \end{tabular}
+  \end{center}
+  \caption{Various Shakesperean Paraphrase systems compared using BLEU and PINC.}
+  \label{bleupinc}
+\end{figure}
+
 \begin{itemize}
   \item List the various systems we evaluate (e.g. varying LM size, etc...)
   \item Plot BLEU and PINC scores for the various systems
