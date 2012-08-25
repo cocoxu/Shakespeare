@@ -5,6 +5,7 @@ system	BLEU	PINC	corpus
 16and7plays_16LM_mert	28.24	16.58	1
 16plays_36LM	28.4	35.14	1
 16plays_36LM_mert	27.74	23.23	1
+video_corpus_baseline	26.31	13.35	1
 modern (no change)	24.67	0	1
 Dictionary	20.05	38.03	1
 16and7plays_36LM	53.18	24.08	2
@@ -13,5 +14,6 @@ Dictionary	20.05	38.03	1
 16and7plays_16LM_mert	54.26	18.54	2
 16plays_36LM	50.91	26.15	2
 16plays_36LM_mert	52.94	15.69	2
+video_corpus_baseline	52.42	10.07	2
 modern (no change)	52.3	0	2
 Dictionary	39.06	31.89	2
