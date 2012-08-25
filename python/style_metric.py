@@ -3,6 +3,7 @@
 import nltk
 nltk.config_megam('/home/aritter/local/bin/megam')
 
+
 import sys
 import math
 import random
