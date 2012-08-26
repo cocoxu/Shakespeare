@@ -8,7 +8,7 @@
 #average-csim	0.480059827357
 #average-cmaxent	0.456308085791
 
-pdf('style_metrics.pdf', width=7, height=7)
+pdf('style_metrics.pdf', width=8, height=5)
 
 barplot(rbind(
 	c(0.512979241631, 0.491599098577, 0.480059827357),
