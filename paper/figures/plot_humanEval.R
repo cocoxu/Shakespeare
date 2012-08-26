@@ -16,7 +16,7 @@ video_baseline_dissimilarity = data$dissimilarity.2
 video_baseline_style = data$style.2
 video_baseline_overall = data$overall.2
 
-pdf('human_judgements.pdf', width=6, height=6)
+pdf('human_judgements.pdf', width=7, height=7)
 
 barplot(
 	rbind(
