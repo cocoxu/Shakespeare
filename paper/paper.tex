@@ -372,14 +372,34 @@ are made to the input they are likely to be in the target style.  Although PINC 
 because for example a paraphrase system which makes many changes to the input, but targets a completely different style will also get a high PINC score.  
 Both the Cosine and Maximum Entropy style metrics achieve the highest overall correlation with human writing style judgements, with the Maximum Entropy score performing significantly better.
 
+Finally we note that overall the average automatc metrics seem to agree with agree with human judgements as displayed in figure \ref{style_metrics}.
+
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=4in]{figures/style_metrics.pdf}
+    \end{center}
+    \caption{Overall results from comparing automatic style metrics.  Note that the automatic metrics agree with results from human judgements in figure \ref{human_judgements}.}
+    \label{style_metrics}
+\end{figure}
+
 \section{Related Work}
-\begin{itemize}
-  \item Kevin Knight's work on poetry generation
-  \item Any work on writing style (e.g. classification)?  Possibly cite work on author attribution...
-  \item work on paraphrase evaluation metrics (David Chen, CCB, etc...)
-\end{itemize}
+Although no previous work has investigated paraphrasing modern text into Shakesperean English, or the more general task of paraphrasing while targeting a specific writing
+style, there are several strands of related work.
+
+Perhaps most relevant is recent work generating and translating rhythmic poetry \cite{Greene10}.  This work focused on generating text in an appropriate
+meter (e.g. iambic pentameter) using finate-state transducers.  In contrast our work does not address the issue of meter, however it should be possible to combine our translation
+models with their weighted FSTs to produce Shakesperean paraphrase models which produce output in an appropriate meter.
+
+Much previous work has addressed the task of automatically generating paraphrases \cite{Callison-Burch08,Kok10}.  In addition several authors have previously proposed 
+automatic paraphrase evaluation metrics \cite{Callison-Burch08b,Bangalore00,liu10}.
+We are not aware, however, of any previous work that has addressed the task of generating or evaluating
+paraphrases targeting a specific style of writing.
+
+Finally we highlight related work on authorship classification which can be seen as detecting a specific style of writing \cite{Gamon04,Raghavan10}.
+This work has not specifically addressed the task of automatically generating or evaluating paraphrases in a specific style, however.
 
 \section{Conclusions}
+
 
 \bibliographystyle{apa}
 

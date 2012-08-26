@@ -1,5 +1,8 @@
 data = read.csv('../../eval/annotated.csv', sep="\t", header=TRUE)
-data = data[1:99,]
+data2 = read.csv('../../eval/annotated_wei.csv', sep="\t", header=TRUE)
+data  = data[1:99,]
+data2 = data2[1:99,]
+data = rbind(data, data2)
 
 x16plays_36LM_semantic_equiv = data$semantic.equiv
 x16plays_36LM_dissimilarity = data$dissimilarity

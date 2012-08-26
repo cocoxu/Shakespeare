@@ -66,6 +66,9 @@ for line in open(sys.argv[1]):
     video_cmaxent_list.append(sm.ScoreMaxEnt(video))
     i += 1
 
+def mean(values):
+    return sum(values, 0.0) / len(values)
+
 print "16plays36:"
 print "sematnic-bleu\t" + str(pearsonr(_16plays36_semantic_list, _16plays36_bleu_list))
 print "dissim-pinc\t" + str(pearsonr(_16plays36_dissim_list, _16plays36_pinc_list))
@@ -73,6 +76,8 @@ print "style-bleu\t" + str(pearsonr(_16plays36_style_list, _16plays36_bleu_list)
 print "style-pinc\t" + str(pearsonr(_16plays36_style_list, _16plays36_pinc_list))
 print "style-csim\t" + str(pearsonr(_16plays36_style_list, _16plays36_csim_list))
 print "style-cmaxent\t" + str(pearsonr(_16plays36_style_list, _16plays36_cmaxent_list))
+print "average-csim\t" + str(mean(_16plays36_csim_list))
+print "average-cmaxent\t" + str(mean(_16plays36_cmaxent_list))
 
 print "phrase2:"
 print "semantic-bleu\t" + str(pearsonr(phrase_semantic_list, phrase_bleu_list))
@@ -81,6 +86,8 @@ print "style-bleu\t" + str(pearsonr(phrase_style_list, phrase_bleu_list))
 print "style-pinc\t" + str(pearsonr(phrase_style_list, phrase_pinc_list))
 print "style-csim\t" + str(pearsonr(phrase_style_list, phrase_csim_list))
 print "style-cmaxent\t" + str(pearsonr(phrase_style_list, phrase_cmaxent_list))
+print "average-csim\t" + str(mean(phrase_csim_list))
+print "average-cmaxent\t" + str(mean(phrase_cmaxent_list))
 
 print "video2:"
 print "semantic-bleu\t" + str(pearsonr(video_semantic_list, video_bleu_list))
@@ -89,6 +96,8 @@ print "style-bleu\t" + str(pearsonr(video_style_list, video_bleu_list))
 print "style-pinc\t" + str(pearsonr(video_style_list, video_pinc_list))
 print "style-csim\t" + str(pearsonr(video_style_list, video_csim_list))
 print "style-cmaxent\t" + str(pearsonr(video_style_list, video_cmaxent_list))
+print "average-csim\t" + str(mean(video_csim_list))
+print "average-cmaxent\t" + str(mean(video_cmaxent_list))
 
 print "all:"
 print "sematnic-bleu\t" + str(pearsonr(_16plays36_semantic_list + phrase_semantic_list + video_semantic_list, _16plays36_bleu_list + phrase_bleu_list + video_bleu_list))
@@ -97,3 +106,5 @@ print "style-bleu\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + 
 print "style-pinc\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_pinc_list + phrase_pinc_list + video_pinc_list))
 print "style-csim\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_csim_list + phrase_csim_list + video_csim_list))
 print "style-cmaxent\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_cmaxent_list + phrase_cmaxent_list + video_cmaxent_list))
+print "average-csim\t" + str(mean(_16plays36_csim_list + phrase_csim_list + video_csim_list))
+print "average-cmaxent\t" + str(mean(_16plays36_cmaxent_list + phrase_cmaxent_list + video_cmaxent_list))
