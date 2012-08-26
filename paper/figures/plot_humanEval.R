@@ -29,6 +29,6 @@ barplot(
 	names.arg=c('semantic adequacy', 'dissimilarity', 'style', 'overall'), beside=TRUE)
 title("Average Human Judgements")
 
-legend("topright", legend=c('16plays_36LM', 'Dictionary', 'Video Baseline'), fill=(gray.colors(n=5)))
+legend("topright", legend=c('16plays_36LM', 'Dictionary', 'Video Baseline'), fill=(gray.colors(n=3)))
 
 dev.off()
