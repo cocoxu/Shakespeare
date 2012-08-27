@@ -120,12 +120,21 @@ parallel corpora which may not be available for many writing styles.  For this r
 Several dictionaries of stylistically representative words of Shakesperean English and their modern equivelants are available on the web.  These dictionaries can be used 
 to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{Koehn00}.
 
-We gathered a set of 20,138 dictionary entries which were scraped from \url{http://www.shakespeareswords.com/}, then used heuristic rules to extract 68,709 phrase/word pairs.  Example
-dictionary entries are presented in table \ref{dictionary_example}. As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
+%We gathered a set of 20,138 dictionary entries which were scraped from \url{http://www.shakespeareswords.com/}, then used heuristic rules to extract 68,709 phrase/word pairs.  Example
+%dictionary entries are presented in table \ref{dictionary_example}. As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
 
-For instance, if we look at the modern English (*probably define EME, Shakespearean, modern/ordinary etc ... I don't know what words to use) word \emph{maybe}, our dictionary lists 4 possible Shakespearean translations. We can obtain the following conditional probabilities for each translation according to the n-gram back off model built on Shakespeare's 36 plays by SRILM toolkit (*ref "SRILM an Extensible Language Modeling Toolkit":
+We scraped a set of 68,709 phrase/word pairs from \url{http://www.shakespeareswords.com/}.  
+Example dictionary entries are presented in table \ref{dictionary_example}. 
 
-{\bf TODO:} need to describe how parameters were learned and combined with LM
+%As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
+As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language (Shakespearean English).
+For instance, if we look at the modern English word \emph{maybe}, our dictionary lists 4 possible Shakespearean translations. 
+We obtained the conditional probabilities for each translation according to the n-gram back off model built on Shakespeare's 
+36 plays by SRILM toolkit \cite{Stolcke02} \ref{word_frequency}, 
+normalizing the probabilities for each source phrase, for example $p(\text{PERCHANGE}|\text{maybe}) = \frac{0.0000790755}{0.00026264791} = 0.30107035689$. 
+This method allows us to estimate reasonable translation probabilities for use in a phrase table, which is used in combination 
+with a language model consisting of Shakespeare's 36 plays (holding out Romeo and Juliet), which are then be fed into the Moses decoder
+\cite{Koehn07}.
 
 \begin{table}
   \begin{center}
@@ -134,11 +143,11 @@ For instance, if we look at the modern English (*probably define EME, Shakespear
     target & source & target & source \\
     \hline
     \hline
-    ABATE & shorten & ANIGHT & by night \\
+    ABATE & shorten & AYE & always \\
     \hline
-    CAUTEL & deceit & CHILDING & pregnant \\
+    CAUTEL & deceit & GLASS & mirror \\
     \hline
-    FOIL & defeat & MORTAL & deadly \\
+    SUP & have supper & VOICE & vote \\
     \hline
   \end{tabular}
   \end{center}
@@ -150,7 +159,7 @@ For instance, if we look at the modern English (*probably define EME, Shakespear
   \begin{center}
   \begin{tabular}{|l|l|l|}
     \hline
-    conditional probability & target & source \\
+    Smoothed Probability Estimate & target & source \\
     \hline
     \hline
     0.0000790755 & PERCHANCE & maybe \\
@@ -161,9 +170,12 @@ For instance, if we look at the modern English (*probably define EME, Shakespear
     \hline
     0.00007141065 & HAPPILY & maybe \\
     \hline
+    \hline
+    total 0.00026264791 & & \\
+    \hline
   \end{tabular}
   \end{center}
-  \caption{Word frequency in target language}
+  \caption{Example ngram probabilities in target language}
   \label{word_frequency}
 \end{table}
 
