@@ -105,7 +105,18 @@ class StyleMetric:
 
 if __name__ == "__main__":
     sm = StyleMetric(sys.argv[1], sys.argv[2])
-    print sm.ScoreSim("Give yourself to the dark side")
-    print sm.ScoreMaxEnt("Give yourself to the dark side")
-    print sm.ScoreSim("Give thee to the dark side")
-    print sm.ScoreMaxEnt("Give thee to the dark side")
+
+    simSum = 0.0
+    meSum  = 0.0
+    nLines = 0.0
+    for line in open(sys.argv[3]):
+        line = line.strip()
+        simScore    = sm.ScoreSim(line)
+        maxEntScore = sm.ScoreMaxEnt(line)
+        print "%s\t%s\t%s" % (line, simScore, maxEntScore)
+        simSum += simScore
+        meSum  += maxEntScore
+        nLines += 1.0
+
+print "average simScore = %s" % simSum / nLines 
+print "average meScore  = %s" % meSum  / nLines 
