@@ -47,7 +47,7 @@ fundamental to many natural language understanding tasks\cite{Giampiccolo07}, so
 Although two utterances might be semantically equivalent, they can still be stylistically quite different.  For example, the same information
 is likely to be conveyed using very different lexical and grammatical patterns in advertising materials v.s. technical manuals, or in Shakespearean plays v.s. Hollywood movies.
 
-Systems capable of paraphrasing text targeting to a specific writing style could be useful for a variety of applications.  For example, they could:
+Systems capable of paraphrasing text targeting a specific writing style could be useful for a variety of applications.  For example, they could:
 \begin{enumerate}
   \item Help authors of technical documents to adhere to appropriate stylistic guidelines.  
   \item Enable average people to better understand information in legal documents by translating ``legalese'' into ordinary English.  
@@ -64,17 +64,18 @@ which is then used to train phrase-based translation models which are capable of
 baseline systems which do not make use of this source of parallel text and instead rely on manually compiled dictionaries of expressions commonly found in Shakespearean English, or out of
 domain parallel monolingual text gathered through Amazon's Mechanical Turk \cite{chen11}.
 
-We evaluate these models both through human judgments and standard evaluation metrics from the Machine Translation and paraphrase literature, however no previous work has investigated the ability of automatic
+We evaluate these models both through human judgments and standard evaluation metrics from the Machine Translation and Paraphrase literature, however no previous work has investigated the ability of automatic
 evaluation metrics to capture the notion of writing style.  
-We show that previously proposed automatic evaluation metrics do not give us a complete picture of a system's performance when the task is to generate paraphrases
-targeting a specific style of writing.  We propose several new metrics for evaluating paraphrases targeting a specific style, and measure correlation with human judgments showing promising
+We show that previously proposed metrics do not provide the complete picture of a system's performance when the task is to generate paraphrases
+targeting a specific style of writing.  We propose two new metrics for evaluating paraphrases targeting a specific style, and measure correlation with human judgments showing promising
 preliminary results.
 
 Systems which are capable of automatically paraphrasing literary writing styles could be directly beneficial for educational applications.  For example, our systems which generate paraphrases targeting
-a Shakespearean English could help students to experiment with writing literature in this style.
-In addition, out of the 37 surviving plays written by William Shakespeare modern translations are currently only available for 17.  Though we have not yet formally evaluated
-paraphrasing Shakespeare's plays into modern English, we believe it should be possible to help make the other 20 plays more accessible to students of Shakespeare by automatically 
-generating modern translations.
+Shakespearean English could help students to experiment with writing literature in this style.
+In addition, out of the 37 surviving plays written by William Shakespeare, modern translations are currently only available for 17.  
+We therefore present a preliminary investigation into the task of automatically translating Shakespeare's plays into modern English, using our newly developed
+automatic evaluation metrics.  By automatically paraphrasing the remaining 20 plays into modern English, 
+we believe it should be possible to help make these plays more accessible to students of Shakespeare.
 
 \section{Shakespearean Paraphrasing}
 We propose to use Shakespeare's plays as a testbed for the task of paraphrasing while targeting a specific writing style.  Because these plays are some of the
@@ -82,10 +83,10 @@ highest regarded examples of English literature and are also very unique in styl
 of modern translations and dictionaries of stylistically representative words and their modern equivalents.
 
 We compare 3 different stylistic paraphrase systems targeting Shakespearean English.  One which leverages parallel corpora of modern translations, another which makes use
-of dictionaries of stylistically representative expressions, and another which leverages out-of-domain monolingual parallel data.
+of dictionaries of stylistically representative expressions, and another which utilizes out-of-domain monolingual parallel data.
 
 \subsection{Modern Translations}
-Having access to parallel text in the target style allows us to train statistical models for generating paraphrases, and also perform automatic evaluation of semantic adequacy using BLEU, which requires access to a set of reference translations.  For this purpose we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us two reference translations for 8 out of the 17 plays.
+Access to parallel text in the target style allows us to train statistical models to generate paraphrases, and also perform automatic evaluation of semantic adequacy using BLEU, which requires availability of reference translations.  For this purpose we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us two reference translations for 8 out of the 17 plays.
 
 After tokenizing and lowercasing, the plays were aligned using Bob Moore's bilingual sentence aligner \cite{Moore02}, which produced about 21,079 alignments out of 31,718 sentences in the Sparknotes data, and 10,365 sentence pairs out of 13,640 sentences in the Enotes data.  The modern translations from each source are qualitatively quite
 different.  The Sparknotes paraphrases tend to differ significantly from the original text, whereas the Enotes translations are much more conservative, making fewer changes.
@@ -114,22 +115,23 @@ To generate paraphrases, we apply a typical phrase-based Statistical Machine Tra
 word alignment on the data described in table \ref{corpus_stats} using GIZA++ \cite{Och03}, then extracting phrase pairs and performing decoding using Moses \cite{Koehn07}.
 
 \subsection{Baselines}
-Phrase-based translation has been demonstrated to be an effective approach to generating paraphrases \cite{chen11,quirk04}, however this approach does require the existence of
-parallel corpora which may not be available for many writing styles.  For this reason we were motivated to investigate alternative approaches.
+Phrase-based translation has been demonstrated as an effective approach to paraphrasing \cite{quirk04chen11}, however this approach does require the existence of
+parallel corpora which may not be available for many writing styles.  For this reason we were motivated to investigate alternative approaches in order to help
+quantify the benefit of access to parallel text in the source and target styles.
 
 \subsubsection{Dictionary Based Paraphrase}
 \label{dictionary_baseline}
-Several dictionaries of stylistically representative words of Shakespearean English and their modern equivalents are available on the web.  These dictionaries can be used 
-to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{Koehn00}.
+Several dictionaries of stylistically representative words of Shakespearean English and their modern equivalents are available on the web.  
+These dictionaries can be used to define a translation model which can be used in combination with a language model as in standard phrase-based Machine
+Translation.
 
 %We gathered a set of 20,138 dictionary entries which were scraped from \url{http://www.shakespeareswords.com/}, then used heuristic rules to extract 68,709 phrase/word pairs.  Example
 %dictionary entries are presented in table \ref{dictionary_example}. As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
 
-We scraped a set of 68,709 phrase/word pairs from \url{http://www.shakespeareswords.com/}.  
-Example dictionary entries are presented in table \ref{dictionary_example}. 
-
-%As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
-As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language (Shakespearean English).
+To build a phrase table, we scraped a set of 68,709 phrase/word pairs from \url{http://www.shakespeareswords.com/}; 
+example dictionary entries are presented in table \ref{dictionary_example}. 
+As described in \cite{Koehn00}, we estimate phrase translation probabilities
+based on the frequencies of the translation words/phrases in the target language (Shakespearean English).
 For instance, if we look at the modern English word \emph{maybe}, our dictionary lists 4 possible Shakespearean translations. 
 We obtained the conditional probabilities for each translation according to the n-gram back off model built on Shakespeare's 
 36 plays by SRILM toolkit \cite{Stolcke02} \ref{word_frequency}, 
@@ -181,13 +183,19 @@ with a language model consisting of Shakespeare's 36 plays (holding out {\em Rom
   \label{word_frequency}
 \end{table}
 
+<<<<<<< HEAD
 \subsubsection{Out of Domain Monolingual Parallel Data}
 \label{video_baseline}
+=======
+\subsubsection{Out of Domain Monolingual Parallel Text}
+>>>>>>> 499f0ca24b8c90f2f7b93eff8ac905268ffbaf71
 As a final baseline we consider a paraphrase system which is trained on out-of-domain data gathered by asking users of Amazon's Mechanical Turk Service 
 \cite{Snow08} to describe videos \cite{chen11}.  We combine a phrase table extracted from this out of domain parallel text, with an in-domain
 language model consisting of Shakespeare's 36 plays (holding out {\em Romeo and Juliet} for testing), applying the Moses decoder \cite{Koehn07} to find the best paraphrases. 
 Although this monolingual parallel data does not include text in the target writing style,
 the in-domain language model does bias the system's output towards Shakespeare's style of writing.
+We found that performing Minimum Error Rate Training using a small set of held out parallel text from Romeo and Juliet was necessary in order to tune the
+video corpus baseline to generate reasonable paraphrases.
 
 \subsection{Comparison Using Existing Automatic Evaluation Metrics}
 Figure \ref{bleupinc} compares a variety of systems targeting Shakespearean English using the previously proposed BLEU \cite{Papineni02} and PINC \cite{chen11} automatic evaluation metrics which
@@ -199,14 +207,18 @@ in the remainder of this paper, we focus on the Sparknotes data for evaluation.
 \subsubsection{Discussion}
 Two main trends emerge from Figure \ref{bleupinc}.  First, notice that all of the systems which are trained using parallel text achieve higher BLEU scores than the baseline
 of not making any changes to the modern translations.  While the dictionary baseline achieves a competitive PINC score, indicating it is making a significant number of changes to the 
-input, it's BLEU is lower than the \emph{no changes} baseline.  Secondly, it seems apparent that the systems whose parameters are learned using Minimum Error Rate Training \cite{MERT}
+input, it's BLEU is lower than the \emph{no changes} baseline.  Secondly, it seems apparent that the systems whose parameters are tuned using Minimum Error Rate Training \cite{MERT}
 tend to be more conservative, making fewer changes to the input and thus achieving lower PINC scores, however also not seeing any BLEU improvements on the test data.  Finally
 we note that using the larger language model seems to yield a slight improvement in BLEU score.
 
+<<<<<<< HEAD
 \subsection{Examples}
 Several example paraphrases of lines from {\em Romeo and Juliet} and a few Hollywood movies, generated by the top performing system according to BLEU and PINC, are presented in table \ref{examples}.
 
 \begin{table}[ht]
+=======
+\begin{table}
+>>>>>>> 499f0ca24b8c90f2f7b93eff8ac905268ffbaf71
   \begin{center}
     \begin{tabular}{|l|p{3in}|}
       \hline
@@ -249,6 +261,9 @@ Several example paraphrases of lines from {\em Romeo and Juliet} and a few Holly
   \label{bleupinc}
 \end{figure}
 
+\subsection{Examples}
+Several example paraphrases of lines from Romeo and Juliet and a few Hollywood movies, generated by the top performing system according to BLEU and PINC, are presented in table \ref{examples}.
+
 \begin{table}[ht]
   \begin{center}
     \begin{tabular}{|l|l|p{1.4in}|p{1.4in}|}
@@ -256,9 +271,9 @@ Several example paraphrases of lines from {\em Romeo and Juliet} and a few Holly
       Source & Speaker & Input & Output \\
       \hline
       \hline
-      Romeo \& Juliet & Benvolio & he killed your relative , brave mercutio , and then young romeo killed him . & he slew thy kinsman , brave mercutio , and then young romeo kill him . \\
+      Romeo \& Juliet & Benvolio & He killed your relative, brave Mercutio, and then young Romeo killed him. & he slew thy kinsman , brave mercutio , and then young romeo kill him . \\
       \hline
-      Romeo \& Juliet & Romeo & i can read my own fortune in my misery . & i can read mine own fortune in my woes . \\
+      Romeo \& Juliet & Romeo & I can read my own fortune in my misery. & i can read mine own fortune in my woes . \\
       \hline
       Star Wars & Palpatine & If you will not be turned, you will be destroyed! & if you will not be turn 'd , you will be undone ! \\
       \hline
@@ -272,6 +287,12 @@ Several example paraphrases of lines from {\em Romeo and Juliet} and a few Holly
       \hline
       Raiders of the Lost Ark & Jones & I ought to kill you right now. & i should kill thee straight . \\
       \hline
+      Terminator 2 & Terminator & My mission is to protect you. & my affair is to keep you . \\
+      %\hline
+      %Terminator 2 & Terminator & Negative. The T-1000's highest probability for success now would be to copy Sarah Connor and to wait for you to make contact with her. & negative. the t-1000 's most exalted probability for success now would be to have sarah connor and to stay for you to make contact with her . \\
+      \hline
+      Terminator 2 & Terminator & Skynet begins to learn at a geometric rate. ... In a panic, they try to pull the plug. & skynet begins to learn at a geometric rate. ... in a fearful sails , they would pluck the stop . \\
+      \hline
     \end{tabular}
   \end{center}
   \caption{Example Shakespearean paraphrases generated by the best overall system.}
@@ -283,7 +304,7 @@ Several example paraphrases of lines from {\em Romeo and Juliet} and a few Holly
 Figure \ref{bleupinc} provides some insight into the performance of the various systems, however it is initially unclear how well the BLEU and PINC
 automatic evaluation metrics perform when applied to evaluating paraphrases targeting a specific style of writing.  BLEU and PINC have previously
 been shown to have high correlation with human judgments of semantic adequacy and lexical dissimilarity of paraphrase candidates, however no
-previous work has evaluated automatically generated paraphrases which target a specific style of writing \cite{chen11}.
+previous work has evaluated automatically generated paraphrases which target a specific style of writing.
 
 While BLEU is typically used to measure semantic adequacy, it seems reasonable to assume that it may also depend on style, since utterances
 are more likely to contain overlapping ngrams if they are both semantically and stylistically similar.  What BLEU doesn't tell us, however
@@ -301,9 +322,8 @@ a Shakespearean language model has the highest semantic adequacy, however it is 
 The dictionary baseline, and paraphrase system trained on parallel modern translations are roughly comparable when it comes to 
 the number of changes made to the input, however the system trained on modern translations achieves higher semantic adequacy, while also being rated higher on style and overall.
 
-These results are roughly in line with the automatic evaluation metrics presented in figure \ref{bleupinc}, however we see several important
-trends which are not apparent based on the automatic evaluation metrics.
-
+These results are roughly in line with the automatic evaluation metrics presented in figure \ref{bleupinc}, however we also see several important
+trends which are not apparent from the automatic evaluation metrics.
 Although the video baseline achieves the highest semantic adequacy in the human evaluation, it's BLEU score
 is significantly lower than 16plays\_36LM on the Sparknotes data.\footnote{
 Note that the BLEU score of 16plays\_36LM is significantly lower when evaluated on the Enotes data.  This makes sense, because the 
@@ -313,7 +333,7 @@ It would appear that in this case BLEU is conflating semantic adequacy with writ
 by the video baseline have high semantic adequacy, their style tends to differ substantially from the reference translations resulting
 in fewer ngram matches, and thus a lower BLEU score.
 
-\begin{table}[ht]
+\begin{table}
   \begin{center}
     \begin{tabular}{|l|l|l|l|}
       \hline
@@ -328,7 +348,7 @@ in fewer ngram matches, and thus a lower BLEU score.
   \label{annotator_agreement}
 \end{table}
 
-\begin{figure}
+\begin{figure}[ht]
   \begin{center}
     \includegraphics[width=5in]{figures/human_judgements.pdf}
   \end{center}
@@ -340,7 +360,7 @@ in fewer ngram matches, and thus a lower BLEU score.
 \section{Automatic Metrics Evaluating Writing Style}
 While PINC and BLEU do seem useful for automatically evaluating paraphrases targeting a  writing style, BLEU tends to conflate the notions of
 semantic adequacy with writing style.  When comparing various systems using automatic metrics, it would seem useful
-to separate effects based on these two criteria.  We would like our automatic evaluation metrics to be able to distinguish
+to separate effects caused by these two distinct criteria.  We would like our automatic evaluation metrics to be able to distinguish
 between a system which generates perfect paraphrases which don't match the target style of writing and a system which
 generates sentences in the correct style, but which convey different meaning.
 
@@ -354,12 +374,12 @@ are cautiously optimistic that our results will generalize across writing styles
 on ngram statistics.
 
 \subsection{Cosine Similarity Style Metric}
-As a first approach automatic evaluation of writing style, we propose a vector-space model of similarity between the system
-output and a large corpus of text in both the source and target style.  The intuition is that if there is a large ngram
-overlap between the system's output and a large corpus of text in the target style, then the output is more likely to be
-stylistically appropriate.
+As a first approach to automatic evaluation of writing style, we propose a vector-space model of similarity between the system
+output and a large corpus of text in both the source and target style.  The intuition behind this metric is that  a large ngram
+overlap between the system's output and a corpus of text in the target style should indicate that the
+output is likely to be stylistically appropriate.
 
-More concretely, we extract ngrams from both the source and target corpus which are then represented as binary
+More concretely, we extract ngrams from both the source and target corpus which are represented as binary
 vectors $\vec{s}$, and $\vec{t}$; similarly the output sentence is represented using a vector of
 ngrams $\vec{o}$.  
 The proposed metric is the normalized cosine similarity between the source and target corpora:
@@ -369,24 +389,31 @@ S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \tim
  
 
 \subsection{Logistic Regression Style Metric}
-We also consider a Logistic Regression based approach as an alternative to the Cosine-Similarity based style metric.  Here the idea is to estimate the probability that each
-sentence belongs to the target style based on the ngrams it contains, using large corpora of in and out-of domain sentences to learn  parameters of a logistic regression model.
+We also consider an approach to measuring style which is based on logistic regression as opposed to cosine similarity.
+%We also consider a logistic Regression based approach as an alternative to cosine similarity.
+Here the idea is to estimate the probability that each
+sentence belongs to the target style based on the ngrams it contains, using large corpora of \emph{in domain} and \emph{out-of domain} sentences to learn  parameters of a logistic regression model.
 
-The probability a sentence belongs to the target style is estimated as follows:
+The probability that a sentence belongs to the target style is estimated as follows:
 \[
 %P(\text{style} = \text{target}|\text{output}) \propto \text{exp} \left( \vec{\theta} \cdot \vec{f(\text{output})} \right)
 P(\text{style} = \text{target}|\text{sentence}) = \frac{1}{1 + e^{-\left( \vec{\theta} \cdot \vec{f(\text{sentence})} \right)}}
 \]
-Where $\vec{f(\text{sentence})}$ is a vector of ngrams, and $\vec{\theta}$ is a vector of weights.  
+Where $\vec{f(\text{sentence})}$ is a vector of ngrams contained by the sentence, and $\vec{\theta}$ is a vector of weights corresponding to each possible ngram.
 
-The parameters, $\vec{\theta}$, are optimized on the source and target corpus, where the assumption is that the target corpus
+The parameters, $\vec{\theta}$, are optimized to maximize conditional likelihood on the source and target corpus, where the assumption is that the target corpus
 is in the target style, whereas the source corpus is not.\footnote{
   Parameters were optimized using MEGAM \url{http://www.cs.utah.edu/~hal/megam/}.
 }
 
 \subsection{Evaluation}
+<<<<<<< HEAD
 We trained both Logistic Regression and Cosine Similarity evaluation metrics using the original Shakespeare plays and modern translations as
 the source and target corpus respectively (holding out {\em Romeo and Juliet}), then measured Pearson's Correlation Coefficient between the automatic
+=======
+We trained both the logistic regression and cosine similarity evaluation metrics using the original Shakespeare plays and modern translations as
+the source and target corpus respectively (holding out Romeo and Juliet), then measured Pearson's Correlation Coefficient between the automatic
+>>>>>>> 499f0ca24b8c90f2f7b93eff8ac905268ffbaf71
 evaluation metrics and human judgments reported in section \ref{human_evaluation}.  These results are reported in table \ref{correlation}.
 
 \begin{table}
@@ -426,32 +453,94 @@ For example, consider a paraphrase system which makes many changes to the input 
 
 Both the Cosine and Maximum Entropy style metrics achieve the highest overall correlation with human writing style judgments, with the Maximum Entropy style score performing significantly better.
 
-Finally we note that overall the automatic metrics tend to agree with agree with human judgments as displayed in figure \ref{style_metrics}.
+Finally we note that overall the automatic metrics tend to agree with agree with human judgments as displayed in figure \ref{style_metrics}.\footnote{
+  Although the automatic style metrics rate the dictionary system higher than the video corpus baseline, both systems have very comparable
+  style scores in the automatic and human evaluations.
+}
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=5in]{figures/style_metrics.pdf}
     \end{center}
-    \caption{Overall results from comparing automatic style metrics.  Note that the automatic metrics agree with results from human judgments in figure \ref{human_judgements}.}
+    \caption{Results comparing the 3 systems using the automatic style metrics.}
     \label{style_metrics}
 \end{figure}
+
+\section{Translating Shakespeare's Plays to Modern English}
+Finally we preform a preliminary evaluation of the task of automatically translating Shakespeare's plays into modern English.  Success at this task could have immediate
+benefits to students, as well as translators of Shakespeare's plays into modern English. 
+
+For the purposes of this evaluation, 
+we make use of the same paraphrase systems previously described, but swap the source and target languages.
+Additionally, each system makes use of a language model constructed from the 16 modern translations, and again Romeo and Juliet are held out for testing.  
+510 lines from Romeo and Juliet were automatically translated into modern English using each system, and the aligned modern 
+translations were used as a reference when computing BLEU.  The results of evaluating each of the automatic evaluation metrics on this
+data are presented in figure \ref{shakespeare_to_modern_automatic}.  
+
+The results suggest that in comparison to the dictionary and video corpus baselines, 
+our system trained on modern translations generates diverse paraphrases which match the target style.
+Note that the paraphrase system 
+based on the out-of-domain video corpus makes very few changes to the input, and thus achieves a very low PINC score.  This is due to the many out of
+vocabulary words in Shakespeare's plays which result in very few matching source phrases in the video baseline's phrase table.
+
+While we have yet to perform a human evaluation on the task of paraphrasing Shakespeare's plays into modern English, 
+informal inspection of the resulting translations is encouraging.  Several automatic paraphrases into modern English are presented in Table \ref{modern_examples}.
+
+\begin{figure}
+  \includegraphics[width=5in]{figures/shakespeare_to_modern.pdf}
+  \caption{Automatic evaluation of paraphrasing Shakespeare's plays into modern english comparing a system based on parallel text (16plays\_16LM), 
+  a Dictionary baseline, and a system trained on out of domain parallel monolingual text.  Note that the video corpus baseline achieves low overal
+  PINC score, as few phrases in the input match phrases found in it's phrase table, resulting in a small number of changes to the input.}
+  \label{shakespeare_to_modern_automatic}
+\end{figure}
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|p{1.8in}|p{1.8in}|}
+    \hline
+    Speaker & Input & Output \\
+    \hline
+    \hline
+    MERCUTIO & i will bite thee by the ear for that jest . & i ’ ll bite you by the ear for that joke . \\
+    \hline
+    MONTAGUE & what further woe conspires against mine age ? & what ’ s true despair conspires against my old age ? \\
+    \hline
+    ROMEO & how doth my lady ? & how is my lady ? \\
+    \hline
+    FRIAR LAURENCE & hast thou slain tybalt ? & have you killed tybalt ? \\
+    \hline
+    NURSE & an i might live to see thee married once , i have my wish . & if i could live to see you married , i ’ ve my wish . \\
+    \hline
+    PRINCE & benvolio , who began this bloody fray ? & benvolio , who started this bloody fight itself ? \\
+    \hline
+    JULIET & what is your will ? & what do you want ? \\
+    \hline
+    LADY CAPULET & call her forth to me . & bring her out to me . \\
+    \hline
+  \end{tabular}
+  \end{center}
+  \caption{Example modern paraphrases of lines from Romeo and Juliet generated using our system.}
+  \label{modern_examples}
+\end{table}
 
 \section{Related Work}
 Although no previous work has investigated paraphrasing modern text into Shakespearean English, or the more general task of paraphrasing while targeting a specific writing
 style, we highlight several strands of related work.
 
-Perhaps most relevant is recent work generating and translating rhythmic poetry \cite{Greene10}.  This work focuses on automatically generating text in an appropriate
-meter (e.g. iambic pentameter) using finite-state transducers, however doesn't address the issue of paraphrase.  
-While our work does not address the issue of meter, it should be possible to combine our translation
-models with their weighted Finite State Transducers to produce Shakespearean paraphrase models which produce output in an appropriate meter.
-
-Much previous work has addressed the task of automatically generating paraphrases \cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05,Callison-Burch08,Kok10}.  In addition several authors have previously proposed 
-automatic paraphrase evaluation metrics \cite{chen11,Callison-Burch08b,Bangalore00,liu10} for paraphrase.
+Much previous work has addressed the task of automatically generating paraphrases \cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05,Callison-Burch08,Kok10}.  
+In addition several authors have previously proposed 
+automatic metrics specifically for evaluating paraphrases \cite{chen11,Callison-Burch08b,liu10}.
 We are not aware, however, of any previous work that has addressed the task of generating or evaluating
 paraphrases targeting a specific style of writing.
 
+Perhaps most relevant, however, is recent work autoatic generation of rhythmic poetry \cite{Greene10}.  This work focuses on automatically generating and translating
+poetry in an appropriate meter (e.g. iambic pentameter) using finite-state transducers, however doesn't address the issue of paraphrase.  Their generation system
+is trained on Shakespeare's sonnets, and they investigate the task of automatically translating Dante's Divine Comedy from Italian to English.
+While our work does not address the issue of meter, it should be possible to combine our translation
+models with their weighted finite state transducers to produce Shakespearean paraphrase models which produce output in an appropriate meter.
+
 Finally we highlight related work on authorship classification which can be seen as detecting a specific style of writing \cite{Gamon04,Raghavan10}.
-This work has not specifically addressed the task of automatically generating or evaluating paraphrases in a specific style.
+This work has not specifically addressed the task of automatically generating or evaluating paraphrases in a specific style, however.
 
 \section{Conclusions}
 We have presented initial investigation into the task of automatic paraphrasing while targeting a specific style of writing.  We proposed Shakespeare's plays and their
@@ -459,14 +548,15 @@ modern translations as a tesbed for this task, and developed a series of paraphr
 metrics are useful for evaluating paraphrases in this context, BLEU tends to conflate semantic equivalence with writing style giving an incomplete picture of which systems
 perform better according to each of these criteria.  
 
-To address the problems we have demonstrated with previous evaluation metrics applied to this task, we have introduced two new metrics for evaluating writing style.
+To address this problem, we have introduced two new metrics for evaluating writing style.
 We measured correlation between automatic metrics and human judgments in the context of paraphrasing writing style, and showed
 that our new metrics have better correlation with human judgments than existing metrics in the context of our data.
 While this evaluation is limited to one specific style of writing, we are optimistic that these or similar metrics will also perform well when
-evaluating other writing styles.
+evaluating paraphrase systems targeting other writing styles.
 
-Future work could include automatically translating the remaining 20 of Shakespeare's plays into modern English, which could be beneficial to students
-of Shakespeare's plays and also to future human translators.
+Finally, we applied these automatic evaluation metrics to an initial investigation into the task of translating Shakespeare's plays into modern English.
+We plan to translate the remaining 20 of Shakespeare's plays into modern English, which could be beneficial to students
+of Shakespeare's plays and also to human translators.
 
 \bibliographystyle{apa}
 \bibliography{paper.bib}

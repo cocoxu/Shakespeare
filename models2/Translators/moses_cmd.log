@@ -1,0 +1,1 @@
+/Users/weixu/Work/Shakespere/tools/moses/scripts/training/train-model.perl --external-bin-dir /Users/weixu/Work/Shakespere/tools/bin/ --root-dir work --corpus ./corpus/train_plays_lowercased --alignment grow-diag-final-and --reordering msd-bidirectional-fe --lm 0:3:/Users/weixu/Work/Shakespere/Shakespere/models2/LM/16plays_tokenized_lowercased.modern.lm --f original --e modern

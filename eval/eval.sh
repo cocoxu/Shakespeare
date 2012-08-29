@@ -40,6 +40,14 @@ cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src
 cat ascii.romeojuliet_tokenized_lower_modern.1 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM_mert.ini > video_corpus_baseline_modernLM_mert.1 2> /dev/null
 cat ascii.romeojuliet_tokenized_lower_modern.2 | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM_mert.ini > video_corpus_baseline_modernLM_mert.2 2> /dev/null
 
+cat ascii.romeojuliet_tokenized_lower_original | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models2/Translators/16plays_36LM/work/model/moses_alan.ini > 16plays_36LM_shakespeare_to_modern 2> /dev/null
+
+cat ascii.romeojuliet_tokenized_lower_original | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models2/Lexicon/moses_alan.ini > Dictionary_shakespeare_to_modern 2> /dev/null
+
+#cat ascii.romeojuliet_tokenized_lower_original | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM2.ini > video_shakespeare_to_modern 2> /dev/null
+cat ascii.romeojuliet_tokenized_lower_original | ~/mt/mosesdecoder/moses-cmd/src/moses -f ~/Shakespere/models/Translators/video_corpus_baseline/model/moses_modernLM2_mert.ini > video_shakespeare_to_modern 2> /dev/null
+
+
 echo singleword1.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < singleword1.1
 echo singleword1.2
@@ -74,3 +82,20 @@ echo video_corpus_baseline_modernLM_mert.1
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM_mert.1
 echo video_corpus_baseline_modernLM_mert.2
 ~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_original < video_corpus_baseline_modernLM_mert.2
+
+#Shakespeare -> Modern
+
+echo 16plays_36LM_shakespeare_to_modern.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.1 < 16plays_36LM_shakespeare_to_modern
+echo 16plays_36LM_shakespeare_to_modern.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.2 < 16plays_36LM_shakespeare_to_modern
+
+echo Dictionary_shakespeare_to_modern.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.1 < Dictionary_shakespeare_to_modern
+echo Dictionary_shakespeare_to_modern.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.2 < Dictionary_shakespeare_to_modern
+
+echo video_shakespeare_to_modern.1
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.1 < video_shakespeare_to_modern
+echo video_shakespeare_to_modern.2
+~/mt/mosesdecoder/scripts/generic/multi-bleu.perl ascii.romeojuliet_tokenized_lower_modern.2 < video_shakespeare_to_modern
