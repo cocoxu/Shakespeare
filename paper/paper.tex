@@ -365,7 +365,7 @@ S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \tim
  
 
 \subsection{Logistic Regression Style Metric}
-We also consider a Logistic Regression based approach as an alternative to the Cosine-Similarity based style metric.  Here the idea is to estimate the probability that each
+We also consider a Logistic Regression based approach as an alternative to cosine similarity.  Here the idea is to estimate the probability that each
 sentence belongs to the target style based on the ngrams it contains, using large corpora of in and out-of domain sentences to learn  parameters of a logistic regression model.
 
 The probability a sentence belongs to the target style is estimated as follows:
@@ -433,7 +433,59 @@ Finally we note that overall the automatic metrics tend to agree with agree with
 \end{figure}
 
 \section{Translating Shakespeare's Plays to Modern English}
+Finally we preform a preliminary evaluation of the task of automatically translating Shakespeare's plays into modern English.  Success at this task could have immediate
+benefits to students, as well as translators of Shakespeare's plays into modern English. 
 
+For the purposes of this evaluation, 
+we make use of the same paraphrase systems previously described, but swap the source and target languages.
+Additionally, each system makes use of a language model constructed from the 16 modern translations, and again Romeo and Juliet are held out for testing.  
+510 lines from Romeo and Juliet were automatically translated into modern English using each system, and the aligned modern 
+translations were used as a reference when computing BLEU.  The results of evaluating each of the automatic evaluation metrics on this
+data are presented in figure \ref{shakespeare_to_modern_automatic}.  
+
+The results suggest that modern translations generates more diverse paraphrases which better match the target style.  Note that the paraphrase system
+based on the out-of-domain video corpus makes very few changes to the input, and thus achieves a very low PINC score.  This is due to the many out of
+vocabulary words in Shakespeare's plays which result in very few matching source phrases in the video baseline's phrase table.
+
+While we have yet to perform a human evaluation on the task of paraphrasing Shakespeare's plays into modern English, 
+informal inspection of the resulting translations is encouraging.  Several automatic paraphrases into modern English are presented in Table \ref{modern_examples}.
+
+\begin{figure}
+  \includegraphics[width=5in]{figures/shakespeare_to_modern.pdf}
+  \caption{Automatic evaluation of paraphrasing Shakespeare's plays into modern english comparing a system based on parallel text (16plays\_16LM), 
+  a Dictionary baseline, and a system trained on out of domain parallel monolingual text.  Note that the video corpus baseline achieves low overal
+  PINC score, as few phrases in the input match phrases found in it's phrase table, resulting in a small number of changes to the input.}
+  \label{shakespeare_to_modern_automatic}
+\end{figure}
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|p{1.8in}|p{1.8in}|}
+    \hline
+    Speaker & Input & Output \\
+    \hline
+    \hline
+    MERCUTIO & i will bite thee by the ear for that jest . & i ’ ll bite you by the ear for that joke . \\
+    \hline
+    MONTAGUE & what further woe conspires against mine age ? & what ’ s true despair conspires against my old age ? \\
+    \hline
+    ROMEO & how doth my lady ? & how is my lady ? \\
+    \hline
+    FRIAR LAURENCE & hast thou slain tybalt ? & have you killed tybalt ? \\
+    \hline
+    NURSE & an i might live to see thee married once , i have my wish . & if i could live to see you married , i ’ ve my wish . \\
+    \hline
+    PRINCE & benvolio , who began this bloody fray ? & benvolio , who started this bloody fight itself ? \\
+    \hline
+    JULIET & what is your will ? & what do you want ? \\
+    \hline
+    LADY CAPULET & call her forth to me . & bring her out to me . \\
+    \hline
+  \end{tabular}
+  \end{center}
+  \caption{Example modern paraphrases of lines from Romeo and Juliet generated using our system.}
+  \label{modern_examples}
+\end{table}
 
 \section{Related Work}
 Although no previous work has investigated paraphrasing modern text into Shakespearean English, or the more general task of paraphrasing while targeting a specific writing

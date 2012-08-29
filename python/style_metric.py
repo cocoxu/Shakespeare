@@ -78,7 +78,7 @@ class StyleMetric:
                 sentence_vector[ngram] = sentence_vector.get(ngram, 0.0) + 1.0
         source_sim = self.CosineSim(sentence_vector, self.source_vector)
         target_sim = self.CosineSim(sentence_vector, self.target_vector)
-        return target_sim / (target_sim + source_sim)
+        return target_sim / (target_sim + source_sim + 0.001)
 
     def ScoreMaxEnt(self, sentence):
         sentence_vector = {}
@@ -109,14 +109,16 @@ if __name__ == "__main__":
     simSum = 0.0
     meSum  = 0.0
     nLines = 0.0
-    for line in open(sys.argv[3]):
-        line = line.strip()
-        simScore    = sm.ScoreSim(line)
-        maxEntScore = sm.ScoreMaxEnt(line)
-        print "%s\t%s\t%s" % (line, simScore, maxEntScore)
-        simSum += simScore
-        meSum  += maxEntScore
-        nLines += 1.0
 
-print "average simScore = %s" % simSum / nLines 
-print "average meScore  = %s" % meSum  / nLines 
+    for f in sys.argv[3].split(':'):
+        print f
+        for line in open(f):
+            line = line.strip()
+            simScore    = sm.ScoreSim(line)
+            maxEntScore = sm.ScoreMaxEnt(line)
+            print "%s\t%s\t%s" % (line, simScore, maxEntScore)
+            simSum += simScore
+            meSum  += maxEntScore
+            nLines += 1.0
+        print "average %s simScore = %s" % (f, str(simSum / nLines))
+        print "average %s meScore  = %s" % (f, str(meSum  / nLines))
