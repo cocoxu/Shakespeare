@@ -72,9 +72,10 @@ preliminary results.
 
 Systems which are capable of automatically paraphrasing literary writing styles could be directly beneficial for educational applications.  For example, our systems which generate paraphrases targeting
 a Shakespearean English could help students to experiment with writing literature in this style.
-In addition, out of the 37 surviving plays written by William Shakespeare modern translations are currently only available for 17.  Though we have not yet formally evaluated
-paraphrasing Shakespeare's plays into modern English, we believe it should be possible to help make the other 20 plays more accessible to students of Shakespeare by automatically 
-generating modern translations.
+In addition, out of the 37 surviving plays written by William Shakespeare, modern translations are currently only available for 17.  
+We therefore present initial investigation into the task of automatically translating Shakespeare's plays into modern English, using our automatic evaluation metrics.
+By automatically paraphrasing the remaining 20 plays into modern English, 
+we believe it should be possible to help make these plays more accessible to students of Shakespeare.
 
 \section{Shakespearean Paraphrasing}
 We propose to use Shakespeare's plays as a testbed for the task of paraphrasing while targeting a specific writing style.  Because these plays are some of the
@@ -114,22 +115,23 @@ To generate paraphrases, we apply a typical phrase-based Statistical Machine Tra
 word alignment on the data described in table \ref{corpus_stats} using GIZA++ \cite{Och03}, then extracting phrase pairs and performing decoding using Moses \cite{Koehn07}.
 
 \subsection{Baselines}
-Phrase-based translation has been demonstrated to be an effective approach to generating paraphrases \cite{chen11,quirk04}, however this approach does require the existence of
-parallel corpora which may not be available for many writing styles.  For this reason we were motivated to investigate alternative approaches.
+Phrase-based translation has been demonstrated as an effective approach to paraphrasing \cite{chen11,quirk04}, however this approach does require the existence of
+parallel corpora which may not be available for many writing styles.  For this reason we were motivated to investigate alternative approaches in order to help
+quantify the benefit of access to parallel text in the source and target styles.
 
 \subsubsection{Dictionary Based Paraphrase}
 \label{dictionary_baseline}
-Several dictionaries of stylistically representative words of Shakespearean English and their modern equivalents are available on the web.  These dictionaries can be used 
-to define a translation model which is used in combination with a language model as in standard phrase-based MT \cite{Koehn00}.
+Several dictionaries of stylistically representative words of Shakespearean English and their modern equivalents are available on the web.  
+These dictionaries can be used to define a translation model which can be used in combination with a language model as in standard phrase-based Machine
+Translation.
 
 %We gathered a set of 20,138 dictionary entries which were scraped from \url{http://www.shakespeareswords.com/}, then used heuristic rules to extract 68,709 phrase/word pairs.  Example
 %dictionary entries are presented in table \ref{dictionary_example}. As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
 
-We scraped a set of 68,709 phrase/word pairs from \url{http://www.shakespeareswords.com/}.  
-Example dictionary entries are presented in table \ref{dictionary_example}. 
-
-%As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language - the Shakespearean English. 
-As described in \cite{Koehn00}, we estimate phrase translation probabilities based on the frequencies of the translation words/phrases in the target language (Shakespearean English).
+To build a phrase table, we scraped a set of 68,709 phrase/word pairs from \url{http://www.shakespeareswords.com/}; 
+example dictionary entries are presented in table \ref{dictionary_example}. 
+As described in \cite{Koehn00}, we estimate phrase translation probabilities
+based on the frequencies of the translation words/phrases in the target language (Shakespearean English).
 For instance, if we look at the modern English word \emph{maybe}, our dictionary lists 4 possible Shakespearean translations. 
 We obtained the conditional probabilities for each translation according to the n-gram back off model built on Shakespeare's 
 36 plays by SRILM toolkit \cite{Stolcke02} \ref{word_frequency}, 
@@ -422,13 +424,16 @@ For example, consider a paraphrase system which makes many changes to the input 
 
 Both the Cosine and Maximum Entropy style metrics achieve the highest overall correlation with human writing style judgments, with the Maximum Entropy style score performing significantly better.
 
-Finally we note that overall the automatic metrics tend to agree with agree with human judgments as displayed in figure \ref{style_metrics}.
+Finally we note that overall the automatic metrics tend to agree with agree with human judgments as displayed in figure \ref{style_metrics}.\footnote{
+  Although the automatic style metrics rate the dictionary system higher than the video corpus baseline, both systems have very comparable
+  style scores in both the automatic and human evaluations.
+}
 
 \begin{figure}
   \begin{center}
     \includegraphics[width=5in]{figures/style_metrics.pdf}
     \end{center}
-    \caption{Overall results from comparing automatic style metrics.  Note that the automatic metrics agree with results from human judgments in figure \ref{human_judgements}.}
+    \caption{Results comparing the 3 systems using the automatic style metrics.}
     \label{style_metrics}
 \end{figure}
 
@@ -516,8 +521,9 @@ that our new metrics have better correlation with human judgments than existing 
 While this evaluation is limited to one specific style of writing, we are optimistic that these or similar metrics will also perform well when
 evaluating other writing styles.
 
-Future work could include automatically translating the remaining 20 of Shakespeare's plays into modern English, which could be beneficial to students
-of Shakespeare's plays and also to future human translators.
+Finally, we applied these automatic evaluation metrics to an initial investigation into the task of translating Shakespeare's plays into modern English.
+We plan to translate the remaining 20 of Shakespeare's plays into modern English, which could be beneficial to students
+of Shakespeare's plays and also to human translators.
 
 \bibliographystyle{apa}
 
