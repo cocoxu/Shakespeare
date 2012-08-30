@@ -11,7 +11,7 @@
 pdf('style_metrics.pdf', width=8, height=5)
 
 systems = c('16plays36LM', 'Dictionary', 'Video Baseline')
-metrics = c('Cosine Similarity', 'Maximum Entropy')
+metrics = c('Cosine Similarity', 'Logistic Regression')
 
 barplot(t(rbind(
 	 c(0.512979241631, 0.491599098577, 0.480059827357),
