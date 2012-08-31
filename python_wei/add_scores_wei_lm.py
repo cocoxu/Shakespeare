@@ -116,19 +116,22 @@ def corelation_auto_human (filename):
     _16plays36_cmaxent_list = []
     _16plays36_lmdiff_list = []
     _16plays36_lmdiff2_list = []
+    _16plays36_lmdiff3_list = []
     phrase_bleu_list = []
     phrase_pinc_list = []
     phrase_csim_list = []
     phrase_cmaxent_list = []
     phrase_lmdiff_list = []
     phrase_lmdiff2_list = []
+    phrase_lmdiff3_list = []
     video_bleu_list = []
     video_pinc_list = []
     video_csim_list = []
     video_cmaxent_list = []
     video_lmdiff_list = []
     video_lmdiff2_list = []
-
+    video_lmdiff3_list = []
+    
     _16plays36_semantic_list = []
     _16plays36_dissim_list = []
     _16plays36_style_list = []
@@ -166,6 +169,7 @@ def corelation_auto_human (filename):
         _16plays36_cmaxent_list.append(sm.ScoreMaxEnt(_16plays36))
         _16plays36_lmdiff_list.append(LMdiff(_16plays36))
         _16plays36_lmdiff2_list.append(LMdiff2(_16plays36, modern))
+        _16plays36_lmdiff3_list.append(LMdiff3(_16plays36))
 
         phrase_bleu_list.append(simple_bleu(phrase, original))
         phrase_pinc_list.append(pinc(phrase, modern))
@@ -173,6 +177,7 @@ def corelation_auto_human (filename):
         phrase_cmaxent_list.append(sm.ScoreMaxEnt(phrase))
         phrase_lmdiff_list.append(LMdiff(phrase))
         phrase_lmdiff2_list.append(LMdiff2(phrase, modern))
+        phrase_lmdiff3_list.append(LMdiff3(phrase))
 
         video_bleu_list.append(simple_bleu(video, original))
         video_pinc_list.append(pinc(video, modern))
@@ -180,6 +185,7 @@ def corelation_auto_human (filename):
         video_cmaxent_list.append(sm.ScoreMaxEnt(video))
         video_lmdiff_list.append(LMdiff(video))
         video_lmdiff2_list.append(LMdiff2(video, modern))
+        video_lmdiff3_list.append(LMdiff3(video))
        
         i += 1
 
@@ -193,6 +199,7 @@ def corelation_auto_human (filename):
     print "style-cmaxent\t" + str(pearsonr(_16plays36_style_list, _16plays36_cmaxent_list))
     print "style-lmdiff\t" + str(pearsonr(_16plays36_style_list, _16plays36_lmdiff_list))
     print "style-lmdiff2\t" + str(pearsonr(_16plays36_style_list, _16plays36_lmdiff2_list))
+    print "style-lmdiff3\t" + str(pearsonr(_16plays36_style_list, _16plays36_lmdiff3_list))
 
     print "phrase2:"
     print "semantic-bleu\t" + str(pearsonr(phrase_semantic_list, phrase_bleu_list))
@@ -203,6 +210,7 @@ def corelation_auto_human (filename):
     print "style-cmaxent\t" + str(pearsonr(phrase_style_list, phrase_cmaxent_list))
     print "style-lmdiff\t" + str(pearsonr(phrase_style_list, phrase_lmdiff_list))
     print "style-lmdiff2\t" + str(pearsonr(phrase_style_list, phrase_lmdiff2_list))
+    print "style-lmdiff3\t" + str(pearsonr(phrase_style_list, phrase_lmdiff3_list))
 
     print "video2:"
     print "semantic-bleu\t" + str(pearsonr(video_semantic_list, video_bleu_list))
@@ -213,6 +221,7 @@ def corelation_auto_human (filename):
     print "style-cmaxent\t" + str(pearsonr(video_style_list, video_cmaxent_list))
     print "style-lmdiff\t" + str(pearsonr(video_style_list, video_lmdiff_list))
     print "style-lmdiff2\t" + str(pearsonr(video_style_list, video_lmdiff2_list))
+    print "style-lmdiff3\t" + str(pearsonr(video_style_list, video_lmdiff3_list))
 
     print "all:"
     print "sematnic-bleu\t" + str(pearsonr(_16plays36_semantic_list + phrase_semantic_list + video_semantic_list, _16plays36_bleu_list + phrase_bleu_list + video_bleu_list))
@@ -223,6 +232,7 @@ def corelation_auto_human (filename):
     print "style-cmaxent\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_cmaxent_list + phrase_cmaxent_list + video_cmaxent_list))
     print "style-lmdiff\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_lmdiff_list + phrase_lmdiff_list + video_lmdiff_list))
     print "style-lmdiff2\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_lmdiff2_list + phrase_lmdiff2_list + video_lmdiff2_list))
+    print "style-lmdiff3\t" + str(pearsonr(_16plays36_style_list + phrase_style_list + video_style_list, _16plays36_lmdiff3_list + phrase_lmdiff3_list + video_lmdiff3_list))
 
     return
 
