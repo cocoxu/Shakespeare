@@ -395,7 +395,19 @@ The proposed metric is the normalized cosine similarity between the source and t
 \[
 S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \times \|\vec{t}\|}}{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \times \|\vec{t}\|} + \frac{\vec{o} \cdot \vec{s}}{\|\vec{o}\| \times \|\vec{s}\|}}
 \]
- 
+
+\subsection{Language Model Style Metric}
+Another approach is to build seperate language models for text in the target style and outside the style, and apply Bayes' rule to estimate
+the probability that a particular sentence was generated based on the style or not:
+\begin{eqnarray*}
+P(\text{style}=\text{target}|\text{sentence}) 
+& = & \frac{P_\text{LM}(\text{sentence}|\text{target}) P(\text{target})}{P(\text{sentence})} \\
+& = & \frac{P_\text{LM}(\text{sentence}|\text{target}) \times 0.5}{P_\text{LM}(\text{sentence}|\text{target}) \times 0.5 + P_\text{LM}(\text{sentence}|\text{source}) \times 0.5} \\
+& = & \frac{P_\text{LM}(\text{sentence}|\text{target})}{P_\text{LM}(\text{sentence}|\text{target}) + P_\text{LM}(\text{sentence}|\text{source})} \\
+\end{eqnarray*}
+
+That is the probability that a sentence was generated according to the target style is simply it's probability according to the target language model divided by the sum of it's
+probability according to the source and target language models.
 
 \subsection{Logistic Regression Style Metric}
 We also consider an approach to measuring style which is based on logistic regression as opposed to cosine similarity.
@@ -422,26 +434,29 @@ evaluation metrics and human judgments described in \S \ref{human_evaluation}.  
 
 \begin{table}
   \begin{center}
-  \begin{tabular}{|l|l|r|}
+  \begin{tabular}{|l|l|r|r|}
     \hline
-    & & Pearson's $\rho$ \\
+    & & $\rho$ (Annotator 1) & $\rho$ (Annotator 2) \\
     \hline
     \hline
-    semantic adequacy & BLEU & 0.35 \\
+    semantic adequacy & BLEU & 0.35 & 0.31 \\
     \hline
-    dissimilarity & PINC & 0.78 \\
+    dissimilarity & PINC & 0.78 & 0.82 \\
     \hline
-    style & BLEU & 0.07 \\
+    style & BLEU & 0.07 & 0.06 \\
     \hline
-    style & PINC & 0.20 \\
+    style & PINC & 0.20 & 0.45 \\
     \hline
-    style & Cosine & 0.37 \\
+    style & Cosine & 0.37 & 0.41 \\
     \hline
-    style & Logistic regression & 0.47 \\
+    style & LM & 0.45 & 0.48 \\
+    \hline
+    style & Logistic regression & 0.47 & 0.48 \\
     \hline
   \end{tabular}
   \end{center}
-  \caption{Correlation between various human judgments and automatic evaluation metrics}
+  \caption{Correlation between various human judgments and automatic evaluation metrics.  Pearson's correlation coefficient is displayed
+  between the automatic metrics and human judgements from each annotator.}
   \label{correlation}
 \end{table}
 
