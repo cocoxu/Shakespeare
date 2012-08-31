@@ -51,21 +51,23 @@ is likely to be conveyed using very different lexical and grammatical patterns i
 Systems capable of paraphrasing text targeting a specific writing style could be useful for a variety of applications.  For example, they could:
 \begin{enumerate}
   \item Help authors of technical documents to adhere to appropriate stylistic guidelines.  
-  \item Enable average people to better understand information in legal documents by translating ``legalese'' into ordinary English.  
-  \item Benefit educational applications:
+  \item Enable average people to better consume information by translating legalese or medical jargon into nontechnical English.  
+  \item Benefit educational applications, allowing students to:
     \begin{enumerate}
-    \item Students studying a specific literary style may benefit from access to \emph{modern English} versions of works by authors they are studying.
-    \item Automatic paraphrases could help students to experiment with writing in the style of the authors they are studying.
+    \item Access \emph{modern English} versions of works by authors they are studying.
+    \item Experiment with writing in the style of an author they are studying.
     \end{enumerate}
 \end{enumerate}
 
-In this paper, we investigate the task of automatic paraphrasing when targeting a writing style, focusing specifically on the style of Early Modern English employed by William Shakespeare.
-We exploit modern translations of 17 plays written to help students better understand Shakespeare's work.  A parallel corpus is extracted from these modern translations,
-which is then used to train phrase-based translation models which are capable of automatically paraphrasing ordinary sentences into Shakespearean English.  In addition we develop several
-baseline systems which do not make use of this source of parallel text and instead rely on manually compiled dictionaries of expressions commonly found in Shakespearean English, or out of
-domain parallel monolingual text gathered through Amazon's Mechanical Turk \cite{chen11}.
+In this paper, we investigate the task of automatic paraphrasing techniques that target a particular writing style, focusing specifically on the style of Early Modern English employed by William Shakespeare.
+We explored several different methods, all of which rely on techniques from phrase-based MT, but which were trained on different types of parallel monolingual data.  The first engine was trained on the text of Shakespeare’s plays, along with parallel modern English “translations” that were written to help students better understand Shakespeare's work.  
+%A parallel corpus is extracted from these modern translations,
+%which is then used to train phrase-based translation models which are capable of automatically paraphrasing ordinary sentences into Shakespearean English.  
+We also developed several
+baseline systems which do not make use of this parallel text and instead rely on manually compiled dictionaries of expressions commonly found in Shakespearean English, or existing
+corpora of out-of-domain parallel monolingual text.
 
-We evaluate these models both through human judgments and standard evaluation metrics from the Machine Translation and Paraphrase literature, however no previous work has investigated the ability of automatic
+We evaluate these models both through human judgments and standard evaluation metrics from the Machine Translation (MT) and Paraphrase literature, however no previous work has investigated the ability of automatic
 evaluation metrics to capture the notion of writing style.  
 We show that previously proposed metrics do not provide the complete picture of a system's performance when the task is to generate paraphrases
 targeting a specific style of writing.  We therefore propose two new metrics for evaluating paraphrases targeting a specific style, and measure correlation with human judgments showing promising
