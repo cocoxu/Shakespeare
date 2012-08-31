@@ -6,7 +6,10 @@
 \usepackage{comment}
 \usepackage{amsmath}
 %\title{Translating to Shakespeare: A Case Study in Paraphrasing Writing Styles}
-\title{You can be Shakespeare! \\ A Case Study in Paraphrase Targeting Writing Styles}
+%\title{You can be Shakespeare! \\ A Case Study in Paraphrase Targeting Writing Styles}
+%\title{A rose would smell just as good even if it had a different name (``A rose by any other name would smell as sweet'') \\ A Case Study in Paraphrase Targeting Writing Styles}
+%\title{“Be super careful on March 15” (“Beware the ides of March”) \\ A Case Study in Paraphrase Targeting Writing Styles}
+\title{``A rose by any other name would smell as sweet'': \\ A Case Study in Paraphrase Targeting Writing Styles}
 %for authors: in case of more than four author names ref. to commented line below 
 %\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\$~~~Third~Author^{1, 2}~~~Fourth~Author^{1, 3}~~~ Fifth~Author^{2, 3}$\\
 \author{$Author1^{1, 2}~~~Author2^{1, 3}$\\
@@ -42,20 +45,26 @@ paraphrasing text with the goal of targeting a specific style of writing.
 %The plays of William Shakespeare and their \emph{modern} translations are treated
 %as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
 
-Identical meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is 
+The same meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is 
 fundamental to many natural language understanding tasks\cite{Giampiccolo07}, so much previous work has investigated methods for automatic paraphrasing\cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05}.  
 
-Although two utterances may be semantically equivalent, they can still be stylistically quite different.  For example, the same information
-is likely to be conveyed using very different lexical and grammatical patterns in advertising materials v.s. technical manuals, or in Shakespearean plays v.s. Hollywood movies.
+Paraphrases can differ along many dimensions, including utterance length, diction level, and speech register. 
+There is a significant literature in sentence compression aimed at modeling the first of these, length: 
+producing meaning-preserving alternations that preserve the meaning of the input string. [citations] 
+However, we know of no previous work aimed at modeling meaning-preserving transformations that systematically transform the register or style of an input string. 
+Can we learn to reliably map from one form of language to another, transforming formal prose into a more colloquial form, or a casual email into a more formal equivalent?
+
+%Although two utterances may be semantically equivalent, they can still be stylistically quite different.  For example, the same information
+%is likely to be conveyed using very different lexical and grammatical patterns in advertising materials v.s. technical manuals, or in Shakespearean plays v.s. Hollywood movies.
 
 Systems capable of paraphrasing text targeting a specific writing style could be useful for a variety of applications.  For example, they could:
 \begin{enumerate}
-  \item Help authors of technical documents to adhere to appropriate stylistic guidelines.  
-  \item Enable average people to better understand information in legal documents by translating ``legalese'' into ordinary English.  
+  \item Help authors of technical documents to adhere to appropriate stylistic guidelines, or allow writers to automatically “upscale” an email before sending it
+  \item Enable non-specialists to better understand information in legal or medical documents by translating ``legalese'' or medical jargon into ordinary English.  
   \item Benefit educational applications:
     \begin{enumerate}
-    \item Students studying a specific literary style may benefit from access to \emph{modern English} versions of works by authors they are studying.
-    \item Automatic paraphrases could help students to experiment with writing in the style of the authors they are studying.
+    \item Students studying a specific literary style could benefit from access to \emph{modern English} versions of works by authors they are studying.
+    \item Automatic register transformations could help students to experiment with writing in the style of the authors they are studying.
     \end{enumerate}
 \end{enumerate}
 
@@ -65,27 +74,30 @@ which is then used to train phrase-based translation models which are capable of
 baseline systems which do not make use of this source of parallel text and instead rely on manually compiled dictionaries of expressions commonly found in Shakespearean English, or out of
 domain parallel monolingual text gathered through Amazon's Mechanical Turk \cite{chen11}.
 
-We evaluate these models both through human judgments and standard evaluation metrics from the machine translation and paraphrase literature, however no previous work has investigated the ability of automatic
+We evaluate these models both through human judgments and standard evaluation metrics from the machine translation and paraphrase literature.  
+However, no previous work has investigated the ability of automatic
 evaluation metrics to capture the notion of writing style.  
 We show that previously proposed metrics do not provide the complete picture of a system's performance when the task is to generate paraphrases
-targeting a specific style of writing.  We therefore propose two new metrics for evaluating paraphrases targeting a specific style, and measure correlation with human judgments showing promising
-preliminary results.
+targeting a specific style of writing.  We therefore propose two new metrics for evaluating paraphrases targeting a specific style, and 
+show that these metrics correlate well with human judgments.
 
+\begin{comment}
 Systems which are capable of automatically paraphrasing literary writing styles could be directly beneficial for educational applications.  For example, our systems which generate paraphrases targeting
 Shakespearean English could help students to experiment with writing literature in this style.
 In addition, out of the 37 surviving plays written by William Shakespeare, modern translations are currently only available for 17.  
 We therefore present a preliminary investigation into the task of automatically translating Shakespeare's plays into modern English, using our newly developed
 automatic evaluation metrics.  By automatically paraphrasing the remaining 20 plays into modern English, 
 we believe it should be possible to help make these plays more accessible to students of Shakespeare.
+\end{comment}
 
 \section{Shakespearean Paraphrasing}
-We propose to use Shakespeare's plays as a testbed for the task of paraphrasing while targeting a specific writing style.  Because these plays are some of the
-highest regarded examples of English literature and are also very unique in style, many linguistic resources are available such as parallel corpora
-of modern translations and dictionaries of stylistically representative words and their modern equivalents.
+We use Shakespeare's plays as a testbed for the task of paraphrasing while targeting a specific writing style.  Because these plays are some of 
+the most highly-regarded examples of English literature and 
+are written in a style that is now 400 years out of date, many linguistic resources are available to help modern readers pick their way through 
+these Elizabethan texts. Among these are “translations” of the plays into colloquial English, and dictionaries that provide modern equivalents for specific words and phrases.
 
-We compare 3 different stylistic paraphrase systems targeting Shakespearean English which vary in the resources they assume access to.
-One which leverages parallel corpora of modern translations, another which makes use
-of dictionaries of stylistically representative expressions, and another which utilizes out-of-domain monolingual parallel data.
+We compare 3 different stylistic paraphrase systems targeting Shakespearean English which rely on different types of linguistic resources. 
+One leverages parallel “translations”, another exploits dictionary resources, and a third relies on modern, out-of-domain monolingual parallel data and an in-domain corpus.
 
 \subsection{Modern Translations}
 Access to parallel text in the target style allows us to train statistical models to generate paraphrases, and also perform automatic evaluation of semantic adequacy using BLEU, which requires availability of reference translations.  For this purpose we scraped modern translations of 17 Shakespeare plays from \url{http://nfs.sparknotes.com}, and an additional 8 translations of overlapping plays from \url{http://enotes.com}, giving us two reference translations for 8 out of the 17 plays.
