@@ -206,7 +206,7 @@ with a language model built from the 36 plays, which are then fed into the Moses
 \subsubsection{Out of Domain Monolingual Parallel Data}
 \label{video_baseline}
 As a final baseline we consider a paraphrase system which is trained on out-of-domain data gathered by asking users of Amazon's Mechanical Turk Service 
-\cite{Snow08} to caption the action in short video segements \cite{chen11}.  We combined a phrase table extracted from this modern, out of domain parallel text, with an in-domain
+\cite{Snow08} to caption the action in short video segments \cite{chen11}.  We combined a phrase table extracted from this modern, out of domain parallel text, with an in-domain
 language model consisting of Shakespeare's 36 plays, applying the Moses decoder \cite{Koehn07} to find the best paraphrases. 
 Although this monolingual parallel data does not include text in the target writing style,
 the in-domain language model does bias the system's output towards Shakespeare's style of writing.
@@ -399,7 +399,7 @@ S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \tim
 
 \subsection{Language Model Style Metric}
 Another approach is to build a language model for text in the target style and a background language model from text outside the style, then apply Bayes' rule to estimate
-the probability that a particular sentence was generated based on the style or not:
+the posterior probability that a sentence was generated from the target language model:
 \begin{eqnarray*}
 P(\text{style}=\text{target}|\text{sentence}) 
 & = & \frac{P_\text{LM}(\text{sentence}|\text{target}) P(\text{target})}{P(\text{sentence})} \\
@@ -454,7 +454,7 @@ evaluation metrics and human judgments described in \S \ref{human_evaluation}.  
   \end{tabular}
   \end{center}
   \caption{Correlation between various human judgments and automatic evaluation metrics.  Pearson's correlation coefficient is displayed
-  between the automatic metrics and human judgements from each annotator.}
+  between the automatic metrics and human judgments from each annotator.}
   \label{correlation}
 \end{table}
 
@@ -492,8 +492,8 @@ we make use of the same paraphrase systems previously described, but swap the so
 Additionally, each system makes use of a language model constructed from the 16 modern translations, with {\em Romeo and Juliet} held out for testing.  
 100 lines from {\em Romeo and Juliet} were automatically translated into modern English using each system, and the aligned modern 
 translations were used as a reference when computing BLEU.  The results of evaluating each of the automatic evaluation metrics on this
-data are presented in Figure \ref{shakespeare_to_modern_automatic}, correlation of the automatic metrics with with human judgements are presented in 
-Figure \ref{correlation_s2m} and overall average human judgements are presented in Figure \ref{human_judgements}.
+data are presented in Figure \ref{shakespeare_to_modern_automatic}, correlation of the automatic metrics with with human judgments are presented in 
+Figure \ref{correlation_s2m} and overall average human judgments are presented in Figure \ref{human_judgements}.
 
 \begin{table}
   \begin{center}
@@ -594,7 +594,7 @@ This work has not specifically addressed the task of automatically generating or
 
 \section{Conclusions}
 We have presented the first investigation into the task of automatic paraphrasing while targeting a specific writing style.  Using Shakespeare's plays and their
-modern translations as a tesbed for this task, we developed a series of paraphrase systems targeting Shakespearean English.  We showed that while existing evaluation
+modern translations as a testbed for this task, we developed a series of paraphrase systems targeting Shakespearean English.  We showed that while existing evaluation
 metrics are useful for evaluating paraphrases in this context, BLEU tends to conflate semantic equivalence with writing style and thus gives an incomplete picture of 
 system performance on these different dimensions.
 
@@ -609,8 +609,8 @@ Finally, we applied these automatic evaluation metrics in an investigation into 
 
 We have shown that access to even a small amount of parallel text produces paraphrase systems 
 capable of generating a large number of stylistically appropriate paraphrases which preserving the meaning of the input text.  
-Our paraphrase systems targeting Shakesperean English could be benefical for educational applications, for example helping to
-make Shakespeare's work accessable to a broader audience.
+Our paraphrase systems targeting Shakespearean English could be beneficial for educational applications, for example helping to
+make Shakespeare's work accessible to a broader audience.
 Future work could investigate stylistic paraphrasing in other domains, such as paraphrasing emails into formal documents, or
 translating legal documents into nontechnical English. 
 %We plan to translate the remaining 20 of Shakespeare's plays, which could be beneficial to students
