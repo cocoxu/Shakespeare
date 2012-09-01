@@ -80,7 +80,7 @@ corpora of out-of-domain parallel monolingual text.
 We evaluate these models both through human judgments and standard evaluation metrics from the Machine Translation (MT) and Paraphrase literature, however no previous work has investigated the ability of automatic
 evaluation metrics to capture the notion of writing style.  
 We show that previously proposed metrics do not provide the complete picture of a system's performance when the task is to generate paraphrases
-targeting a specific style of writing.  We therefore propose two new metrics for evaluating paraphrases targeting a specific style, and 
+targeting a specific style of writing.  We therefore propose three new metrics for evaluating paraphrases targeting a specific style, and 
 show that these metrics correlate well with human judgments.
 
 \begin{comment}
@@ -99,7 +99,7 @@ are written in a style that is now 400 years out of date, many linguistic resour
 these Elizabethan texts. Among these are “translations” of the plays into colloquial English, as well as dictionaries that provide modern equivalents for archaic words and phrases.
 
 We compare 3 different stylistic paraphrase systems targeting Shakespearean English which rely on different types of linguistic resources. 
-One leverages parallel “translations”, another exploits dictionary resources, and a third relies on modern, out-of-domain monolingual parallel data and an in-domain corpus.
+One leverages parallel “translations”, another exploits dictionary resources, and a third relies on modern, out-of-domain monolingual parallel data and an in-domain language model.
 
 \subsection{Modern Translations}
 \label{modern_translations}
@@ -266,7 +266,7 @@ Several example paraphrases of lines from {\em Romeo and Juliet} and several Hol
 \begin{figure}
   \begin{center}
     \begin{tabular}{cc}
-      \includegraphics[width=2.4in]{figures/bleupinc1.pdf} & \includegraphics[width=2.4in]{figures/bleupinc2.pdf} \\
+      \includegraphics[width=2.4in]{figures/bleupinc1-crop.pdf} & \includegraphics[width=2.4in]{figures/bleupinc2-crop.pdf} \\
     \end{tabular}
   \end{center}
   \caption{Various Shakespearean paraphrase systems compared using BLEU and PINC.  A brief description of each system is presented in table \ref{systems}.}
@@ -360,7 +360,7 @@ in fewer ngram matches, and thus a lower BLEU score.
 
 \begin{figure}[ht]
   \begin{center}
-    \includegraphics[width=5in]{figures/human_judgements.pdf}
+    \includegraphics[width=5in]{figures/human_judgements-crop.pdf}
   \end{center}
   \caption{Average human judgments evaluating semantic adequacy, lexical dissimilarity, stylistic similarity, and overall quality
     of Shakespearean paraphrase systems} 
@@ -374,17 +374,17 @@ to separate the effects caused by these two distinct criteria.  We would like ou
 between a system which generates perfect paraphrases which do not match the target style of writing versus a system which
 generates sentences in the correct style, but which convey different meaning.
 
-To help address this issue we propose two new automatic evaluation metrics whose goal is to measure the degree to which
-automatic paraphrases match the target style.  Both metrics assume existence of large corpora in both the source and
+To help address this issue we propose three new automatic evaluation metrics whose goal is to measure the degree to which
+automatic paraphrases match the target style.  These metrics assume existence of large corpora in both the source and
 target style, but do not require access to any parallel text, or human judgments.
 
-We present a preliminary evaluation of these metrics by measuring their correlation with human judgments, but
+We present a preliminary evaluation of the proposed metrics by measuring their correlation with human judgments, but
 it should be emphasized that we are only evaluating these metrics with respect to one specific style of writing.  We
 are optimistic that these results will generalize across writing styles, however, since they are based entirely
 on ngram statistics.
 
 \subsection{Cosine Similarity Style Metric}
-As a first approach to automatic evaluation of writing style, we propose a vector-space model of similarity between the system
+As a first approach to automatic evaluation of writing style, we present a vector-space model of similarity between the system
 output and a large corpus of text in both the source and target style.  The intuition behind this metric is that  a large ngram
 overlap between the system's output and a corpus of text in the target style should indicate that the
 output is likely to be stylistically appropriate.
@@ -398,7 +398,7 @@ S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \tim
 \]
 
 \subsection{Language Model Style Metric}
-Another approach is to build seperate language models for text in the target style and outside the style, and apply Bayes' rule to estimate
+Another approach is to build a language model for text in the target style and a background language model from text outside the style, then apply Bayes' rule to estimate
 the probability that a particular sentence was generated based on the style or not:
 \begin{eqnarray*}
 P(\text{style}=\text{target}|\text{sentence}) 
@@ -406,9 +406,6 @@ P(\text{style}=\text{target}|\text{sentence})
 & = & \frac{P_\text{LM}(\text{sentence}|\text{target}) \times 0.5}{P_\text{LM}(\text{sentence}|\text{target}) \times 0.5 + P_\text{LM}(\text{sentence}|\text{source}) \times 0.5} \\
 & = & \frac{P_\text{LM}(\text{sentence}|\text{target})}{P_\text{LM}(\text{sentence}|\text{target}) + P_\text{LM}(\text{sentence}|\text{source})} \\
 \end{eqnarray*}
-
-That is the probability that a sentence was generated according to the target style is simply it's probability according to the target language model divided by the sum of it's
-probability according to the source and target language models.
 
 \subsection{Logistic Regression Style Metric}
 We also consider an approach to measuring style which is based on logistic regression as opposed to cosine similarity.
@@ -480,22 +477,58 @@ We note that overall the automatic metrics tend to agree with agree with human j
 
 \begin{figure}
   \begin{center}
-    \includegraphics[width=5in]{figures/style_metrics.pdf}
+    \includegraphics[width=5in]{figures/style_metrics-crop.pdf}
     \end{center}
     \caption{Results comparing the 3 systems using the automatic style metrics.}
     \label{style_metrics}
 \end{figure}
 
 \section{Translating Shakespeare's Plays to Modern English}
-Finally we perform a preliminary evaluation on the task of automatically translating Shakespeare's plays into modern English.  
+Finally we perform an evaluation on the task of automatically translating Shakespeare's plays into modern English.  
 %Success at this task could have immediate benefits to students, as well as translators of Shakespeare's plays into modern English. 
 
 For the purposes of this evaluation, 
 we make use of the same paraphrase systems previously described, but swap the source and target languages.
 Additionally, each system makes use of a language model constructed from the 16 modern translations, with {\em Romeo and Juliet} held out for testing.  
-510 lines from {\em Romeo and Juliet} were automatically translated into modern English using each system, and the aligned modern 
+100 lines from {\em Romeo and Juliet} were automatically translated into modern English using each system, and the aligned modern 
 translations were used as a reference when computing BLEU.  The results of evaluating each of the automatic evaluation metrics on this
-data are presented in Figure \ref{shakespeare_to_modern_automatic}.  
+data are presented in Figure \ref{shakespeare_to_modern_automatic}, correlation of the automatic metrics with with human judgements are presented in 
+Figure \ref{correlation_s2m} and overall average human judgements are presented in Figure \ref{human_judgements}.
+
+\begin{table}
+  \begin{center}
+  \begin{tabular}{|l|l|r|}
+    \hline
+    & & $\rho$ (Annotator 1) \\
+    \hline
+    \hline
+    semantic adequacy & BLEU & 0.27 \\
+    \hline
+    dissimilarity & PINC & 0.79 \\
+    \hline
+    style & BLEU & 0.12 \\
+    \hline
+    style & PINC & 0.41 \\
+    \hline
+    style & Cosine & 0.37 \\
+    \hline
+    style & LM & 0.45 \\
+    \hline
+    style & Logistic regression & 0.46 \\
+    \hline
+  \end{tabular}
+  \end{center}
+  \caption{Correlation between human judgments and automatic evaluation metrics when paraphrasing Shakespeare's plays into modern prose.}
+  \label{correlation_s2m}
+\end{table}
+
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=5in]{figures/human_judgements_s2m-crop.pdf}
+  \end{center}
+  \caption{Average human judgments translating Shakespeare's plays into modern English.} 
+  \label{human_judgements_s2m}
+\end{figure}
 
 These results suggest that in comparison to the dictionary and video corpus baselines, 
 our system trained on modern translations generates a large number of paraphrases which match the target style.
@@ -507,7 +540,7 @@ While we have yet to perform a human evaluation on the task of paraphrasing Shak
 informal inspection of the resulting translations is encouraging.  Several automatic paraphrases into modern English are presented in Table \ref{modern_examples}.
 
 \begin{figure}
-  \includegraphics[width=5in]{figures/shakespeare_to_modern.pdf}
+  \includegraphics[width=5in]{figures/shakespeare_to_modern-crop.pdf}
   \caption{Automatic evaluation of paraphrasing Shakespeare's plays into modern English comparing a system based on parallel text (16plays\_16LM), 
   a Dictionary baseline, and a system trained on out of domain parallel monolingual text.  Note that the video corpus baseline achieves low overall
   PINC score, as few phrases in the input match phrases found in its phrase table, resulting in a small number of changes to the input.}
@@ -565,13 +598,14 @@ modern translations as a tesbed for this task, we developed a series of paraphra
 metrics are useful for evaluating paraphrases in this context, BLEU tends to conflate semantic equivalence with writing style and thus gives an incomplete picture of 
 system performance on these different dimensions.
 
-To address this problem, we introduced two new metrics for evaluating writing style, one based on cosine similarity and the other based on logistic regression.
+To address this problem, we introduced three new metrics for evaluating writing style, one based on cosine similarity one based on
+language models, and the third based on logistic regression.
 We measured correlation between automatic metrics and human judgments, and showed
 that our new metrics have better correlation with human judgments than existing metrics in the context of our task.
 While this evaluation is limited to one specific style of writing, we are optimistic that these or similar metrics will also perform well when
 evaluating paraphrase systems targeting other writing styles.
 
-Finally, we applied these automatic evaluation metrics in an initial investigation into the task of translating Shakespeare's plays into modern English.
+Finally, we applied these automatic evaluation metrics in an investigation into the task of translating Shakespeare's plays into modern English.
 
 We have shown that access to even a small amount of parallel text produces paraphrase systems 
 capable of generating a large number of stylistically appropriate paraphrases which preserving the meaning of the input text.  
