@@ -9,9 +9,10 @@
 %\title{You can be Shakespeare! \\ A Case Study in Paraphrase Targeting Writing Styles}
 %\title{A rose would smell just as good even if it had a different name (``A rose by any other name would smell as sweet'') \\ A Case Study in Paraphrase Targeting Writing Styles}
 %\title{“Be super careful on March 15” (“Beware the ides of March”) \\ A Case Study in Paraphrase Targeting Writing Styles}
-\title{``A rose by any other name would smell as sweet'': \\ A Case Study in Paraphrase Targeting Writing Styles}
+%\title{``A rose by any other name would smell as sweet'': \\ A Case Study in Paraphrase Targeting Writing Styles}
 %for authors: in case of more than four author names ref. to commented line below 
 %\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\$~~~Third~Author^{1, 2}~~~Fourth~Author^{1, 3}~~~ Fifth~Author^{2, 3}$\\
+\title{Paraphrasing for Style}
 \author{$Author1^{1, 2}~~~Author2^{1, 3}$\\
 {\small  	(1) INSTITUTE\_1, address 1\\ 
  		(2) INSTITUTE\_2, address 2\\
@@ -30,8 +31,8 @@ paraphrase systems targeting a specific style of writing.
 %insufficient when the goal is to generate paraphrases targeting a specific style, and
 %propose a series of new metrics to measure how closely the generated paraphrases match the target
 %style.  
-We show that even with a relatively small amount of parallel training data available, it is
-possible to learn paraphrase models which capture stylistic phenomenon, and these models outperform
+We show that even with a relatively small amount of parallel training data, it is
+possible to learn paraphrase models which capture stylistic phenomena, and these models outperform
 baselines based on dictionaries and out-of-domain parallel text.
 In addition we present an initial investigation into automatic evaluation metrics for paraphrasing writing style.
 To the best of our knowledge this is the first work to investigate the task of
@@ -571,6 +572,13 @@ While this evaluation is limited to one specific style of writing, we are optimi
 evaluating paraphrase systems targeting other writing styles.
 
 Finally, we applied these automatic evaluation metrics in an initial investigation into the task of translating Shakespeare's plays into modern English.
+
+We have shown that access to even a small amount of parallel text produces paraphrase systems 
+capable of generating a large number of stylistically appropriate paraphrases which preserving the meaning of the input text.  
+Our paraphrase systems targeting Shakesperean English could be benefical for educational applications, for example helping to
+make Shakespeare's work accessable to a broader audience.
+Future work could investigate stylistic paraphrasing in other domains, such as paraphrasing emails into formal documents, or
+translating legal documents into nontechnical English. 
 %We plan to translate the remaining 20 of Shakespeare's plays, which could be beneficial to students
 %of Shakespeare and also to human translators.
 
