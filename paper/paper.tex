@@ -398,7 +398,7 @@ S_{\text{Cosine}}(\vec{o}) = \frac{\frac{\vec{o} \cdot \vec{t}}{\|\vec{o}\| \tim
 \]
 
 \subsection{Language Model Style Metric}
-Another approach is to build a language model for text in the target style and a background language model from text outside the style, then apply Bayes' rule to estimate
+Another approach is to build a language model from a corpus of text in the target style and a background language model from text outside the style, then apply Bayes' rule to estimate
 the posterior probability that a sentence was generated from the target language model:
 \begin{eqnarray*}
 P(\text{style}=\text{target}|\text{sentence}) 
@@ -493,7 +493,7 @@ Additionally, each system makes use of a language model constructed from the 16 
 100 lines from {\em Romeo and Juliet} were automatically translated into modern English using each system, and the aligned modern 
 translations were used as a reference when computing BLEU.  The results of evaluating each of the automatic evaluation metrics on this
 data are presented in Figure \ref{shakespeare_to_modern_automatic}, correlation of the automatic metrics with with human judgments are presented in 
-Figure \ref{correlation_s2m} and overall average human judgments are presented in Figure \ref{human_judgements}.
+Table \ref{correlation_s2m} and overall average human judgments are presented in Figure \ref{human_judgements_s2m}.
 
 \begin{table}
   \begin{center}
@@ -535,9 +535,7 @@ our system trained on modern translations generates a large number of paraphrase
 Note that the paraphrase system 
 based on the out-of-domain video corpus makes very few changes to the input, and thus achieves a very low PINC score.  This is due to the many out of
 vocabulary words in Shakespeare's plays which result in very few matching source phrases in the video baseline's phrase table.
-
-While we have yet to perform a human evaluation on the task of paraphrasing Shakespeare's plays into modern English, 
-informal inspection of the resulting translations is encouraging.  Several automatic paraphrases into modern English are presented in Table \ref{modern_examples}.
+Several automatic paraphrases into modern English are presented in Table \ref{modern_examples}.
 
 \begin{figure}
   \includegraphics[width=5in]{figures/shakespeare_to_modern-crop.pdf}

@@ -1,5 +1,5 @@
 systems = c('16plays_16LM', 'Dictionary', 'Video Baseline')
-metrics = c('BLEU', 'PINC', 'Style-MaxEnt', 'Style-LM', 'Style-Cosine')
+metrics = c('BLEU', 'PINC', 'Style-LR', 'Style-LM', 'Style-Cosine')
 BLEU = c(27.79, 19.79, 24.23)
 PINC = c(48.70, 39.94, 4.09)
 sMaxEnt = c(71.99, 54.92, 44.02)
