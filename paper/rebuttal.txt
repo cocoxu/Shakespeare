@@ -6,13 +6,15 @@ Thanks for the pointers to survey papers on paraphrasing, these do seem be more 
 Good suggestion on clarifying our use of the term style.  We will add some comments to make clearer the fact that the language is different both because it comes from an author with a distinctive style and also because it is an earlier form of English.
 
 Reviewer 2:
-Great suggestions, we will try to add more details describing the system, and some analysis of common errors.
+Great suggestions, we will add more details describing the system, and some analysis of common errors.
+
 We will also try to re-arrange the figures to better match the location of their reference in the text.
 
 Reviewer 3:
 It is true that phrase-based statistical machine translation uses a very simple model which learns both syntactic and semantic transformations to an input string
-based on phrases.  Future work could investigate the use of syntactic analysis in stylistic paraphrase which may be able to learn more non-local transformations to the input and thus
+based on phrase pairs.  Future work could investigate the use of syntactic analysis in stylistic paraphrase which may be able to learn more non-local transformations to the input and thus
 perform better, however as this is the first work to investigate paraphrase for writing style, we felt it was best to start by exploring simpler models.
 
-We believe that standard evaluation metrics don't capture the notion of writing style, for example BLEU seems to confuse semantic adequacy with writing style.  It would seem beneficial 
-to have access to metrics which can separate these two criteria when generating paraphrases targeting a specific style of writing. 
+Standard evaluation metrics don't capture the notion of writing style, for example BLEU seems to confuse semantic adequacy with writing style.  We believe it would be beneficial 
+to have access to metrics which can separate these two criteria when evaluating paraphrases targeting a specific style of writing. 
+
