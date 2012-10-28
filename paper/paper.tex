@@ -13,11 +13,12 @@
 %for authors: in case of more than four author names ref. to commented line below 
 %\author{$Annie~SMITH^{1, 2}~~~LI~Xiao Dong^{1, 3}$\\$~~~Third~Author^{1, 2}~~~Fourth~Author^{1, 3}~~~ Fifth~Author^{2, 3}$\\
 \title{Paraphrasing for Style}
-\author{$Author1^{1, 2}~~~Author2^{1, 3}$\\
-{\small  	(1) INSTITUTE\_1, address 1\\ 
- 		(2) INSTITUTE\_2, address 2\\
-		(3) INSTITUTE\_3, address 3\\
-  \texttt{author1@institute1, author@institute2} \\ 
+\author{$Wei~Xu^{1}~~~Alan~Ritter^{2}~~~William~B.~Dolan^{3}~~~Ralph~Grishman^{1}~~~Colin~Cherry^{4}$\\
+{\small  	(1) New York University\\ 
+ 		(2) University of Washington\\
+		(3) Microsoft Research\\
+		(4) National Research Council, Canada\\
+  \texttt{xuwei@cims.nyu.edu, aritter@cs.washington.edu, billdol@microsoft.com, grishman@cs.nyu.edu, Colin.Cherry@nrc-cnrc.gc.ca} \\ 
 }}
 
 \begin{document}
@@ -46,12 +47,11 @@ paraphrasing text with the goal of targeting a specific style of writing.
 %The plays of William Shakespeare and their \emph{modern} translations are treated
 %as parallel text which is used to learn paraphrase models targeting the style of Early Modern English employed by Shakespeare.
 
-The same meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is 
-fundamental to many natural language understanding tasks\cite{Giampiccolo07}, so much previous work has investigated methods for automatic paraphrasing\cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05}.  
+The same meaning can be expressed or \emph{paraphrased} in many different ways; automatically detecting or generating different expressions with the same meaning is fundamental to many natural language understanding tasks\cite{Giampiccolo07}, so much previous work has investigated methods for automatic paraphrasing\cite{madnani2010generating}.
 
 Paraphrases can differ along many dimensions, including utterance length, diction level, and speech register. 
 There is a significant literature in sentence compression aimed at modeling the first of these, length: 
-producing meaning-preserving alternations that reduce the length of the input string \cite{Chandrasekar96,Vanderwende07,Yatskar10}.
+producing meaning-preserving alternations that reduce the length of the input string \cite{Chandrasekar96,Vanderwende07,clarke2008global,cohn2009sentence,Yatskar10}.
 However, we know of no previous work aimed at modeling meaning-preserving transformations that systematically transform the register or style of an input string. 
 Can we learn to reliably map from one form of language to another, transforming formal prose into a more colloquial form, or a casual email into a more formal equivalent?
 
@@ -576,6 +576,7 @@ Several automatic paraphrases into modern English are presented in Table \ref{mo
 \end{table}
 
 \section{Related Work}
+%Much previous work has addressed the task of automatically generating paraphrases \cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05,Callison-Burch08,Kok10}.  
 Much previous work has addressed the task of automatically generating paraphrases \cite{Barzilay03,dolan04,Shinyama03,Das09,bannard05,Callison-Burch08,Kok10}.  
 In addition several authors have previously proposed 
 automatic metrics specifically for evaluating paraphrases \cite{chen11,Callison-Burch08b,liu10}.
