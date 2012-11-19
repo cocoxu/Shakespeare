@@ -236,7 +236,7 @@ Example paraphrases of lines from {\em Romeo and Juliet} and several Hollywood m
       System & Description \\
       \hline
       \hline
-      16and7plays\_36LM & Phrase table extracted from all 16 Sparknotes plays (other than R\&J) and language model built from all 36 of Shakespeare's plays, again excluding R\&J.
+      16and7plays\_36LM & Phrase table extracted from all 16 Sparknotes plays and 7 Enotes plays (holding out R\&J) and language model built from all 36 of Shakespeare's plays, again excluding R\&J.
       Uses default Moses parameters. \\
       \hline
       16and7plays\_36LM\_MERT & Same as 16and7plays\_36LM except parameters are tuned using Minimum Error Rate Training \cite{MERT}. \\
@@ -317,7 +317,7 @@ but the implications of this for the more specialized task of stylistic paraphra
 While BLEU is typically used to measure semantic adequacy, it seems reasonable to assume that it 
 could also be useful for measuring stylistic alternations, since utterances
 are more likely to contain overlapping ngrams if they are both semantically and stylistically similar.  What BLEU cannot tell us, however
-is what portion of its improvements are due to stylistic similarity or semantic equivalence.  For this reason, we were motivated perform
+is what portion of its improvements are due to stylistic similarity or semantic equivalence.  For this reason, we were motivated to perform
 an evaluation based on human judgments of semantic adequacy, lexical dissimilarity and stylistic similarity.
 
 For this purpose, we randomly sampled 100 lines from {\em Romeo and Juliet}, then two of the authors annotated each sentence and its Shakespearean
@@ -471,7 +471,7 @@ For example, consider a paraphrase system which makes many changes to the input 
 
 Both the language model and logistic regression style metrics achieve the highest overall correlation with human writing style judgments, achieving comparable performance.
 
-We note that overall the automatic metrics tend to agree with agree with human judgments as displayed in Figure \ref{style_metrics}.\footnote{
+We note that overall the automatic metrics tend to agree with human judgments as displayed in Figure \ref{style_metrics}.\footnote{
   Although the automatic style metrics rate the dictionary system higher than the video corpus baseline, both systems have very comparable
   style scores in the automatic and human evaluations.
 }
@@ -583,7 +583,7 @@ automatic metrics specifically for evaluating paraphrases \cite{chen11,Callison-
 We are not aware, however, of any work that has addressed the task of generating or evaluating
 paraphrases targeting a specific style of writing.
 
-Perhaps most relevant, however, is recent work automatic generation of rhythmic poetry \cite{Greene10}.  This work focuses on automatically generating and translating
+Perhaps most relevant, however, is recent work on automatic generation of rhythmic poetry \cite{Greene10}.  This work focuses on automatically generating and translating
 poetry in an appropriate meter (e.g. iambic pentameter) using finite-state transducers, but does not investigate the task of paraphrase.  Their generation system
 is trained on Shakespeare's sonnets, and they investigate the task of automatically translating Dante's Divine Comedy from Italian to English.
 While our work does not address the issue of meter, it should be possible to combine our translation
