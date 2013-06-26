@@ -1,3 +1,18 @@
+Please refer to our paper entitled "Paraphrasing for Style" at COLING 2012 for more details.
+Please also cite our paper accordingly.
+
+
+@inproceedings{xu2012paraphrasing,
+  title={Paraphrasing for Style},
+  author={Xu, Wei and Ritter, Alan and Dolan, Bill and Grishman, Ralph and Cherry, Colin},
+  booktitle={COLING},
+  pages={2899--2914},
+  year={2012}
+}
+
+============================================================================================
+
+
 python/crawl_{plays|sonnets}.py
 crawls the nfs.sparknotes.com website and downloads html
 
