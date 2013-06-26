@@ -1,0 +1,2 @@
+We thank all the reviewers for their comments.
+While the first and second reviews are quite thoughtful and detailed, containing many helpful suggestions for improving the paper, unfortunately based on the comments it seems that the 3rd reviewer probably didn't have time to carefully read the paper.  If possible, perhaps it would be good to pull in an additional reviewer?

@@ -1,0 +1,186 @@
+Title:
+Paraphrasing for Style
+Authors:
+Wei Xu, Alan Ritter, Bill Dolan, Ralph Grishman and Colin Cherry
+Instructions
+
+The author response period has begun. It will last to some time on 6-7 October. The reviews for your submission are displayed on this page. If you want to respond to the points raised in the reviews, you may do so in the box provided below. 
+Please note: you are not obliged to respond to the reviews.
+
+The criteria used are not explained in detail here, but precise guidelines were given to reviewers about the intended meaning of the associated scores (5 is always the highest). 
+However, the "Presentation format" item has to be explained. Here are the possibilities:
+
+Long paper, with oral presentation (technical paper in the CfP)
+Short paper, with poster presentation
+Demo paper, with demo presentation
+Shorten
+Shorten means that the paper has been submitted as a long paper, and that the reviewer thought it should not be accepted as a long paper, but that it might be accepted as a short paper.
+
+If a paper is accepted after the selection process as shortened, that means its final submission has to be shortened to fit the length restrictions indicated in the instructions to authors (these instructions will be refined for the final submissions of accepted papers).
+
+Review #1
+
+Appropriateness for COLING:
+5
+Clarity:
+4
+Replicability:
+4
+Originality / Innovativeness:
+3
+Soundness / Correctness:
+4
+Meaningful Comparison:
+4
+Thoroughness:
+4
+Impact of Ideas or Results:
+3
+Linguistic orientation:
+3
+Multilingual awareness:
+1
+Impact of Resources:
+1
+Reviewer Confidence:
+5
+Presentation Format:
+Long paper
+Comments
+
+This article reports work on paraphrasing sentences from modern English to Shakespeare’s English, and from Shakespeare’s English back to modern English. The authors view this work as a step towards systems that will paraphrase for style, for example from legal documents to documents in non-technical English. They experiment with (1) a statistical machine translation (SMT) system trained on parallel corpora of Shakespeare’s plays in their original language and modern English, (2) an SMT system that uses a phrase table obtained from a dictionary of Shakespearean words/phrases and their modern English translations, and (3) an SMT system trained on a monolingual paraphrase corpus of modern English; in all three cases, an n-gram language model of the target language is used. Existing components (e.g., Moses, SRILM) were used to implement all three systems.
+
+The three systems were evaluated both automatically (via BLEU and PINC, the latter to measure lexical diversity) and with human judges (who were asked to provide scores for semantic adequacy, dissimilarity, style, and an overall score). System (1) was found to perform overall better than systems (2) and (3) in both directions; the authors actually present several versions of system (1), which differ on the size of the training corpus etc. They also also argue that BLEU conflates semantic adequacy and writing style, and propose three new measures to automatically score a system for the degree to which its output conforms with the target style: (a) a measure based on cosine similarity, (b) a measure based on language models, and (c) a measure based on logistic regression. Measures (b) and (c) were found to correlate better with human judgments of style conformance, compared to (a), BLEU, and PINC, though PINC’s correlation is also high.
+
+From a technical point of view, this paper is not terribly exciting, in the sense that it uses well-known SMT methods, and several papers on SMT-based paraphrasing have already been published. As the authors point out, however, this paper appears to be the first one to consider paraphrasing to a particular style, and this makes it an interesting read. I believe it may influence others to investigate further the possibility to produce texts in the styles of famous writers, or to translate from older forms of languages to their modern forms. The proposed measures to evaluate style conformance are more interesting from a technical point of view, though it is difficult to draw general conclusions from experiments that only considered paraphrasing to Shakespearean English and back, as the authors also note.
+
+The paper is well written, apart from a few minor typos and other possible improvements (see below). I enjoyed reading this paper and I believe that many people at COLING will find it interesting and may be tempted to explore the direction of work it proposes.
+
+More detailed comments:
+
+Introduction, first paragraph: A large number of papers on paraphrasing have been published in recent years. The authors do cite some prominent papers here, but many more exist. The authors may wish to point to the (at least) two paraphrasing surveys that have been published (in Computational Linguistics and JAIR).
+
+Introduction, paragraph 2: Many more papers on sentence compression have been published and I’m not sure the ones cited here are the most well-known. See, for example, the work of Clarke & Lapata (JAIR 2008) and Cohn & Lapata (JAIR 2009) and the references therein.
+
+Introduction, paragraph 4: I’m not entirely sure that “style” is the appropriate term to use when referring to the differences of Shakespeare’s language compared to modern English; this is a point that applies wherever “style” is used in this paper. The term “style” may be appropriate when comparing the way that different contemporary authors use modern English, but when “translating” to (or from) Shakespeare’s language, aren’t we also translating to (or from) an older form of English, apart from trying to match Shakespeare’s style. The authors may wish to add a few comments on their use of “style”.
+
+Section 2.2.1, paragraph 2: What kind of “n-gram back-off model” did the authors use? What was the value of n? What kind of back-off did they use exactly? Did they also employ any other form of smoothing?
+
+Section 2.3.1: Why does MERT cause the systems to become more conservative?
+
+Section 3, paragraph 2: “we were motivated perform” should be “we were motivated to perform”.
+
+Section 3, paragraph 3: Using two of the authors as human judges when measuring inter-annotator agreement is not entirely convincing. The authors presumably have a much better agreement on what “semantic adequacy”, “dissimilarity”, “style” etc. mean and how to score along these dimensions, compared to other possible human judges.
+
+Table 4: Why is the system of the first row called “16and7plays_36LM” if it only uses the 16 plays? Also in the third row, what does “from the 16 plays with modern translations mean”? Aren’t there modern translations for all the plays?
+
+Section 4.1, paragraph 2, “The proposed metric is the normalized cosine similarity between the source and target corpora”: Shouldn’t “between the source and target corpora” be “between the output and the target corpus”?
+
+Figures 2 and 4, and related text: What was the maximum allowed score? Was grammaticality not scored? Or was scoring grammaticality part of “style”? What guidelines were given to the judges for “overall”? Was “overall” just the average of the other three scores?
+
+Section 4.3, formula at the end of page 9: The arrow which is now above “f(sentence)” would look more natural if placed above “f”.
+
+Footnote 2: This sentence should be part of the main text.
+
+Section 4.4, paragraph 5: “tend to agree with agree” should be “tend to agree”. The meaning of this sentence was unclear to me. Agree with human judgments on what and in what sense? Also, should a comparison to Figure 2 be made here?
+
+Tables 7 and 8: I would have liked more discussion on the fact that PINC seems to correlate well with style, almost as well as LR in Table 7.
+
+Figure 4: Should Fig. 4 be compared more systematically to Fig. 2 in the main text, if the point being made is that we get the same performance in both directions?
+
+Section 6, paragraph 2: “work automatic generation” should be “work on the automatic generation”.
+
+Figure 5: The conclusions to be drawn from this figure were unclear to me. They should be summarized in the main text.
+
+Review #2
+
+Appropriateness for COLING:
+5
+Clarity:
+5
+Replicability:
+3
+Originality / Innovativeness:
+4
+Soundness / Correctness:
+5
+Meaningful Comparison:
+4
+Thoroughness:
+5
+Impact of Ideas or Results:
+4
+Linguistic orientation:
+4
+Multilingual awareness:
+4
+Impact of Resources:
+3
+Reviewer Confidence:
+4
+Presentation Format:
+Long paper
+Comments
+
+An interesting paper that I read it with great pleasure. As the authors say, and from what I know this is the first attempt of its kind in the paraphrase a text using a specific writing style.
+
+The first minus of this work comes from the fact that in Chapter 2, the authors go too fast over the presentation of the proposed system. Here they should make a diagram of the system and to detail its components in order to understand how they are interconnected and what is the original contributions of authors etc.. It would also be interesting to note which is the speed of the system for both training and testing cases.
+
+The second minus of this work comes from the fact that it cannot make an error analysis. For this reason in my mind a lot of questions come and I would be curious to know the answer: What are the main reasons for error cases? Who are they due? How could they be repaired? and so on
+
+Suggestions for improving the clarity of the paper:
+
+- Chapters 2, 3, 4, 5: Reader finds it hard to read text makes reference to figures and tables when they are on other pages => suggest that tables and figures be as close as possible to the text that refers;
+
+- Chapter 3: The authors sampled 100 lines from Romeo and Juliet and performed for human evaluation two annotators => suggest for future work to select more lines and more annotators, so that the results are more reliable in the future. It would also be helpful if they would show us annotate profile to better understand the context of work.
+
+- Chapter 4 at Evaluation: The authors make a comparison between their results and the results of existing work => suggest to insist on this comparison, providing a more detailed comparison of the two results
+
+- Chapter 5: Must be commented entries from Table 9.
+
+Few minor errors of writing:
+
+- before left parenthesis you have to leave space on page 2;
+
+- Chapter 5 second paragraph "... of the automatic metrics with with human...";
+
+Review #3
+
+Appropriateness for COLING:
+3
+Clarity:
+3
+Replicability:
+1
+Originality / Innovativeness:
+3
+Soundness / Correctness:
+2
+Meaningful Comparison:
+2
+Thoroughness:
+2
+Impact of Ideas or Results:
+2
+Linguistic orientation:
+3
+Multilingual awareness:
+2
+Impact of Resources:
+1
+Reviewer Confidence:
+4
+Presentation Format:
+Shorten
+Comments
+
+Positive: Automatic paraphrasing
+
+Negative:
+
+1. critical to understand your dataset
+
+2. how can you detect paraphrases syntactically and semantically
+
+3. Is it sufficient to detect paraphrases using standard evaluation metrics?
+
