@@ -1,0 +1,716 @@
+<!--
+	This word alignment interface was written by Chris Callison-Burch.
+	It's free and open source.  If publish a paper using data that you collected
+	with it, please give me a shout out in the acknowledgements.  You can cite my
+	EMNLP-2009 paper "Fast, Cheap, and Creative: Evaluating Translation Quality 
+	Using Amazon's Mechanical Turk" or my ACL-2004 paper "Statistical Machine 
+        Translation with Word- and Sentence-Aligned Parallel Corpora"
+	June 22, 2009
+
+    This word alignmenet interface was modified by Wei Xu to use as
+    a visualization and annotation tool that runs locally in your browser
+    and save the annotaiton into local files. For Macbook,
+    you need to use the following command to open Chrome that allows
+    access to local file system:
+    "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files --allow-file-access"
+    
+
+//-->
+
+
+<html>
+<body>
+
+<h3>Word Alignment</h3>
+<p>The initial alignment that you see was created by a computer, and it contains errors.  Please correct it by clicking on the squares.  Use black boxes to indicate which words are in correspondence.  If there is not a direct correspondence (as in the case of a loose translation) please use the dark gray boxes.  If any of the computer's initial suggestions are wrong please uncheck them.</p>
+<p>Some words may not have any correspondence in the other sentence.  In that case click on it, which will create a pink highlighted region that indicates that the word or phrase doesn't appear in the other sentence</p>
+<p>Here is <a href="http://cs.jhu.edu/~ccb/publications/paraphrase_guidelines.pdf">a full set of annotation guidelines</a> that gives details on tricky cases.</p>
+<p><style type="text/css"> 
+<!-- 
+body,td,div,.p,a{font-family:arial,sans-serif }
+div,td{color:#000}
+.f,.fl:link{color:#6f6f6f}
+a:link,.w,a.w:link,.w a:link{color:#00c}
+a:visited,.fl:visited{color:#551a8b}
+a:active,.fl:active{color:#f00}
+.t a:link,.t a:active,.t a:visited,.t{color:#000}
+.t{background-color:#e5ecf9}
+.k{background-color:#36c}
+.j{width:34em}
+.h{color:#36c}
+.i,.i:link{color:#a90a08}
+.a,.a:link{color:#008000}
+.z{display:none}
+div.n {margin-top: 1ex}
+.n a{font-size:10pt; color:#000}
+.n .i{font-size:10pt; font-weight:bold}
+.q a:visited,.q a:link,.q a:active,.q {color: #00c; }
+.b{font-size: 12pt; color:#00c; font-weight:bold}
+.ch{cursor:pointer;cursor:hand}
+.e{margin-top: .75em; margin-bottom: .75em}
+.g{margin-top: 1em; margin-bottom: 1em}
+
+td.topborder { text-align: center;  background-color: #E2FAFA; border-left: solid 3px #000000; border-right: solid 3px #000000;  border-top: solid 3px #000000;}
+td.middleborder { text-align: center; background-color: #E2FAFA; border-left: solid 3px #000000; border-right: solid 3px #000000;  }
+td.bottomborder { text-align: center; background-color: #E2FAFA; border-left: solid 3px #000000; border-right: solid 3px #000000; border-bottom: solid 3px #000000; }
+ 
+.blacklink A:link {text-decoration: none; color: black;}
+.blacklink A:visited {text-decoration: none; color: black;}
+.blacklink A:active {text-decoration: none; color: black;}
+.blacklink A:hover {text-decoration: underline; color: black;}
+ 
+td.black { background-color: black; }
+td.white { background-color: #CCCCCC; }
+td.gray  { background-color: gray; }
+td.highlight  { background-color: #FF00FF; }
+
+/* this css class rotates the content inside by 270 degrees */
+.vertical-box {
+     -moz-transform: rotate(270deg);  /* FF3.5+ */
+       -o-transform: rotate(270deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(270deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5)"; /* IE8 */
+		 cursor:pointer;
+		 position:absolute;
+}
+//-->
+</style></p>
+<script type="text/Javascript"> 
+	// the URL directory where rotated word images are stored
+	var imageDirectory = "http://cs.jhu.edu/~ccb/images/";
+ 
+	// specify whether the languages should be written right-to-left
+	var sourceIsRTL = false;
+	var targetIsRTL = false;
+ 
+	// indicates whether to switch the view from the source being 
+	// along top (default) or the target on top (transposed).
+	// The results still keep the same source / target names.
+	var viewTransposed =  false;
+ 
+
+	// read in the values for this sentence pair
+ 
+	// ${source} and ${target} should contain whitespace delimited words
+	var sourceString = "${source}";
+	var targetString = "${target}";
+	var initialSureAlignments = "${sureAlignments}";
+ 
+	// sure alignments should have the format "0-0 0-1 1-2" where the first number 
+	// in each pair is the index of the source word, and the second it the target
+	var initialPossAlignments = "${possAlignments}";
+ 
+ 
+	// indicates which rows and columns are highlighted 
+	var initialSourceHighlights = "${sourceHighlights}";
+	var initialTargetHighlights = "${targetHighlights}";
+
+	// begin example values
+	var sourceString = "thus the names of a number of places in the northwestern part of warwickshire end with the phrase \" - in-arden , \" such as henley-in-arden , hampton-in-arden and tanworth-in-arden .";
+	var targetString = "for this reason , the names of a number of places in the northwestern part of warwickshire end with the phrase \" - in-arden . \"";
+	initialSureAlignments = "1-1 1-2 1-3 1-4 2-5 3-6 4-7 5-8 6-9 7-10 8-11 9-12 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 20-23 21-24 22-25 23-0 24-0 25-0 26-0 27-0 28-0 29-0 30-0";
+
+	//sourceString = "he later held teaching posts at the peabody conservatory -lrb- 1946 - 1948 -rrb- , columbia university , queens college , new york -lrb- 1955-56 -rrb- , yale university -lrb- 1960-62 -rrb- , cornell university -lrb- from 1967 -rrb- and the juilliard school -lrb- from 1972 -rrb- .";
+	//targetString = "carter has taught music and other related subjects in a number of well-known places including the peabody conservatory , columbia university , queen 's college , new york , yale university and the julliard school .";
+	//initialSureAlignments = "0-4 0-5 0-6 0-7 0-8 0-10 0-11 0-12 0-13 0-14 0-15 1-1 2-0 3-2 4-3 5-3 6-9 7-16 8-17 9-18 10-0 11-0 12-0 13-0 14-0 15-19 16-20 17-21 18-22 18-23 19-24 20-25 21-26 22-27 24-0 25-0 26-0 27-29 28-30 29-31 30-0 31-0 32-0 33-0 34-0 35-0 36-0 37-0 38-0 39-0 40-32 41-33 42-34 43-35 44-0 45-0 46-0 47-0 48-36";
+
+ 	// end example values
+
+	document.write('<p>\n Sentence Pair:  </p>\n');
+	document.write('<p>\n' + sourceString + '\n</p>\n');
+	document.write('<p>\n' + targetString + '\n</p>\n');
+	
+	 
+	sourceString = "ADDED " + sourceString
+	targetString = "DELETED " + targetString
+ 
+	if(viewTransposed) {
+		var tmp = sourceString;
+		sourceString = targetString;
+		targetString = tmp;
+		tmp = initialSourceHighlights;
+		initialSourceHighlights = initialTargetHighlights;
+		initialTargetHighlights = tmp;
+		tmp = sourceIsRTL;
+		sourceIsRTL = targetIsRTL;
+		targetIsRTL = tmp;
+ 
+		initialSureAlignments = transposeAlignments(initialSureAlignments);
+		initialPossAlignments = transposeAlignments(initialPossAlignments);
+	}
+ 
+ 
+	// split the source and target sentences into words
+	var whitespacePattern = /\s/;
+	var sourceWords = sourceString.split(whitespacePattern);
+	var targetWords = targetString.split(whitespacePattern);
+ 
+	var width = sourceWords.length;
+	var height = targetWords.length;
+	
+	// initialize the sureGrid and the probGrid
+	var sureGrid = initializeBooleanGrid(width, height, initialSureAlignments);
+	var probGrid = initializeBooleanGrid(width, height, initialPossAlignments);
+ 
+ 
+	// initialize the highlighted rows and columns
+	var sourceHighlights = initializeBooleanArray(width, initialSourceHighlights);
+	var targetHighlights =  initializeBooleanArray(height, initialTargetHighlights);
+
+
+
+
+ 
+	if(sourceIsRTL) {
+		writeHtmlAlignmentTableRTL(sourceWords, targetWords, sureGrid, probGrid, sourceHighlights, targetHighlights, imageDirectory);
+	} else {
+		writeHtmlAlignmentTable(sourceWords, targetWords, sureGrid, probGrid, sourceHighlights, targetHighlights, imageDirectory);
+	}
+ 
+ 
+ 
+	
+	// log the time...
+	date = new Date();
+	timeAtStart = date.getTime();
+	timeOfLastModification = date.getTime();
+	activeTime = 0;
+ 
+	// Transposes the string form of the alignment.  Changes each x-y into y-x
+	function transposeAlignments(alignmentString) {
+		var transposedAlignmentsString = "";
+		var whitespacePattern = /\s/;
+		var dash = '-';
+		var points = alignmentString.split(whitespacePattern);
+		for(i = 0; i < points.length; i++) {
+			if(points[i].indexOf(dash) > 0) {
+				var point = points[i].split(dash);
+				var x = point[0];
+				var y = point[1];
+				var transposedAlignmentsString = transposedAlignmentsString + y + "-" + x + " ";
+			}
+		}	
+		transposedAlignmentsString.replace(/\s$/, '');
+		return transposedAlignmentsString;
+	}
+ 
+	// Returns an initialized boolean grid.  Sets the points to true
+	// that are included in the alignmentString as "x-y".
+	function initializeBooleanGrid(width, height, alignmentString) {
+		var grid = new Array(width);
+		for (i = 0; i < grid.length; i++) {
+			grid[i] = new Array(height);
+			for(j = 0; j < height; j++) {
+				grid[i][j] = false;
+			}
+		}
+		// Set the points in alignmentString to true
+		var whitespacePattern = /\s/;
+		var dash = '-';
+		var points = alignmentString.split(whitespacePattern);
+		for(i = 0; i < points.length; i++) {
+			if(points[i].indexOf(dash) > 0) {
+				var point = points[i].split(dash);
+				var x = point[0];
+				var y = point[1];
+				grid[x][y] = true;
+			}
+		}	
+		return grid;
+	}
+ 
+ 
+ 
+ 
+	// Returns an initialized boolean array
+	function initializeBooleanArray(length, indexOfTruesString) {
+		// pad the indexOfTruesString with spaces
+		indexOfTruesString = " " + indexOfTruesString + " ";
+		var array = new Array(length);
+		for (i = 0; i < array.length; i++) {
+			array[i] = false;
+		}
+ 
+		// set the points in alignmentString to true
+		var whitespacePattern = /\s/;
+		var indicies = indexOfTruesString.split(whitespacePattern);
+		for(i = 0; i < indicies.length; i++) {
+			var index = indicies[i];
+			array[index] = true;
+		}	
+		return array;
+	}
+ 
+	// This method outputs the HTML table with clickable grid squares 
+	// that are indexed into the sure and prob alignment boolean grids.
+	// There is an alternate version for source languages that should be
+	// displayed right-to-left.
+	function writeHtmlAlignmentTable(sourceWords, targetWords, sureGrid, probGrid, 
+					 highlightedSourceWords, highlightedTargetWords, imageDirectory) {
+		var smallerFont = false;
+		var size = 20;
+		var fontSize = 0;
+		if(sourceWords.length > 20 || targetWords.length > 20) {
+			size = 15;
+			smallerFont = true;
+			fontSize = -1;
+		}
+			
+		document.write('<table>\n');
+ 
+		for(row = 0; row < targetWords.length; row++) {
+			// print the target word
+			document.write('<tr>\n');	
+			var targetWord = targetWords[row];
+			if(!targetIsRTL) {
+				document.write('<td>');	
+			} else {
+				document.write('<td dir="rtl">');	
+			}
+			if(smallerFont) { 
+				document.write('<font size=' + fontSize + '>');
+			}
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			// print this row
+			for(column = 0; column < sourceWords.length; column++) {
+				if(sureGrid[column][row]) {
+					document.write('<td class="black" id="button.' + column + '.' + row + '">');
+				} else if(probGrid[column][row]) {
+					document.write('<td class="gray" id="button.' + column + '.' + row + '">');
+				} else {
+					if(highlightedSourceWords[column] || highlightedTargetWords[row]) {
+						document.write('<td class="highlight" id="button.' + column + '.' + row + '">');
+					} else {
+						document.write('<td class="white" id="button.' + column + '.' + row + '">');
+					}
+				}
+				document.write('<a href="javascript:clickButton(' + column + ',' + row + ')">');
+				document.write('<img src= "'+ imageDirectory + 'clearpixel.gif" border="0" ');
+				document.write('title="' + targetWords[row] + ', ' + sourceWords[column]+ '" ');
+				document.write('width="' + size + '" height="' + size + '"></a>');
+				document.write('</td>\n');	
+			}
+			
+			// print the target word again
+			if(!targetIsRTL) {
+				document.write('<td>');	
+			} else {
+				document.write('<td dir="rtl">');	
+			}
+			if(smallerFont) document.write('<font size=' + fontSize + '>');
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			
+			document.write('</tr>');	
+			document.write('\n');
+		}
+		
+		document.write('</table>\n')
+		
+		// print the source words as a table header
+		document.write('<div id="head-cells">\n');
+		
+		// write the source words in divs for the header
+		for(i = 0; i < sourceWords.length; i++) {
+			var word = sourceWords[i];
+			document.write('\t<div class="vertical-box" onMouseUp="clickColumn(' + i + ');">');
+			document.writeln(word);
+			document.write('</div>\n');
+
+		}
+		document.write('</div>\n');
+		
+		// write the source in divs for the footer
+		document.write('<div id="foot-cells">\n');
+		for(i = 0; i < sourceWords.length; i++) {
+			var word = sourceWords[i];
+			document.write('\t<div class="vertical-box" onMouseUp="clickColumn(' + i + ');">');
+			document.write(word);
+			document.write('</div>\n');
+		}
+		document.write('</div>\n');
+		
+		var table = document.getElementsByTagName("table").item(0);
+		var firstRow = table.getElementsByTagName("tr").item(0).getElementsByTagName("td");
+		var cellTopPosition = getY(document.getElementsByTagName("table").item(0));
+		var cellBottomPosition = cellTopPosition + table.offsetHeight;
+		var cellCenterPositions = new Array();
+		var headCells = document.getElementById("head-cells").getElementsByTagName("div");
+		var footCells = document.getElementById("foot-cells").getElementsByTagName("div");
+		var tableVerticalMargin = getLongestWord(headCells);
+
+		// setting the top and bottom margin of the table -- needed to ensure the space for the head and foot words is empty
+		table.style.marginTop = (tableVerticalMargin + firstRow[1].offsetHeight) + "px";
+		table.style.marginBottom = (tableVerticalMargin + firstRow[1].offsetHeight) + "px";
+		
+		// calculating the center positions of all cells
+		for(i = 1; i < firstRow.length - 1; i++) {
+			cellCenterPositions.push(getX(firstRow[i]) + (firstRow[i].offsetWidth / 2));
+		}
+	
+		// placing head words over the top cells
+		for (i = 0; i < headCells.length; i++) {
+			headCells[i].style.top = (cellTopPosition - (headCells[i].offsetWidth / 2) - (firstRow[1].offsetHeight / 2) + tableVerticalMargin) + "px";
+			headCells[i].style.left = (cellCenterPositions[i] - (headCells[i].offsetWidth / 2)) + "px";
+		}
+		
+		//placing the footer words bellow the bottom cells
+		for (i = 0; i < footCells.length; i++) {
+			footCells[i].style.top = (cellBottomPosition + (headCells[i].offsetWidth / 2) + (firstRow[1].offsetHeight / 4)  + tableVerticalMargin) + "px";
+			footCells[i].style.left = (cellCenterPositions[i] - (footCells[i].offsetWidth / 2)) + "px";
+		}
+
+		
+	}
+ 
+ 
+	// An alternate version of writeHtmlAlignmentTable which displays the
+	// source language in a right to left (RTL) fashion. 
+	function writeHtmlAlignmentTableRTL(sourceWords, targetWords, sureGrid, probGrid, 
+					 highlightedSourceWords, highlightedTargetWords, imageDirectory) {
+		var smallerFont = false;
+		var size = 15;
+		var fontSize = 0;
+		if(sourceWords.length > 20 || targetWords.length > 20) {
+			size = 11;
+			smallerFont = true;
+			fontSize = -1;
+		}
+			
+		document.write('<table>\n');
+ 
+		for(row = 0; row < targetWords.length; row++) {
+			// print the target word
+			document.write('<tr>\n');	
+			var targetWord = targetWords[row];
+			document.write('<td>');	
+			if(smallerFont) { 
+				document.write('<font size=' + fontSize + '>');
+			}
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			// print this row
+			for(column = sourceWords.length-1; column >= 0; column--) {
+				if(sureGrid[column][row]) {
+					document.write('<td class="black" id="button.' + column + '.' + row + '">');
+				} else if(probGrid[column][row]) {
+					document.write('<td class="gray" id="button.' + column + '.' + row + '">');
+				} else {
+					if(highlightedSourceWords[column] || highlightedTargetWords[row]) {
+						document.write('<td class="highlight" id="button.' + column + '.' + row + '">');
+					} else {
+						document.write('<td class="white" id="button.' + column + '.' + row + '">');
+					}
+				}
+				document.write('<a href="javascript:clickButton(' + column + ',' + row + ')">');
+				document.write('<img src= "'+ imageDirectory + 'clearpixel.gif" border="0" ');
+				document.write('title="' + targetWords[row] + ', ' + sourceWords[column]+ '" ');
+				document.write('width="' + size + '" height="' + size + '"></a>');
+				document.write('</td>\n');	
+			}
+			
+			// print the target word again
+			document.write('<td>');	
+			if(smallerFont) document.write('<font size=' + fontSize + '>');
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			
+			document.write('</tr>');	
+			document.write('\n');
+		}
+		
+		document.write('</table>\n');
+		
+		// print the source words as a table header
+		document.write('\t<div id="head-cells">\n');
+		
+		for(i = sourceWords.length-1; i >= 0; i--) {
+			var word = sourceWords[i];
+			document.write('\t<div class="vertical-box" onMouseUp="clickColumn(' + i + ')">');
+			document.write(word);
+			document.write('</div>\n');
+		}
+		document.write('\t</div>\n');
+		
+		// print the source words as a table footer
+		document.write('\t<div id="foot-cells">\n');
+		
+		for(i = sourceWords.length-1; i >= 0; i--) {
+			var word = sourceWords[i];
+			document.write('\t<div class="vertical-box" onMouseUp="clickColumn(' + i + ')">');
+			document.write(word);
+			document.write('</div>\n');
+		}
+		document.write('</div>\n');
+		
+		var table = document.getElementsByTagName("table").item(0);
+		var firstRow = table.getElementsByTagName("tr").item(0).getElementsByTagName("td");
+		var cellTopPosition = getY(document.getElementsByTagName("table").item(0));
+		var cellBottomPosition = cellTopPosition + table.offsetHeight;
+		var cellCenterPositions = new Array();
+		var headCells = document.getElementById("head-cells").getElementsByTagName("div");
+		var footCells = document.getElementById("foot-cells").getElementsByTagName("div");
+		var tableVerticalMargin = getLongestWord(headCells);
+
+		// setting the top and bottom margin of the table -- needed to ensure the space for the head and foot words is empty
+		table.style.marginTop = (tableVerticalMargin + firstRow[1].offsetHeight) + "px";
+		table.style.marginBottom = (tableVerticalMargin + firstRow[1].offsetHeight) + "px";
+		
+		// calculating the center positions of all cells
+		for(i = 1; i < firstRow.length - 1; i++) {
+			cellCenterPositions.push(getX(firstRow[i]) + (firstRow[i].offsetWidth / 2));
+		}
+	
+		// placing head words over the top cells
+		for (i = 0; i < headCells.length; i++) {
+			headCells[i].style.top = (cellTopPosition - (headCells[i].offsetWidth / 2) - (firstRow[1].offsetHeight / 2) + tableVerticalMargin) + "px";
+			headCells[i].style.left = (cellCenterPositions[i] - (headCells[i].offsetWidth / 2)) + "px";
+		}
+		
+		//placing the footer words bellow the bottom cells
+		for (i = 0; i < footCells.length; i++) {
+			footCells[i].style.top = (cellBottomPosition + (headCells[i].offsetWidth / 2) + (firstRow[1].offsetHeight / 4)  + tableVerticalMargin) + "px";
+			footCells[i].style.left = (cellCenterPositions[i] - (footCells[i].offsetWidth / 2)) + "px";
+		}
+	}
+	
+	// returns the X absolute position of the element
+	function getX( oElement ){
+		var iReturnValue = 0;
+		while( oElement != null ) {
+			iReturnValue += oElement.offsetLeft;
+			oElement = oElement.offsetParent;
+		}
+		return iReturnValue;
+	}
+	
+	// returns the Y absolute position if the element
+	function getY( oElement ){
+		var iReturnValue = 0;
+		while( oElement != null ) {
+			iReturnValue += oElement.offsetTop;
+			oElement = oElement.offsetParent;
+		}
+		return iReturnValue;
+	}
+	
+	// calculated the longest word
+	function getLongestWord (words) {
+		var top = 0;
+		for (var i = 0; i < words.length; i++) {
+			if (top < words[i].offsetWidth) {
+				top = words[i].offsetWidth;
+			}
+		}
+		return top;
+	}
+ 
+ 
+ 
+	// Writes the path to the image of a word.  Expects an image server like
+	// http://ironman.jhu.edu/wordImageServer/getImage?word=pureba&rotate=-90
+	// We use images because rotated text is not supported in cross-platform HTML.
+	function getImagePath(word, imageDirectory) {
+		return imageDirectory + "getImage?word=" + word + "&rotate=-90";
+	}
+ 
+	
+	function clickButton(x, y) { 
+		updateTime();
+		var button = document.getElementById("button."+x+"."+y);
+		if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+			sureGrid[x][y] = true;	
+			probGrid[x][y] = false;
+			button.className = "black";
+		} else {
+			if(probGrid[x][y] == false) {
+				sureGrid[x][y] = false;
+				probGrid[x][y] = true;
+				button.className = "gray";
+			} else {
+				sureGrid[x][y] = false;
+				probGrid[x][y] = false;	
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			}
+		}
+		document.mturk_form.sureAlignments.value = boolGridToString(sureGrid);
+		document.mturk_form.possAlignments.value = boolGridToString(probGrid);
+	}
+	
+	
+	
+	function clickRow(y) { 
+		updateTime();
+		targetHighlights[y] = (!targetHighlights[y]);
+		var x = 0;
+		for(x = 0; x < width; x++) {
+			var button = document.getElementById("button."+x+"."+y);
+			if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			} 
+		}
+		if(!viewTransposed) {
+			document.mturk_form.targetHighlights.value = highlightsToString(targetHighlights);
+			document.mturk_form.sourceHighlights.value = highlightsToString(sourceHighlights);
+		} else {
+			document.mturk_form.targetHighlights.value = highlightsToString(sourceHighlights);
+			document.mturk_form.sourceHighlights.value = highlightsToString(targetHighlights);
+		}
+	}
+	
+	function clickColumn(x) { 
+		updateTime();
+		sourceHighlights[x] = (!sourceHighlights[x]);
+		var y = 0;
+		for(y = 0; y < height; y++) {
+			var button = document.getElementById("button."+x+"."+y);
+			if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			} 
+		}
+		if(!viewTransposed) {
+			document.mturk_form.targetHighlights.value = highlightsToString(targetHighlights);
+			document.mturk_form.sourceHighlights.value = highlightsToString(sourceHighlights);
+		} else {
+			document.mturk_form.targetHighlights.value = highlightsToString(sourceHighlights);
+			document.mturk_form.sourceHighlights.value = highlightsToString(targetHighlights);
+		}
+	}
+	
+	
+	function boolGridToString(grid) {
+		var gridString = "";
+		for(i = 0; i < grid.length; i++) {
+			row = grid[i];
+			for(j = 0; j < row.length; j++) {
+				if(grid[i][j]) {
+					gridString += i + "-" + j + " ";
+				}
+			}
+		}
+		// remove the training space
+		gridString = gridString.substring(0, gridString.length-1);
+ 
+		if(viewTransposed) {
+			gridString = transposeAlignments(gridString);
+		}
+		return gridString;
+	}
+	
+	// Converts an array of highlights into a string
+	function highlightsToString(array) {
+		var arrayString = "";
+		for(i = 0; i < array.length; i++) {
+			if(array[i]) {
+				arrayString += i + " ";
+			}
+		}
+		// remove the training space
+		arrayString = arrayString.substring(0, arrayString.length-1);
+		return arrayString;
+	}
+	
+	// Updates the activeTime and timeOfLastModification
+	function updateTime() {
+		var date = new Date();
+		var currTime = date.getTime();
+		var timeElapse = currTime - timeOfLastModification;
+		timeOfLastModification = currTime;
+		
+		// only increment the active time if the time since 
+		// the last modification is less than 5 minutes...
+		if(timeElapse < 300000) {
+			activeTime += timeElapse;
+		}
+		document.mturk_form.startTime.value = timeAtStart;
+		document.mturk_form.endTime.value = timeOfLastModification;
+		document.mturk_form.activeTime.value = activeTime;
+	}
+	
+	// Save the alignment annotation into a text file
+	function saveAnnotationToFile() {
+		
+		var sureAlignments = document.mturk_form.sureAlignments.value;
+		var possAlignments = document.mturk_form.possAlignments.value;
+		var output = sourceString + " ||| " + targetString + " ||| " + sureAlignments + " ||| " + possAlignments;
+		var textFileAsBlob = new Blob([output], {type:'text/plain'});
+		
+		
+		var fileNameToSaveAs = "expert_simp_alignment_train_b.txt";
+		
+		
+		var downloadLink = document.createElement("a");
+		//downloadLink.download = "testfile";
+		downloadLink.download = fileNameToSaveAs;
+		downloadLink.innerHTML = "Download File";
+		if (window.webkitURL != null)
+		{
+			//window.webkitURL.revokeObjectURL()	
+			// Chrome allows the link to be clicked
+			// without actually adding it to the DOM.
+			downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+		}
+		else
+		{
+			// Firefox requires the link to be added to the DOM
+			// before it can be clicked.
+			downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+			downloadLink.onclick = destroyClickedElement;
+			downloadLink.style.display = "none";
+			document.body.appendChild(downloadLink);
+		}
+
+		//alert(textFileAsBlob)
+		downloadLink.click();
+	}
+
+	//function destroyClickedElement(event)
+	//{
+	//	document.body.removeChild(event.target);
+	//}
+	
+	
+</script>
+<form name="mturk_form" method="get" >
+    <input type="hidden" name="sureAlignments" value="unchanged" />  	
+    <input type="hidden" name="possAlignments" value="unchanged" />  	
+    <input type="hidden" name="sourceHighlights" value="unchanged" />  	
+    <input type="hidden" name="targetHighlights" value="unchanged" />  
+    <input type="hidden" name="sourceString" value="unchanged" />  	
+    <input type="hidden" name="targetString" value="unchanged" />  	
+    <input type="hidden" name="startTime" value="" />  	
+    <input type="hidden" name="endTime" value="" />  	
+    <input type="hidden" name="activeTime" value="" />  	
+    <font size="-1" color="gray">Comments</font><br />
+    <textarea name="comment" rows="2" cols="50"> </textarea>  	<br />
+    <input type="submit" name="submit" value="Submit" onclick="saveAnnotationToFile()"/>
+</form>
+
+</body>
+</html>
